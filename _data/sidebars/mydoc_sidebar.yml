@@ -1,0 +1,29 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: 
+  folders:
+  - title: About
+    output: web
+    folderitems:
+      - title: ELIXIR Belgium
+        url: /elixir_belgium.html
+        output: web
+  - title: Data Management Plan
+    output: web
+    folderitems:
+    - title: Where to find existing data
+      url: /existing_data.html
+      output: web
+    - title: How to cite an existing dataset
+      url: /cite_existing_data.html
+      output: web
+    - title: How to estimate the volume of a dataset
+      url: /estimate_volume.html
+      output: web
+  - title: Credit
+    output: web
+    folderitems:
+      - title: Credit
+        url: /credit.html
+        output: web
