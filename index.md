@@ -1,5 +1,5 @@
 ---
-title: "KnowledgeHub Elixir"
+title: "Data Management Hub"
 keywords: sample homepage
 sidebar: mydoc_sidebar
 permalink: index.html
