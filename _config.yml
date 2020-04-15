@@ -5,10 +5,10 @@ repository: https://github.com/ELIXIR-Belgium/data_management_hub
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: KnowledgeHub ELIXIR Belgium
+topnav_title: Data Management Hub
 # this appears on the top navigation bar next to the home button
 
-site_title: KnowledgeHub
+site_title: Data Management Hub
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Belgium
