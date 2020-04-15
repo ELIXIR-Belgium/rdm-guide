@@ -1,6 +1,6 @@
-url: bedroesb.github.io
-baseurl: /KnowledgeHub
-repository: https://github.com/bedroesb/KnowledgeHub.git
+url: elixir-belgium.github.io
+baseurl: /data_management_hub
+repository: https://github.com/ELIXIR-Belgium/data_management_hub
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
