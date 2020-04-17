@@ -369,14 +369,14 @@ background-color: #347DBE;
 }
 
 .nav li a {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     padding: 2px 10px;
     background-color: #f1f1f1;
 }
 
 .nav > li > a {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     padding: 4px 10px;
 }
