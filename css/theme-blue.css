@@ -43,6 +43,7 @@ a[data-toggle="tooltip"] {
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
+    font-size: 23px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-book.fa-lg.navbar-brand:hover {
