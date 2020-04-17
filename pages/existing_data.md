@@ -27,4 +27,4 @@ Data repositories can be general, data type specific or discipline specific. To 
 
 If you want to know how to publish your dataset and get cited for it (not only for your results based on that dataset), see “Data journals (external link)” and “Data submission into repositories(internal link)” paragraphs.
 
-{% include links.html %}
+

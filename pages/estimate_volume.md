@@ -28,4 +28,4 @@ Number of reads needed (Million) = (Coverage x Genome length (bp) / read length)
 If you want to know more about number of reads needed per experiment, coverage and reads length, see RNA-Seq read length and coverage and Coverage and Read Depth for NGS.
 
 
-{% include links.html %}
+
