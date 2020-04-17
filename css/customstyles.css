@@ -425,7 +425,7 @@ ul#mysidebar {
 
 span.projectTitle {
     font-family: 'Sulphur Point', sans-serif;
-    font-weight: bold;
+    font-weight: 'normal';
     font-size: 23px;
 }
 
