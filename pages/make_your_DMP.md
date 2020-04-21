@@ -1,6 +1,5 @@
 ---
 title: Make your Data Management Plan
-tags: [getting_started, troubleshooting]
 keywords:
 sidebar: mydoc_sidebar
 permalink: make_your_DMP.html
