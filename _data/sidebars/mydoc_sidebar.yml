@@ -6,20 +6,20 @@ entries:
   - title: About
     output: web
     folderitems:
+      - title: Data Management Hub
+        url: /data_management_hub.html
+        output: web
       - title: ELIXIR Belgium
         url: /elixir_belgium.html
         output: web
   - title: Data Management Plan
     output: web
     folderitems:
-    - title: Where to find existing data
-      url: /existing_data.html
+    - title: About DMP
+      url: /about_DMP.html
       output: web
-    - title: How to cite an existing dataset
-      url: /cite_existing_data.html
-      output: web
-    - title: How to estimate the volume of a dataset
-      url: /estimate_volume.html
+    - title: Make your Data Management Plan
+      url: /make_your_DMP.html
       output: web
   - title: Credit
     output: web
