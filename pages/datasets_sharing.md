@@ -26,11 +26,13 @@ Data with potential economic/commercial value
 If you want to close or restrict access to your datasets, you must explain your ethical and/or legal issues in the Data Management Plan.
 You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
 
-## 2. Types of restricted access to datasets
+## 3. Types of restricted access to datasets
 Registered access or authentication procedure
 Registered access is provided by some data archives, which require potential users to register before they are able to access data files. Registered access allows the data archive to monitor who access data, enabling reminders about conditions of use to be issued.
 Registered access must be provided by a data repository
 List of repositories with registered or authentication access
+
+{% include image.html file="img_54e57a064690d.png" caption="This is a sample caption" %}
 
 ### Data Access Committees (DACs)
 A Data Access Committee (DAC) is a organization of one or more named individuals whom are responsible for data release to external requestors based on specific criteria.
