@@ -32,7 +32,7 @@ Registered access is provided by some data archives, which require potential use
 Registered access must be provided by a data repository
 List of repositories with registered or authentication access
 
-{% include image.html file="img_54e57a064690d.png" caption="This is a sample caption" %}
+{% include image.html file="test_image.png" caption="This is a sample caption" %}
 
 ### Data Access Committees (DACs)
 A Data Access Committee (DAC) is a organization of one or more named individuals whom are responsible for data release to external requestors based on specific criteria.
