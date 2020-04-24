@@ -46,6 +46,9 @@ entries:
             - title: Identifiers
               url: /identifiers.html
               output: web
+            - title: Test
+              url: /test.html
+              output: web
             - title: Ontology
               url: /ontology.html
               output: web
