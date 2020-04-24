@@ -1,7 +1,7 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: 
+- title:
   folders:
   - title: About
     output: web
@@ -18,9 +18,64 @@ entries:
     - title: About DMP
       url: /about_DMP.html
       output: web
-    - title: Make your Data Management Plan
-      url: /make_your_DMP.html
-      output: web
+      subfolders:
+        - title: Make your Data Management Plan
+          output: web
+          subfolderitems:
+            - title: Online tools for DMP
+              url: /online_tools_for_dmp.html
+              output: web
+            - title: Existing data
+              url: /existing_data.html
+              output: web
+            - title: File formats
+              url: /file_formats.html
+              output: web
+            - title: Data volume
+              url: /data_volume.html
+              output: web
+            - title: Datasets Sharing
+              url: /datasets_sharing.html
+              output: web
+            - title: Data Licenses
+              url: /data_licenses.html
+              output: web
+            - title: Metadata
+              url: /metadata.html
+              output: web
+            - title: Identifiers
+              url: /identifiers.html
+              output: web
+            - title: Ontology
+              url: /ontology.html
+              output: web
+            - title: Documentation for metadata
+              url: /documentation_for_metadata.html
+              output: web
+            - title: Costs for sharing and storing data
+              url: /costs_for_sharing_and_storing_data.html
+              output: web
+            - title: Data quality
+              url: /data_quality.html
+              output: web
+            - title: Personal data
+              url: /personal_data.html
+              output: web
+  - title: Data Management for Omics Data
+    output: web
+    folderitems:
+      - title: Genomics
+        url: /genomics.html
+        output: web
+      - title: Metabolomics
+        url: /metabolomics.html
+        output: web
+      - title: Proteomics
+        url: /proteomics.html
+        output: web
+      - title: Transcriptomics
+        url: /transcriptomics.html
+        output: web
   - title: Credit
     output: web
     folderitems:
