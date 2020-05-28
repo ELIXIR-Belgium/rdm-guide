@@ -25,7 +25,7 @@ Data repositories can use:
 
 
 ### Example metadata schemas
-* **Dublin Core**: Dublin Core is a general standard for digital and physicl objects first used by libraries, and can be adapted for specific disciplines. [Dryad](www.datadryad.org), a digital data repository, uses Dublin Core.
+* **Dublin Core**: Dublin Core is a general standard for digital and physicl objects first used by libraries, and can be adapted for specific disciplines. [Dryad](https://datadryad.org/stash), a digital data repository, uses Dublin Core.
 * **Darwin Core**: This metadata schema is for describing biological specimens, including their occurrence in nature as documented by observations, samples, and related information. Based on the Dublin Core, this schema is used in natural history specimen collections and species observation databases. [The Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) uses Darwin Core.
 
 ### Templates and customized metadata standards <!---TBD--->
