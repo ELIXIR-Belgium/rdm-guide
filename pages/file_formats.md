@@ -26,10 +26,10 @@ permalink: file_formats.html
 * UK Data Service, [Recommended formats](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats)
 
 ## Is my file format open? <!--- this section needs work. Should we include the best-practice open format for each area and technology? There is no way we can include all possible file formats --->
-| Area       | Technology        | Format        | Open |
+| Area | Technology | Format | Open |
 |------------|-------------------|---------------|------|
-| Genomics   | Sequencing        | fastq         | yes  |
-| Proteomics | Mass spectroscopy | mzXML or mzML | yes  |
+| Genomics | Sequencing | fastq | yes |
+| Proteomics | Mass spectroscopy | mzXML or mzML | yes |
 
 ## References
 [UGent guidelines on file formats](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Fileformats)
