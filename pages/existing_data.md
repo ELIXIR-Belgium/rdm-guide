@@ -32,7 +32,7 @@ ELIXIR recommends the following [databases](https://elixir-europe.org/platforms/
 Scientific journals and communities have compiled a number of lists of recommended repositories, searchable by discipline and other characteristics
 
 * Nature - Scientific Data: [Recommended Data Repositories](https://www.nature.com/sdata/policies/repositories#general)
-* Repositories used by Flemish research infrastructures: https://mronocoroni.shinyapps.io/20200325/
+* Repositories used by Flemish research infrastructures: [https://mronocoroni.shinyapps.io/20200325/](https://mronocoroni.shinyapps.io/20200325/)
 * FAIRsharing: [Catalogue of databases](https://fairsharing.org/databases/)
 * OpenAIRE: [International search engines for academic and scientific research](https://explore.openaire.eu)
 * DataCite: [Registry of Research Data Repositories]( https://www.re3data.org)
