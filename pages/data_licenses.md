@@ -49,7 +49,7 @@ Repositories can be selected based on data license and sharing policy by using [
 * [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948),Queen’s University Library.<br>
 * [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning.<br>
 
-### References
+## References
 [European Union advice on copyright](https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1).<br>
 [European Union IP helpdesk](https://www.iprhelpdesk.eu/node/2014) note on databases.<br>
 [UGent guidelines for data sharing](https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm).<br>
