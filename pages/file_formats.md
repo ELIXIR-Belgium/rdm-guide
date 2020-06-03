@@ -29,6 +29,7 @@ permalink: file_formats.html
 * DANS, [File formats](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats)
 * UK Data Service, [Recommended formats](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats)
 
+
 ## Is my file format open? <!--- this section needs work. Should we include the best-practice open format for each area and technology? There is no way we can include all possible file formats --->
 
 | Area | Technology | Format | Open |
