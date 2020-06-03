@@ -7,10 +7,10 @@ permalink: datasets_sharing.html
 ---
 
 ## Meaning of sharing datasets
-Here, sharing datasets means making datasets known and available to the whole world and society. However, it is important to highlight that sharing datasets
-* Does **not** necessarily mean Open Access nor Public. Datasets can be shared with Closed or Restricted Access.
-* Does **not** have to happen immediately, while you are still working on the project. Data can be shared after your scientific paper is published.
-* Is **different** from sharing your “result paper”. Datasets are the collection of values used in your manuscript to generate the results.
+Here, sharing datasets means making datasets known and available to the entire world and society. However, it is important to specify that sharing datasets
+* does NOT necessarily mean Open Access nor Public. Datasets can be shared with Closed or Restricted Access.
+* does NOT have to happen immediately, while you are still working on the project. Data can be shared after your scientific paper is published.
+* is NOT sharing your “result paper”. Datasets are the collection of values used in your manuscript to generate the results.
 
 
 ## Good reasons to make your datasets open access
@@ -43,9 +43,5 @@ If you want to close or restrict access to your datasets, you must explain your 
 
 **Embargo** <br> It is a defined period of time, imposed by the author, which prohibits access to data. After the embargo period, data becomes Open, Closed or with Restricted access. Reasons for embargo could be: i) need to secure Intellectual Property (IP); ii) need to publish the results of the research (manuscript) in a journal.
 
-## Select repositories based on data access type
+## Select repositories based on data access types
 [Registry of Research data Repositories](https://www.re3data.org/search?query=) (or re3data.org) allows you to filter the list of repositories based on data access type.
-
-## References
-[Restricting access to data](https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data), University of Westminster.<br>
-[Data Publication: Controlling access to published data](https://libguides.library.usyd.edu.au/datapublication/access), The University of Sydney.<br>
