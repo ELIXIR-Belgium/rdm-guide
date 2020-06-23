@@ -3,5 +3,6 @@
         {
             "pattern": "^https://mronocoroni.shinyapps.io/"
         }
-    ]
+    ],
+    "baseUrl": "https://elixir-belgium.github.io/data_management_hub/"
 }
