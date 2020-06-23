@@ -46,11 +46,11 @@ An easy way to apply metadata to your dataset is using a spreadsheet (such as Ex
 
 Usually, a (meta)data sheet holds 30 or more attributes to describe the data. Don’t be afraid to have many attributes in your spreadsheet; on the contrary, with detailed metadata fields you can easily select specific measurements based on the information noted down in the columns.
 
-{% include image.html file="metadata_source.png" caption="**Figure 1.** Metadata spreadsheet with more than 30 attributes" %}
+{% include image.html file="metadata_source.png" caption="<b>Figure 1.</b> Metadata spreadsheet with more than 30 attributes" %}
 
 If applicable include a field that takes the name of the file that actually holds the measurement data and other files that give detailed information (i.e.  the exact protocol used or scripts of analyses done on your samples, etc...).
 
-{% include image.html file="metadata_source_2.png" caption="**Figure 2.** Metadata spreadsheet with fields that take the name of the used protocol and the datafile containing the raw data." %}
+{% include image.html file="metadata_source_2.png" caption="<b>Figure 2.</b> Metadata spreadsheet with fields that take the name of the used protocol and the datafile containing the raw data." %}
 
 Consider having two metadata sheets:
 * One generic about your overall study, containing metadata fields such as “Study Title”, “Study description”, “Experimental Factors”, “Study Design” etc.
@@ -58,7 +58,7 @@ Consider having two metadata sheets:
 
 It is also possible to use a [README file](documentation_for_metadata.html) or the first tab of a spreadsheet to describe metadata fields about the overall study and define controlled vocabularies for the attributes in the columns. To avoid confusion on the interpretation of the value of metadata fields, you should always have the exact definition and scope of your used metadata fields. If you use **standard** metadata, you can refer to the definitions of the standard, rather than having to describe the metadata fields yourself in a data dictionary (or glossary or codebook). For example, not everybody understands automatically that ‘length’ describes how tall a subject is, or how it is measured.
 
-{% include image.html file="metadata.png" caption="**Figure 3.** Metadata fields description and controlled vocabulary." %}
+{% include image.html file="metadata.png" caption="<b>Figure 3.</b> Metadata fields description and controlled vocabulary." %}
 
 Especially if you work with several people in a project, or similar experiments or measurements are done regularly in your research group, it is a good idea to develop metadata schemes for the collected data and have controlled vocabulary to fill in these schemes. If you standardise your metadata sheet, it can be reused and different experiments can be easily compared.
 
