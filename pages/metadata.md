@@ -1,7 +1,7 @@
 ---
 title: Metadata
 keywords:
-summary: Metadata liberates us, liberates knowledge. David Weinberger, **"Knowledge at the End of the Information Age". Bertha Bassam lecture, University of Toronto, February 07, 2008.*
+summary: Metadata liberates us, liberates knowledge. David Weinberger, Knowledge at the End of the Information Age. Bertha Bassam lecture, University of Toronto, February 07, 2008.
 sidebar: mydoc_sidebar
 permalink: metadata.html
 ---
@@ -28,10 +28,10 @@ Generic and discipline-specific standard metadata schemas can be found on [Resea
 
 ## Metadata schema and data repositories
 Data repositories can use:
-* **Standard metadata schemas**
-The RDA keeps an open knowledge base on research metadata standards along with the [repositories that use them](https://rd-alliance.github.io/metadata-directory/use_cases/). Repositories can be selected based on metadata standard by using [re3data.org](https://www.re3data.org/search?query=).
-* **Repository-Developed metadata schemas**
-Some repositories have decided that current standards do not fit their metadata needs, and so they have created their own requirements. Information about a specific metadata schema required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Moreover, lists of Repository-Developed metadata schemas can be found on [DCC](https://www.dcc.ac.uk/resources/metadata-standards/repository-developed-metadata-schemas) and [RDA](https://rd-alliance.github.io/metadata-directory/standards/repository-developed-metadata-schemas.html) websites.
+* **Standard metadata schemas:**
+the RDA keeps an open knowledge base on research metadata standards along with the [repositories that use them](https://rd-alliance.github.io/metadata-directory/use_cases/). Repositories can be selected based on metadata standard by using [re3data.org](https://www.re3data.org/search?query=).
+* **Repository-Developed metadata schemas:**
+some repositories have decided that current standards do not fit their metadata needs, and so they have created their own requirements. Information about a specific metadata schema required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Moreover, lists of Repository-Developed metadata schemas can be found on [DCC](https://www.dcc.ac.uk/resources/metadata-standards/repository-developed-metadata-schemas) and [RDA](https://rd-alliance.github.io/metadata-directory/standards/repository-developed-metadata-schemas.html) websites.
 
 Since [data repositories](existing_data.html) can require that submitted datasets must be described according to a specific metadata schema, it is recommended to consider in what repository your data could be published already at the beginning of your project. Knowing what metadata will be required allows you to easily keep track of all that information, while collecting the data or performing the experiments.
 
@@ -83,10 +83,10 @@ For more information about data organisation in spreadsheet, see the following w
 * Pivot Table in [Excel](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
 
 ## References
-[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University.
-[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent.
-[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata).
+[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University.</br>
+[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent.</br>
+[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata).</br>
 [Research Data Alliance (RDA)](https://www.rd-alliance.org/)
-Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/).
-The [Research Data Management Group](https://data.research.cornell.edu/) at Cornell.
-[GO FAIR Principles](https://www.go-fair.org/fair-principles/).
+Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/).</br>
+The [Research Data Management Group](https://data.research.cornell.edu/) at Cornell.</br>
+[GO FAIR Principles](https://www.go-fair.org/fair-principles/).</br>
