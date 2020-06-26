@@ -8,10 +8,10 @@ permalink: existing_data.html
 
 ## Sources of existing data
 
-**Bibliographic research**\
+**Bibliographic research**\\
 Start with a bibliographic research. If you find an interesting publication without any available data, you can contact the authors and request access to their data. If their data are not available or you didn’t find any interesting publication, you can look for existing data in many repositories.
 
-**Data repositories**\
+**Data repositories**\\
 Repositories or databases can also contain data that are not linked to any manuscript or “results paper”.
 Repositories can be general, data type specific or discipline specific.
 
@@ -40,14 +40,14 @@ Scientific journals and communities have compiled a number of lists of recommend
 * DataCite: [Registry of Research Data Repositories]( https://www.re3data.org)
 
 ## How to cite an existing dataset
-**Complete citation**\
+**Complete citation**\\
 Author(s), Year, Dataset Title, Identifier, Repository, Version.
 
-**Short citation**\
+**Short citation**\\
 Identifier, Version (if applicable).
 
 **Identifiers** are machine readable alphanumeric strings provided by repositories. Identifiers can be:
-* Accession number\
+* Accession number\\
 example: E-MTAB-NNNN
-* DOIs\
+* DOIs\\
 example: doi: 10.1038/d41586-018-03071-1
