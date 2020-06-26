@@ -8,9 +8,11 @@ permalink: existing_data.html
 
 ## Sources of existing data
 
-**Bibliographic research**<br/>Start with a bibliographic research. If you find an interesting publication without any available data, you can contact the authors and request access to their data. If their data are not available or you didn’t find any interesting publication, you can look for existing data in many repositories.
+**Bibliographic research**\
+Start with a bibliographic research. If you find an interesting publication without any available data, you can contact the authors and request access to their data. If their data are not available or you didn’t find any interesting publication, you can look for existing data in many repositories.
 
-**Data repositories**<br/>Repositories or databases can also contain data that are not linked to any manuscript or “results paper”.
+**Data repositories**\
+Repositories or databases can also contain data that are not linked to any manuscript or “results paper”.
 Repositories can be general, data type specific or discipline specific.
 
 ## ELIXIR Deposition Databases for Biomolecular Data
@@ -38,10 +40,14 @@ Scientific journals and communities have compiled a number of lists of recommend
 * DataCite: [Registry of Research Data Repositories]( https://www.re3data.org)
 
 ## How to cite an existing dataset
-**Complete citation**<br/>Author(s), Year, Dataset Title, Identifier, Repository, Version.
+**Complete citation**\
+Author(s), Year, Dataset Title, Identifier, Repository, Version.
 
-**Short citation**<br/>Identifier, Version (if applicable).
+**Short citation**\
+Identifier, Version (if applicable).
 
 **Identifiers** are machine readable alphanumeric strings provided by repositories. Identifiers can be:
-* Accession number<br/>example: E-MTAB-NNNN
-* DOIs<br/>example: doi: 10.1038/d41586-018-03071-1
+* Accession number\
+example: E-MTAB-NNNN
+* DOIs\
+example: doi: 10.1038/d41586-018-03071-1
