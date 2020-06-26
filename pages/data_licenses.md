@@ -6,8 +6,6 @@ sidebar: mydoc_sidebar
 permalink: data_licenses.html
 ---
 
-
-
 ## Protection of research data
 Usually, a license is needed to use someone else’s data, that is protected by copyright or related rights.<br>
 
