@@ -13,15 +13,15 @@ permalink: data_volume.html
 3. Multiply the estimated file size by the number of samples or experiments you are going to generate during the project.
 
 ## Formula to estimate the volume of sequencing files (Illumina)
-**One .fastq file for Single-End sequencing** <br>
+**One .fastq file for Single-End sequencing**
 * .fastq MB = Number of million reads  x (60 +  2 x read length in bp)
 
-**Paired-End sequencing produces 2 fastq files** <br>
+**Paired-End sequencing produces 2 fastq files**
 * .fastq MB = Number of million reads  x (60 +  2 x read length in bp) x 2
 
 It is recommended to store .fastq files in a **compressed format** (ex: .gz), which makes the file approximately **4 times smaller**.
 
-**Formula to convert Coverage to Number of reads:** <br>
+**Formula to convert Coverage to Number of reads:**
 * Number of reads needed (Million) = (Coverage x Genome length (bp) / read length) /1000000
 
 **If you want to know more about** the number of reads needed per experiment, coverage and reads length, see

@@ -12,6 +12,12 @@ entries:
       - title: ELIXIR Belgium
         url: /elixir_belgium.html
         output: web
+  - title: Data Management in Simple Steps
+    output: web
+    folderitems:
+      - title: Data Management in Simple Steps
+        url: /data_management_steps.html
+        output: web
   - title: Data Management Plan
     output: web
     folderitems:

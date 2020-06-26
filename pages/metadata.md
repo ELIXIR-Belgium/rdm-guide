@@ -28,21 +28,17 @@ Generic and discipline-specific standard metadata schemas can be found on [Resea
 
 ## Metadata schema and data repositories
 Data repositories can use:
-* **Standard metadata schemas:**
-the RDA keeps an open knowledge base on research metadata standards along with the [repositories that use them](https://rd-alliance.github.io/metadata-directory/use_cases/). Repositories can be selected based on metadata standard by using [re3data.org](https://www.re3data.org/search?query=).
-* **Repository-Developed metadata schemas:**
-some repositories have decided that current standards do not fit their metadata needs, and so they have created their own requirements. Information about a specific metadata schema required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Moreover, lists of Repository-Developed metadata schemas can be found on [DCC](https://www.dcc.ac.uk/resources/metadata-standards/repository-developed-metadata-schemas) and [RDA](https://rd-alliance.github.io/metadata-directory/standards/repository-developed-metadata-schemas.html) websites.
+* **Standard metadata schemas**</br>The RDA keeps an open knowledge base on research metadata standards along with the [repositories that use them](https://rd-alliance.github.io/metadata-directory/use_cases/). Repositories can be selected based on metadata standard by using [re3data.org](https://www.re3data.org/search?query=).
+* **Repository-Developed metadata schemas**</br>Some repositories have decided that current standards do not fit their metadata needs, and so they have created their own requirements. Information about a specific metadata schema required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Moreover, lists of Repository-Developed metadata schemas can be found on [DCC](https://www.dcc.ac.uk/resources/metadata-standards/repository-developed-metadata-schemas) and [RDA](https://rd-alliance.github.io/metadata-directory/standards/repository-developed-metadata-schemas.html) websites.
 
 Since [data repositories](existing_data.html) can require that submitted datasets must be described according to a specific metadata schema, it is recommended to consider in what repository your data could be published already at the beginning of your project. Knowing what metadata will be required allows you to easily keep track of all that information, while collecting the data or performing the experiments.
 
 ## Metadata schema in practice
-**Choose metadata schema(s) for your dataset**
-Before starting your project or your experiments, consider what repositories could be appropriate to publish your datasets. [EMBL-EBI Data Submission wizard](https://www.ebi.ac.uk/submission/) will guide you to the right archive for your data in a few simple steps. For a more complete list of data repositories see [here](existing_data.html).
+**Choose metadata schema(s) for your dataset**</br>Before starting your project or your experiments, consider what repositories could be appropriate to publish your datasets. [EMBL-EBI Data Submission wizard](https://www.ebi.ac.uk/submission/) will guide you to the right archive for your data in a few simple steps. For a more complete list of data repositories see [here](existing_data.html).
 
 After you have found the appropriate repository for your data, download or write down the required metadata schema, or at least the mandatory fields. If the repository doesn’t require a specific metadata schema, you can choose a **generic and/or a discipline-specific** one for your dataset. You can also use more than one schema, for example, to describe a multi-disciplinary dataset, or add attributes of your choice.
 
-**Use metadata in spreadsheets**
-An easy way to apply metadata to your dataset is using a spreadsheet (such as Excel and Google Sheets). Excel and Google Sheets are a simple way to create metadata schemes with controlled vocabulary drop-down lists (data validation in [Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us) and [Google Sheets](https://support.google.com/docs/answer/186103?hl=en&ref_topic=1361472)). In practice, you can put attributes or metadata fields in columns, and have one row of values or descriptions per measurement. The top row with the metadata fields can be made write protected (cell protection in [Excel](https://support.microsoft.com/en-us/office/lock-cells-to-protect-them-cb7835f6-9c37-4161-bb53-d1c410acaf21) and [Google Sheets](https://support.google.com/docs/answer/1218656?co=GENIE.Platform%3DDesktop&hl=en) and frozen to be always visible (freeze rows/columns in [Excel](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f) and [Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)).
+**Use metadata in spreadsheets**</br>An easy way to apply metadata to your dataset is using a spreadsheet (such as Excel and Google Sheets). Excel and Google Sheets are a simple way to create metadata schemes with controlled vocabulary drop-down lists (data validation in [Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us) and [Google Sheets](https://support.google.com/docs/answer/186103?hl=en&ref_topic=1361472)). In practice, you can put attributes or metadata fields in columns, and have one row of values or descriptions per measurement. The top row with the metadata fields can be made write protected (cell protection in [Excel](https://support.microsoft.com/en-us/office/lock-cells-to-protect-them-cb7835f6-9c37-4161-bb53-d1c410acaf21) and [Google Sheets](https://support.google.com/docs/answer/1218656?co=GENIE.Platform%3DDesktop&hl=en) and frozen to be always visible (freeze rows/columns in [Excel](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f) and [Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)).
 
 Usually, a (meta)data sheet holds 30 or more attributes to describe the data. Don’t be afraid to have many attributes in your spreadsheet; on the contrary, with detailed metadata fields you can easily select specific measurements based on the information noted down in the columns.
 
@@ -75,6 +71,7 @@ Especially if you work with several people in a project, or similar experiments 
 
 6. **Do not use colour code as (meta)data and do not combine multiple variables in one cell.**
 
+
 For more information about data organisation in spreadsheet, see the following websites:
 * [Data organisation in spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989).
 * [Data carpentry: Formatting data table in spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/index.html) and [Formatting problems](https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/#tabs).
@@ -83,10 +80,4 @@ For more information about data organisation in spreadsheet, see the following w
 * Pivot Table in [Excel](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
 
 ## References
-[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University.</br>
-[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent.</br>
-[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata).</br>
-[Research Data Alliance (RDA)](https://www.rd-alliance.org/)
-Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/).</br>
-The [Research Data Management Group](https://data.research.cornell.edu/) at Cornell.</br>
-[GO FAIR Principles](https://www.go-fair.org/fair-principles/).</br>
+[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University</br>[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent</br>[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata)</br>[Research Data Alliance (RDA)](https://www.rd-alliance.org/) - Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/)</br>The [Research Data Management Group](https://data.research.cornell.edu/) at Cornell</br>[GO FAIR Principles](https://www.go-fair.org/fair-principles/)
