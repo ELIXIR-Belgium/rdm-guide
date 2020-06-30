@@ -14,10 +14,7 @@ entries:
         output: web
   - title: Data Management in Simple Steps
     output: web
-    folderitems:
-      - title: Data Management in Simple Steps
-        url: /data_management_steps.html
-        output: web
+    url: /data_management_steps.html
   - title: Data Management Plan
     output: web
     folderitems:
@@ -84,7 +81,4 @@ entries:
         output: web
   - title: Credit
     output: web
-    folderitems:
-      - title: Credit
-        url: /credit.html
-        output: web
+    url: /credit.html
