@@ -712,7 +712,7 @@ ol.series li {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
+    border-color: #8d8d8d !important;
 }
 
 #mysidebar .nav ul {
@@ -1188,6 +1188,7 @@ h4.panel-title {
     .navbar-nav {
         float: none!important;
         margin-top: 7.5px;
+        margin-bottom: 7.5px;
     }
     .navbar-nav>li {
         float: none;
