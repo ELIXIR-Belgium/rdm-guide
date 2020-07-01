@@ -38,8 +38,8 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #FAFAFA;
-    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    border-color: #fafafa;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: #de4d00;
@@ -50,7 +50,7 @@ a[data-toggle="tooltip"] {
 }
 
 a.navbar-brand:hover {
-  color: #FAFAFA;
+  color: #f5f5f5;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -113,11 +113,11 @@ li.sidebarTitle {
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #f5f5f5;
+    background-color: #fafafa;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #FAFAFA;
+    border-color: #f5f5f5;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
