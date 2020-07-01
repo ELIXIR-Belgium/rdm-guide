@@ -8,14 +8,12 @@ permalink: file_formats.html
 
 ## Open vs Proprietary
 **Files in OPEN format (recommended)**\\
-
 * Can be opened by anyone using different types of open-source, free or licensed software.
 * Are less prone to become obsolete, because a variety of software should be able to open them.
 * Have a free format specification (i.e. no patent restrictions).
 * [List of open formats](https://en.wikipedia.org/wiki/List_of_open_formats).
 
 **Files in PROPRIETARY format (non-preferred)**\\
-
 * Can only be opened using paid-license software.
 * Tend to be replaced by new versions or new formats, limiting their future reuse.
 * Have an either patented or trade-secret specification.
@@ -23,13 +21,11 @@ permalink: file_formats.html
 
 ## Recommended file formats
 **Considerations before choosing a file format**\\
-
 * The format of raw and processed data files could depend on the instrument or the software that generates the data.
 * Some data repositories could require specific file formats. In this case, information about the accepted formats can be found on the repository’s webpage.
 * It is good practise to use open or recommended formats when possible.
 
 **Recommended file formats can be found via:**\\
-
 * DANS, [File formats](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats)
 * UK Data Service, [Recommended formats](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats)
 

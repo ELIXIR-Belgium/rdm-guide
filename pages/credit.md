@@ -1,6 +1,5 @@
 ---
 title: Credit
-tags: [credit]
 keywords:
 sidebar: mydoc_sidebar
 permalink: credit.html

@@ -1,6 +1,5 @@
 ---
 title: Elixir Belgium
-tags: [about]
 keywords:
 sidebar: mydoc_sidebar
 permalink: elixir_belgium.html

@@ -7,7 +7,7 @@ permalink: data_licenses.html
 ---
 
 ## Protection of research data
-Usually, a license is needed to use someone else’s data, that is protected by copyright or related rights.\\
+Usually, a license is needed to use someone else’s data, that is protected by copyright or related rights.
 
 
 Original scientific work, such as a database or publication, is protected by copyright. Nobody apart from the author has the right to make the work public or reproduce it.
@@ -46,9 +46,9 @@ Repositories can be selected based on data license and sharing policy by using [
 * [License Chooser](https://creativecommons.org/choose/)
 
 **Tutorials**
-* [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948),Queen’s University Library\\
+* [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948),Queen’s University Library
 
-* [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning\\
+* [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning
 
 
 ## References
