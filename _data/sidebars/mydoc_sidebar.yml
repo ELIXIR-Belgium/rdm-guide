@@ -49,33 +49,33 @@ entries:
             - title: Identifiers
               url: /identifiers.html
               output: web
-            - title: Ontology
-              url: /ontology.html
-              output: web
-            - title: Documentation for metadata
-              url: /documentation_for_metadata.html
-              output: web
-            - title: Costs for sharing and storing data
-              url: /costs_for_sharing_and_storing_data.html
-              output: web
-            - title: Data quality
-              url: /data_quality.html
-              output: web
-            - title: Personal data
-              url: /personal_data.html
-              output: web
+            # - title: Ontology
+            #   url: /ontology.html
+            #   output: web
+            # - title: Documentation for metadata
+            #   url: /documentation_for_metadata.html
+            #   output: web
+            # - title: Costs for sharing and storing data
+            #   url: /costs_for_sharing_and_storing_data.html
+            #   output: web
+            # - title: Data quality
+            #   url: /data_quality.html
+            #   output: web
+            # - title: Personal data
+            #   url: /personal_data.html
+            #   output: web
   - title: Data Management for Omics Data
     output: web
     folderitems:
-      - title: Genomics
-        url: /genomics.html
-        output: web
-      - title: Metabolomics
-        url: /metabolomics.html
-        output: web
-      - title: Proteomics
-        url: /proteomics.html
-        output: web
+      # - title: Genomics
+      #   url: /genomics.html
+      #   output: web
+      # - title: Metabolomics
+      #   url: /metabolomics.html
+      #   output: web
+      # - title: Proteomics
+      #   url: /proteomics.html
+      #   output: web
       - title: Transcriptomics
         url: /transcriptomics.html
         output: web
