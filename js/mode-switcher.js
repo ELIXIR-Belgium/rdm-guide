@@ -1,4 +1,4 @@
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: light)"); 
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
 
 if (systemInitiatedDark.matches) {
@@ -7,18 +7,18 @@ if (systemInitiatedDark.matches) {
 	document.getElementById("theme-toggle").innerHTML = '<i style="color: #de4d00;" class="fa fa-adjust"></i>  <i id="tg-sb-icon" style="color: #de4d00;" class="fa fa-toggle-off"></i>';
 }
 
-// function prefersColorTest(systemInitiatedDark) {
-//   if (systemInitiatedDark.matches) {
-//   	document.documentElement.setAttribute('data-theme', 'dark');		
-//    	document.getElementById("theme-toggle").innerHTML = '<i style="color: #de4d00;" class="fa fa-adjust"></i>  <i id="tg-sb-icon" style="color: #de4d00;" class="fa fa-toggle-on"></i>';
-//    	sessionStorage.setItem('theme', '');
-//   } else {
-//   	document.documentElement.setAttribute('data-theme', 'light');
-//     document.getElementById("theme-toggle").innerHTML = '<i style="color: #de4d00;" class="fa fa-adjust"></i>  <i id="tg-sb-icon" style="color: #de4d00;" class="fa fa-toggle-off"></i>';
-//     sessionStorage.setItem('theme', '');
-//   }
-// }
-// systemInitiatedDark.addListener(prefersColorTest);
+function prefersColorTest(systemInitiatedDark) {
+  if (systemInitiatedDark.matches) {
+  	document.documentElement.setAttribute('data-theme', 'dark');		
+   	document.getElementById("theme-toggle").innerHTML = '<i style="color: #de4d00;" class="fa fa-adjust"></i>  <i id="tg-sb-icon" style="color: #de4d00;" class="fa fa-toggle-on"></i>';
+   	sessionStorage.setItem('theme', '');
+  } else {
+  	document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = '<i style="color: #de4d00;" class="fa fa-adjust"></i>  <i id="tg-sb-icon" style="color: #de4d00;" class="fa fa-toggle-off"></i>';
+    sessionStorage.setItem('theme', '');
+  }
+}
+systemInitiatedDark.addListener(prefersColorTest);
 
 
 function modeSwitcher() {
