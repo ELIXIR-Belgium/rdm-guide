@@ -35,7 +35,7 @@ html[data-theme="dark"] {
 }
 
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     html, html[data-theme="dark"] {
         --main-background-color: #404040;
         --main-text-color: #ddd;
