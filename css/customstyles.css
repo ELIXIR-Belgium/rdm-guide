@@ -7,51 +7,51 @@ html, html[data-theme="light"] {
     --toc-text-color: gray;
     --toc-title-text-color: #555;
     --nav-text-color: #333;
-    --nav-li-background-color: #fafafa;
+    --nav-li-background-color: whitesmoke;
     --summary-color: #808080;
-    --table-odd-bg-color: #f9f9f9;
+    --table-odd-bg-color: whitesmoke;
     --h1-color: #333;
-    --nav-bar-bg: #f5f5f5;
-    --nav-bar-border: #f5f5f5;
+    --nav-bar-bg: whitesmoke;
     --nav-button-bg: #fafafa;
+    --search-box-bg: #fff;
 }
 
 html[data-theme="dark"] {
-    --main-background-color: #555;
+    --main-background-color: #404040;
     --main-text-color: #ddd;
     --link-color: #8fc6f5;
     --link-hover-color: #c9e5ff;
-    --toc-background-color: #777;
+    --toc-background-color: #555;
     --toc-text-color: #ddd;
     --toc-title-text-color: #ddd;
     --nav-text-color: #ddd;
-    --nav-li-background-color: #777777;
+    --nav-li-background-color: #555;
     --summary-color: #f1f0f0;
-    --table-odd-bg-color: #403f3f;
+    --table-odd-bg-color: #555;
     --h1-color: #fff;
-    --nav-bar-bg: #404040;
-    --nav-bar-border: #404040;
+    --nav-bar-bg: #555;
     --nav-button-bg: #000000;
+    --search-box-bg: #404040;
 }
 
 
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
-        --main-background-color: #555;
+        --main-background-color: #404040;
         --main-text-color: #ddd;
         --link-color: #8fc6f5;
         --link-hover-color: #c9e5ff;
-        --toc-background-color: #777;
+        --toc-background-color: #555;
         --toc-text-color: #ddd;
         --toc-title-text-color: #ddd;
         --nav-text-color: #ddd;
-        --nav-li-background-color: #777777;
+        --nav-li-background-color: #555;
         --summary-color: #f1f0f0;
         --table-odd-bg-color: #403f3f;
         --h1-color: #fff;
-        --nav-bar-bg: #404040;
-        --nav-bar-border: #404040;
+        --nav-bar-bg: #555;
         --nav-button-bg: #000000;
+        --search-box-bg: #404040;
     }
 
     html[data-theme="light"] {
@@ -63,13 +63,13 @@ html[data-theme="dark"] {
         --toc-text-color: gray;
         --toc-title-text-color: #555;
         --nav-text-color: #333;
-        --nav-li-background-color: #fafafa;
+        --nav-li-background-color: whitesmoke;
         --summary-color: #808080;
         --table-odd-bg-color: #f9f9f9;
         --h1-color: #333;
-        --nav-bar-bg: #f5f5f5;
-        --nav-bar-border: #f5f5f5;
+        --nav-bar-bg: whitesmoke;
         --nav-button-bg: #fafafa;
+        --search-box-bg: #fff;
   } 
 }
 
@@ -328,6 +328,11 @@ ul#results-container a:hover {
     margin-top:10px;
     border-radius: 4px;
     border-width: 0px;
+    background-color: var(--search-box-bg);
+}
+
+#search-input .search-query {
+    color: var(--main-text-color);
 }
 /* end search */
 
@@ -816,12 +821,12 @@ ol.series li {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #f5f5f5 !important;
+    border-color: rgba(0,0,0,0);
 }
 
 .navbar-inverse {
     background-color: var(--nav-bar-bg);
-    border-color: var(--nav-bar-border);
+    border-color: rgba(0,0,0,0);
 }
 
 #mysidebar .nav ul {
