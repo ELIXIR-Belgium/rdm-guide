@@ -102,13 +102,6 @@ li.sidebarTitle {
 
 }
 
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #fafafa;
-}
-
-.navbar-inverse .navbar-toggle {
-    border-color: #f5f5f5;
-}
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #de4d00;

@@ -13,6 +13,7 @@ html, html[data-theme="light"] {
     --h1-color: #333;
     --nav-bar-bg: #f5f5f5;
     --nav-bar-border: #f5f5f5;
+    --nav-button-bg: #fafafa;
 }
 
 html[data-theme="dark"] {
@@ -30,6 +31,7 @@ html[data-theme="dark"] {
     --h1-color: #fff;
     --nav-bar-bg: #404040;
     --nav-bar-border: #404040;
+    --nav-button-bg: #000000;
 }
 
 
@@ -49,6 +51,7 @@ html[data-theme="dark"] {
         --h1-color: #fff;
         --nav-bar-bg: #404040;
         --nav-bar-border: #404040;
+        --nav-button-bg: #000000;
     }
 
     html[data-theme="light"] {
@@ -66,6 +69,7 @@ html[data-theme="dark"] {
         --h1-color: #333;
         --nav-bar-bg: #f5f5f5;
         --nav-bar-border: #f5f5f5;
+        --nav-button-bg: #fafafa;
   } 
 }
 
@@ -514,6 +518,14 @@ ul#mysidebar {
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
     border-radius: 5px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: var(--nav-button-bg);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: rgba(0,0,0,0);
 }
 
 span.projectTitle {
