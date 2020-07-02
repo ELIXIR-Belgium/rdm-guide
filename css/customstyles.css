@@ -9,6 +9,7 @@ html, html[data-theme="light"] {
     --nav-text-color: #333;
     --nav-li-background-color: #fafafa;
     --summary-color: #808080;
+    --table-odd-bg-color: #f9f9f9;
 }
 
 html[data-theme="dark"] {
@@ -22,6 +23,7 @@ html[data-theme="dark"] {
     --nav-text-color: #ddd;
     --nav-li-background-color: #777777;
     --summary-color: #f1f0f0;
+    --table-odd-bg-color: #403f3f;
 }
 
 
@@ -37,6 +39,7 @@ html[data-theme="dark"] {
         --nav-text-color: #ddd;
         --nav-li-background-color: #777777;
         --summary-color: #f1f0f0;
+        --table-odd-bg-color: #403f3f;
     }
 
     html[data-theme="light"] {
@@ -50,6 +53,7 @@ html[data-theme="dark"] {
         --nav-text-color: #333;
         --nav-li-background-color: #fafafa;
         --summary-color: #808080;
+        --table-odd-bg-color: #f9f9f9;
   } 
 }
 
@@ -236,7 +240,7 @@ table > thead:first-child > tr:first-child > td {
 }
 
 table > tbody > tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
+    background-color: var(--table-odd-bg-color);
 }
 
 table col[class*="col-"] {
