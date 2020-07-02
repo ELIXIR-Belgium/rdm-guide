@@ -11,6 +11,8 @@ html, html[data-theme="light"] {
     --summary-color: #808080;
     --table-odd-bg-color: #f9f9f9;
     --h1-color: #333;
+    --nav-bar-bg: #f5f5f5;
+    --nav-bar-border: #f5f5f5;
 }
 
 html[data-theme="dark"] {
@@ -26,6 +28,8 @@ html[data-theme="dark"] {
     --summary-color: #f1f0f0;
     --table-odd-bg-color: #403f3f;
     --h1-color: #fff;
+    --nav-bar-bg: #404040;
+    --nav-bar-border: #404040;
 }
 
 
@@ -43,6 +47,8 @@ html[data-theme="dark"] {
         --summary-color: #f1f0f0;
         --table-odd-bg-color: #403f3f;
         --h1-color: #fff;
+        --nav-bar-bg: #404040;
+        --nav-bar-border: #404040;
     }
 
     html[data-theme="light"] {
@@ -58,6 +64,8 @@ html[data-theme="dark"] {
         --summary-color: #808080;
         --table-odd-bg-color: #f9f9f9;
         --h1-color: #333;
+        --nav-bar-bg: #f5f5f5;
+        --nav-bar-border: #f5f5f5;
   } 
 }
 
@@ -797,6 +805,11 @@ ol.series li {
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #f5f5f5 !important;
+}
+
+.navbar-inverse {
+    background-color: var(--nav-bar-bg);
+    border-color: var(--nav-bar-border);
 }
 
 #mysidebar .nav ul {
