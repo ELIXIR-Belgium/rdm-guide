@@ -10,6 +10,7 @@ html, html[data-theme="light"] {
     --nav-li-background-color: #fafafa;
     --summary-color: #808080;
     --table-odd-bg-color: #f9f9f9;
+    --h1-color: #333;
 }
 
 html[data-theme="dark"] {
@@ -24,6 +25,7 @@ html[data-theme="dark"] {
     --nav-li-background-color: #777777;
     --summary-color: #f1f0f0;
     --table-odd-bg-color: #403f3f;
+    --h1-color: #fff;
 }
 
 
@@ -40,6 +42,7 @@ html[data-theme="dark"] {
         --nav-li-background-color: #777777;
         --summary-color: #f1f0f0;
         --table-odd-bg-color: #403f3f;
+        --h1-color: #fff;
     }
 
     html[data-theme="light"] {
@@ -54,6 +57,7 @@ html[data-theme="dark"] {
         --nav-li-background-color: #fafafa;
         --summary-color: #808080;
         --table-odd-bg-color: #f9f9f9;
+        --h1-color: #333;
   } 
 }
 
@@ -66,9 +70,10 @@ body {
 
 .h1, h1 {
     margin-bottom: 20px;
+    color: var(--h1-color);
 }
 
-.h1, .h2, .h3, h1, h2, h3 {
+.h2, .h3,  h2, h3 {
     color: var(--main-text-color);
 }
 
