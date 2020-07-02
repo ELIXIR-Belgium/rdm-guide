@@ -30,7 +30,7 @@ html[data-theme="dark"] {
     --table-odd-bg-color: #555;
     --h1-color: #fff;
     --nav-bar-bg: #555;
-    --nav-button-bg: #000000;
+    --nav-button-bg: #404040;
     --search-box-bg: #404040;
 }
 
@@ -50,7 +50,7 @@ html[data-theme="dark"] {
         --table-odd-bg-color: #403f3f;
         --h1-color: #fff;
         --nav-bar-bg: #555;
-        --nav-button-bg: #000000;
+        --nav-button-bg: #404040;
         --search-box-bg: #404040;
     }
 
