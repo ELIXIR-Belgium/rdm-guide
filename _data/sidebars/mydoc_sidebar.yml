@@ -46,9 +46,9 @@ entries:
             # - title: Ontology
             #   url: /ontology.html
             #   output: web
-            # - title: Documentation for metadata
-            #   url: /documentation_for_metadata.html
-            #   output: web
+            - title: Data Documentation
+              url: /data_documentation.html
+              output: web
             # - title: Costs for sharing and storing data
             #   url: /costs_for_sharing_and_storing_data.html
             #   output: web

@@ -7,9 +7,11 @@ permalink: data_management_steps.html
 ---
 
 ## Start with the end in mind
-It is good practise to share research data at the end of a project, especially if used for a publication. A recommended way to share data is by deposition into an online repository, that will store your data and make it accessible to others.  Repositories can be general or discipline specific; we suggest using disciplinary repositories to increase the impact of your data among your peers.
+It is good practise to share research data at the end of a project, especially if used for a publication.\\
+A recommended way to share data is by deposition into an online repository, that will store your data and make it accessible to others.  Repositories can be general or discipline specific; we suggest using disciplinary repositories to increase the impact of your data among your peers.
 
-Before generating data, consider in what repository you want to share it at the end of the project. This gives you the advantage of structuring the dataset and the [metadata](metadata.html) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end. By starting with the end in mind, you will avoid spending time restructuring the dataset and rewriting metadata at the end of the project, when collecting the necessary information can be difficult.
+Before generating data, consider in what repository you want to share it at the end of the project. This gives you the advantage of structuring the dataset and the [metadata](metadata.html) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.\\
+By starting with the end in mind, you will avoid spending time restructuring the dataset and rewriting metadata at the end of the project, when collecting the necessary information can be difficult.
 
 ## Choose the appropriate repository for your dataset
 You can find the right repository for your dataset by following the steps described below.
@@ -26,7 +28,7 @@ You can find the right repository for your dataset by following the steps descri
     * [re3data.org](https://www.re3data.org/search?query=) gathers information about existing repositories and allows you to filter them based on **access and license types**. Specifically, you can select repositories by access type to the repository itself, defining whether/how users can access the database in general (database access), and access type to each datasets stored in the repository (data access). Filtering by database and data license is also possible.
     * [re3data.org](https://www.re3data.org/search?query=) and [FAIRsharing](https://fairsharing.org/databases/) websites gather details for repositories, which you can filter by discipline, data type, taxonomy and many other features.
     * The Nature journal, [Scientific Data](https://www.nature.com/sdata/policies/repositories) compiled a list of recommended repositories grouped by discipline.
-    * For specific data types in **Life Sciences**, we recommend using repositories listed in [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). Moreover, [EMBL-EBI data submission wizard](https://www.ebi.ac.uk/submission/) will help you to find the right repository depending on your data type, in a few simple steps.
+    * For **biomolecular data in Life Sciences**, we recommend using repositories listed in [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). Moreover, [EMBL-EBI data submission wizard](https://www.ebi.ac.uk/submission/) will help you to find the right repository depending on your data type, in a few simple steps.
 
 3. At this stage you should have a more clear idea about the appropriate repository for your data. So, you can visit the websites of the repositories that you selected and read more in detail about their access policy, license and submission procedure.
 

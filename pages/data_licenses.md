@@ -36,7 +36,7 @@ Among the standard licenses commonly used for research data is the suite of [Cre
 When sharing your dataset in a repository, a license can be applied in several ways:
 * A repository can apply its default license or sharing policy to all deposited datasets. In this case, restrictions on the use of data obtained through the repository can be found on the repository’s webpage, usually under “Help”, “FAQ” or “About us”.
 * Some repositories require that the datasets owner selects a license from a list of options, when depositing the datasets.
-* Other repositories let the owner specify the license in the metadata documentation, such as a ReadMe file, attached to the data.
+* Other repositories let the owner specify the license in the [data documentation](data_documentation.html), such as a README file, attached to the data.
 
 Repositories can be selected based on data license and sharing policy by using [re3data.org](https://www.re3data.org/search?query=).
 
@@ -52,8 +52,7 @@ Repositories can be selected based on data license and sharing policy by using [
 
 
 ## References
-[European Union advice on copyright](https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1)\\
-[European Union IP helpdesk](https://www.iprhelpdesk.eu/node/2014) note on databases\\
-[UGent guidelines for data sharing](https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm)\\
-[OpenAire](https://www.openaire.eu/faqs#article-id-1100): [Protection of Research Data](https://www.openaire.eu/protection-of-research-data); [Research data how to license](https://www.openaire.eu/research-data-how-to-license/); [How do I know if my research data is protected?](https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected); [How do I license my research data?](https://www.openaire.eu/how-do-i-license-my-research-data)\\
-
+[European Union advice on copyright](https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1).\\
+[European Union IP helpdesk](https://www.iprhelpdesk.eu/node/2014) note on databases.\\
+[UGent guidelines for data sharing](https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm).\\
+[OpenAire](https://www.openaire.eu/faqs#article-id-1100): [Protection of Research Data](https://www.openaire.eu/protection-of-research-data); [Research data how to license](https://www.openaire.eu/research-data-how-to-license/); [How do I know if my research data is protected?](https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected); [How do I license my research data?](https://www.openaire.eu/how-do-i-license-my-research-data).

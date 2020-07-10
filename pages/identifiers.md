@@ -23,7 +23,5 @@ Digital Object Identifier is the most widely adopted PID across repositories. Im
 
 
 ## References
-[Digital Preservation Coalition](https://www.dpconline.org/)
-
-
-Klump, J., & Huber, R. (2017). 20 Years of Persistent Identifiers – Which Systems are Here to Stay?. *Data Science Journal, 16, 9.* DOI: http://doi.org/10.5334/dsj-2017-009
+[Digital Preservation Coalition](https://www.dpconline.org/).\\
+Klump, J., & Huber, R. (2017). 20 Years of Persistent Identifiers – Which Systems are Here to Stay?. *Data Science Journal, 16, 9.* DOI: http://doi.org/10.5334/dsj-2017-009.
