@@ -4,7 +4,7 @@ keywords:
 summary: Documentation is a love letter that you write to your future self. Damian Conway (2005). “Perl Best Practices”, p.153, "O'Reilly Media, Inc.
 
 sidebar: mydoc_sidebar
-permalink: documentation_for_metadata.html
+permalink: data_documentation.html
 ---
 
 ## What is data documentation
