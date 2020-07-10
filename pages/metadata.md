@@ -56,7 +56,7 @@ Consider having two metadata sheets:
 * One generic about your overall study, containing metadata fields such as “Study Title”, “Study description”, “Experimental Factors”, “Study Design” etc.
 * One for describing the individual observation and measurements, containing attributes such as “Replicate N”, “Date”, “Length”, “Datafile name” etc… as column names.
 
-It is also possible to use a [README file](documentation_for_metadata.html) or the first tab of a spreadsheet to describe metadata fields about the overall study and define controlled vocabularies for the attributes in the columns. To avoid confusion on the interpretation of the value of metadata fields, you should always have the exact definition and scope of your used metadata fields. If you use **standard** metadata, you can refer to the definitions of the standard, rather than having to describe the metadata fields yourself in a data dictionary (or glossary or codebook). For example, not everybody understands automatically that ‘length’ describes how tall a subject is, or how it is measured.
+It is also possible to use a [README file](data_documentation.html) or the first tab of a spreadsheet to describe metadata fields about the overall study and define controlled vocabularies for the attributes in the columns. To avoid confusion on the interpretation of the value of metadata fields, you should always have the exact definition and scope of your used metadata fields. If you use **standard** metadata, you can refer to the definitions of the standard, rather than having to describe the metadata fields yourself in a data dictionary (or glossary or codebook). For example, not everybody understands automatically that ‘length’ describes how tall a subject is, or how it is measured.
 
 {% include image.html file="metadata.png" caption="<b>Figure 3.</b> Metadata fields description and controlled vocabulary." %}
 
@@ -84,9 +84,9 @@ For more information about data organisation in spreadsheet, see the following w
 * Pivot Table in [Excel](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
 
 ## References
-[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University\\
-[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent\\
-[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata)\\
-[Research Data Alliance (RDA)](https://www.rd-alliance.org/) - Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/)\\
-The [Research Data Management Group](https://data.research.cornell.edu/) at Cornell\\
-[GO FAIR Principles](https://www.go-fair.org/fair-principles/)
+[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University.\\
+[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent.\\
+[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata).\\
+[Research Data Alliance (RDA)](https://www.rd-alliance.org/) - Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/).\\
+The [Research Data Management Group](https://data.research.cornell.edu/) at Cornell.\\
+[GO FAIR Principles](https://www.go-fair.org/fair-principles/).

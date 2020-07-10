@@ -38,5 +38,4 @@ permalink: file_formats.html
 | Proteomics | Mass spectroscopy | mzXML or mzML | yes |
 
 ## References
-[UGent guidelines on file formats](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Fileformats)\\
-
+[UGent guidelines on file formats](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Fileformats).
