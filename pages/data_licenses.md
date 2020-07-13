@@ -36,7 +36,7 @@ Among the standard licenses commonly used for research data is the suite of [Cre
 When sharing your dataset in a repository, a license can be applied in several ways:
 * A repository can apply its default license or sharing policy to all deposited datasets. In this case, restrictions on the use of data obtained through the repository can be found on the repository’s webpage, usually under “Help”, “FAQ” or “About us”.
 * Some repositories require that the datasets owner selects a license from a list of options, when depositing the datasets.
-* Other repositories let the owner specify the license in the [data documentation](data_documentation.html), such as a README file, attached to the data.
+* Other repositories let the owner specify the license in the [data documentation](data_documentation), such as a README file, attached to the data.
 
 Repositories can be selected based on data license and sharing policy by using [re3data.org](https://www.re3data.org/search?query=).
 

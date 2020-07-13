@@ -31,13 +31,13 @@ Data repositories can use:
 * **Standard metadata schemas**\\
 The RDA keeps an open knowledge base on research metadata standards along with the [repositories that use them](https://rd-alliance.github.io/metadata-directory/use_cases/). Repositories can be selected based on metadata standard by using [re3data.org](https://www.re3data.org/search?query=).
 * **Repository-Developed metadata schemas**\\
-Some repositories have decided that current standards do not fit their metadata needs, and so they have created their own requirements. Information about a specific metadata schema required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Moreover, lists of Repository-Developed metadata schemas can be found on [DCC](https://www.dcc.ac.uk/resources/metadata-standards/repository-developed-metadata-schemas) and [RDA](https://rd-alliance.github.io/metadata-directory/standards/repository-developed-metadata-schemas.html) websites.
+Some repositories have decided that current standards do not fit their metadata needs, and so they have created their own requirements. Information about a specific metadata schema required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Moreover, lists of Repository-Developed metadata schemas can be found on [DCC](https://www.dcc.ac.uk/resources/metadata-standards/repository-developed-metadata-schemas) and [RDA](https://rd-alliance.github.io/metadata-directory/standards/repository-developed-metadata-schemas) websites.
 
-Since [data repositories](existing_data.html) can require that submitted datasets must be described according to a specific metadata schema, it is recommended to consider in what repository your data could be published already at the beginning of your project. Knowing what metadata will be required allows you to easily keep track of all that information, while collecting the data or performing the experiments.
+Since [data repositories](existing_data) can require that submitted datasets must be described according to a specific metadata schema, it is recommended to consider in what repository your data could be published already at the beginning of your project. Knowing what metadata will be required allows you to easily keep track of all that information, while collecting the data or performing the experiments.
 
 ## Metadata schema in practice
 **Choose metadata schema(s) for your dataset**\\
-Before starting your project or your experiments, consider what repositories could be appropriate to publish your datasets. [EMBL-EBI Data Submission wizard](https://www.ebi.ac.uk/submission/) will guide you to the right archive for your data in a few simple steps. For a more complete list of data repositories see [here](existing_data.html).
+Before starting your project or your experiments, consider what repositories could be appropriate to publish your datasets. [EMBL-EBI Data Submission wizard](https://www.ebi.ac.uk/submission/) will guide you to the right archive for your data in a few simple steps. For a more complete list of data repositories see [here](existing_data).
 
 After you have found the appropriate repository for your data, download or write down the required metadata schema, or at least the mandatory fields. If the repository doesn’t require a specific metadata schema, you can choose a **generic and/or a discipline-specific** one for your dataset. You can also use more than one schema, for example, to describe a multi-disciplinary dataset, or add attributes of your choice.
 
@@ -56,7 +56,7 @@ Consider having two metadata sheets:
 * One generic about your overall study, containing metadata fields such as “Study Title”, “Study description”, “Experimental Factors”, “Study Design” etc.
 * One for describing the individual observation and measurements, containing attributes such as “Replicate N”, “Date”, “Length”, “Datafile name” etc… as column names.
 
-It is also possible to use a [README file](data_documentation.html) or the first tab of a spreadsheet to describe metadata fields about the overall study and define controlled vocabularies for the attributes in the columns. To avoid confusion on the interpretation of the value of metadata fields, you should always have the exact definition and scope of your used metadata fields. If you use **standard** metadata, you can refer to the definitions of the standard, rather than having to describe the metadata fields yourself in a data dictionary (or glossary or codebook). For example, not everybody understands automatically that ‘length’ describes how tall a subject is, or how it is measured.
+It is also possible to use a [README file](data_documentation) or the first tab of a spreadsheet to describe metadata fields about the overall study and define controlled vocabularies for the attributes in the columns. To avoid confusion on the interpretation of the value of metadata fields, you should always have the exact definition and scope of your used metadata fields. If you use **standard** metadata, you can refer to the definitions of the standard, rather than having to describe the metadata fields yourself in a data dictionary (or glossary or codebook). For example, not everybody understands automatically that ‘length’ describes how tall a subject is, or how it is measured.
 
 {% include image.html file="metadata.png" caption="<b>Figure 3.</b> Metadata fields description and controlled vocabulary." %}
 
@@ -69,7 +69,7 @@ Especially if you work with several people in a project, or similar experiments 
 
 3. **Use controlled vocabulary and data validation** as much as you can to avoid mistakes, such as typos, misspelling, synonymous etc.
 
-4. **Use standard metadata schema and [ontology](ontology.html)** as much as possible, so that your data can be reused and different experiments can be easily compared.
+4. **Use standard metadata schema and [ontology](ontology)** as much as possible, so that your data can be reused and different experiments can be easily compared.
 
 5. **Do not include calculation nor graphs in the metadata sheet.** Metadata sheet should only contain metadata and/or raw data. For calculation and graphs, make a copy of the spreadsheet.
 
@@ -78,7 +78,7 @@ Especially if you work with several people in a project, or similar experiments 
 
 For more information about data organisation in spreadsheet, see the following websites:
 * [Data organisation in spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989).
-* [Data carpentry: Formatting data table in spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/index.html) and [Formatting problems](https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/#tabs).
+* [Data carpentry: Formatting data table in spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/index) and [Formatting problems](https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/#tabs).
 * [Preparing tabular data for description and archiving](https://data.research.cornell.edu/content/tabular-data
 ), Cornell University.
 * Pivot Table in [Excel](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).

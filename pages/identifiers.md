@@ -14,7 +14,7 @@ Various PID systems exist: [DOI](https://www.doi.org/), [Handle](http://www.hand
 
 
 ## Digital Object Identifier
-Digital Object Identifier is the most widely adopted PID across repositories. Important among the group of [DOI Registration Agencies](https://www.doi.org/registration_agencies.html) are [CrossRef](https://www.crossref.org/), which assigns ID to academic publications, and [DataCite](https://datacite.org/), which does so to research data and other research outputs.
+Digital Object Identifier is the most widely adopted PID across repositories. Important among the group of [DOI Registration Agencies](https://www.doi.org/registration_agencies) are [CrossRef](https://www.crossref.org/), which assigns ID to academic publications, and [DataCite](https://datacite.org/), which does so to research data and other research outputs.
 
 
 

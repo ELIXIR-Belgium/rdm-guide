@@ -10,7 +10,7 @@ permalink: data_management_steps.html
 It is good practise to share research data at the end of a project, especially if used for a publication.\\
 A recommended way to share data is by deposition into an online repository, that will store your data and make it accessible to others.  Repositories can be general or discipline specific; we suggest using disciplinary repositories to increase the impact of your data among your peers.
 
-Before generating data, consider in what repository you want to share it at the end of the project. This gives you the advantage of structuring the dataset and the [metadata](metadata.html) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.\\
+Before generating data, consider in what repository you want to share it at the end of the project. This gives you the advantage of structuring the dataset and the [metadata](metadata) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.\\
 By starting with the end in mind, you will avoid spending time restructuring the dataset and rewriting metadata at the end of the project, when collecting the necessary information can be difficult.
 
 ## Choose the appropriate repository for your dataset
@@ -19,8 +19,8 @@ You can find the right repository for your dataset by following the steps descri
 1.  Consider possible ethical and legal implications of your dataset (contact the ethical committee and the legal team in your institution, if necessary).
 
     * Funders’ requirements: check what are the requirements of your research funder about the results of the research and the underlying data.
-    * [Data access restrictions](datasets_sharing.html): check if there are legal or ethical reasons to restrict access to your data.
-    * [Data reusability](data_licenses.html): check if there is any reason to limit reusability of your data by others or if you need to put a specific license on the data.
+    * [Data access restrictions](datasets_sharing): check if there are legal or ethical reasons to restrict access to your data.
+    * [Data reusability](data_licenses): check if there is any reason to limit reusability of your data by others or if you need to put a specific license on the data.
 
 
 2.  When these aspects of your dataset are clear to you, you can start narrowing down possible choices by using some of the following tools:
@@ -36,18 +36,18 @@ You can find the right repository for your dataset by following the steps descri
 Before start generating or collecting data, there are three things that you need to learn about the selected repositories:
 
 1.  **Metadata schema and ontology**\\
-    Information about a specific metadata schema and ontology required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your dataset when you start generating or collecting data. To know more, read [here](metadata.html) about “metadata schema in practise” and [here](ontology.html) for ontology.
+    Information about a specific metadata schema and ontology required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your dataset when you start generating or collecting data. To know more, read [here](metadata) about “metadata schema in practise” and [here](ontology) for ontology.
 
 2.  **File formats**\\
-    Information about file format(s) accepted by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Knowing what file formats are accepted by the repository of your choice, at the beginning of the project, allows you to immediately use the appropriate format for your datafiles. More information about recommended file formats can be found [here](file_formats.html).
+    Information about file format(s) accepted by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Knowing what file formats are accepted by the repository of your choice, at the beginning of the project, allows you to immediately use the appropriate format for your datafiles. More information about recommended file formats can be found [here](file_formats).
 
 3.  **Costs**\\
-    Costs for data sharing and storage could be significant, so it is wise to take these costs into account when asking for research fundings and in your data management plan (DMP). Usually, these costs depend on the [volume](data_volume.html) of the data and the required duration of the service. ELIXIR Deposition Databases for Biomolecular Data and other online repositories offer sharing and storage service free of charge; however, some repositories can have a different fee policy. Therefore, it can be useful to read Terms and Conditions of the repository of your choice, before generating data.
+    Costs for data sharing and storage could be significant, so it is wise to take these costs into account when asking for research fundings and in your data management plan (DMP). Usually, these costs depend on the [volume](data_volume) of the data and the required duration of the service. ELIXIR Deposition Databases for Biomolecular Data and other online repositories offer sharing and storage service free of charge; however, some repositories can have a different fee policy. Therefore, it can be useful to read Terms and Conditions of the repository of your choice, before generating data.
 
 ## Write your DMP and start your research
 Hopefully, these steps help you start writing you DMP and describing your datasets according to standards used by online repositories, so that the data submission process will be smooth.
 
-General information about [metadata](metadata.html), [ontology](ontology.html), [file formats](file_formats.html) and [costs](costs_for_sharing_and_storing_data.html) can be found in the section “Make your Data Management Plan” of this DM Hub. Specific information about repositories listed in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) can be found in the “Data Management for Omics Data” section.
+General information about [metadata](metadata), [ontology](ontology), [file formats](file_formats) and [costs](costs_for_sharing_and_storing_data) can be found in the section “Make your Data Management Plan” of this DM Hub. Specific information about repositories listed in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) can be found in the “Data Management for Omics Data” section.
 
 ## References
 [Jisc RDM Toolkit](https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/)
