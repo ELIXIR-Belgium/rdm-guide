@@ -1,5 +1,5 @@
 ---
-title: Data Documentation
+title: Data documentation
 keywords:
 summary: Documentation is a love letter that you write to your future self. Damian Conway (2005). “Perl Best Practices”, p.153, "O'Reilly Media, Inc.
 
@@ -8,30 +8,32 @@ permalink: data_documentation.html
 ---
 
 ## What is data documentation
-It is good practise to write metadata and instructions about how to understand, interpret and reuse the data in a documentation, which will be provided with or linked to the data.\\
-Good documentation helps yourself and others in the future to understand how you collected and organised the data.
+It is good practise to write metadata and instructions about how to understand, interpret and reuse the data in a documentation, which will be provided with or linked to the data. Good documentation helps yourself and others in the future to understand how you collected and organised the data.
 
 ## Documentation methods
-There are different ways of providing your data documentation, depending on the context in which data is shared or stored.
-* **Documentation in a published journal article or online platform.**  If the information needed to understand data is in a journal article or in an online platform, it is possible to refer to it from the data sharing system, but before doing so you should be sure that (a) it provides sufficient detail and (b) that it will be available as open access.\\
+There are different ways of providing your data documentation, depending on the context in which your data and documentation are shared and/or stored.
+* **Documentation in a published journal article or online platform.**\\
+If the information needed to understand data is in a journal article or in an online platform, it is possible to refer to it from the data sharing system, but before doing so you should be sure that (a) it provides sufficient detail and (b) that it will be available as open access.\\
 Note that usually ELNs and lab books are not open access, so they could be not suitable as data documentation.
-* **Documentation in a web submission form of the deposition database or repository.** In some cases, repositories and archives have specific [metadata fields](metadata) in their web submission form, which could require a specific [ontology](ontology) or controlled vocabulary. Find out the fields of the submission form of the repository to which you are planning to submit your data, copy these fields into your data documentation and fill these in as you go through your project.
-* **Documentation in a separate structured metadata file.** Some disciplines have developed structured [metadata schemas](metadata) for recording supporting information. Find out the fields of the metadata schema, download or copy these fields into your data documentation and fill these in as you go through your project. A structured metadata file can accompany files/data being deposited in a repository.
+* **Documentation in a web submission form of the deposition database or repository.**\\
+In some cases, repositories and archives have specific [metadata fields](metadata) in their web submission form, which could require a specific [ontology](ontology) or controlled vocabulary. Find out the fields of the submission form of the repository to which you are planning to submit your data, copy these fields into your data documentation and fill these in as you go through your project.
+* **Documentation in a separate structured metadata file.**\\
+Some disciplines have developed structured [metadata schemas](metadata) for recording supporting information. Find out the fields of the metadata schema, download or copy these fields into your data documentation and fill these in as you go through your project. A structured metadata file can accompany files/data being deposited in a repository.
 * **Documentation in a 'README' file.** Any information that cannot be recorded in a structured way (i.e. as the values of fields in a data or metadata file) can be recorded as free text within a README file. A README file can accompany files/data being deposited in a repository.
 
 ## README file
-**What is a README file**
+**What is a README file**\\
 A readme file is usually a text file titled README.txt, in .txt open format. Its title indicates that any potential user of your data should consult it before checking your data.\\
 There are many types of README files, such as  README file to help you remember **how you organized your folders and files** on your computer or intranet, and  README file **describing the files** within each folder on your computer/intranet. Depending on how many files you have and for how many years you are going to maintain these files, you can create a README file for your directory or for each folder and subfolder created within your directory to document specific parts of your data.
 
-**When to make a README file**
+**When to make a README file**\\
 It is generally better to start writing up that information into a central document as soon as you start collecting your data, or even during the planning phase. Definitely before you show a project to other people or make it public. You might want to get into the habit of making it the first file you create in a new project.\\
 The repository could also ask for a README file. That README file will include a listing of all the files to be submitted to the repository along with pertinent information. Creating a README file at the beginning of each project will save you time later.
 
-**What to write in a README file**
+**What to write in a README file**\\
 You should only include elements that are useful and/or necessary to correctly interpret, evaluate and reuse your dataset, without the need to contact you directly about the dataset. The goal is not to make your readme file too lengthy.
 
-The following is a [suggested list](https://libguides.graduateinstitute.ch/rdm/readme) of elements you could include in a readme file located at the root of your dataset. You may of course place some of them in secondary documentation or in separate files, or even embed them in your data.
+[The Graduate Institute Geneva](https://libguides.graduateinstitute.ch/rdm/readme) compiled the following list of elements you could include in a readme file located at the root of your dataset. You may of course place some of them in secondary documentation or in separate files, or even embed them in your data.
 
 * General information
   * Dataset title

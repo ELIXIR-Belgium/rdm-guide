@@ -16,7 +16,7 @@ entries:
       url: /about_DMP.html
       output: web
       subfolders:
-        - title: Make your Data Management Plan
+        - title: Make your DMP
           output: web
           subfolderitems:
             - title: Online tools for DMP
@@ -31,10 +31,10 @@ entries:
             - title: Data volume
               url: /data_volume.html
               output: web
-            - title: Datasets Sharing
+            - title: Datasets sharing
               url: /datasets_sharing.html
               output: web
-            - title: Data Licenses
+            - title: Data licenses
               url: /data_licenses.html
               output: web
             - title: Metadata
@@ -46,7 +46,7 @@ entries:
             # - title: Ontology
             #   url: /ontology.html
             #   output: web
-            - title: Data Documentation
+            - title: Data documentation
               url: /data_documentation.html
               output: web
             # - title: Costs for sharing and storing data
