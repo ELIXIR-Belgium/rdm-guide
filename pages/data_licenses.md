@@ -1,5 +1,5 @@
 ---
-title: Data Licenses
+title: Data licenses
 keywords:
 summary: Licensing is a way to stipulate when and how protected rights  in research data (such as copyright) can be used by others.
 sidebar: mydoc_sidebar
@@ -26,11 +26,13 @@ Therefore, to ensure reusability of a dataset or other copyrightable research ob
 ## Open licenses
 It is good practice to apply a [free or open license](https://en.wikipedia.org/wiki/Free_license) that grants the general public various levels of permissions and ensure legal interoperability and the widest possible reuse.
 
-Among the standard licenses commonly used for research data is the suite of [Creative Commons](https://creativecommons.org/licenses/) (CC) licenses, which offers different levels of permission. \\
+Among the standard licenses commonly used for **research data** is the suite of [Creative Commons](https://creativecommons.org/licenses/) (CC) licenses, which offers different levels of permission. \\
  CC licenses [conformant with the “Open Definition”](https://opendefinition.org/licenses/) are:
 * Public Domain Dedication ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)): waives (gives up) all possible copyright and related rights.
 * Attribution ([CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)): gives others maximum freedom to reuse (i.e. copy, redistribute, adapt) your work, provided they give appropriate credit.
 * Attribution Share-Alike ([CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)): same as CC-BY-4.0, but requires redistribution of derivative works under this same license.
+
+Licenses commonly used for **software** can be found [here](https://choosealicense.com/licenses/).
 
 ## Data licenses and repositories
 When sharing your dataset in a repository, a license can be applied in several ways:
@@ -42,13 +44,14 @@ Repositories can be selected based on data license and sharing policy by using [
 
 ## How to select and apply a license
 **Tools**
-* [License Selector](https://ufal.github.io/public-license-selector/)
-* [License Chooser](https://creativecommons.org/choose/)
+* [License Selector](https://ufal.github.io/public-license-selector/).
+* [License Chooser](https://creativecommons.org/choose/).
+* [Choose an open source license](https://choosealicense.com).
 
 **Tutorials**
-* [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948),Queen’s University Library
+* [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948), Queen’s University Library.
 
-* [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning
+* [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning.
 
 
 ## References
