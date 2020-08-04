@@ -38,10 +38,10 @@ You can find the right repository for your dataset by following the steps descri
 Before start generating or collecting data, there are three things that you need to learn about the selected repositories:
 
 1.  **Metadata schema and ontology**\\
-    Information about a specific metadata schema and ontology required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your dataset when you start generating or collecting data. To know more, read [here](metadata) about “metadata schema in practice” and [here](ontology) for ontology.
+    Information about a specific metadata schema and ontology required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your dataset when you start generating or collecting data. Read more about [metadata schema in practice](metadata_in_practice) and [ontology](ontology).
 
 2.  **File formats**\\
-    Information about file format(s) accepted by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Knowing what file formats are accepted by the repository of your choice, at the beginning of the project, allows you to immediately use the appropriate format for your datafiles. More information about recommended file formats can be found [here](file_formats).
+    Information about file format(s) accepted by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Knowing what file formats are accepted by the repository of your choice, at the beginning of the project, allows you to immediately use the appropriate format for your datafiles. Read more about recommended [file formats](file_formats).
 
 3.  **Costs**\\
     Costs for data sharing and storage could be significant, so it is wise to take these costs into account when asking for research fundings and in your [data management plan (DMP)](about_DMP). Usually, these costs depend on the [volume](data_volume) of the data and the required duration of the service. [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) and other online repositories offer sharing and storage service free of charge; however, some repositories can have a different fee policy. Therefore, it can be useful to read "Terms and Conditions" of the repository of your choice, before generating data.
