@@ -1,7 +1,8 @@
 ---
 title: Data documentation
 keywords:
-summary: Documentation is a love letter that you write to your future self. Damian Conway (2005). “Perl Best Practices”, p.153, "O'Reilly Media, Inc.
+summary: "“Documentation is a love letter that you write to your future self.” Damian Conway (2005).
+"
 
 sidebar: mydoc_sidebar
 permalink: data_documentation.html
@@ -19,7 +20,8 @@ Note that usually ELNs and lab books are not open access, so they could be not s
 In some cases, repositories and archives have specific [metadata fields](metadata) in their web submission form, which could require a specific [ontology](ontology) or controlled vocabulary. Find out the fields of the submission form of the repository to which you are planning to submit your data, copy these fields into your data documentation and fill these in as you go through your project.
 * **Documentation in a separate structured metadata file.**\\
 Some disciplines have developed structured [metadata schemas](metadata) for recording supporting information. Find out the fields of the metadata schema, download or copy these fields into your data documentation and fill these in as you go through your project. A structured metadata file can accompany files/data being deposited in a repository.
-* **Documentation in a 'README' file.** Any information that cannot be recorded in a structured way (i.e. as the values of fields in a data or metadata file) can be recorded as free text within a README file. A README file can accompany files/data being deposited in a repository.
+* **Documentation in a 'README' file.**\\
+Any information that cannot be recorded in a structured way (i.e. as the values of fields in a data or metadata file) can be recorded as free text within a README file. A README file can accompany files/data being deposited in a repository.
 
 ## README file
 **What is a README file**\\
@@ -33,7 +35,7 @@ The repository could also ask for a README file. That README file will include a
 **What to write in a README file**\\
 You should only include elements that are useful and/or necessary to correctly interpret, evaluate and reuse your dataset, without the need to contact you directly about the dataset. The goal is not to make your readme file too lengthy.
 
-[The Graduate Institute Geneva](https://libguides.graduateinstitute.ch/rdm/readme) compiled the following list of elements you could include in a readme file located at the root of your dataset. You may of course place some of them in secondary documentation or in separate files, or even embed them in your data.
+[The Graduate Institute Geneva](https://libguides.graduateinstitute.ch/rdm/readme) compiled the following list of elements you could include in a README file located at the root of your dataset. You may of course place some of them in secondary documentation or in separate files, or even embed them in your data.
 
 * General information
   * Dataset title

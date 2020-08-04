@@ -5,19 +5,18 @@ sidebar: mydoc_sidebar
 permalink: metadata_in_practice.html
 ---
 
-## Metadata schema in spreadsheet
-**Choose metadata schema(s) for your dataset**\\
-Before starting your project or your experiments, consider what repositories could be appropriate to publish your datasets. [EMBL-EBI Data Submission wizard](https://www.ebi.ac.uk/submission/) will guide you to the right archive for your data in a few simple steps. For a more complete list of data repositories see [here](existing_data).
+## Choose metadata schema(s) for your dataset**\\
+Before starting your project or your experiments, consider [what repositories](data_management_steps) could be appropriate to publish your datasets. For biomolecular data in Life Sciences, [EMBL-EBI Data Submission wizard](https://www.ebi.ac.uk/submission/) will guide you to the right archive for your data in a few simple steps.
 
 After you have found the appropriate repository for your data, download or write down the required metadata schema, or at least the mandatory fields. If the repository doesn’t require a specific metadata schema, you can choose a **[generic and/or a discipline-specific](metadata)** one for your dataset. You can also use more than one schema, for example, to describe a multi-disciplinary dataset, or add attributes of your choice.
 
-**Use metadata in spreadsheets**\\
+## Use metadata in spreadsheets\\
 An easy way to apply metadata to your dataset is using a spreadsheet (such as Excel and Google Sheets). Excel and Google Sheets are a simple way to create metadata schemes with controlled vocabulary drop-down lists (data validation in [Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us) and [Google Sheets](https://support.google.com/docs/answer/186103?hl=en&ref_topic=1361472)). In practice, you can put attributes or metadata fields in columns, and have one row of values or descriptions per measurement. The top row with the metadata fields can be made write protected (cell protection in [Excel](https://support.microsoft.com/en-us/office/lock-cells-to-protect-them-cb7835f6-9c37-4161-bb53-d1c410acaf21) and [Google Sheets](https://support.google.com/docs/answer/1218656?co=GENIE.Platform%3DDesktop&hl=en) and frozen to be always visible (freeze rows/columns in [Excel](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f) and [Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)).
 
-**Levels of metadata**
+**Levels of metadata**\\
 Consider having two metadata sheets:
 * One generic about your overall study, containing metadata fields such as “Study Title”, “Study description”, “Experimental Factors”, “Study Design” etc.
-* One for describing the individual observation and measurements, containing attributes such as “Replicate N”, “Date”, “Length”, “Datafile name” etc… as column names.
+* One for describing the individual observations and measurements, containing attributes as column names, such as “Replicate N”, “Date”, “Length”, “Datafile name” etc.
 
 It is also possible to use a [README file](data_documentation) or the first tab of a spreadsheet to describe metadata fields about the overall study and define controlled vocabularies for the attributes in the columns. To avoid confusion on the interpretation of the value of metadata fields, you should always have the exact definition and scope of your used metadata fields. If you use [**standard metadata**](metadata), you can refer to the definitions of the standard, rather than having to describe the metadata fields yourself in a data dictionary (or glossary or codebook). For example, not everybody understands automatically that ‘length’ describes how tall a subject is, or how it is measured.
 
@@ -27,22 +26,27 @@ Usually, a (meta)data sheet holds 30 or more attributes to describe data at indi
 
 {% include image.html file="metadata_source.png" caption="<b>Figure 2.</b> Metadata spreadsheet with more than 30 attributes" %}
 
-If applicable include a field that takes the name of the file that actually holds the measurement data and other files that give detailed information (i.e.  the exact protocol used or scripts of analyses done on your samples, etc...).
+If applicable include a field that takes the name of the file that actually holds the measurement data and other files that give detailed information (i.e.  the exact protocol used or scripts of analyses done on your samples, etc.).
 
 {% include image.html file="metadata_source_2.png" caption="<b>Figure 3.</b> Metadata spreadsheet with fields that take the name of the used protocol and the datafile containing the raw data." %}
 
 Especially if you work with several people in a project, or similar experiments or measurements are done regularly in your research group, it is a good idea to develop metadata schemes for the collected data and have controlled vocabulary to fill in these schemes. If you standardise your metadata sheet, it can be reused and different experiments can be easily compared.
 
 ## Tips
-1. **Make metadata sheets before or simultaneously with data production.** You could start making them while you are writing the project or the data management plan. It will help you estimate data volume and potential ethical issues.
+1. **Make metadata sheets before or simultaneously with data production.**\\
+You could start making them while you are writing the project or the data management plan. It will help you estimate data volume and potential ethical issues.
 
-2. **Add all information needed to understand and reproduce your experiments as metadata:** dose, time, date, frequency, measurement unit, geographical coordinates, unexpected events, parameter settings, name and version of the software used etc…. Include reference to used protocols and raw or processed datafiles. Add also variables that you don’t need immediately (ex: age or sex), but that could be useful to “your futute-self” and others in the future. The context of the data generation should be richly annotated to maximize its reusability: mention any particularities or limitations about the data that other users should be aware of. Ensure that all variable names are explained or self-explanatory (i.e., defined in the research field’s controlled vocabulary). Clearly specify the version of the archived and/or reused data.
+2. **Add all information needed to understand and reproduce your experiments as metadata.**\\
+Metadata fields could be dose, time, date, frequency, measurement unit, geographical coordinates, unexpected events, parameter settings, name and version of the software used etc. Include reference to used protocols and raw or processed datafiles. Add also variables that you don’t need immediately (ex: age or sex), but that could be useful to “your futute-self” and others in the future. The context of the data generation should be richly annotated to maximize its reusability: mention any particularities or limitations about the data that other users should be aware of. Ensure that all variable names are explained or self-explanatory (i.e., defined in the research field’s controlled vocabulary). Clearly specify the version of the archived and/or reused data.
 
-3. **Use controlled vocabulary and data validation** as much as you can to avoid mistakes, such as typos, misspelling, synonymous etc.
+3. **Use controlled vocabulary and data validation.**\\
+Use controlled vocabulary and data validation as much as you can to avoid mistakes, such as typos, misspelling, synonymous etc.
 
-4. **Use standard metadata schema and [ontology](ontology)** as much as possible, so that your data can be reused and different experiments can be easily compared.
+4. **Use standard metadata schema and ontology.**\\
+Use standard metadata schema and [ontology](ontology) as much as possible, so that your data can be reused and different experiments can be easily compared.
 
-5. **Do not include calculation nor graphs in the metadata sheet.** Metadata sheet should only contain metadata and/or raw data. For calculation and graphs, make a copy of the spreadsheet.
+5. **Do not include calculation nor graphs in the metadata sheet.**\\
+Metadata sheet should only contain metadata and/or raw data. For calculation and graphs, make a copy of the spreadsheet.
 
 6. **Do not use colour code as (meta)data and do not combine multiple variables in one cell.**
 

@@ -22,6 +22,9 @@ entries:
             - title: Online tools for DMP
               url: /online_tools_for_dmp.html
               output: web
+            # - title: Data in DMP
+            #   url: /data_in_dmp.html
+            #   output: web
             - title: Existing data
               url: /existing_data.html
               output: web
