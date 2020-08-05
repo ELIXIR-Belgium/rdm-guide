@@ -14,7 +14,7 @@ permalink: file_formats.html
 * [List of open formats](https://en.wikipedia.org/wiki/List_of_open_formats).
 
 **Files in PROPRIETARY format (non-preferred)**
-* Can only be opened using paid-license software.
+* Can only be opened using paid-licence software.
 * Tend to be replaced by new versions or new formats, limiting their future reuse.
 * Have an either patented or trade-secret specification.
 * [List of proprietary formats]( https://en.wikipedia.org/wiki/Proprietary_format).
@@ -23,7 +23,7 @@ permalink: file_formats.html
 **Considerations before choosing a file format**
 * The format of raw and processed data files could depend on the instrument or the software that generates the data.
 * Some data repositories could require specific file formats. In this case, information about the accepted formats can be found on the repository’s webpage.
-* It is good practise to use open or recommended formats when possible.
+* It is good practice to use open or recommended formats when possible.
 
 **Recommended file formats can be found via**
 * DANS, [File formats](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats).
