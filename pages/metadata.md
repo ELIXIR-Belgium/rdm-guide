@@ -40,7 +40,7 @@ Some repositories have decided that current standards do not fit their metadata 
 
 Since data repositories can require that submitted datasets must be described according to a specific metadata schema, it is recommended to consider in [what repository](data_management_steps) your data could be published already at the beginning of your project. Knowing what metadata will be required allows you to easily keep track of all that information, while collecting the data or performing the experiments.
 
-## How to use metadata schema in practice\\
+## How to use metadata schema in practice
 [Metadata schema in practice](metadata_in_practice)
 
 ## References

@@ -3,7 +3,7 @@
 entries:
 - title:
   folders:
-  - title: About
+  - title: About us
     output: web
     url: /data_management_hub.html
   - title: Data Management in Simple Steps
@@ -22,9 +22,9 @@ entries:
             - title: Online tools for DMP
               url: /online_tools_for_dmp.html
               output: web
-            # - title: Data in DMP
-            #   url: /data_in_dmp.html
-            #   output: web
+            - title: Data in DMP
+              url: /data_in_dmp.html
+              output: web
             - title: Existing data
               url: /existing_data.html
               output: web
@@ -37,8 +37,8 @@ entries:
             - title: Datasets sharing
               url: /datasets_sharing.html
               output: web
-            - title: Data licenses
-              url: /data_licenses.html
+            - title: Data licences
+              url: /data_licences.html
               output: web
             - title: Metadata
               url: /metadata.html

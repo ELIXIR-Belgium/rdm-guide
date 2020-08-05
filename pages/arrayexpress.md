@@ -18,7 +18,7 @@ Open, public
 **Embargo**\\
 Possible (private access)
 
-**Data license**\\
+**Data licence**\\
 Not specified. However, there are no restrictions on the use of data obtained through ArrayExpress. All public data from ArrayExpress can be used by anyone and the services are completely free of charge ([ArrayExpress FAQ](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions)).
 
 **Experiment types**\\

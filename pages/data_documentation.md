@@ -9,7 +9,7 @@ permalink: data_documentation.html
 ---
 
 ## What is data documentation
-It is good practise to write metadata and instructions about how to understand, interpret and reuse the data in a documentation, which will be provided with or linked to the data. Good documentation helps yourself and others in the future to understand how you collected and organised the data.
+It is good practice to write metadata and instructions about how to understand, interpret and reuse the data in a documentation, which will be provided with or linked to the data. Good documentation helps yourself and others in the future to understand how you collected and organised the data.
 
 ## Documentation methods
 There are different ways of providing your data documentation, depending on the context in which your data and documentation are shared and/or stored.

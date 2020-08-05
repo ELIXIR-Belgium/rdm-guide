@@ -25,4 +25,4 @@ Before you start writing your DMP, it is important to think about a number of as
 
 ## References
 [Data Management Made Simple, Nature 2018](https://www.nature.com/articles/d41586-018-03071-1?utm_source=twt_nnc&utm_medium=social&utm_campaign=naturenews&sf184398395=1 ).\\
-[Standford library](https://library.stanford.edu/research/data-management-services/data-management-plans).\\
+[Standford library](https://library.stanford.edu/research/data-management-services/data-management-plans).
