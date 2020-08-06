@@ -3,7 +3,7 @@
 entries:
 - title:
   folders:
-  - title: About us
+  - title: About Us
     output: web
     url: /data_management_hub.html
   - title: Data Management in Simple Steps
@@ -51,6 +51,9 @@ entries:
             #   output: web
             - title: Data documentation
               url: /data_documentation.html
+              output: web
+            - title: Data organization
+              url: /data_organization.html
               output: web
             # - title: Costs for sharing and storing data
             #   url: /costs_for_sharing_and_storing_data.html

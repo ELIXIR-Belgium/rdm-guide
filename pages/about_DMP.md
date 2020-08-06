@@ -1,7 +1,7 @@
 ---
 title: About DMP
 keywords: Bibliographic research, Data repositories
-summary: "“You can have data without information, but you cannot have information without data.” Daniel Keys Moran.
+summary: "“If you fail to plan, you are planning to fail.” Benjamin Franklin.
 "
 sidebar: mydoc_sidebar
 permalink: about_DMP.html

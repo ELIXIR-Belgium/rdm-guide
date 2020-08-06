@@ -11,6 +11,6 @@ A transcriptome is the full range of messenger RNA, or mRNA, molecules expressed
 
 Two main techniques are used to study the transcriptome, namely **microarray** and **RNA-seq**. RNA-seq is based on Next Generation Sequencing (NGS) platforms.
 
-## Recommended repositories:
+## Recommended repositories
 * [ArrayExpress](arrayexpress)
 * European Genome-phenome Archive (EGA)

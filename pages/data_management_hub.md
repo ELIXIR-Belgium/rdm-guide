@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Us
 keywords:
 sidebar: mydoc_sidebar
 permalink: data_management_hub.html
