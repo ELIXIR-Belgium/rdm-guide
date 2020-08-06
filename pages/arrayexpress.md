@@ -7,16 +7,16 @@ permalink: arrayexpress.html
 ---
 ## ArrayExpress features
 **How to submit data**\\
-[ArrayExpress submission overview.](https://www.ebi.ac.uk/arrayexpress/submit/overview)
+[ArrayExpress submission overview](https://www.ebi.ac.uk/arrayexpress/submit/overview).
 
 **Non-Personal vs Personal data**\\
-Non personal data only
+Non personal data only.
 
 **Access to data**\\
-Open, public
+Open, public.
 
 **Embargo**\\
-Possible (private access)
+Possible (private access).
 
 **Data licence**\\
 Not specified. However, there are no restrictions on the use of data obtained through ArrayExpress. All public data from ArrayExpress can be used by anyone and the services are completely free of charge ([ArrayExpress FAQ](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions)).
@@ -42,7 +42,7 @@ About  [Sequencing Library Information](https://www.ebi.ac.uk/fg/annotare/help/s
 Annotare doesn’t allow upload of README file. All relevant information about the data need to be provided in the designated fields:\\
 *general information, contacts, publications and describe protocols*.
 
-**File format(s)**\\
+**File format(s)**
 * Raw data
   * Microarray: files obtained from the microarray scanner (e.g. Affymetrix CEL files, Agilent feature extraction txt files, Illumina idat files). See the full list of [accepted raw microarray file formats](https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats).
   * Sequencing: compressed raw sequence read files (e.g. fastq.gz files). See the full list of [accepted raw sequencing file formats](https://www.ebi.ac.uk/arrayexpress/help/UHTS_submissions.html#HowToSubmit).
