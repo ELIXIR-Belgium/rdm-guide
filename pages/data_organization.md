@@ -1,14 +1,14 @@
 ---
 title: Data organization
 keywords:
-summary: "“For every minute spent in organizing, an hour is earned.“ Benjamin Franklin.
+summary: "“For every minute spent in organizing, an hour is earned.” Benjamin Franklin.
 "
 sidebar: mydoc_sidebar
 permalink: data_organization.html
 ---
-## Why organizing your data
+## Why organizing data
 
-{% include image.html file="data_organization_01.jpeg" caption="<b>Figure 1.</b> Why organizing your data. [Stuff on hard drive](https://www.flickr.com/photos/34881492@N00/15852789235), by Erik Maldre (CC BY 2.0)" %}
+{% include image.html file="data_organization_01.png" caption="<b>Figure 1.</b> Why organizing your data. Stuff on hard drive, by Erik Maldre (CC BY 2.0)" %}
 
 Does this image look familiar?
 It is very common to generate numerous folders and files during a research project. Without data organization, it will be very difficult to be able to:
@@ -20,7 +20,9 @@ This section will give you some tips and good practices on file naming, folder o
 
 ## How to organize data
 [File naming](file_naming).
+
 [Folder structure](folder_structure).
+
 [Version control](version_control).
 
 ## References
