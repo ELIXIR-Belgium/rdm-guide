@@ -19,7 +19,7 @@ This process requires knowledge of XML format, HTTPS protocol and RFC1867.
 Non human, non personal data only.
 
 **Access to data**\\
-[Open, Public]((https://www.ebi.ac.uk/ena/browser/about/policies).
+[Open, Public](https://www.ebi.ac.uk/ena/browser/about/policies).
 
 **Embargo**\\
 Possible ([confidential phase](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential)).
@@ -40,7 +40,7 @@ Submit:
 * [Targeted sequences](https://ena-docs.readthedocs.io/en/latest/submit/sequence.html#). Short assembled and annotated sequences representing interesting features or gene regions. All targeted sequences are submitted as "analysis" submission objects.
 * [Other analysis](https://ena-docs.readthedocs.io/en/latest/submit/analyses.html). Any secondary analyses that are not Assemblies or Targeted sequences.
 
-**Metadata**\\
+**Metadata**
 * Study: *Short name, Descriptive title, Abstract*.
 * Sample: see what’s the best [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) to describe your samples. You can also [download the sample metadata schema as a spreadsheet](https://www.ebi.ac.uk/ena/submit/webin/sample-checklist).
 * Raw reads: see metadata fields for [interactive](https://ena-docs.readthedocs.io/en/latest/submit/reads/interactive.html) and [Webin-CLI](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html) submission of raw reads.
@@ -75,3 +75,5 @@ Beyond limited editorial control and some internal integrity checks, the quality
 All database records submitted to the ENA will remain permanently accessible as part of the scientific record. Corrections of errors and update of the records by authors are welcome and erroneous records may be removed from the next database release, but all will remain permanently accessible by **accession number** (adapted from [ENA Policies](https://www.ebi.ac.uk/ena/browser/about/policies)).
 
 The top-level Project accession should be [cited](existing_data) as well as a link to where the data can be found in the browser, as shown in the example [here](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html?highlight=accession#how-to-cite-your-ena-study).
+
+## Tips for data submission
