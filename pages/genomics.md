@@ -6,6 +6,8 @@ sidebar: mydoc_sidebar
 permalink: genomics.html
 ---
 
-## Subtitle 1
+## Genomics
+The full complement of genetic material in an organism is called its genome. Therefore, genomics involves studies that are conducted at the level of the genome ([Scitable by Nature Education](https://www.nature.com/scitable/definition/genomics-126/)).
 
-Some text that you can fill in
+## Recommended repositories
+* [European Nucleotide Archive (ENA)](ena)

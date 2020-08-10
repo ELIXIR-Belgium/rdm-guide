@@ -14,7 +14,7 @@ Does this image look familiar?
 It is very common to generate numerous folders and files during a research project. Without data organization, it will be very difficult to be able to:
 * Always tell which file contains the information you are looking for, and find it.
 * Understand how your files (or your colleagues's files) are organised.
-* know which version of your files is the most recent.
+* Know which version of your files is the most recent.
 
 This section will give you some tips and good practices on file naming, folder organisation, and version control. They should help you and your coworkers save a lot of time on future projects and in your everyday life.
 

@@ -7,7 +7,7 @@ permalink: arrayexpress.html
 ---
 ## ArrayExpress features
 **How to submit data**\\
-[ArrayExpress submission overview](https://www.ebi.ac.uk/arrayexpress/submit/overview).
+[ArrayExpress submission overview](https://www.ebi.ac.uk/arrayexpress/submit/overview.html).
 
 **Non-Personal vs Personal data**\\
 Non personal data only.

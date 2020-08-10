@@ -67,9 +67,9 @@ entries:
   - title: Data Management for Omics Data
     output: web
     folderitems:
-      # - title: Genomics
-      #   url: /genomics.html
-      #   output: web
+      - title: Genomics
+        url: /genomics.html
+        output: web
       # - title: Metabolomics
       #   url: /metabolomics.html
       #   output: web
