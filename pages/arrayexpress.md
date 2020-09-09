@@ -10,19 +10,19 @@ permalink: arrayexpress.html
 [ArrayExpress submission overview](https://www.ebi.ac.uk/arrayexpress/submit/overview.html).
 
 **Non-Personal vs Personal data**\\
-Non personal data only.
+[Non personal data](https://www.ebi.ac.uk/arrayexpress/help/data_availability.html).
 
 **Access to data**\\
-Open, public.
+[Open, public](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions).
 
 **Embargo**\\
-Possible (private access).
+[Possible (private access)](https://www.ebi.ac.uk/arrayexpress/help/data_availability.html#general).
 
 **Data licence**\\
 Not specified. However, there are no restrictions on the use of data obtained through ArrayExpress. All public data from ArrayExpress can be used by anyone and the services are completely free of charge ([ArrayExpress FAQ](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions)).
 
 **Experiment types**\\
-Genetic and epigenetic regulation of transcriptome. List of [experiment types in ArrayExpress](https://www.ebi.ac.uk/arrayexpress/help/experiment_types).
+Genetic and epigenetic regulation of transcriptome. List of [experiment types in ArrayExpress](https://www.ebi.ac.uk/arrayexpress/help/experiment_types.html).
 
 **Metadata**\\
 ArrayExpress users should have everything they need for the data set to make sense and be reproducible without necessarily referring to an associated paper.  
@@ -33,7 +33,7 @@ More specifically, data submission to ArrayExpress occurs through [Annotare subm
 *Organism, organism part, developmental stage, age, genotype, disease, individual, sex, cell line, cell type, cultivar, strain and material type*.\\
 The meaning of these attributes is specified by [EFO ontology](https://www.ebi.ac.uk/ols/ontologies/efo).
 
-About  [Sequencing Library Information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec), Annotare follows the requirements of the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/about).
+About  [Sequencing Library Information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec.html), Annotare follows the requirements of the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/about).
 
 **Ontology**\\
 [Experimental Factor Ontology (EFO)](https://www.ebi.ac.uk/ols/ontologies/efo). EFO provides a systematic description of many experimental variables available in EBI databases.
@@ -44,7 +44,7 @@ Annotare doesn’t allow upload of README file. All relevant information about t
 
 **File format(s)**
 * Raw data
-  * Microarray: files obtained from the microarray scanner (e.g. Affymetrix CEL files, Agilent feature extraction txt files, Illumina idat files). See the full list of [accepted raw microarray file formats](https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats).
+  * Microarray: files obtained from the microarray scanner (e.g. Affymetrix CEL files, Agilent feature extraction txt files, Illumina idat files). See the full list of [accepted raw microarray file formats](https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats.html).
   * Sequencing: compressed raw sequence read files (e.g. fastq.gz files). See the full list of [accepted raw sequencing file formats](https://www.ebi.ac.uk/arrayexpress/help/UHTS_submissions.html#HowToSubmit).
 
 * Processed data
@@ -62,7 +62,7 @@ Experiments and array designs in ArrayExpress are given **unique accession numbe
 
 ## Tips about data submission
 1.  **Make your metadata spreadsheet by using Annotare, at the beginning of the study.**\\
-Before collecting or generating data, login into Annotare and create one “experiment submission” for your dataset. Note that Annotare will ask you for the technology and name of the array, and applies it to the whole submission. If you have used [different types of technologies for the same set of samples](https://www.ebi.ac.uk/arrayexpress/help/pre-submission_checklist), Annotare asks you to create separate submissions.
+Before collecting or generating data, login into Annotare and create one “experiment submission” for your dataset. Note that Annotare will ask you for the technology and name of the array, and applies it to the whole submission. If you have used [different types of technologies for the same set of samples](https://www.ebi.ac.uk/arrayexpress/help/pre-submission_checklist.html), Annotare asks you to create separate submissions.
   * Define the attributes and the variables that you need to describe your samples, in addition to the mandatory ones, and take advantage of the suggested metadata fields.
   * Add just a few samples as rows, in order to select the right terms (from EFO ontology) under each attribute to annotate your samples.
   * Select some text in the ENA library Information section. It could just be temporary information; it is only needed to add ENA library metadata fields in your spreadsheet.
