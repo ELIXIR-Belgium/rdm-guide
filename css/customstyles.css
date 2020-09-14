@@ -94,6 +94,10 @@ a:hover {
     color: var(--link-hover-color);
 }
 
+.footerimg {
+    width: 110px;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
