@@ -22,15 +22,14 @@ Non-personal data (non-identifiable).
 **Access to data**\\
 Open access.
 
-**Embargo**
+**Embargo**\\
 Possible. There are three options for the release date:
 * Data may be published without further notice.
 * Data must be kept confidential until publication.
 *Data may be made public after the specified date.
 
 **Data licence**\\
-UniProt applies the Creative Commons Attribution (CC BY 4.0) License to all copyrightable parts of its databases. It cannot provide unrestricted permission regarding the use of the data, as some data may be covered by patents or other rights.
-(UniProt License & disclaimer)[https://www.uniprot.org/help/license].
+UniProt applies the Creative Commons Attribution (CC BY 4.0) License to all copyrightable parts of its databases. It cannot provide unrestricted permission regarding the use of the data, as some data may be covered by patents or other rights ([UniProt License & disclaimer](https://www.uniprot.org/help/license)).
 
 **Data/Experiments types**
 * Edman degradation.
