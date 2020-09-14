@@ -493,11 +493,15 @@ a.accordion-toggle, a.accordion-collapsed {
     font-size: 16px;
 }
 
-.nav ul li ul li a {
+#mysidebar.nav ul li a {
+    padding-left: 25px;
+}
+
+#mysidebar.nav ul li ul li a {
     padding-left: 40px;
 }
 
-.nav li.thirdlevel>a {
+#mysidebar .nav li.thirdlevel>a {
     font-weight: bold;
     padding-left: 20px;
     background-color: whitesmoke !important;
