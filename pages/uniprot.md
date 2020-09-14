@@ -1,5 +1,5 @@
 ---
-title: European Nucleotide Archive (ENA)
+title: UniProt
 keywords:
 summary: Empty summary
 sidebar: mydoc_sidebar
