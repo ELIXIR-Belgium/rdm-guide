@@ -16,7 +16,7 @@ This process requires command line skills.
 This process requires knowledge of XML format, HTTPS protocol and RFC1867.
 
 **Non-Personal vs Personal data**\\
-Non human, non personal data only.
+Non personal data only.
 
 **Access to data**\\
 [Open, Public](https://www.ebi.ac.uk/ena/browser/about/policies).
@@ -27,7 +27,7 @@ Possible ([confidential phase](https://ena-docs.readthedocs.io/en/latest/faq/rel
 **Data licence**\\
 Not specified. However, no use restrictions or licensing requirements will be included in any sequence data records, and no restrictions or licensing fees will be placed on the redistribution or use of the database by any party ([ENA Policies](https://www.ebi.ac.uk/ena/browser/about/policies)).
 
-**Data types**\\
+**Data/Experiments types**\\
 Register:
 * [Study](https://ena-docs.readthedocs.io/en/latest/submit/study.html#). A study (project) groups together data submitted to the archive, so it is the first step towards submitting your data to ENA.
 * [Sample](https://ena-docs.readthedocs.io/en/latest/submit/samples.html). Each sample in ENA represents biomaterial that a sequencing library was produced from. A sample contains information about the sequenced source material, so it is important to first register your biological samples with ENA. Samples are typically associated with [checklists](https://www.ebi.ac.uk/ena/browser/checklists), which define the [metadata](metadata) fields used to annotate the samples.

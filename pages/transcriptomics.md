@@ -13,4 +13,6 @@ Two main techniques are used to study the transcriptome, namely **microarray** a
 
 ## Recommended repositories
 * [ArrayExpress](arrayexpress)
+ArrayExpress Archive of Functional Genomics Data stores data from high-throughput [functional genomics](https://www.ebi.ac.uk/training/online/course/functional-genomics-introduction-embl-ebi-resource/what-functional-genomics-1) experiments, and provides these data for reuse to the research community.
+
 * European Genome-phenome Archive (EGA)

@@ -70,12 +70,12 @@ entries:
       - title: Genomics
         url: /genomics.html
         output: web
-      # - title: Metabolomics
-      #   url: /metabolomics.html
-      #   output: web
-      # - title: Proteomics
-      #   url: /proteomics.html
-      #   output: web
+      - title: Metabolomics
+        url: /metabolomics.html
+        output: web
+      - title: Proteomics
+        url: /proteomics.html
+        output: web
       - title: Transcriptomics
         url: /transcriptomics.html
         output: web
