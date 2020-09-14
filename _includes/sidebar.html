@@ -1,19 +1,18 @@
 {% assign sidebar = site.data.sidebars[page.sidebar].entries %}
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
-  <li>
       {% if folder.external_url %}
-      <li><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
+      <li><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
       {% elsif page.url == folder.url %}
       <li class="active">
       {% else %}
       <li>
       {% endif %}
-        <a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{ folder.title }}</a>  
+        <a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{ folder.title }}</a>
+      {% if folder.folderitems %}
       <ul>
           {% for folderitem in folder.folderitems %}
           {% if folderitem.output contains "web" %}
@@ -55,10 +54,11 @@
           {% endif %}
           {% endfor %}
       </ul>
+      {% endif %}
    </li>
      {% endif %}
-      {% endfor %}
-      {% endfor %}
+     {% endfor %}
+     {% endfor %}
       <!-- if you aren't using the accordion, uncomment this block:
          <p class="external">
              <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
