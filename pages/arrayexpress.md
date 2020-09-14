@@ -10,7 +10,7 @@ permalink: arrayexpress.html
 [ArrayExpress submission overview](https://www.ebi.ac.uk/arrayexpress/submit/overview.html).
 
 **Non-Personal vs Personal data**\\
-[Non personal data](https://www.ebi.ac.uk/arrayexpress/help/data_availability.html).
+[Non-personal data](https://www.ebi.ac.uk/arrayexpress/help/data_availability.html).
 
 **Access to data**\\
 [Open, public](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions).
@@ -21,7 +21,7 @@ permalink: arrayexpress.html
 **Data licence**\\
 Not specified. However, there are no restrictions on the use of data obtained through ArrayExpress. All public data from ArrayExpress can be used by anyone and the services are completely free of charge ([ArrayExpress FAQ](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions)).
 
-**Experiment types**\\
+**Data/Experiment types**\\
 Genetic and epigenetic regulation of transcriptome. List of [experiment types in ArrayExpress](https://www.ebi.ac.uk/arrayexpress/help/experiment_types.html).
 
 **Metadata**\\
