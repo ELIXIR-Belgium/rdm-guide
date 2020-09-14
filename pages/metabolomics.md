@@ -12,5 +12,5 @@ The metabolome is the global collection of all low molecular weight metabolites 
 Metabolomics is the large-scale study of small molecules, commonly known as metabolites, within cells, biofluids, tissues or organisms ([EMBL-EBI training]([https://www.ebi.ac.uk/training-beta/online/courses/metabolomics-introduction/what-is/])).
 
 ## Recommended repositories
-* [MetaboLights](metabolights).\\
+* [MetaboLights](metabolights).
 MetaboLights is the first general purpose, open access repository for metabolomics studies, their raw experimental data and associated metadata ([EMBL-EBI train online](https://www.ebi.ac.uk/training/online/course/metabolights-quick-tour/what-metabolights)).
