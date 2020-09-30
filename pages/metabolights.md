@@ -5,7 +5,7 @@ summary: Empty summary
 sidebar: mydoc_sidebar
 permalink: metabolights.html
 ---
-## ENA features
+## MetaboLights features
 **How to submit data**\\
 There are two possible ways to [submit data into MetaboLights](https://www.ebi.ac.uk/metabolights/help):
 * Online Study Submission. This is the recommended submission method. Data submission is done online through a web-interface. A good starting point is the [video for step by step guide to create a MetaboLights study online](https://www.ebi.ac.uk/metabolights/help).
