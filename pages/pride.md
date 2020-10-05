@@ -2,7 +2,6 @@
 title: PRoteomics IDEntifications (PRIDE) database
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: pride.html
 ---
 ## PRIDE features

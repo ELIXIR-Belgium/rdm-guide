@@ -2,7 +2,6 @@
 title: Existing data
 keywords:
 summary: Before investing time, effort and resources into generating new data, look into what has already been done in the past in your field. By reusing data you increase its value and minimize redundancy.
-sidebar: mydoc_sidebar
 permalink: existing_data.html
 ---
 

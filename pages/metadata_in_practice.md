@@ -1,7 +1,6 @@
 ---
 title: Metadata schema in practice
 keywords:
-sidebar: mydoc_sidebar
 permalink: metadata_in_practice.html
 ---
 

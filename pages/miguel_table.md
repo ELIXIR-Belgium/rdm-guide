@@ -2,7 +2,6 @@
 title: Miguel table
 keywords:
 summary: table test
-sidebar: mydoc_sidebar
 permalink: miguel_table.html
 datatable: true
 ---

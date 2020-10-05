@@ -4,7 +4,6 @@ keywords:
 summary: "“Documentation is a love letter that you write to your future self.” Damian Conway (2005).
 "
 
-sidebar: mydoc_sidebar
 permalink: data_documentation.html
 ---
 

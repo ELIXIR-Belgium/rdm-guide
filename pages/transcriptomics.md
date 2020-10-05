@@ -2,7 +2,6 @@
 title: Transcriptomics
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: transcriptomics.html
 ---
 

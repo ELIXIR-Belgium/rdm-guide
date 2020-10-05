@@ -2,7 +2,6 @@
 title: File formats
 keywords:
 summary: Data is only as good as the format it is saved in. The format of a file determines which programs can be used to access it.
-sidebar: mydoc_sidebar
 permalink: file_formats.html
 ---
 

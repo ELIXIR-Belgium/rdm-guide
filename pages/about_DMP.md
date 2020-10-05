@@ -1,9 +1,7 @@
 ---
 title: About DMP
 keywords: Bibliographic research, Data repositories
-summary: "“If you fail to plan, you are planning to fail.” Benjamin Franklin.
-"
-sidebar: mydoc_sidebar
+summary: "“If you fail to plan, you are planning to fail.” Benjamin Franklin."
 permalink: about_DMP.html
 ---
 

@@ -2,7 +2,6 @@
 title: Version control
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: version_control.html
 ---
 ## Version control

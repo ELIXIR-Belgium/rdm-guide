@@ -2,7 +2,6 @@
 title: Metabolomics
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: metabolomics.html
 ---
 

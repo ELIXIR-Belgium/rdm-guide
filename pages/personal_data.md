@@ -2,7 +2,6 @@
 title: Personal data
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: personal_data.html
 ---
 

@@ -2,7 +2,6 @@
 title: Ontology
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: ontology.html
 ---
 

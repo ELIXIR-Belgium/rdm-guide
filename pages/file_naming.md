@@ -2,7 +2,6 @@
 title: File naming
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: file_naming.html
 ---
 ## File naming

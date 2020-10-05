@@ -2,7 +2,6 @@
 title: Folder structure
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
 permalink: folder_structure.html
 ---
 ## Folder structure
