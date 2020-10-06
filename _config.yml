@@ -1,5 +1,4 @@
-url: elixir-belgium.github.io
-baseurl: /data_management_hub
+url: rdm.elixir-belgium.org
 repository: https://github.com/ELIXIR-Belgium/data_management_hub
 
 output: web
