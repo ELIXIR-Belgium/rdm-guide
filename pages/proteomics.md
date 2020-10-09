@@ -2,8 +2,6 @@
 title: Proteomics
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
-permalink: proteomics.html
 ---
 
 ## Proteome

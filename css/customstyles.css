@@ -70,6 +70,64 @@ html[data-theme="dark"] {
         --search-box-bg: #fff;
     }
 }
+.site-footer {
+    background-color: var(--toc-background-color);
+    padding: 15px 0 0px;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--toc-text-color);
+}
+
+.site-footer .company-image {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+
+.site-footer h6 {
+    color: var(--hover-grey);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: var(--white-text);
+}
+
+.site-footer a:hover {
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links.inline li {
+    display: inline-block;
+}
+.copyright-text {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    color: var(--hover-grey);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+#main {
+    padding-bottom: 2.5rem;
+    min-height: 100vh;
+    /* Footer height */
+}
 
 body {
     font-size: 15px;
@@ -316,29 +374,31 @@ p.post-meta {
 
 /* search area */
 
+
 #search-demo-container ul#results-container {
-    list-style: none;
     font-size: 12px;
-    background-color: white;
     position: absolute;
     top: 40px;
     /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
     z-index: -1;
-    width: 223px;
-    border-left: 1px solid #dedede;
+    width: 20em;
+    border-radius: 4px;
 }
 
 ul#results-container a {
-    background-color: transparent;
+    background-color: var(--main-background-color);
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 ul#results-container a:hover {
-    color: black;
+    background-color: var(--primary-theme-color);
+    color: var(--main-text-color);
 }
 
 #search-demo-container a:hover {
-    color: black;
+    color: var(--main-text-color);;
 }
 
 #search-input {
@@ -349,10 +409,10 @@ ul#results-container a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 11px;
     border-radius: 4px;
     border-width: 0px;
-    background-color: var(--search-box-bg);
+    background-color: var(--main-background-color);
 }
 
 #search-input .search-query {
@@ -509,6 +569,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav ul li a {
     background-color: rgba(0, 0, 0, 0);
+    padding-left: 10px;
 }
 
 /* end sidebar */
@@ -839,12 +900,6 @@ ol.series li {
     color: silver;
     color: #444;
     display: block;
-}
-
-/* not sure if using this ...*/
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-inverse {

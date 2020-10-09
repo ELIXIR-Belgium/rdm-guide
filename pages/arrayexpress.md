@@ -2,8 +2,6 @@
 title: ArrayExpress
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
-permalink: arrayexpress.html
 ---
 ## ArrayExpress features
 **How to submit data**\\

@@ -2,8 +2,6 @@
 title: Genomics
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
-permalink: genomics.html
 ---
 
 ## Genome

@@ -2,8 +2,6 @@
 title: Identifiers
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
-permalink: identifiers.html
 ---
 
 ## Persistent Identifiers

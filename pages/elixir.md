@@ -1,8 +1,6 @@
 ---
 title: Elixir
 keywords:
-sidebar: mydoc_sidebar
-permalink: elixir.html
 ---
 
 ## ELIXIR

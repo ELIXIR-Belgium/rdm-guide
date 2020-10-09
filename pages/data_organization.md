@@ -1,10 +1,7 @@
 ---
 title: Data organization
 keywords:
-summary: "“For every minute spent in organizing, an hour is earned.” Benjamin Franklin.
-"
-sidebar: mydoc_sidebar
-permalink: data_organization.html
+summary: "“For every minute spent in organizing, an hour is earned.” Benjamin Franklin."
 ---
 ## Why organizing data
 

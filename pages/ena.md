@@ -2,8 +2,6 @@
 title: European Nucleotide Archive (ENA)
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
-permalink: ena.html
 ---
 ## ENA features
 **How to submit data**\\

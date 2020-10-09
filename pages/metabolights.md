@@ -2,8 +2,6 @@
 title: MetaboLights
 keywords:
 summary: Empty summary
-sidebar: mydoc_sidebar
-permalink: metabolights.html
 ---
 ## MetaboLights features
 **How to submit data**\\

@@ -79,6 +79,10 @@ entries:
       - title: Transcriptomics
         url: /transcriptomics.html
         output: web
+  - title: Covid-19 data submission
+    output: web
+    url: /covid-19/index.html
   - title: Credit
     output: web
     url: /credit.html
+

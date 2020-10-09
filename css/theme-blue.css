@@ -4,6 +4,7 @@
     --secondary-theme-color: #c14300;
     --secondary-text-nav-selected: #ffffff;
     --primary-text-nav-selected: #FAFAFA;
+    --main-bg-color: #404040;
   }
 
 h3 {color: #ED1951; }
@@ -43,9 +44,8 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-book.fa-lg.navbar-brand:hover {
-     color: var(--secondary-theme-color);
-} 
-
+        color: var(--secondary-theme-color);
+   } 
 a.navbar-brand:hover {
     color: var(--secondary-theme-color);
 }

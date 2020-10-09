@@ -34,9 +34,9 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+#feedback_subject_line: 
 
-feedback_email: tomjoht@gmail.com
+#feedback_email: 
 # used as a contact email for the Feedback link in the top navigation bar
 
 feedback_disable: true
@@ -59,12 +59,6 @@ kramdown:
  syntax_highlighter: rouge
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
-collections:
-  tooltips:
-    output: false
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
 defaults:
   -
     scope:
@@ -73,30 +67,18 @@ defaults:
     values:
       layout: "page"
       comments: false
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
+      permalink: /:basename:output_ext
       sidebar: mydoc_sidebar
       topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      search: true
-      tooltip: true
+
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
 - mydoc_sidebar
 
-description: "This website will need a description"
+description: "ELIXIR  Belgium Data Management hub"
 # the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-
 
 github: [metadata]

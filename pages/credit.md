@@ -1,8 +1,6 @@
 ---
 title: Credit
 keywords:
-sidebar: mydoc_sidebar
-permalink: credit.html
 ---
 
 

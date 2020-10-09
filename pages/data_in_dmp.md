@@ -3,8 +3,6 @@ title: Data in DMP
 keywords:
 summary: "“You can have data without information, but you cannot have information without data.” Daniel Keys Moran.
 "
-sidebar: mydoc_sidebar
-permalink: data_in_dmp.html
 ---
 ## What is data in DMP
 DMP is about data, but what does data mean in research data management (RDM)?
