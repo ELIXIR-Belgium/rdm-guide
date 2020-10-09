@@ -3,7 +3,6 @@ title: Metadata
 keywords:
 summary: "“Metadata liberates us, liberates knowledge.” David Weinberger (2008).
 "
-permalink: metadata.html
 ---
 
 ## Definition of metadata

@@ -1,7 +1,6 @@
 ---
 title: Metadata schema in practice
 keywords:
-permalink: metadata_in_practice.html
 ---
 
 ## Choose metadata schema(s) for your dataset

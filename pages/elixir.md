@@ -1,7 +1,6 @@
 ---
 title: Elixir
 keywords:
-permalink: elixir.html
 ---
 
 ## ELIXIR

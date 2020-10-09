@@ -1,7 +1,6 @@
 ---
 title: Credit
 keywords:
-permalink: credit.html
 ---
 
 

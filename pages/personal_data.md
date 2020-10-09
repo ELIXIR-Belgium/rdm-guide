@@ -2,7 +2,6 @@
 title: Personal data
 keywords:
 summary: Empty summary
-permalink: personal_data.html
 ---
 
 ## Subtitle 1

@@ -2,7 +2,6 @@
 title: Metabolomics
 keywords:
 summary: Empty summary
-permalink: metabolomics.html
 ---
 
 ## Metabolome

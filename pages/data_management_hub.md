@@ -1,7 +1,6 @@
 ---
 title: About Us
 keywords:
-permalink: data_management_hub.html
 ---
 ## Data Management (DM) Hub
 DM Hub is an information resource about research data management for biologists and scientists in Life Sciences, curated by [ELIXIR Belgium](https://www.elixir-belgium.org).

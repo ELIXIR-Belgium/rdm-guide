@@ -2,7 +2,6 @@
 title: Version control
 keywords:
 summary: Empty summary
-permalink: version_control.html
 ---
 ## Version control
 Version control is a method to keep track of the changes made in a document over time, and to quickly find the latest version of a document or trace which version was “in force” at any one time. It also allows the deletion of drafts or redundant versions with confidence, reducing duplication and misunderstanding. Keeping different versions of a document decreases the risk of corruption, errors and data loss.

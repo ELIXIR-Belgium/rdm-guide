@@ -34,9 +34,9 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+#feedback_subject_line: 
 
-feedback_email: tomjoht@gmail.com
+#feedback_email: 
 # used as a contact email for the Feedback link in the top navigation bar
 
 feedback_disable: true
@@ -67,10 +67,11 @@ defaults:
     values:
       layout: "page"
       comments: false
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
+      permalink: /:basename:output_ext
       sidebar: mydoc_sidebar
       topnav: topnav
+
 
 # these are defaults used for the frontmatter for these file types
 

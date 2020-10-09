@@ -2,7 +2,6 @@
 title: Online tools for DMP
 keywords:
 summary: Empty summary
-permalink: online_tools_for_dmp.html
 ---
 
 ## Ways to write a DMP

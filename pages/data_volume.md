@@ -2,7 +2,6 @@
 title: Data volume
 keywords:
 summary: The amount of data generated will affect the choice and cost of storage. It is impossible to predict how much data will be produced, but an estimation can help.
-permalink: data_volume.html
 ---
 
 ## How to estimate the volume of a dataset

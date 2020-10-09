@@ -2,7 +2,6 @@
 title: Datasets sharing
 keywords:
 summary: Here, sharing datasets means making datasets known and available to the entire world and society.
-permalink: datasets_sharing.html
 ---
 
 ## Meaning of sharing datasets

@@ -2,7 +2,6 @@
 title: Genomics
 keywords:
 summary: Empty summary
-permalink: genomics.html
 ---
 
 ## Genome

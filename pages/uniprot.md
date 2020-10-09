@@ -2,7 +2,6 @@
 title: UniProt
 keywords:
 summary: Empty summary
-permalink: uniprot.html
 ---
 ## UniProt features
 **How to submit data**\\

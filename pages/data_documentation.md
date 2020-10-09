@@ -4,7 +4,6 @@ keywords:
 summary: "“Documentation is a love letter that you write to your future self.” Damian Conway (2005).
 "
 
-permalink: data_documentation.html
 ---
 
 ## What is data documentation

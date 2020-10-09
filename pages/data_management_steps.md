@@ -2,7 +2,6 @@
 title: Data Management in Simple Steps
 tags:
 keywords:
-permalink: data_management_steps.html
 ---
 
 ## Start with the end in mind

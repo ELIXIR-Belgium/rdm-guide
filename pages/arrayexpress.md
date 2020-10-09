@@ -2,7 +2,6 @@
 title: ArrayExpress
 keywords:
 summary: Empty summary
-permalink: arrayexpress.html
 ---
 ## ArrayExpress features
 **How to submit data**\\

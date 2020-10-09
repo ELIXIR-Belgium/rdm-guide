@@ -2,7 +2,6 @@
 title: Transcriptomics
 keywords:
 summary: Empty summary
-permalink: transcriptomics.html
 ---
 
 ## Transcriptome

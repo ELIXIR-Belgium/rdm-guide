@@ -2,7 +2,6 @@
 title: PRoteomics IDEntifications (PRIDE) database
 keywords:
 summary: Empty summary
-permalink: pride.html
 ---
 ## PRIDE features
 **How to submit data**\\

@@ -2,7 +2,6 @@
 title: MetaboLights
 keywords:
 summary: Empty summary
-permalink: metabolights.html
 ---
 ## MetaboLights features
 **How to submit data**\\

@@ -2,7 +2,6 @@
 title: Data licences
 keywords:
 summary: Licensing is a way to stipulate when and how protected rights  in research data (such as copyright) can be used by others.
-permalink: data_licences.html
 ---
 
 ## Protection of research data

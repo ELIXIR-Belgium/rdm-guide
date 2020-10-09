@@ -2,7 +2,6 @@
 title: Identifiers
 keywords:
 summary: Empty summary
-permalink: identifiers.html
 ---
 
 ## Persistent Identifiers
