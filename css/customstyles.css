@@ -11,7 +11,7 @@ html, html[data-theme="light"] {
     --summary-color: #808080;
     --table-odd-bg-color: whitesmoke;
     --h1-color: #333;
-    --nav-bar-bg: #c70039;
+    --nav-bar-bg: whitesmoke;
     --nav-button-bg: #fafafa;
     --search-box-bg: #fff;
 }
@@ -29,7 +29,7 @@ html[data-theme="dark"] {
     --summary-color: #f1f0f0;
     --table-odd-bg-color: #555;
     --h1-color: #fff;
-    --nav-bar-bg: #c70039;
+    --nav-bar-bg: #555;
     --nav-button-bg: #404040;
     --search-box-bg: #404040;
 }
@@ -48,7 +48,7 @@ html[data-theme="dark"] {
         --summary-color: #f1f0f0;
         --table-odd-bg-color: #403f3f;
         --h1-color: #fff;
-        --nav-bar-bg: #c70039;
+        --nav-bar-bg: #555;
         --nav-button-bg: #404040;
         --search-box-bg: #404040;
     }
@@ -65,18 +65,11 @@ html[data-theme="dark"] {
         --summary-color: #808080;
         --table-odd-bg-color: #f9f9f9;
         --h1-color: #333;
-        --nav-bar-bg: #c70039;
+        --nav-bar-bg: whitesmoke;
         --nav-button-bg: #fafafa;
         --search-box-bg: #fff;
     }
 }
-
-#main {
-    padding-bottom: 2.5rem;
-    min-height: 100vh;
-    /* Footer height */
-}
-
 .site-footer {
     background-color: var(--toc-background-color);
     padding: 15px 0 0px;
@@ -126,7 +119,15 @@ html[data-theme="dark"] {
     color: var(--hover-grey);
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
 
+#main {
+    padding-bottom: 2.5rem;
+    min-height: 100vh;
+    /* Footer height */
+}
 
 body {
     font-size: 15px;

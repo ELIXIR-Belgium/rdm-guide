@@ -1,7 +1,7 @@
 
 :root {
-    --primary-theme-color: #c70039;
-    --secondary-theme-color: #9A002C;
+    --primary-theme-color: #de4d00;
+    --secondary-theme-color: #c14300;
     --secondary-text-nav-selected: #ffffff;
     --primary-text-nav-selected: #FAFAFA;
     --main-bg-color: #404040;
@@ -40,13 +40,12 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: white;
+    color: var(--primary-theme-color);
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-book.fa-lg.navbar-brand:hover {
-     color: var(--main-bg-color);
-} 
-
+        color: var(--secondary-theme-color);
+   } 
 a.navbar-brand:hover {
     color: var(--secondary-theme-color);
 }
