@@ -2,6 +2,7 @@
 title: Submission of SARS-Cov-2 DNA sequences to public repositories
 keywords: covid-19, SARS-Cov-2, ENA, data-submission, viral sequences
 summary: A guide to submit SARS-Cov-2 sequence data to different repositories.
+permalink: covid-19/sarscov2_submission.html
 ---
 
 ## Submitting SARS-Cov-2 DNA sequences to public repositories
