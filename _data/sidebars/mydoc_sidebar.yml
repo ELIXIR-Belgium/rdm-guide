@@ -85,6 +85,7 @@ entries:
     folderitems:
       - title: SARS-Cov-2 submission
         url: /covid-19/sarscov2_submission.html
+        output: web
   - title: Credit
     output: web
     url: /credit.html
