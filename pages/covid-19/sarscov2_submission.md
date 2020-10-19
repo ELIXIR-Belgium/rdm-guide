@@ -7,7 +7,7 @@ permalink: covid-19/sarscov2_submission.html
 
 ## Submitting SARS-Cov-2 DNA sequences to public repositories
 ELIXIR Belgium has developed a tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive and GISAID.
-The tool is packaged in a Galaxy container. It can be run locally or via ELIXIR Belgium’s  Covid-19-dedicated Galaxy instance. {%}(link?)%} A very [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
+The tool is packaged in a Galaxy container. It can be run locally or via ELIXIR Belgium’s  Covid-19-dedicated Galaxy instance. (link?) A very [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
 
 ## The container
 The Galaxy container has tools to clean raw reads and upload them to ENA. The ENA uploading is based on the tool [ena-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli) which is wrapped in a [Galaxy tool](https://testtoolshed.g2.bx.psu.edu/repository?repository_id=e6d3d594449ee3f8).
@@ -49,9 +49,9 @@ For a small number of submissions, metadata is best entered interactively by com
 
 At the bottom, select the files associated with the metadata.
 
-{% here we can have screenshots of each metadata section%}
+<!-- here we can have screenshots of each metadata section -->
 
 ### Bulk metadata upload
 For submission of a large number of files, a metadata template is available with the container. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
 
-{% include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) %}
+<!-- include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) -->
