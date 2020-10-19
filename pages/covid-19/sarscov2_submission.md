@@ -20,7 +20,7 @@ ELIXIR Belgium developed and maintains usegalaxy.be/covid-19 for the purpose of 
 ### Data upload
 Raw data is uploaded using Galaxy upload tool:
 
-<img src="/images/galaxy_data_upload.png">
+{% include image.html file="galaxy_data_upload.png" alt="Jekyll" caption="Glaxaxy data ENA upload" %}
 
 There are different options for uploading data:
 - Load by "browsing" for a local file. Best for small datasets. Some servers will support load data that is 2 GB or larger. If you are having problems with this method, try FTP.
