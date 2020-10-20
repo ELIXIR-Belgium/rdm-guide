@@ -25,7 +25,7 @@ ELIXIR Belgium developed and maintains usegalaxy.be/covid-19, a custom tailored 
 
 ## Submission to ENA
 
-Uploading [raw reads to ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) can be done using the website, webin-CLI or programmatically through curl commands. With the increasing amount of covid-19 data being generated, our preferred way is programmatically enabling bulk uploads. Since this process can be quite cumbersome, it narrows down the possible unloaders to an experienced bioinformatition. This is mainly due to the fact that the metadata needs to be provided through XML files, a file format that is not userfreindly and the data needs to be uploaded though ftp. The first step in improving the programmatic submission to ENA was to develop a python command line interface (CLI) that would:
+Uploading [raw reads to ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) can be done using the website, webin-CLI or programmatically through curl commands. With the increasing amount of Covid-19 data being generated, our preferred way is programmatically enabling bulk uploads. Since this process can be quite cumbersome, it narrows down the possible unloaders to an experienced bioinformatition. This is mainly due to the fact that the metadata needs to be provided through XML files, a file format that is not userfreindly and the data needs to be uploaded though ftp. The first step in improving the programmatic submission to ENA was to develop a python command line interface (CLI) that would:
 - Make submission easier for bioinformaticions
 - Generate the XMLs out of easier to use tsv files
 - Taking care of the ftp uploading
