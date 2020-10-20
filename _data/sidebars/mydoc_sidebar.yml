@@ -79,7 +79,7 @@ entries:
       - title: Transcriptomics
         url: /transcriptomics.html
         output: web
-  - title: Covid-19 data submission
+  - title: Covid-19
     output: web
     url: /covid-19/index.html
     folderitems:

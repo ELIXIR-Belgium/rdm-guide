@@ -5,19 +5,34 @@ summary: A guide to submit SARS-Cov-2 sequence data to different repositories.
 permalink: covid-19/sarscov2_submission.html
 ---
 
-## Submitting SARS-Cov-2 DNA sequences to public repositories
-ELIXIR Belgium has developed a tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive and GISAID.
-The tool is packaged in a Galaxy container. It can be run locally or via ELIXIR Belgium’s  Covid-19-dedicated Galaxy instance. (link?) A very [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
+## General
 
-## The container
-The Galaxy container has tools to clean raw reads and upload them to ENA. The ENA uploading is based on the tool [ena-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli) which is wrapped in a [Galaxy tool](https://testtoolshed.g2.bx.psu.edu/repository?repository_id=e6d3d594449ee3f8).
-Instructions for building and running the container locally are found in the tool's  [github repository](https://github.com/ELIXIR-Belgium/ena-upload-container).
+ELIXIR Belgium has developed a galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive and in the future GISAID. The tool is packaged in a Galaxy container for easy distribution. It can be run locally or via ELIXIR Belgium’s Covid-19-dedicated Galaxy instance. A [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
 
-## ELIXIR Belgium Covid-19 Galaxy instance
-ELIXIR Belgium developed and maintains usegalaxy.be/covid-19 for the purpose of submitting SARS-Cov-2 genetic sequences to public repositories. At the moment, submissions to ENA are supported.
+## How to start using the tool
 
+Since our tool is a Galaxy tool, it needs to run in a Galaxy environment. We offer 2 possibilities to run the tool:
+
+### Running a container
+A Galaxy container was created containing the tools to clean raw reads and our galaxy tool to upload them to ENA.
+Instructions for building and running the container locally are found in this [github repository](https://github.com/ELIXIR-Belgium/ena-upload-container).
+This option is suited for people outside of Belgium.
+
+### ELIXIR Belgium Covid-19 Galaxy instance
+ELIXIR Belgium developed and maintains usegalaxy.be/covid-19, a custom tailored public Galaxy instance for the purpose of submitting Belgian SARS-Cov-2 genetic sequences to public repositories. At the moment, submissions to ENA are supported.
+
+## Working with broker accounts
 
 ## Submission to ENA
+
+Uploading [raw reads to ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) can be done using the website, webin-CLI or programmatically through curl commands. With the increasing amount of Covid-19 data being generated, our preferred way is programmatically enabling bulk uploads. Since this process can be quite cumbersome, it narrows down the possible unloaders to an experienced bioinformatition. This is mainly due to the fact that the metadata needs to be provided through XML files, a file format that is not userfreindly and the data needs to be uploaded though ftp. The first step in improving the programmatic submission to ENA was to develop a python command line interface (CLI) that would:
+- Make submission easier for bioinformaticions
+- Generate the XMLs out of easier to use tsv files
+- Taking care of the ftp uploading
+- Validate the metadata before submission
+
+This was accomplished together with the lab of Björn Grüning in the python package ena-upload-cli which is published on [pip](https://pypi.org/project/ena-upload-cli/) and [bioconda](https://anaconda.org/bioconda/ena-upload-cli). For more information on how to use this tool please visit the github page of [ena-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli). As this is already a big improvement, command line tools are not the kind of software you hand over to researchers without some informatics experience. This is were to galaxy [tool wrapper](https://testtoolshed.g2.bx.psu.edu/repository?repository_id=e6d3d594449ee3f8) falls in place which is shipped in a galaxy container or used on a public galaxy instance as discussed above.
+
 ### Data upload
 Raw data is uploaded using Galaxy upload tool:
 
