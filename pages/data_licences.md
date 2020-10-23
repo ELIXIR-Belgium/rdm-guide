@@ -41,12 +41,12 @@ When sharing your dataset in a repository, a licence can be applied in several w
 Repositories can be selected based on data licence and sharing policy by using [re3data.org](https://www.re3data.org/search?query=).
 
 ## How to select and apply a licence
-**Tools**
+### Tools
 * [License Selector](https://ufal.github.io/public-license-selector/).
 * [License Chooser](https://creativecommons.org/choose/).
 * [Choose an open source license](https://choosealicense.com).
 
-**Tutorials**
+### Tutorials
 * [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948), Queen’s University Library.
 
 * [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning.

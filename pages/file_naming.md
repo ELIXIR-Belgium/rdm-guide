@@ -20,7 +20,7 @@ File name elements can be any information that is relevant to your project. Here
 * Version number: use ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2).
 
 ## File naming convention do's and don'ts
-**Do’s**
+### Do’s
 * Make it unique, descriptive and informative about the content.
 * Keep it consistent and logical.
 * Make it independent of the location of the file on a computer.
@@ -30,7 +30,7 @@ File name elements can be any information that is relevant to your project. Here
 * keep the file extension at the end.
 * Use multiple digits (eg. 001 rather than 1) when numbering.
 
-**Dont’s**
+### Dont’s
 * Use special characters
 * Use space for separation
 

@@ -31,19 +31,19 @@ Here, sharing datasets means making datasets known and available to the whole wo
 If you want to close or restrict access to your datasets, you must explain your ethical and/or legal issues in the Data Management Plan. You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
 
 ## Types of restricted access to datasets
-**Registered access or authentication procedure** \\
+### Registered access or authentication procedure
  Registered access is provided by some data archives, which require potential users to register before they are able to access data files. Registered access allows the data archive to monitor who access data, enabling reminders about conditions of use to be issued.
 
-**Data Access Committees (DACs)** \\
+### Data Access Committees (DACs)
  A Data Access Committee (DAC) is an organization of one or more named individuals who are responsible for data release to external requestors based on specific criteria. A DAC can be part of the data repository or university/hospital. DAC can assist data submission to repositories and assess data access requests. Criteria established by DAC for data access are usually described on the website of the organization.
 
-**Non-disclosure agreements** \\
+### Non-disclosure agreements
  Non-disclosure agreements can be used to share confidential or sensitive data with specific individuals for specific purposes and under specific terms. Contact the Legal Team of your institute if you require a non-disclosure agreement for your data. The terms of the agreement must be described in the documentation associated with the datasets (metadata).
 
-**Access upon request (not recommended)** \\
+### Access upon request (not recommended)
  In order to manage this type of access a named contact is required for the dataset who would be responsible for making decisions about whether access is granted. The owner of the data must provide his/her contact in the documentation associated with the datasets (metadata).
 
-**Embargo** \\
+### Embargo
  It is a defined period of time, imposed by the author, which prohibits access to data. After the embargo period, data becomes Open, Closed or with Restricted access. Reasons for embargo could be: i) need to secure Intellectual Property (IP); ii) need to publish the results of the research (manuscript) in a journal.
 
 ## Select repositories based on data access type

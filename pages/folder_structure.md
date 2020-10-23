@@ -15,14 +15,14 @@ A folder structure convention should be agreed to and adopted by the entire grou
   * ExperimentA (RawData, ProcessedData, DataAnalysis, OutputAnalysis, Protocol); Publication (Draft, Submission).
 
 ## Folder structure do's and don'ts
-**Do’s**
+### Do’s
 * Make it intuitive, clear and understandable for everyone.
 * Apply [file naming](file_naming) guidelines for naming folders.
 * Use shortcuts of one file in different folder and keep a single reference file.
 * Include [documentation](data_documentation) to explain a complex folder structure (such as a README.txt) at the root of your folders.
 * Keep a "raw data" folder for each data type or experiment.
 
-**Dont’s**
+### Dont’s
 * Make your structure too deep nor too shallow (the number of levels depends on the project).
 * Use a generic "current stuff" or "my stuff" folder.
 * Create researcher-specific folders ("Name_Surname" folder) within a project: folders are about the contents, not the authors.

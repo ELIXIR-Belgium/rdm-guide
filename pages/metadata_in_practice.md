@@ -11,7 +11,7 @@ After you have found the appropriate repository for your data, download or write
 ## Use metadata in spreadsheets
 An easy way to apply metadata to your dataset is using a spreadsheet (such as Excel and Google Sheets). Excel and Google Sheets are a simple way to create metadata schemes with controlled vocabulary drop-down lists (data validation in [Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us) and [Google Sheets](https://support.google.com/docs/answer/186103?hl=en&ref_topic=1361472)). In practice, you can put attributes or metadata fields in columns, and have one row of values or descriptions per measurement. The top row with the metadata fields can be made write protected (cell protection in [Excel](https://support.microsoft.com/en-us/office/lock-cells-to-protect-them-cb7835f6-9c37-4161-bb53-d1c410acaf21) and [Google Sheets](https://support.google.com/docs/answer/1218656?co=GENIE.Platform%3DDesktop&hl=en) and frozen to be always visible (freeze rows/columns in [Excel](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f) and [Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)).
 
-**Levels of metadata**\\
+### Levels of metadata
 Consider having two metadata sheets:
 * One generic about your overall study, containing metadata fields such as “Study Title”, “Study description”, “Experimental Factors”, “Study Design” etc.
 * One for describing the individual observations and measurements, containing attributes as column names, such as “Replicate N”, “Date”, “Length”, “Datafile name” etc.
