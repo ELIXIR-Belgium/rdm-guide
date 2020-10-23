@@ -1,27 +1,5 @@
 $('#mysidebar').height($(".nav").height());
 
-
-$( document ).ready(function() {
-
-    //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
-    // position as your scroll. if you have a lot of nav items, this height may not work for you.
-    var h = $(window).height();
-    //console.log (h);
-    if (h > 800) {
-        $( "#mysidebar" ).attr("class", "nav affix");
-    }
-    // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
-    $('[data-toggle="tooltip"]').tooltip({
-        placement : 'top'
-    });
-
-    /**
-     * AnchorJS
-     */
-    anchors.add('h2,h3,h4,h5');
-
-});
-
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
 // script from http://stackoverflow.com/questions/10523433/how-do-i-keep-the-current-tab-active-with-twitter-bootstrap-after-a-page-reload
 $(function() {
@@ -52,3 +30,48 @@ $(function() {
         }
     });
 });
+
+$(document).ready(function () {
+    // Initialize navgoco with default options
+    $("#mysidebar").navgoco({
+        caretHtml: '',
+        accordion: true,
+        openClass: 'active', // open
+        save: false, // leave false or nav highlighting doesn't work right
+        cookie: {
+            name: 'navgoco',
+            expires: false,
+            path: '/'
+        },
+        slide: {
+            duration: 400,
+            easing: 'swing'
+        }
+    });
+
+    $("#collapseAll").click(function (e) {
+        e.preventDefault();
+        $("#mysidebar").navgoco('toggle', false);
+    });
+
+    $("#expandAll").click(function (e) {
+        e.preventDefault();
+        $("#mysidebar").navgoco('toggle', true);
+    });
+
+});
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+
+$(document).ready(function () {
+    $("#tg-sb-link").click(function () {
+        $("#tg-sb-sidebar").toggle();
+        $("#tg-sb-content").toggleClass('col-md-9');
+        $("#tg-sb-content").toggleClass('col-md-12');
+        $("#tg-sb-icon").toggleClass('fa-toggle-on');
+        $("#tg-sb-icon").toggleClass('fa-toggle-off');
+    });
+});
+

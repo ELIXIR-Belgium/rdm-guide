@@ -22,15 +22,17 @@ Some disciplines have developed structured [metadata schemas](metadata) for reco
 Any information that cannot be recorded in a structured way (i.e. as the values of fields in a data or metadata file) can be recorded as free text within a README file. A README file can accompany files/data being deposited in a repository.
 
 ## README file
-**What is a README file**\\
-A readme file is usually a text file titled README.txt, in .txt open format. Its title indicates that any potential user of your data should consult it before checking your data.\\
+### What is a README file
+A readme file is usually a text file titled README.txt, in .txt open format. Its title indicates that any potential user of your data should consult it before checking your data.
+
 There are many types of README files, such as  README file to help you remember **how you organized your folders and files** on your computer or intranet, and  README file **describing the files** within each folder on your computer/intranet. Depending on how many files you have and for how many years you are going to maintain these files, you can create a README file for your directory or for each folder and subfolder created within your directory to document specific parts of your data.
 
-**When to make a README file**\\
-It is generally better to start writing up that information into a central document as soon as you start collecting your data, or even during the planning phase. Definitely before you show a project to other people or make it public. You might want to get into the habit of making it the first file you create in a new project.\\
+### When to make a README file
+It is generally better to start writing up that information into a central document as soon as you start collecting your data, or even during the planning phase. Definitely before you show a project to other people or make it public. You might want to get into the habit of making it the first file you create in a new project.
+
 The repository could also ask for a README file. That README file will include a listing of all the files to be submitted to the repository along with pertinent information. Creating a README file at the beginning of each project will save you time later.
 
-**What to write in a README file**\\
+### What to write in a README file
 You should only include elements that are useful and/or necessary to correctly interpret, evaluate and reuse your dataset, without the need to contact you directly about the dataset. The goal is not to make your readme file too lengthy.
 
 [The Graduate Institute Geneva](https://libguides.graduateinstitute.ch/rdm/readme) compiled the following list of elements you could include in a README file located at the root of your dataset. You may of course place some of them in secondary documentation or in separate files, or even embed them in your data.
@@ -81,7 +83,7 @@ Excellent **readme file guides and templates** can be found here:
 * [Guidelines for creating a README file](https://researchdata.4tu.nl/fileadmin/user_upload/Documenten/Guidelines_for_creating_a_README_file.pdf), 4TU.
 
 ## References
-[Data Documentation and Metadata,](https://library.bath.ac.uk/research-data/working-with-data/data-documentation-metadata#s-lg-box-wrapper-17445057), University of Bath.\\
-[Research Data Management](https://libguides.graduateinstitute.ch/rdm/readme), The Graduate Institute Geneva.\\
-[ULibraries Research Guides](https://campusguides.lib.utah.edu/c.php?g=997634&p=7221520), University of Utah.\\
-[Best Practices](https://datamanagement.hms.harvard.edu/readme-files), Harvard Biomedical Data Management.
+* [Data Documentation and Metadata,](https://library.bath.ac.uk/research-data/working-with-data/data-documentation-metadata#s-lg-box-wrapper-17445057), University of Bath.
+* [Research Data Management](https://libguides.graduateinstitute.ch/rdm/readme), The Graduate Institute Geneva.
+* [ULibraries Research Guides](https://campusguides.lib.utah.edu/c.php?g=997634&p=7221520), University of Utah.
+* [Best Practices](https://datamanagement.hms.harvard.edu/readme-files), Harvard Biomedical Data Management.

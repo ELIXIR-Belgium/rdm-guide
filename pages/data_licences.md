@@ -41,19 +41,23 @@ When sharing your dataset in a repository, a licence can be applied in several w
 Repositories can be selected based on data licence and sharing policy by using [re3data.org](https://www.re3data.org/search?query=).
 
 ## How to select and apply a licence
-**Tools**
+### Tools
 * [License Selector](https://ufal.github.io/public-license-selector/).
 * [License Chooser](https://creativecommons.org/choose/).
 * [Choose an open source license](https://choosealicense.com).
 
-**Tutorials**
+### Tutorials
 * [How to apply a Creative Commons license to your work](https://guides.library.queensu.ca/c.php?g=704790&p=5014948), Queen’s University Library.
 
 * [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning.
 
 
 ## References
-[European Union advice on copyright](https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1).\\
-[European Union IP helpdesk](https://www.iprhelpdesk.eu/node/2014) note on databases.\\
-[UGent guidelines for data sharing](https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm).\\
-[OpenAire](https://www.openaire.eu/faqs#article-id-1100): [Protection of Research Data](https://www.openaire.eu/protection-of-research-data); [Research data how to license](https://www.openaire.eu/research-data-how-to-license/); [How do I know if my research data is protected?](https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected); [How do I license my research data?](https://www.openaire.eu/how-do-i-license-my-research-data).
+* [European Union advice on copyright](https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1).
+* [European Union IP helpdesk](https://www.iprhelpdesk.eu/node/2014) note on databases.
+* [UGent guidelines for data sharing](https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm).
+* [OpenAire](https://www.openaire.eu/faqs#article-id-1100): 
+    * [Protection of Research Data](https://www.openaire.eu/protection-of-research-data)
+    * [Research data how to license](https://www.openaire.eu/research-data-how-to-license/)
+    * [How do I know if my research data is protected?](https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected)
+* [How do I license my research data?](https://www.openaire.eu/how-do-i-license-my-research-data).

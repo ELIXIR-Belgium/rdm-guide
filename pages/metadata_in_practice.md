@@ -11,7 +11,7 @@ After you have found the appropriate repository for your data, download or write
 ## Use metadata in spreadsheets
 An easy way to apply metadata to your dataset is using a spreadsheet (such as Excel and Google Sheets). Excel and Google Sheets are a simple way to create metadata schemes with controlled vocabulary drop-down lists (data validation in [Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us) and [Google Sheets](https://support.google.com/docs/answer/186103?hl=en&ref_topic=1361472)). In practice, you can put attributes or metadata fields in columns, and have one row of values or descriptions per measurement. The top row with the metadata fields can be made write protected (cell protection in [Excel](https://support.microsoft.com/en-us/office/lock-cells-to-protect-them-cb7835f6-9c37-4161-bb53-d1c410acaf21) and [Google Sheets](https://support.google.com/docs/answer/1218656?co=GENIE.Platform%3DDesktop&hl=en) and frozen to be always visible (freeze rows/columns in [Excel](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f) and [Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)).
 
-**Levels of metadata**\\
+### Levels of metadata
 Consider having two metadata sheets:
 * One generic about your overall study, containing metadata fields such as “Study Title”, “Study description”, “Experimental Factors”, “Study Design” etc.
 * One for describing the individual observations and measurements, containing attributes as column names, such as “Replicate N”, “Date”, “Length”, “Datafile name” etc.
@@ -57,9 +57,9 @@ For more information about data organisation in spreadsheet, see the following w
 * Pivot Table in [Excel](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
 
 ## References
-[Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University.\\
-[Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent.\\
-[UNC Library guide on metadata](https://guides.lib.unc.edu/metadata).\\
-[Research Data Alliance (RDA)](https://www.rd-alliance.org/) - Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/).\\
-[The Research Data Management Group](https://data.research.cornell.edu/) at Cornell.\\
-[GO FAIR Principles](https://www.go-fair.org/fair-principles/).
+* [Data description in practice](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice#building), Utrecht University.
+* [Metadata](https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata), UGent.
+* [UNC Library guide on metadata](https://guides.lib.unc.edu/metadata).
+* [Research Data Alliance (RDA)](https://www.rd-alliance.org/) - Metadata Standards Directory [Working Group](https://rd-alliance.github.io/metadata-directory/).
+* [The Research Data Management Group](https://data.research.cornell.edu/) at Cornell.
+* [GO FAIR Principles](https://www.go-fair.org/fair-principles/).

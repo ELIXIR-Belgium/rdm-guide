@@ -4,25 +4,25 @@ keywords:
 summary: Empty summary
 ---
 ## ArrayExpress features
-**How to submit data**\\
+### How to submit data
 [ArrayExpress submission overview](https://www.ebi.ac.uk/arrayexpress/submit/overview.html).
 
-**Non-Personal vs Personal data**\\
+### Non-Personal vs Personal data
 [Non-personal data](https://www.ebi.ac.uk/arrayexpress/help/data_availability.html).
 
-**Access to data**\\
+### Access to data
 [Open, public](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions).
 
-**Embargo**\\
+### Embargo
 [Possible (private access)](https://www.ebi.ac.uk/arrayexpress/help/data_availability.html#general).
 
-**Data licence**\\
+### Data licence
 Not specified. However, there are no restrictions on the use of data obtained through ArrayExpress. All public data from ArrayExpress can be used by anyone and the services are completely free of charge ([ArrayExpress FAQ](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions)).
 
-**Data/Experiment types**\\
+### Data/Experiment types
 Genetic and epigenetic regulation of transcriptome. List of [experiment types in ArrayExpress](https://www.ebi.ac.uk/arrayexpress/help/experiment_types.html).
 
-**Metadata**\\
+### Metadata
 ArrayExpress users should have everything they need for the data set to make sense and be reproducible without necessarily referring to an associated paper.  
 * Microarray submissions follow the "Minimum Information About a Microarray Experiment" [(MIAME)](http://fged.org/projects/miame/) guidelines.
 * Sequencing submissions follow the "Minimum Information About a Sequencing Experiment" [(MINSEQE)](http://fged.org/projects/minseqe/) guidelines.
@@ -33,14 +33,14 @@ The meaning of these attributes is specified by [EFO ontology](https://www.ebi.a
 
 About  [Sequencing Library Information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec.html), Annotare follows the requirements of the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/about).
 
-**Ontology**\\
+### Ontology
 [Experimental Factor Ontology (EFO)](https://www.ebi.ac.uk/ols/ontologies/efo). EFO provides a systematic description of many experimental variables available in EBI databases.
 
-**Data documentation**\\
+### Data documentation
 Annotare doesn’t allow upload of README file. All relevant information about the data need to be provided in the designated fields:\\
 *general information, contacts, publications and describe protocols*.
 
-**File format(s)**
+### File format(s)
 * Raw data
   * Microarray: files obtained from the microarray scanner (e.g. Affymetrix CEL files, Agilent feature extraction txt files, Illumina idat files). See the full list of [accepted raw microarray file formats](https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats.html).
   * Sequencing: compressed raw sequence read files (e.g. fastq.gz files). See the full list of [accepted raw sequencing file formats](https://www.ebi.ac.uk/arrayexpress/help/UHTS_submissions.html#HowToSubmit).
@@ -49,13 +49,13 @@ Annotare doesn’t allow upload of README file. All relevant information about t
   * Processed data matrix in tab-delimited txt format.
   * Other processed data formats, e.g. bam alignment files (optional).
 
-**Data volume and costs**\\
+### Data volume and costs
 No limit for data volume. No costs.
 
-**Data quality**\\
+### Data quality
 The submission process to ArrayExpress, through Annotare, includes **validation** and **curation** steps. When you pass validation in Annotare and submit the experiment, you are automatically sent an accession number, usually within 24 hours. The experiment is then in curation, a process which can take up to 5-10 working days, depending on the complexity of your submission and whether major improvements are required.
 
-**Identifiers**\\
+### Identifiers
 Experiments and array designs in ArrayExpress are given **unique accession numbers**. You can use the accession number to [cite](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#cite) the dataset deposited in ArrayExpress.
 
 ## Tips about data submission

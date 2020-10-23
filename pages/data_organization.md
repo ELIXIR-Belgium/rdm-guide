@@ -23,4 +23,4 @@ This section will give you some tips and good practices on file naming, folder o
 [Version control](version_control).
 
 ## References
-[Organising data](https://libguides.graduateinstitute.ch/rdm/organising), The Graduate Institute Geneva.
+* [Organising data](https://libguides.graduateinstitute.ch/rdm/organising), The Graduate Institute Geneva.

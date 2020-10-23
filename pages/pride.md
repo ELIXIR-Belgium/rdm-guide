@@ -4,7 +4,7 @@ keywords:
 summary: Empty summary
 ---
 ## PRIDE features
-**How to submit data**\\
+### How to submit data
 PRIDE established and is part of [ProteomeXchange (PX)](http://www.proteomexchange.org) consortium of Mass Spectrometry (MS) proteomics resources, with the overall aim of standardizing data submission and dissemination of proteomics data worldwide.
 
 The current way of submitting data to PRIDE is following the PX consortium’s guidelines. The main tool to submit data is the [PX Submission Tool](https://www.ebi.ac.uk/pride/help/archive/submission). Here you can find [PX/PRIDE submissions guidelines](https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf) and [training material](https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride).
@@ -16,19 +16,19 @@ Examples include bottom-up [DDA datasets](https://www.creative-proteomics.com/bl
 Examples include bottom-up [DDA datasets](https://www.creative-proteomics.com/blog/index.php/data-dependent-acquisition-and-data-independent-acquisition-mass-spectrometry/) where identification results were generated from any tool that cannot export the PSI data standards mzIdentML or mzTab, or other datasets coming from approaches where no open standard for the results currently has been implemented (e.g. top-down proteomics).
 
 
-**Non-Personal vs Personal data**\\
+### Non-Personal vs Personal data
 Non-personal data (non-identifiable).
 
-**Access to data**\\
+### Access to data
 PRIDE follows [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use/) for data access. EMBL-EBI itself places no additional restrictions on the use or redistribution of the data available via its online services other than those provided by the original data owners. The original data may be subject to rights claimed by third parties, including but not limited to, patent, copyright, other intellectual property rights, biodiversity-related access and benefit-sharing rights.
 
-**Embargo**\\
+### Embargo
 Possible. By default, your data will be made publicly available after your manuscript has been accepted, or when PRIDE receives your instructions to do so. While PRIDE may also receive acceptance notifications from some journals, all submitters should notify it separately. Submitters can apply for a 6-month extraordinary extension ([PRIDE FAQ](https://www.ebi.ac.uk/pride/help/archive/faq#public-release-PX)).
 
-**Data licence**\\
+### Data licence
 PRIDE has no default license type, it follows [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use).
 
-**Data/Experiments types**
+### Data/Experiments types
 * Top-down proteomics
 * Shotgun proteomics
 * Gel-based proteomics
@@ -44,7 +44,7 @@ PRIDE has no default license type, it follows [EMBL-EBI terms of use](https://ww
 * RNA mass-spectrometry
 
 
-**Metadata**\\
+### Metadata
 The dataset has to be annotated with the following: *project title, keywords, project description, sample processing protocol and data processing protocol*.\\
 Additional metadata needs to be provided for each ‘RESULT’ file. The following additional metadata is mandatory for both types of submission:
 * *Species*: the species of the samples used in a given dataset.
@@ -55,7 +55,7 @@ Additional metadata needs to be provided for each ‘RESULT’ file. The followi
 The full description of PX XML XSD (XML Schema Definition) is found [here](http://proteomecentral.proteomexchange.org/schemas/proteomeXchange-1.4.0.html).
 
 
-**Ontology**\\
+### Ontology
 Controlled vocabulary is provided for each metadata field and a link to the [Ontology Lookup Service](https://www.ebi.ac.uk/ols/index) is also available.
 * [PSI Mass Spectrometry Ontology
  (MS)](https://www.ebi.ac.uk/ols/ontologies/ms): structured controlled vocabulary for the annotation of mass spectrometry experiments. Developed by the HUPO Proteomics Standards Initiative.
@@ -65,10 +65,10 @@ Controlled vocabulary is provided for each metadata field and a link to the [Ont
 * [BRENDA tissue / enzyme source (BTO)](https://www.ebi.ac.uk/ols/ontologies/bto): a structured controlled vocabulary for the source of an enzyme. It comprises terms of tissues, cell lines, cell types and cell cultures from uni- and multicellular organisms.
 * [Gene Ontology (GO)](https://www.ebi.ac.uk/ols/ontologies/go): gene product characteristics and gene product annotation data.
 
-**Data documentation**\\
+### Data documentation
 PRIDE doesn’t allow upload of README file. All relevant information about the data need to be provided in the designated metadata fields.
 
-**File format(s)**\\
+### File format(s)
 PRIDE XML is the internal data format and submission format of PRIDE. You can find the schema documentation [here](http://ftp.pride.ebi.ac.uk/pride/resources/schema/pride/doc/pride.html).
 
 Several files are required for a PRIDE submission:
@@ -84,13 +84,13 @@ Several files are required for a PRIDE submission:
 
 A complete description of file formats can be found [here](https://www.ebi.ac.uk/pride/markdownpage/pridefileformats).
 
-**Data volume and costs**\\
+### Data volume and costs
 No limit for data volume. No costs.
 
-**Data quality**\\
+### Data quality
 [PRIDE Quality Control](https://www.ebi.ac.uk/pride/help/archive/faq#Quality-Control).
 
-**Identifiers**\\
+### Identifiers
 After the submission, you will be issued with not only a ProteomeXchange accession number but also with a permanent [DOI (Digital Object Identifier)](identifiers) to uniquely identify your dataset in the future.
 
 ## Guide and manual

@@ -50,4 +50,4 @@ Hopefully, these steps help you start writing you [DMP](about_DMP) and describin
 General information about [metadata](metadata), [ontology](ontology), [file formats](file_formats) and [costs](costs_for_sharing_and_storing_data) can be found in the section [Make your DMP](about_DMP) of this DM Hub. Specific information about repositories listed in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) can be found in the “Data Management for Omics Data” section.
 
 ## References
-[Jisc RDM Toolkit](https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/)
+* [Jisc RDM Toolkit](https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/)
