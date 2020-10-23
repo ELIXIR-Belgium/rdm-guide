@@ -31,4 +31,4 @@ Version control can be embedded within the software you are using. Word, for exa
 * [Git](https://git-scm.com) and [GitHub](https://github.com).
 
 ## References
-[Version Management](https://libguides.graduateinstitute.ch/rdm/versioning), The Graduate Institute Geneva.
+* [Version Management](https://libguides.graduateinstitute.ch/rdm/versioning), The Graduate Institute Geneva.

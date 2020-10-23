@@ -51,6 +51,6 @@ Some useful tools for file naming can be found [here](https://libguides.graduate
 Bulk renaming of files can be done with the Bulk Rename Utility in Windows, or with software such as Ant Renamer, RenameIT or Rename4Mac.
 
 ## References
-[File Naming](https://libguides.graduateinstitute.ch/rdm/filenames), The Graduate Institute Geneva.\\
-[Collecting and organizing data](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Filenaming), UGent.\\
-[Organizing data](https://www.ukdataservice.ac.uk/manage-data/format/organising), UK Data Service.
+* [File Naming](https://libguides.graduateinstitute.ch/rdm/filenames), The Graduate Institute Geneva.
+* [Collecting and organizing data](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Filenaming), UGent.
+* [Organizing data](https://www.ukdataservice.ac.uk/manage-data/format/organising), UK Data Service.

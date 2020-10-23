@@ -30,5 +30,5 @@ A folder structure convention should be agreed to and adopted by the entire grou
 * Create copies of files in different folders.
 
 ## References
-[Folder Structure](https://libguides.graduateinstitute.ch/rdm/folders), The Graduate Institute Geneva.\\
-[Collecting and organizing data](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Folder/dataorganization), UGent.
+* [Folder Structure](https://libguides.graduateinstitute.ch/rdm/folders), The Graduate Institute Geneva.
+* [Collecting and organizing data](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Folder/dataorganization), UGent.

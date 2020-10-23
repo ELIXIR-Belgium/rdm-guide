@@ -50,5 +50,5 @@ If you want to close or restrict access to your datasets, you must explain your 
 [Registry of Research data Repositories](https://www.re3data.org/search?query=) (or re3data.org) allows you to filter the list of repositories based on data access type.
 
 ## References
-[Restricting access to data](https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data), University of Westminster.\\
-[Data Publication: Controlling access to published data](https://libguides.library.usyd.edu.au/datapublication/access), The University of Sydney.
+* [Restricting access to data](https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data), University of Westminster.
+* [Data Publication: Controlling access to published data](https://libguides.library.usyd.edu.au/datapublication/access), The University of Sydney.

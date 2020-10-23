@@ -26,5 +26,5 @@ Accession numbers and DOIs are minted and assigned to a digital research object 
 This [PID Guide](https://www.pidwijzer.nl/en/pid_results/new) helps the user select a suitable PID system.
 
 ## References
-[Digital Preservation Coalition](https://www.dpconline.org/).\\
-Klump, J., & Huber, R. (2017). 20 Years of Persistent Identifiers – Which Systems are Here to Stay?. *Data Science Journal, 16, 9.* DOI: http://doi.org/10.5334/dsj-2017-009.
+* [Digital Preservation Coalition](https://www.dpconline.org/).
+* Klump, J., & Huber, R. (2017). 20 Years of Persistent Identifiers – Which Systems are Here to Stay?. *Data Science Journal, 16, 9.* DOI: http://doi.org/10.5334/dsj-2017-009.

@@ -28,6 +28,6 @@ Biological research materials generated or used during the project (such as new 
 It is good practice to share step-by-step experimental protocols on sharing platforms and provide an identifier or other citation details in the [data documentation](data_documentation). **Information about how you will share experimental protocol CAN be specified in the DMP**.
 
 ## References
-[RDM explained](https://www.ugent.be/en/research/datamanagement/why/rdm-explained.htm#Whatareresearchdata?), UGent.\\
-[Open access & Data management](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/open-access_en.htm), H2020 Online Manual.\\
-[Open data: enforce materials sharing](https://doi.org/10.1038/547403a), Nature 2017.
+* [RDM explained](https://www.ugent.be/en/research/datamanagement/why/rdm-explained.htm#Whatareresearchdata?), UGent.
+* [Open access & Data management](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/open-access_en.htm), H2020 Online Manual.
+* [Open data: enforce materials sharing](https://doi.org/10.1038/547403a), Nature 2017.
