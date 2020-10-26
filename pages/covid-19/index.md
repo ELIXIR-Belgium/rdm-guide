@@ -8,4 +8,4 @@ ELIXIR Belgium supports the [European Corona action plan](https://ec.europa.eu/i
 To this end, ELIXIR Belgium promotes and encourages the publication of all scientific data related to the Covid  pandemic and provides the tools, know-how and brokering services for researchers to do so.
 
 Our first action is to support the submission of SARS-Cov-2 DNA sequences to public repositories. For more info please visit:
-[Submittng SARS-Cov-2 DNA sequences to public repositories](sarscov2_submissions)
+[Submittng SARS-Cov-2 DNA sequences to public repositories](covid-19/sarscov2_submission)
