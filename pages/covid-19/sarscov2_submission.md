@@ -7,7 +7,7 @@ permalink: covid-19/sarscov2_submission.html
 
 ## General
 
-ELIXIR Belgium has developed a galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive and in the future GISAID. The tool is packaged in a Galaxy container for easy distribution. It can be run locally or via ELIXIR Belgium’s Covid-19-dedicated Galaxy instance. A [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
+ELIXIR Belgium has developed a galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)) and in the future [GISAID](https://www.gisaid.org/). The tool is packaged in a Galaxy container for easy distribution. It can be run locally or via ELIXIR Belgium’s Covid-19-dedicated Galaxy instance. A [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
 
 ## Using the tool
 
@@ -23,7 +23,12 @@ ELIXIR Belgium developed and maintains *usegalaxy.be/covid-19*, a custom tailore
 
 ## Working with broker accounts
 
+In order to upload to ENA, it is required to have the credentials of an ENA [Webin account](https://www.ebi.ac.uk/ena/submit/sra/#registration). The WEBIN_ID parameter makes use of the full username looking like: Webin-XXXXX. This is required when running the container.
 
+If you plan to offer this tool as a service to multiple users, then a brokering account is more suitable.
+
+
+> **_usegalaxy.be users_** don't need a Webin account. ELIXIR Belgium holds a brokering account with ENA which is used for all submissions.
 
 ## Submission to ENA
 Uploading [raw reads to ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) can be done using the website, webin-CLI or programmatically through curl commands.
@@ -39,12 +44,15 @@ The python package *ena-upload-cli* is published on [pip](https://pypi.org/proje
 To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://testtoolshed.g2.bx.psu.edu/repository?repository_id=e6d3d594449ee3f8) and put in a container. This container can be downloaded and run locally or used on a public galaxy instance as discussed above.
 
 
-## Walkthrough of ENA submission on usegalaxy.be
-### 1. Register and login to Galaxy
-You must apply for login credentials with our [Galaxy admin](galaxy@elixir-belgium.org). ELIXIR Belgium holds a brokering account with ENA which is used for all submissions. Go to *usegalaxy.be/covid-19* and login.
+## Walkthrough of ENA submission in Galaxy
+### 0. Register and login to Galaxy
 
 
-### 2. Data upload
+
+> **_usegalaxy.be users:_**  You must apply for login credentials with our [Galaxy admin](galaxy@elixir-belgium.org). ELIXIR Belgium holds a brokering account with ENA which is used for all submissions. Go to *usegalaxy.be/covid-19* and login.
+
+
+### 1. Data upload
 ENA will accept only raw read files via programmatic submissions (this tool). Genome or transcriptome assemblies can be submitted to ENA using the other methods available (see above).
 ENA will accept *fastq* (SE and PE), *bam* and *cram* formats.
 
@@ -64,7 +72,7 @@ Your data should appear on the right panel. You can rename, tag, preview edit or
 <!-- screenshot of data object -->
 
 
-### 3. Filter human reads
+### 2. Filter human reads
 In order to comply with Europe’s General Data Protection Regulation [(GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en), traces of human genetic information must be removed from the raw data before submitting it to ENA. A tool is included that filters out reads that map to the human genome using [Metagen-FastQC](https://github.com/Finn-Lab/Metagen-FastQC).
 
 Select the filtering tool from the **Tools** panel on the right.
@@ -76,7 +84,7 @@ Click on *Execute*
 <!-- screenshot of selection box in filtering tool -->
 The tool will now process the raw reads to remove reads that map to the human genome. The resulting filtered data files are found on the right panel.
 
-### 4. Metadata upload
+### 3. Metadata upload
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
 The tool offers two ways of entering metadata for submission: interactively or via a metadata template. All metadata fields must be completed for the submission to go through.
 
@@ -102,10 +110,12 @@ Open the spreadsheet in your computer. **All fields of the template must be comp
 
 Upload the completed metadata template using Galaxy upload tool.
 
-### 5. Validate Metadata
+### 4. Validate Metadata
 
-### 6. Submit study to ENA
-After submission, the study will have a default embargo. As submission broker, ELIXIR Belgium will review the submission and remove the embargo.
+### 5. Submit study to ENA
+
+
+> **_usegalaxy.be users:_** After submission, the study will have a default embargo. As submission broker, ELIXIR Belgium will review the submission and remove the embargo.
 
 
 <!-- include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) -->
