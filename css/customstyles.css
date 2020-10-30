@@ -950,6 +950,11 @@ ol.series li {
     display: block;
 }
 
+.project-title {
+    margin-top: 8px;
+    height: 37px;
+}
+
 .navbar-inverse {
     background-color: var(--nav-bar-bg);
     border-color: rgba(0, 0, 0, 0);
