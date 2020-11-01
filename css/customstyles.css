@@ -950,6 +950,10 @@ ol.series li {
     display: block;
 }
 
+.docimage {
+    margin: 20px 0px 20px 0px;
+}
+
 .project-title {
     margin-top: 8px;
     height: 37px;
