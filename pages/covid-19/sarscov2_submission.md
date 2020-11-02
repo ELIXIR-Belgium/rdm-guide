@@ -110,7 +110,7 @@ Upload the completed metadata template using Galaxy upload tool.
 
 
 
-### 5. Check for a valid submission
+### 4. Check for a valid submission
 
 Go to ENA ....
 
