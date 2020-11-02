@@ -707,9 +707,6 @@ figcaption {
     color: red;
 }
 
-table.dataTable thead {
-    background-color: #444;
-}
 
 table td {
     hyphens: auto;
@@ -948,6 +945,15 @@ ol.series li {
     color: silver;
     color: #444;
     display: block;
+}
+
+.docimage {
+    margin: 20px 0px 20px 0px;
+}
+
+.project-title {
+    margin-top: 8px;
+    height: 37px;
 }
 
 .navbar-inverse {
