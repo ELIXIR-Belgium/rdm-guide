@@ -18,7 +18,7 @@ Many funders are asking grant applicants to provide a DMP, before they begin any
 DMP is considered a tool to encourage researchers to value the data that they generate as much as the scientific article, in which that data is used. DMP should help preventing data loss and encourage data sharing according to the [FAIR principle](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/). Sharing data should reduce data duplication and increase reproducibility and transparency. Moreover, accessible data can be reused by others to generate new knowledge. Overall, DMP is a tool to make research better.
 
 ## Preparing to write a DMP
-Before you start writing your DMP, it is important to think about a number of aspects of your research project. The paragraphs listed in the **"Make your DMP"** section provide practical guidance on how to tackle many data management issues that need to be addressed in a DMP.
+Before you start writing your DMP, it is important to think about a number of aspects of your research project. The paragraphs listed in the **"Data Management Plan"** section provide practical guidance on how to tackle many data management issues that need to be addressed in a DMP.
 
 ## References
 * [Data Management Made Simple, Nature 2018](https://www.nature.com/articles/d41586-018-03071-1?utm_source=twt_nnc&utm_medium=social&utm_campaign=naturenews&sf184398395=1 ).
