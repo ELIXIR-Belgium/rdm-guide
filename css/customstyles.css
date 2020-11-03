@@ -160,7 +160,6 @@ h3 {
 
 h4 {
     font-weight: 700;
-    font-size: 100%;
     color: var(--summary-color);
     margin-top: 20px;
 }
@@ -395,7 +394,6 @@ p.post-meta {
 #search-demo-container ul#results-container {
     font-size: 12px;
     position: absolute;
-    top: 40px;
     /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
     z-index: -1;
@@ -411,12 +409,11 @@ ul#results-container a {
 
 ul#results-container a:hover {
     background-color: var(--primary-theme-color);
-    color: var(--main-text-color);
+    color: var(---main-background-color);
 }
 
 #search-demo-container a:hover {
     color: var(--main-text-color);
-    ;
 }
 
 #search-input {

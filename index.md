@@ -1,6 +1,5 @@
 ---
-title: "Make your Data Management Plan comes true - Tips and Tricks"
-keywords: sample homepage
+title: "Make your Data Management Plan come true - Tips and Tricks"
 summary: Data management practical guidelines for Life Sciences researchers.
 ---
 
