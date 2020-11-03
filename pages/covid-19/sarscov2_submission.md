@@ -5,7 +5,7 @@ summary: A guide to submit SARS-Cov-2 sequence data to different repositories.
 permalink: covid-19/sarscov2_submission.html
 ---
 
-{% include note.html content="The content of this page is not final." %}
+{% include note.html content="The content in this page is not final." %}
 
 ## General
 
