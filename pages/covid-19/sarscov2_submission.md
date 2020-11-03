@@ -102,7 +102,7 @@ At the bottom, select the filtered data files associated with the metadata.
 
 At last, fill in the Affiliation center and click on execute.
 
-{% include image.html file="execute_ena_upoad.png" alt="Affiliation center and execute button" caption="Affiliation field and exicute button."%}
+{% include image.html file="execute_ena_upoad.png" alt="Affiliation center and execute button" caption="Affiliation field and execute button."%}
 
 #### Upload with the metadata template
 For submission of a large number of files, it is recommended to use the spreadsheet template to upload the metadata. The template can be found [here](https://docs.google.com/spreadsheets/d/14pHWToG7Hm5vLhToA6ex9K2oBFm0Wygao53ZsktzjPg/edit?usp=sharing). The template is organized according to the ENA metadata model and contains one worksheet each for study, sample, experiment and run metadata. Use the alias column to interlink the experiments, studies, runs, samples and files with each other. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
@@ -113,7 +113,7 @@ Export the tables to tsv files and upload the completed metadata template using 
 
 At last, fill in the Affiliation center and click on execute.
 
-{% include image.html file="execute_ena_upoad.png" alt="Affiliation center and execute button" caption="Affiliation field and exicute button."%}
+{% include image.html file="execute_ena_upoad.png" alt="Affiliation center and execute button" caption="Affiliation field and execute button."%}
 
 
 ### 4. Check for a valid submission
