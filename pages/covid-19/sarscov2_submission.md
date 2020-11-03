@@ -5,6 +5,8 @@ summary: A guide to submit SARS-Cov-2 sequence data to different repositories.
 permalink: covid-19/sarscov2_submission.html
 ---
 
+{% include note.html content="The content of this page is not final." %}
+
 ## General
 
 ELIXIR Belgium has developed a galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)) and in the future [GISAID](https://www.gisaid.org/). The tool is packaged in a Galaxy container for easy distribution. It can be run locally or via ELIXIR Belgium’s Covid-19-dedicated Galaxy instance. A [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
