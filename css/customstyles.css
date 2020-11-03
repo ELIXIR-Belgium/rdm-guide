@@ -1065,6 +1065,7 @@ dd {
 .alert {
     margin-bottom: 10px;
     margin-top: 10px;
+    border-color: transparent;
 }
 
 a.accordion-toggle {
