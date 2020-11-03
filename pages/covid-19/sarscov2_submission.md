@@ -5,7 +5,7 @@ summary: A guide to submit SARS-Cov-2 sequence data to different repositories.
 permalink: covid-19/sarscov2_submission.html
 ---
 
-{% include note.html content="The content in this page is not final." %}
+{% include note.html content="The content on this page is not final." %}
 
 ## General
 
@@ -46,7 +46,7 @@ To make the process more user-friendly and allow most researchers without inform
 
 
 ## Walkthrough of ENA submission in Galaxy
-### 0. Register and login to Galaxy (usegalaxy.be only)
+### 0. Register and login to Galaxy (usegalaxy.be users only)
 
 You must apply for login credentials with our [Galaxy admin](galaxy@elixir-belgium.org). ELIXIR Belgium holds a brokering account with ENA which is used for all submissions. Go to *usegalaxy.be/covid-19* and login. %}
 
@@ -86,7 +86,9 @@ The tool will now process the raw reads to remove reads that map to the human ge
 
 ### 3. Uploading the data accompanied with the metadata
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
-The tool offers two ways of entering metadata for submission: interactively or via a metadata template. All metadata fields must be completed for the submission to go through.
+The tool offers two ways of entering metadata for submission: interactively or via a metadata template. All metadata fields must be completed for the submission to go through. Both ways allow you to make a test submission to the server of ENA. This enables you to check if everything is showing up as expected and the metadata is correct. 
+
+{% include image.html file="2_ways_ena_tool.png" alt="2ways of submitting metadata" caption="Two ways of submitting the metadata through the ENA-upload tool."%}
 
 
 #### Interactive metadata upload
@@ -98,25 +100,25 @@ For a small number of submissions, metadata is best entered interactively by com
 
 At the bottom, select the filtered data files associated with the metadata.
 
+At last, fill in the Affiliation center and click on execute.
 
-#### Upload with metadata template
-For submission of a large number of files, a metadata template is available with the container. The template is organized according to the ENA metadata model and contains one worksheet each for study, sample, experiment and run metadata. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
+{% include image.html file="execute_ena_upoad.png" alt="Affiliation center and execute button" caption="Affiliation field and exicute button."%}
 
-Download the metadata template.
-<!-- screenshot of the metadata download 'button' -->
+#### Upload with the metadata template
+For submission of a large number of files, it is recommended to use the spreadsheet template to upload the metadata. The template can be found [here](https://docs.google.com/spreadsheets/d/14pHWToG7Hm5vLhToA6ex9K2oBFm0Wygao53ZsktzjPg/edit?usp=sharing). The template is organized according to the ENA metadata model and contains one worksheet each for study, sample, experiment and run metadata. Use the alias column to interlink the experiments, studies, runs, samples and files with each other. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
+
 Open the spreadsheet in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with a submission to ENA using this tool (accession number PRJEB40711).
 
-Upload the completed metadata template using Galaxy upload tool.
+Export the tables to tsv files and upload the completed metadata template using Galaxy upload tool. Select the correct spreadsheets in the tool together with the correct data. If the data is uploaded correctly, they should appear in the "Select all datasets to upload" section.
 
-{% include image.html file="ena_upload_tool_1.png" alt="ENA upload tool" caption="ENA upload tool."%}
+At last, fill in the Affiliation center and click on execute.
 
+{% include image.html file="execute_ena_upoad.png" alt="Affiliation center and execute button" caption="Affiliation field and exicute button."%}
 
 
 ### 4. Check for a valid submission
 
-Go to ENA ....
-
-It can take several days for ENA to index the pag etc...
+Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your submissions or [dev Webin](https://wwwdev.ebi.ac.uk/ena/submit/webin) to check on test submissions. If everything looks fine, publish the data by changing the "Release Date" of the study to a day later than the current day. It can take several days for ENA to index the data and to let it appear in a correct manner. Covid-19 data will also be indexed by the [COVID-19 Data Portal](https://www.covid19dataportal.org/)
 
 {% include note.html content="**_usegalaxy.be users:_** After submission, the study will have a default embargo. As submission broker, ELIXIR Belgium will review the submission and remove the embargo." %}
 
