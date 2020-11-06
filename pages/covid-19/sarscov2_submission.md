@@ -63,7 +63,7 @@ There are different options for uploading data files:
 - Local files can be uploaded by drag-and-dropping to 'Drop files here' (Fig. 2a) area or selecting  'Choose local files'(Fig. 2b) and browsing to the local files
 - 'Paste/Fetch data' (Fig 2c) allows fetching remote files from the web by entering a URL or pasting the data itself (Fig. 3)
 
-{% include image.html file="" alt="Upload menu" caption="Figure 2. Data upload options in Galaxy"%}
+{% include image.html file="upload_options.png" alt="Upload menu" caption="Figure 2. Data upload options in Galaxy"%}
 
 {% include image.html file="paste_fetch_data.png" alt="paste_fetch menu" caption="Figure 3. Paste/Fetch data"%}
 
