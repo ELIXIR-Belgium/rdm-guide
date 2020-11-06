@@ -88,7 +88,7 @@ Select the filtering tool from the **Tools** panel on the right.
 * Select the files to clean (uploaded on the previous step, Fig. 5c)
 * Click on *Execute* (Fig. 5d)
 
-{% include image.html file="new_read_cleaning_tool.png" alt="Figure 5. Read cleaning tool" caption="The interface of the read cleaning tool."%}
+{% include image.html file="new_read_cleaning_tool.png" alt=" Read cleaning tool" caption="Figure 5. The interface of the read cleaning tool."%}
 
 The tool will now process the raw reads to remove reads that map to the human genome. This can take a while. The resulting filtered data files are found on the right panel.
 
