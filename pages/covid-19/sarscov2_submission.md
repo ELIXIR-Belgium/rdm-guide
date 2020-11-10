@@ -65,14 +65,9 @@ There are different options for uploading data files:
 
 {% include image.html file="upload_interface.png" alt="Upload menu" caption="Figure 2. Data upload options in Galaxy"%}
 
-{% include image.html file="paste_fetch_data.png" alt="paste_fetch menu" caption="Figure 3. Paste/Fetch data"%}
-
-
 When the local files are selected or a URL is given, click "start" to start the uploading to Galaxy.
 
 More information on data upload to Galaxy can be found in [Galaxy support](https://galaxyproject.org/support/loading-data/).
-
-
 
 Your data should appear in green on the right history panel (Fig. 4). You can rename, tag, preview edit or delete data objects from here.
 {% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 4. Files that are uploaded will show up in the history panel."%}
