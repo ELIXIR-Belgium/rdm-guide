@@ -951,9 +951,9 @@ ol.series li {
 
 @media (max-width: 767px) {
     .project-title {
-        margin-top: 8px;
-        height: 36px;
-        margin-left: 8px;
+        margin-top: 12px;
+        height: 30px;
+        margin-left: 15px;
     }
 }
 
