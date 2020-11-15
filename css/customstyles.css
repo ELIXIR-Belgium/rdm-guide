@@ -651,11 +651,6 @@ a.navbar-brand:hover {
     border-color: rgba(0, 0, 0, 0);
 }
 
-span.projectTitle {
-    font-family: 'Lato', sans-serif;
-    font-size: 23px;
-}
-
 .footer {
     text-align: right;
 }
@@ -951,6 +946,15 @@ ol.series li {
 .project-title {
     margin-top: 8px;
     height: 37px;
+}
+
+
+@media (max-width: 767px) {
+    .project-title {
+        margin-top: 8px;
+        height: 36px;
+        margin-left: 5px;
+    }
 }
 
 .navbar-inverse {
