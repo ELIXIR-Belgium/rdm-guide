@@ -65,17 +65,12 @@ There are different options for uploading data files:
 
 {% include image.html file="upload_interface.png" alt="Upload menu" caption="Figure 2. Data upload options in Galaxy"%}
 
-{% include image.html file="paste_fetch_data.png" alt="paste_fetch menu" caption="Figure 3. Paste/Fetch data"%}
-
-You can define the format of the uploaded files using the **type** drop-down menu (Fig. 4). The *Auto-detect* option will work for compressed formats (*fastq.gz*). For uncompressed *.fastq* files select *'fastqsanger'*.
-
 When the local files are selected or a URL is given, click "start" to start the uploading to Galaxy.
 More information on data upload to Galaxy can be found in [Galaxy support](https://galaxyproject.org/support/loading-data/).
 
-{% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 4. Files that are uploaded will show up in the history panel."%}
 
-Your data should appear in green on the right history panel (Fig. 5). You can rename, tag, preview edit or delete data objects from here.
-{% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 5. Files that are uploaded will show up in the history panel."%}
+Your data should appear in green on the right history panel (Fig. 3). You can rename, tag, preview edit or delete data objects from here.
+{% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 3. Files that are uploaded will show up in the history panel."%}
 
 
 ### 2. Filter human reads out of the raw reads
@@ -83,14 +78,14 @@ In order to comply with Europe’s General Data Protection Regulation [(GDPR)](h
 
 Select the filtering tool from the **Tools** panel on the right.
 
-* Select human h38 reference genome (Fig. 6a).
-* Choose single or paired-end (Fig. 6b)
-* Select the files to clean (uploaded on the previous step, Fig. 6c)
-* Click on *Execute* (Fig. 6d)
 
+* Select human h38 reference genome (Fig. 4a).
+* Choose single or paired end (Fig. 4b)
+* Select the files to clean (uploaded on the previous step, Fig. 4c)
+* Click on *Execute* (Fig. 4d)
 
+{% include image.html file="new_read_cleaning_tool.png" alt=" Read cleaning tool" caption="Figure 4. The interface of the read cleaning tool."%}
 
-{% include image.html file="new_read_cleaning_tool.png" alt=" Read cleaning tool" caption="Figure 6. The interface of the read cleaning tool."%}
 
 The tool will now process the raw reads to remove reads that map to the human genome. This can take a while. The resulting filtered data files are found on the right panel.
 
@@ -104,14 +99,16 @@ It is advisable to first test your submissions using the Webin test service wher
 
 
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
+
 The tool offers three ways of entering metadata for submission:
-* Using the Excel template (default, Fig. 7a)
-* Interactive generation of the metadata structure (Fig. 7b)
-* Using the 4 tsv templates (legacy, Fig. 7c)
+* Using the Excel template (default, Fig. 5a)
+* Interactive generation of the metadata structure (Fig. 5b)
+* Using the 4 tsv templates (legacy, Fig. 5c)
 
 All three allow you to make a test submission to the server of ENA. All metadata fields must be completed for the submission to go through. The submission tool will validate the metadata before submission.
 
-{% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 7. Three ways of submitting the metadata through the ENA-upload tool."%}
+
+{% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
 
 
 #### Upload with the metadata spreadsheet template
