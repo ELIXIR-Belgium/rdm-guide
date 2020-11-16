@@ -58,10 +58,9 @@ Raw data can be uploaded using Galaxy's upload tool found at the top right of th
 {% include image.html file="upload_options.png" alt="Uploading files In Galaxy" caption="Figure 1. Data upload locations in Galaxy "%}
 
 
-The data upload
 There are different options for uploading data files:
-- Local files can be uploaded by drag-and-dropping to 'Drop files here' (Fig. 2a) area or selecting  'Choose local files'(Fig. 2b) and browsing to the local files
-- 'Paste/Fetch data' (Fig 2c) allows fetching remote files from the web by entering a URL or pasting the data itself (Fig. 3)
+- Local files can be uploaded by drag-and-dropping to 'Drop files here' (Fig. 2a) area or by selecting  'Choose local files'(Fig. 2b) and browsing to the local files
+- 'Paste/Fetch data' (Fig 2c) allows fetching remote files from the web by entering a URL or pasting the data itself
 
 {% include image.html file="upload_interface.png" alt="Upload menu" caption="Figure 2. Data upload options in Galaxy"%}
 
@@ -80,7 +79,7 @@ Select the filtering tool from the **Tools** panel on the right.
 
 
 * Select human h38 reference genome (Fig. 4a).
-* Choose single or paired end (Fig. 4b)
+* Choose single or paired-end (Fig. 4b)
 * Select the files to clean (uploaded on the previous step, Fig. 4c)
 * Click on *Execute* (Fig. 4d)
 
@@ -93,19 +92,17 @@ The tool will now process the raw reads to remove reads that map to the human ge
 
 
 ### 3. Upload metadata and submit to ENA
-The **ENA Upload tool** under *Submission tools* is used to generate the metadata in the right format, associate it with the sequence data files ans submit everything to ENA.
-
-It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting **'Yes'** on **'Submit to test ENA server?''**.
+The **ENA Upload tool** under *Submission tools* is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting **'Yes'** on **'Submit to test ENA server?''**.
 
 
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
 
 The tool offers three ways of entering metadata for submission:
 * Using the Excel template (default, Fig. 5a)
-* Interactive generation of the metadata structure (Fig. 5b)
+* Interactively generating the metadata structure (Fig. 5b)
 * Using the 4 tsv templates (legacy, Fig. 5c)
 
-All three allow you to make a test submission to the server of ENA. All metadata fields must be completed for the submission to go through. The submission tool will validate the metadata before submission.
+All three allow you to make a submission to either the test or production server of ENA. All metadata fields must be completed for the submission to go through. The submission tool will validate the metadata before submission.
 
 
 {% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
@@ -121,16 +118,15 @@ For submission of a large number of files, we recommend to use the Excel templat
 
 Use the *_alias* field on each sheet to interlink the experiments, studies, runs, samples and files with each other. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
 
-Complete the metadata template in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with a real submission to ENA using this tool (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **File based on templates here:**.
+Complete the metadata template in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
 Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on execute.
 
 {% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
 #### Interactive metadata upload
-For a small number of submissions, metadata is best entered interactively by completing all the boxes. Metadata fields are nested according to ENA metadata model described above.
+For a small number of submissions, metadata is best entered interactively in Galaxy using the submission tool. Metadata fields are nested according to ENA metadata model described above.
 At the bottom, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on execute.
 
-{% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
 #### Tabular (tsv) metadata tables (Legacy)
 Four tsv files can be uploaded, one each for study, sample, experiment and run metadata. Example tsv files can be found [here](https://github.com/usegalaxy-eu/ena-upload-cli/tree/master/example_tables).
@@ -148,12 +144,12 @@ Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your su
 ### 5. Known issues
 
 #### The reads cleaning tool shows no files for input
-You have uploaded sequence files, they appear in your history but you do not see them in the human reads cleaning tool. This issue is related to the Galaxy file format. If you uploaded uncompressed fastq files, you have to define the files as fastqsanger in Galaxy for the tool to accept them. This can be done during upload or by editing the file attibutes in the history panel. More information of fastqsanger format can be found [here](https://galaxyproject.org/support/fastqsanger/)
+You have uploaded sequence files, they appear in your history but you do not see them in the human reads cleaning tool. This issue is related to the sequence file format. If you uploaded uncompressed fastq files, you have to define the files as fastqsanger in Galaxy for the tool to accept them. This can be done during upload or by editing the file attibutes in the history panel. More information of fastqsanger format can be found [here](https://galaxyproject.org/support/fastqsanger/)
 
 #### Output from reads cleaning has no sequence
-The output of the read cleaning tool is a small file (40Kb) with no sequences. This issue is related to memory requirements.
+The output of the read cleaning tool is a small file (40Kb) with no sequences. This issue can be related to memory requirements.
 The human reads cleaning tool uses [BWA Mem](http://bio-bwa.sourceforge.net/) for mapping reads to the human genome. This step is memory demanding.
-A modestly specced workstation may become laggy. Increasing the swap file or swap partition size can help.
+A modestly specced workstation may become laggy and not finish the mapping step, resutling in no output sequence file. Increasing the swap file or swap partition size can help with this issue.
 
 
 <!-- include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) -->
