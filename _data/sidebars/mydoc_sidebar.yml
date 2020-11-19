@@ -1,0 +1,86 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title:
+  folders:
+  - title: About Us
+    output: web
+    url: /data_management_hub.html
+  - title: Data Management in Simple Steps
+    output: web
+    url: /data_management_steps.html
+  - title: Data Management Plan
+    output: web
+    url: /about_DMP.html
+    folderitems:
+    - title: Online tools for DMP
+      url: /online_tools_for_dmp.html
+      output: web
+    - title: Data in DMP
+      url: /data_in_dmp.html
+      output: web
+    - title: Existing data
+      url: /existing_data.html
+      output: web
+    - title: File formats
+      url: /file_formats.html
+      output: web
+    - title: Data volume
+      url: /data_volume.html
+      output: web
+    - title: Datasets sharing
+      url: /datasets_sharing.html
+      output: web
+    - title: Data licences
+      url: /data_licences.html
+      output: web
+    - title: Metadata
+      url: /metadata.html
+      output: web
+    - title: Identifiers
+      url: /identifiers.html
+      output: web
+    # - title: Ontology
+    #   url: /ontology.html
+    #   output: web
+    - title: Data documentation
+      url: /data_documentation.html
+      output: web
+    - title: Data organization
+      url: /data_organization.html
+      output: web
+    # - title: Costs for sharing and storing data
+    #   url: /costs_for_sharing_and_storing_data.html
+    #   output: web
+    # - title: Data quality
+    #   url: /data_quality.html
+    #   output: web
+    # - title: Personal data
+    #   url: /personal_data.html
+    #   output: web
+  - title: Data Management for Omics Data
+    output: web
+    folderitems:
+      - title: Genomics
+        url: /genomics.html
+        output: web
+      - title: Metabolomics
+        url: /metabolomics.html
+        output: web
+      - title: Proteomics
+        url: /proteomics.html
+        output: web
+      - title: Transcriptomics
+        url: /transcriptomics.html
+        output: web
+  - title: Covid-19
+    output: web
+    url: /covid-19/index.html
+    folderitems:
+      - title: SARS-Cov-2 submission
+        url: /covid-19/sarscov2_submission.html
+        output: web
+  - title: Credit
+    output: web
+    url: /credit.html
+

@@ -1,2 +1,3 @@
-# data-management-hub
-This repository is used to build the data-management-hub website.
+# Data Management Hub
+
+The website can be found at [rdm.elixir-belgium.org](https://rdm.elixir-belgium.org/).
