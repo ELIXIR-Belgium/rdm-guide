@@ -10,7 +10,6 @@ html, html[data-theme="light"] {
     --main-background-color: #fff;
     --main-text-color: #333;
     --link-color: #337ab7;
-    --link-hover-color: #23527c;
     --toc-background-color: whitesmoke;
     --toc-text-color: gray;
     --nav-text-color: #333;
@@ -27,7 +26,6 @@ html[data-theme="dark"] {
     --main-background-color: #404040;
     --main-text-color: #ddd;
     --link-color: #8fc6f5;
-    --link-hover-color: #c9e5ff;
     --toc-background-color: #555;
     --toc-text-color: #ddd;
     --nav-text-color: #ddd;
@@ -43,7 +41,6 @@ html[data-theme="dark"] {
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
         --main-background-color: #404040;
-        --main-text-color: #ddd;
         --link-color: #8fc6f5;
         --link-hover-color: #c9e5ff;
         --toc-background-color: #555;
@@ -61,7 +58,6 @@ html[data-theme="dark"] {
         --main-background-color: #fff;
         --main-text-color: #333;
         --link-color: #337ab7;
-        --link-hover-color: #23527c;
         --toc-background-color: whitesmoke;
         --toc-text-color: gray;
         --nav-text-color: #333;
@@ -75,51 +71,6 @@ html[data-theme="dark"] {
     }
 }
 
-.site-footer {
-    background-color: var(--toc-background-color);
-    padding: 15px 0 0px;
-    font-size: 15px;
-    line-height: 24px;
-    color: var(--toc-text-color);
-}
-
-.site-footer .company-image {
-    width: 120px;
-    height: auto;
-    float: right;
-}
-
-.site-footer h6 {
-    color: var(--hover-grey);
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 5px;
-    letter-spacing: 2px;
-}
-
-.footer-links {
-    padding-left: 0;
-    list-style: none;
-}
-
-.footer-links li {
-    display: block;
-}
-
-.footer-links.inline li {
-    display: inline-block;
-}
-
-.copyright-text {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-align: right;
-    color: var(--hover-grey);
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: transparent;
-}
 
 #main {
     padding-bottom: 2.5rem;
@@ -169,11 +120,11 @@ a {
 }
 
 a:hover {
-    color: var(--link-hover-color);
+    color: var(--link-color);
 }
 
-.footerimg {
-    width: 110px;
+.subtitle {
+    color: var(--toc-text-color);
 }
 
 .bs-callout {
@@ -486,10 +437,6 @@ li.dropdownActive a {
     color: #248EC2;
 }
 
-footer {
-    font-size: smaller;
-}
-
 /* FAQ page */
 
 #accordion .panel-heading {
@@ -638,10 +585,6 @@ a.navbar-brand:hover {
     border-color: rgba(0, 0, 0, 0);
 }
 
-.footer {
-    text-align: right;
-}
-
 .footerMeta {
     background-color: whitesmoke;
     padding: 10px;
@@ -651,6 +594,53 @@ a.navbar-brand:hover {
     font-style: italic;
     font-size: 12px;
 }
+
+.site-footer {
+    background-color: var(--toc-background-color);
+    padding: 15px 0 0px;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--toc-text-color);
+}
+
+.site-footer .company-image {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+
+.site-footer h6 {
+    color: var(--hover-grey);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links.inline li {
+    display: inline-block;
+}
+
+.copyright-text {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    color: var(--hover-grey);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
 
 img.screenshotSmall {
     max-width: 300px;

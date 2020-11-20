@@ -1,6 +1,6 @@
 ---
 title: "Make your Data Management Plan come true"
-summary: Tips and Tricks
+subtitle: Tips and Tricks
 ---
 
 
