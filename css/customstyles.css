@@ -380,7 +380,7 @@ ul#results-container a:hover {
 }
 
 #toc {
-    padding: 15px;
+    padding: 15px 30px;
     background: var(--toc-background-color);
     margin: 1.75em 0 2em;
     border-radius: 4px;
