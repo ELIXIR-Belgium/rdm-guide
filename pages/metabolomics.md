@@ -1,7 +1,6 @@
 ---
 title: Metabolomics
 keywords:
-summary: Empty summary
 ---
 
 ## Metabolome

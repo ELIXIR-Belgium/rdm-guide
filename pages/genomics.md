@@ -1,7 +1,6 @@
 ---
 title: Genomics
 keywords:
-summary: Empty summary
 ---
 
 ## Genome

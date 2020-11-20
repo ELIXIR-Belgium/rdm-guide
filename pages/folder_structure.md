@@ -1,7 +1,6 @@
 ---
 title: Folder structure
 keywords:
-summary: Empty summary
 ---
 ## Folder structure
 A folder structure convention should be agreed to and adopted by the entire group at the beginning of the project. Every project has specific needs, therefore a folder structure should be decided on a case-by-case basis. Here we provide some generic guidelines that can be used to implement a folder structure for a research project.

@@ -1,7 +1,6 @@
 ---
 title: PRoteomics IDEntifications (PRIDE) database
 keywords:
-summary: Empty summary
 ---
 ## PRIDE features
 ### How to submit data

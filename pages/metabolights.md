@@ -1,7 +1,6 @@
 ---
 title: MetaboLights
 keywords:
-summary: Empty summary
 ---
 ## MetaboLights features
 ### How to submit data

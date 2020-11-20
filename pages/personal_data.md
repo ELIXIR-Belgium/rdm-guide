@@ -1,7 +1,6 @@
 ---
 title: Personal data
 keywords:
-summary: Empty summary
 ---
 
 ## Subtitle 1

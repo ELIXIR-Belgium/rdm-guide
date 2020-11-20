@@ -1,7 +1,6 @@
 ---
 title: Transcriptomics
 keywords:
-summary: Empty summary
 ---
 
 ## Transcriptome

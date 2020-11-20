@@ -1,7 +1,6 @@
 ---
 title: Data quality
 keywords:
-summary: Empty summary
 ---
 
 ## Subtitle 1

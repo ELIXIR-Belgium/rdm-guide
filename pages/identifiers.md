@@ -1,7 +1,6 @@
 ---
 title: Identifiers
 keywords:
-summary: Empty summary
 ---
 
 ## Persistent Identifiers

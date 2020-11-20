@@ -1,7 +1,6 @@
 ---
 title: European Nucleotide Archive (ENA)
 keywords:
-summary: Empty summary
 ---
 ## ENA features
 ### How to submit data

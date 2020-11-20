@@ -1,7 +1,6 @@
 ---
 title: Ontology
 keywords:
-summary: Empty summary
 ---
 
 ## Subtitle 1

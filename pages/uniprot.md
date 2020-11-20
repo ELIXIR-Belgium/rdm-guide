@@ -1,7 +1,6 @@
 ---
 title: UniProt
 keywords:
-summary: Empty summary
 ---
 ## UniProt features
 ### How to submit data

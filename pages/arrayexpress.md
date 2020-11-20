@@ -1,7 +1,6 @@
 ---
 title: ArrayExpress
 keywords:
-summary: Empty summary
 ---
 ## ArrayExpress features
 ### How to submit data

@@ -1,7 +1,6 @@
 ---
 title: Proteomics
 keywords:
-summary: Empty summary
 ---
 
 ## Proteome
