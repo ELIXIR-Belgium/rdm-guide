@@ -731,7 +731,7 @@ figcaption {
 .profile-card {
     flex: 1 1 30%;
     background-color: var(--main-background-color);
-    padding: 20px 50px;
+    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -759,9 +759,8 @@ figcaption {
     margin: 25px 0 10px 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .profile-card {
-        padding: 20px 15px;
         margin: 30px;
     }
     .profile-name {
