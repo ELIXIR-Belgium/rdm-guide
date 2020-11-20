@@ -97,14 +97,6 @@ html[data-theme="dark"] {
     letter-spacing: 2px;
 }
 
-.site-footer a {
-    color: var(--white-text);
-}
-
-.site-footer a:hover {
-    text-decoration: none;
-}
-
 .footer-links {
     padding-left: 0;
     list-style: none;
