@@ -726,12 +726,10 @@ figcaption {
 
 .profile-container {
     margin: 40px 0px;
-    display: flex;
 }
 
 .profile-card {
     flex: 1 1 30%;
-    max-width: 300px;
     background-color: var(--main-background-color);
     padding: 20px 50px;
     display: flex;
@@ -761,18 +759,19 @@ figcaption {
     margin: 25px 0 10px 0;
 }
 
-@media screen and (max-width: 1000px) {
-    .profile-name {
-        font-size: 18px;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .profile-card {
         padding: 20px 15px;
+        margin: 30px;
     }
     .profile-name {
         font-size: 16px;
+    }
+}
+
+@media (min-width: 600px) {
+    .profile-container {
+        display: flex;
     }
 }
 
