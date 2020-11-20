@@ -1,4 +1,0 @@
----
-title: About Us
-keywords:
----

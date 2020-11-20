@@ -3,5 +3,7 @@
 topnav:
 - title: Topnav
   items:
+    - title: About Us
+      url: /about_us.html
     - title: GitHub
       external_url: https://github.com/ELIXIR-Belgium/data_management_hub

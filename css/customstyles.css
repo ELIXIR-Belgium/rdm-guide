@@ -416,7 +416,7 @@ ul#results-container a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 11px;
+    margin-top: 9px;
     border-radius: 4px;
     border-width: 0px;
     background-color: var(--main-background-color);
@@ -487,6 +487,7 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav>li>a {
     background-color: transparent;
+    margin-top: 11px;
 }
 
 .post-content .rssfeedLink {
@@ -559,6 +560,8 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav>li>a {
     font-size: 16px;
+    line-height: 20px;
+    padding: 4px 10px;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -680,6 +683,97 @@ figcaption {
     margin-bottom: 20px;
     font-style: italic;
     color: gray;
+}
+
+/* Social media icons */
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: var(--toc-background-color);
+    color: var(--primary-theme-color);
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--main-background-color)
+}
+
+.profile-container {
+    margin: 40px 0px;
+    display: flex;
+}
+
+.profile-card {
+    flex: 1 1 30%;
+    max-width: 300px;
+    background-color: var(--main-background-color);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 #ccc;
+    transition: .3s;
+    margin: 4px;
+}
+
+.profile-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px -10px #ccc;
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .profile-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-card {
+        padding: 20px 15px;
+    }
+    .profile-name {
+        font-size: 16px;
+    }
 }
 
 .testing {
@@ -1137,7 +1231,6 @@ span.soft {
     max-width: 100%;
     max-height: 100%;
 }
-
 
 .videoThumbs img {
     float: left;
