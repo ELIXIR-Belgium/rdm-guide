@@ -3,9 +3,6 @@
 entries:
 - title:
   folders:
-  - title: About Us
-    output: web
-    url: /data_management_hub.html
   - title: Data Management in Simple Steps
     output: web
     url: /data_management_steps.html
