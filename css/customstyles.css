@@ -57,6 +57,14 @@ h3+h4 {
     margin-top: 15px;
 }
 
+.rdm_cycle {
+    max-width: 23em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
 a {
     color: var(--link-color);
 }
