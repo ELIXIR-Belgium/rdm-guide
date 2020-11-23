@@ -4,6 +4,7 @@
     --white: #ffffff;
     --main-text-color: #333;
     --link-color: #337ab7;
+    --dark-blue: #023452;
     --light-gray: whitesmoke;
     --grey: #808080;
 }
@@ -19,14 +20,19 @@ body {
     line-height: 1.5;
     color: var(--main-text-color);
     background-color: var(--white);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-variant-ligatures: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 170%;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
 }
