@@ -21,7 +21,7 @@ hide_sidebar: true
 1. Login to Galaxy using `admin` as username and `password` as password. This will give you full access to the galaxy instance.
 2. Go to **User** > **Preferences** in the top navigation
 3.  Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
-4. Fill in the `Your NA Webin account details` (If you do not have one, get your ENA Webin account [here](https://www.ebi.ac.uk/ena/submit/sra/#registration))
+4. Fill in the `Your ENA Webin account details` (If you do not have one, get your ENA Webin account [here](https://www.ebi.ac.uk/ena/submit/sra/#registration))
 5. Click **Save**
 
 
