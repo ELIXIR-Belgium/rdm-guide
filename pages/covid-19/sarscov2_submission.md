@@ -39,12 +39,12 @@ Instructions for building and running the container locally are found in this [g
 ## Walkthrough of ENA submission using the Galaxy container
 
 
-### 0. Register at the ENA
+### 0. Obtain and load ENA Webin submission credentials
 
-An ENA [Webin account](https://www.ebi.ac.uk/ena/submit/sra/#registration) is required to upload data to the ENA.
-When running the container, the Webin account ID is passed on to the WEBIN_ID parameter in the following format: Webin-XXXXX. This is a requirement for running the container.
+An ENA [Webin account](https://www.ebi.ac.uk/ena/submit/sra/#registration) is required to upload data to the ENA. If you plan to offer this tool as a service to multiple users, then a brokering account is more suitable. To change your Webin account into a broker account, please contact ENA.
 
-If you plan to offer this tool as a service to multiple users, then a brokering account is more suitable. To change your Webin account into a broker account, please contact ENA.
+You can load your ENA credentials in Galaxy. Log in to Galaxy as admin (user: *'admin'*, password: *'password'*). Click on the **User** tab on top of the central panel and select **Preferences**. Select <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**. Fill in your **ENA Webin ID** and **Password** under **'Your ENA Webin account details'** and **Save**.
+
 
 
 
@@ -53,7 +53,7 @@ If you plan to offer this tool as a service to multiple users, then a brokering 
 This tool is used to submit raw reads to the ENA. Genome or transcriptome assemblies can be submitted to ENA using their website.
 The submission tool currently accepts *fastq.gz* (SE and PE) file format. The human reads cleaning tool accepts uncompressed *fastq* files and will output in compressed format.
 
-Raw data can be uploaded using Galaxy's upload tool found at the top right of the **Tools** panel (Fig. 1a) or at 'Upload File from your computer' under 'Upload Data' tool group (Fig. 1b).
+Raw data can be uploaded using Galaxy's <i class="fa fa-upload"></i> upload tool found at the top right of the **Tools** panel (Fig. 1a) or at 'Upload File from your computer' under 'Upload Data' tool group (Fig. 1b).
 
 {% include image.html file="upload_options.png" alt="Uploading files In Galaxy" caption="Figure 1. Data upload locations in Galaxy "%}
 
@@ -125,7 +125,6 @@ Finally, select the human-filtered data files associated with the metadata, fill
 
 #### Interactive metadata upload
 For a small number of submissions, metadata is best entered interactively in Galaxy using the submission tool. Metadata fields are nested according to ENA metadata model described above.
-At the bottom, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on execute.
 
 
 #### Tabular (tsv) metadata tables (Legacy)
