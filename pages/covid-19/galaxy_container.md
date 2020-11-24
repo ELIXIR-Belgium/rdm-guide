@@ -1,6 +1,7 @@
 ---
 permalink: covid-19/galaxy_container.html
 toc: false
+hide_sidebar: true
 ---
 
 <h1>Hello, your <strong>ENA-upload Galaxy</strong> container is running!</h1><br>
