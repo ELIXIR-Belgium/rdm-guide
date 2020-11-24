@@ -173,25 +173,6 @@ a:hover {
     font-size: 5em;
 }
 
-.breadcrumb>.active {
-    color: #777 !important;
-}
-
-.post-content ol li, .post-content ul li {
-    margin: 10px 0px;
-}
-
-.pageSummary {
-    font-size: 13px;
-    display: block;
-    margin-bottom: 15px;
-    padding-left: 20px;
-}
-
-.post-summary {
-    margin-bottom: 12px;
-}
-
 .bs-example {
     margin: 20px;
 }
@@ -310,7 +291,7 @@ ul#results-container a:hover {
 
 #search-input {
     padding: .5em;
-    margin-left: 20px;
+    margin-left: 15px;
     width: 20em;
     font-size: 0.8em;
     -webkit-box-sizing: border-box;
@@ -381,28 +362,9 @@ li.dropdownActive a {
     font-weight: bold;
 }
 
-.post-content a.fa-rss {
-    color: orange;
-}
-
 .navbar-inverse .navbar-nav>li>a {
     background-color: transparent;
     margin-top: 11px;
-}
-
-.post-content .rssfeedLink {
-    color: #248EC2;
-}
-
-/* FAQ page */
-
-#accordion .panel-heading {
-    font-size: 12px;
-}
-
-a.accordion-toggle, a.accordion-collapsed {
-    font-size: 14px;
-    text-decoration: none;
 }
 
 /* navgoco sidebar styles (customized) */
@@ -532,6 +494,21 @@ a.navbar-brand:hover {
     padding-left: 10px;
 }
 
+@media (min-width: 1000px) {
+    ul#mysidebar {
+        width: 225px;
+    }
+}
+
+@media (max-width: 1000px) {
+    ul#mysidebar {
+        max-width: 100%;
+    }
+    #mysidebar {
+        position: relative;
+    }
+}
+
 /* end sidebar */
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -541,6 +518,57 @@ a.navbar-brand:hover {
 .navbar-inverse .navbar-toggle {
     border-color: rgba(0, 0, 0, 0);
 }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.project-title {
+    margin-top: 8px;
+    height: 37px;
+}
+
+@media (max-width: 767px) {
+    .project-title {
+        margin-top: 12px;
+        height: 30px;
+        margin-left: 15px;
+    }
+}
+
+.navbar-inverse {
+    background-color: var(--light-gray);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#mysidebar .nav ul {
+    background-color: #FAFAFA;
+}
+
+.nav ul.series li {
+    list-style: decimal;
+    font-size: 12px;
+}
+
+.nav ul.series li a:hover {
+    background-color: gray;
+}
+
+.nav ul.series {
+    padding-left: 30px;
+}
+
+.nav ul.series {
+    background-color: #FAFAFA;
+}
+
+@media (max-width: 1000px) {
+    a.dropdown-toggle, .navbar-inverse .navbar-nav>li>a {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
 
 .footerMeta {
     background-color: whitesmoke;
@@ -564,10 +592,6 @@ a.navbar-brand:hover {
     width: 120px;
     height: auto;
     float: right;
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: transparent;
 }
 
 img.screenshotSmall {
@@ -802,18 +826,8 @@ a[data-toggle] {
     border-left: 5px solid var(--primary-theme-color);
     padding-left: 10px;
 }
-
-a.fa.fa-envelope-o.mailto {
-    font-weight: 600;
-}
-
 .alert, .callout {
     overflow: hidden;
-}
-
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-    background-color: #248ec2;
-    color: white;
 }
 
 ol li ol li {
@@ -936,45 +950,6 @@ ol.series li {
     margin-right: auto;
 }
 
-.project-title {
-    margin-top: 8px;
-    height: 37px;
-}
-
-@media (max-width: 767px) {
-    .project-title {
-        margin-top: 12px;
-        height: 30px;
-        margin-left: 15px;
-    }
-}
-
-.navbar-inverse {
-    background-color: var(--light-gray);
-    border-color: rgba(0, 0, 0, 0);
-}
-
-#mysidebar .nav ul {
-    background-color: #FAFAFA;
-}
-
-.nav ul.series li {
-    list-style: decimal;
-    font-size: 12px;
-}
-
-.nav ul.series li a:hover {
-    background-color: gray;
-}
-
-.nav ul.series {
-    padding-left: 30px;
-}
-
-.nav ul.series {
-    background-color: #FAFAFA;
-}
-
 /*
 a.dropdown-toggle.otherProgLangs {
     color: #f7e68f !important;
@@ -1046,10 +1021,6 @@ dd {
     margin-bottom: 6px;
 }
 
-.panel-heading {
-    font-weight: bold;
-}
-
 .note code, .alert code, .warning code, div#toc code, h2 code, h3 code, h4 code {
     color: inherit;
     padding: 0px;
@@ -1063,11 +1034,6 @@ dd {
 
 a.accordion-toggle {
     font-style: normal;
-}
-
-span.red {
-    color: red;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 
 h3.codeExplanation {
@@ -1104,30 +1070,6 @@ span.soft {
     padding: 15px;
     margin: 15px 0px;
     background-color: whitesmoke;
-}
-
-@media (max-width: 767px) {
-    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-        color: #444;
-    }
-}
-
-@media (max-width: 990px) {
-    #mysidebar {
-        position: relative;
-    }
-}
-
-@media (min-width: 1000px) {
-    ul#mysidebar {
-        width: 225px;
-    }
-}
-
-@media (max-width: 900px) {
-    ul#mysidebar {
-        max-width: 100%;
-    }
 }
 
 .col-md-9 img {
@@ -1278,137 +1220,9 @@ table thead th code.highlighter-rouge {
     background-color: transparent;
 }
 
-.box {
-    padding: 10px;
-    border: 1px solid #888;
-    width: 100px;
-    height: 80px;
-    background-color: #f5f5f5;
-    font-family: Arial;
-    font-size: 12px;
-    hyphens: auto;
-    float: left;
-    font-size: 12px;
-}
-
-.box:hover {
-    background-color: #f0f0f0;
-}
-
-#userMap {
-    overflow-x: auto;
-    overflow-y: auto;
-    padding: 20px;
-    min-width: 770px;
-}
-
-#userMap .active {
-    background-color: #d6f5d6;
-    border: 1px solid #555;
-    font-weight: bold;
-}
-
-h2.userMapTitle {
-    font-family: Arial;
-}
-
-#userMap a:hover {
-    text-decoration: none;
-}
-
-div.arrow {
-    max-width: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 20px;
-}
-
-div.content {
-    max-width: 110px
-}
-
-#userMap div.arrow, #userMap div.content {
-    float: left;
-}
-
-.clearfix {
-    clear: both;
-}
-
-#userMap div.arrow {
-    position: relative;
-    top: 30px;
-}
-
-.box1 {
-    margin-left: 0px;
-}
-
-button.btn.btn-default.btn-lg.modalButton1 {
-    margin-left: -20px;
-}
-
-div.box.box1 {
-    margin-left: -20px;
-}
-
-#userMap .btn-lg {
-    width: 100px;
-    height: 80px;
-}
-
-#userMap .complexArrow {
-    font-size: 22px;
-    margin: 0px 10px;
-}
-
-#userMap .btn-lg .active {
-    background-color: #d6f5d6;
-}
-
-#userMap .btn-lg {
-    white-space: pre-wrap;
-    /* css-3 */
-    white-space: -moz-pre-wrap;
-    /* Mozilla, since 1999 */
-    white-space: -pre-wrap;
-    /* Opera 4-6 */
-    white-space: -o-pre-wrap;
-    /* Opera 7 */
-    word-wrap: break-word;
-    /* Internet Explorer 5.5+ */
-    font-size: 14px;
-}
-
-/*
- * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
- *
- * [1] IE9
- * [2] IE10+
- */
-
-/* 1 */
-
-.ie9 img[src$=".svg"] {
-    width: 100%;
-}
-
-/* 2 */
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    img[src$=".svg"] {
-        width: 100%;
-    }
-}
-
-h4.panel-title {
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
 /*set navbar breakpoint so that it converts to hamburger earlier */
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }
