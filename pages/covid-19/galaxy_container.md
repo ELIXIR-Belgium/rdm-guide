@@ -1,11 +1,7 @@
 ---
-title: Galaxy container html
 permalink: covid-19/galaxy_container.html
+toc: false
 ---
-
-
-
-=======
 
 <h1>Hello, your <strong>ENA-upload Galaxy</strong> container is running!</h1><br>
 <p> This container is optimized to clean human reads from raw reads and to upload them to
@@ -15,18 +11,17 @@ permalink: covid-19/galaxy_container.html
     reads cleaning tool is based on Metagen-FastQC workflow.
 </p>
 
-
-
 # ENA submission quick-start
 {% include note.html content="For more detailed information on the container and the ENA submission process read the documentation found on ELIXIR Belgium's [Data management hub](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)" %}
 
 
 ## 1. Log in to Galaxy and load your ENA credentials:
-1)  Login to Galaxy using `admin` as username and `password` as password. This will give you full access to the galaxy instance.
-2)  Go to **User** > **Preferences** in the top navigation
-3)  Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
-4) Fill in the `Your ENA Webin account details` (If you do not have one, get your ENA Webin account [here](https://www.ebi.ac.uk/ena/submit/sra/#registration))
-5) Click **Save**
+
+1. Login to Galaxy using `admin` as username and `password` as password. This will give you full access to the galaxy instance.
+2. Go to **User** > **Preferences** in the top navigation
+3.  Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
+4. Fill in the `Your NA Webin account details` (If you do not have one, get your ENA Webin account [here](https://www.ebi.ac.uk/ena/submit/sra/#registration))
+5. Click **Save**
 
 
 ## 2. Upload Data
@@ -35,10 +30,10 @@ Upload your raw data using Galaxy's <i class="fa fa-upload"></i> upload tool fou
 ## 3. Filter human reads out of the raw reads
 Filter human traces from your raw data using **Clean human reads from raw data** from the **Preprocessing Tools** on the left panel.
 
-1) Select human h38 reference genome
-2) Choose single or paired-end
-3) Select the files to clean
-4) Click on 'Execute'
+1. Select human h38 reference genome
+2. Choose single or paired-end
+3. Select the files to clean
+4. Click on 'Execute'
 
 ## 4. Upload metadata and submit to ENA
 The **ENA Upload tool** under **Submission tools** is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours.
