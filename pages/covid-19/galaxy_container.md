@@ -5,6 +5,17 @@ permalink: covid-19/galaxy_container.html
 
 
 
+=======
+
+<h1>Hello, your <strong>ENA-upload Galaxy</strong> container is running!</h1><br>
+<p> This container is optimized to clean human reads from raw reads and to upload them to
+    ENA,
+    this in only a few steps. The ENA uploading is based on the tool ena-upload-cli while
+    the
+    reads cleaning tool is based on Metagen-FastQC workflow.
+</p>
+
+
 
 # ENA submission quick-start
 {% include note.html content="For more detailed information on the container and the ENA submission process read the documentation found on ELIXIR Belgium's [Data management hub](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)" %}
