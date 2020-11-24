@@ -39,21 +39,25 @@ Instructions for building and running the container locally are found in this [g
 ## Walkthrough of ENA submission using the Galaxy container
 
 
-### 0. Obtain and load ENA Webin submission credentials
+### 1. Obtain and load ENA Webin submission credentials
 
 An ENA [Webin account](https://www.ebi.ac.uk/ena/submit/sra/#registration) is required to upload data to the ENA. If you plan to offer this tool as a service to multiple users, then a brokering account is more suitable. To change your Webin account into a broker account, please contact ENA.
 
-You can load your ENA credentials in Galaxy. Log in to Galaxy as admin (user: *'admin'*, password: *'password'*). Click on the **User** tab on top of the central panel and select **Preferences**. Select <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**. Fill in your **ENA Webin ID** and **Password** under **'Your ENA Webin account details'** and **Save**.
+You can load your ENA credentials in Galaxy:
+1) Login as admin using `admin` as username and `password` as password, this will give you full access to the galaxy instance.
+2) Got to **User** > **Preferences** in the top navigation
+3) Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
+4) Fill in the `Your ENA Webin account details`
+5) Click **Save**
 
 
 
 
-
-### 1. Upload data to Galaxy
+### 2. Upload data to Galaxy
 This tool is used to submit raw reads to the ENA. Genome or transcriptome assemblies can be submitted to ENA using their website.
 The submission tool currently accepts *fastq.gz* (SE and PE) file format. The human reads cleaning tool accepts uncompressed *fastq* files and will output in compressed format.
 
-Raw data can be uploaded using Galaxy's <i class="fa fa-upload"></i> upload tool found at the top right of the **Tools** panel (Fig. 1a) or at 'Upload File from your computer' under 'Upload Data' tool group (Fig. 1b).
+Raw data can be uploaded using Galaxy's <i class="fa fa-upload"></i> upload tool found at the top right of the **Tools** panel (Fig. 1a) or at **Upload File from your computer** under **Upload Data** tool group (Fig. 1b).
 
 {% include image.html file="upload_options.png" alt="Uploading files In Galaxy" caption="Figure 1. Data upload locations in Galaxy "%}
 
@@ -72,10 +76,10 @@ Your data should appear in green on the right history panel (Fig. 3). You can re
 {% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 3. Files that are uploaded will show up in the history panel."%}
 
 
-### 2. Filter human reads out of the raw reads
+### 3. Filter human reads out of the raw reads
 In order to comply with Europe’s General Data Protection Regulation [(GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en), traces of human genetic information must be removed from the raw data before submitting it to ENA. A tool is included that filters out reads that map to the human genome using [Metagen-FastQC](https://github.com/Finn-Lab/Metagen-FastQC).
 
-Select the filtering tool from the **Tools** panel on the right.
+Select the filtering tool from the **Tools** panel on the left.
 
 
 * Select human h38 reference genome (Fig. 4a).
@@ -91,8 +95,8 @@ The tool will now process the raw reads to remove reads that map to the human ge
 {% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
 
-### 3. Upload metadata and submit to ENA
-The **ENA Upload tool** under *Submission tools* is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting **'Yes'** on **'Submit to test ENA server?''**.
+### 4. Upload metadata and submit to ENA
+The **ENA Upload tool** under **Submission tools** is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting **'Yes'** on **'Submit to test ENA server?''**.
 
 
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
@@ -119,7 +123,7 @@ For submission of a large number of files, we recommend to use the Excel templat
 Use the *_alias* field on each sheet to interlink the experiments, studies, runs, samples and files with each other. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
 
 Complete the metadata template in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
-Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on execute.
+Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on 'Execute'.
 
 {% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
@@ -131,16 +135,16 @@ For a small number of submissions, metadata is best entered interactively in Gal
 Four tsv files can be uploaded, one each for study, sample, experiment and run metadata. Example tsv files can be found [here](https://github.com/usegalaxy-eu/ena-upload-cli/tree/master/example_tables).
 Export the completed tables to tsv files and upload them using Galaxy upload tool.
 
-Next, select the human-filtered data files associated with the metadata and select the correct metadata file for each section. Finally, fill in the Affiliation center and click on execute.
+Next, select the human-filtered data files associated with the metadata and select the correct metadata file for each section. Finally, fill in the Affiliation center and click on 'Execute'.
 
 
 
-### 4. Check for a valid submission
+### 5. Check for a valid submission
 
 Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your submissions or [dev Webin](https://wwwdev.ebi.ac.uk/ena/submit/webin) to check on test submissions. If everything looks fine, publish the data by changing the "Release Date" of the study to a day later than the current day. It can take several days for ENA to index the data and to let it appear in a correct manner. Covid-19 data will also be indexed by the [COVID-19 Data Portal](https://www.covid19dataportal.org/)
 
 
-### 5. Known issues
+### 6. Known issues
 
 #### The reads cleaning tool shows no files for input
 You have uploaded sequence files, they appear in your history but you do not see them in the human reads cleaning tool. This issue is related to the sequence file format. If you uploaded uncompressed fastq files, you have to define the files as fastqsanger in Galaxy for the tool to accept them. This can be done during upload or by editing the file attibutes in the history panel. More information of fastqsanger format can be found [here](https://galaxyproject.org/support/fastqsanger/)
