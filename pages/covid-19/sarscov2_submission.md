@@ -38,6 +38,7 @@ Instructions for building and running the container locally are found in this [g
 
 ## Walkthrough of ENA submission using the Galaxy container
 
+Make sure that your Galaxy container is running correctly by following the steps in this [github repository](https://github.com/ELIXIR-Belgium/ena-upload-container).
 
 ### 1. Obtain and load ENA Webin submission credentials
 
@@ -49,9 +50,6 @@ You can load your ENA credentials in Galaxy:
 3. Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
 4. Fill in the `Your ENA Webin account details`
 5. Click **Save**
-
-
-
 
 ### 2. Upload data to Galaxy
 This tool is used to submit raw reads to the ENA. Genome or transcriptome assemblies can be submitted to ENA using their website.
