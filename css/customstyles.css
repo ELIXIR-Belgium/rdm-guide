@@ -624,12 +624,13 @@ figcaption {
 .social-icons {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    margin-top: 10px;
 }
 
 .social-icons li {
     display: inline-block;
-    margin-bottom: 4px
+    margin-bottom: 4px;
 }
 
 .social-icons li.title {
