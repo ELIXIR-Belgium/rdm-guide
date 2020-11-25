@@ -44,11 +44,11 @@ Instructions for building and running the container locally are found in this [g
 An ENA [Webin account](https://www.ebi.ac.uk/ena/submit/sra/#registration) is required to upload data to the ENA. If you plan to offer this tool as a service to multiple users, then a brokering account is more suitable. To change your Webin account into a broker account, please contact ENA.
 
 You can load your ENA credentials in Galaxy:
-1) Login as admin using `admin` as username and `password` as password, this will give you full access to the galaxy instance.
-2) Got to **User** > **Preferences** in the top navigation
-3) Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
-4) Fill in the `Your ENA Webin account details`
-5) Click **Save**
+1. Login as admin using `admin` as username and `password` as password, this will give you full access to the galaxy instance.
+2. Got to **User** > **Preferences** in the top navigation
+3. Click on <i class="fa fa-user" aria-hidden="true"></i> **Manage Information**
+4. Fill in the `Your ENA Webin account details`
+5. Click **Save**
 
 
 
