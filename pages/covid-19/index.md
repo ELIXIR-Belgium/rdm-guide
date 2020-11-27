@@ -6,7 +6,7 @@ permalink: covid-19/index.html
 
 ELIXIR supports the [European Corona action plan](https://ec.europa.eu/info/sites/info/files/covid-firsteravscorona_actions.pdf) and plays an important role in the development of the [COVID-19 Data Portal](https://www.covid19dataportal.org). As the life-science data Research Infrastructure in Europe, ELIXIR is in a unique position to help increase the amount of publicly available Covid-related data and facilitate its processing, publication and reuse.
 
-To this end, ELIXIR Belgium promotes and encourages the publication of all scientific data related to the Covid  pandemic and provides the tools, know-how and brokering services for researchers to do so. Our first action is to support the submission of SARS-Cov-2 DNA sequences to public repositories. 
+To this end, ELIXIR Belgium promotes and encourages the publication of all scientific data related to the Covid  pandemic and provides the tools, know-how and brokering services for researchers to do so. Our first action is to support the submission of SARS-Cov-2 nucleotide sequences to public repositories. 
 
 We have collaboratively developed:
 
