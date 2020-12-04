@@ -166,7 +166,7 @@ The container can be stopped by simply closing the terminal. In this case the co
     ```
     docker container rm NAME
     ```
-3. Delete the image (when you don't want to use the galaxy instance in the forseeable future)
+3. Delete the image (when you don't want to use the galaxy instance in the forseeable future)\\
     **Linux/Windows:**
     ```
     docker rmi quay.io/galaxy/ena-upload
