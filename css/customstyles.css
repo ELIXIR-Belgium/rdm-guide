@@ -580,10 +580,14 @@ a.navbar-brand:hover {
     font-size: 12px;
 }
 
+.footer-block {
+    padding: 15px;
+}
+
 .site-footer {
     background-color: var(--light-gray);
     padding: 15px 0 0px;
-    font-size: 15px;
+    font-size: small;
     line-height: 24px;
     color: var(--grey);
 }
