@@ -40,7 +40,7 @@ A [short introduction to Galaxy](https://training.galaxyproject.org/training-mat
 ### 1. Setting up the Galaxy container
 
 1. Open the terminal
-2. Make sure docker is installed and available on your path. To check this, simply type `docker` and press enter. If Docker is installed it will give some usage information back. For more information on how to install docker please visit [this website](https://docs.docker.com/get-docker/).
+2. Make sure docker is installed and available on your path. To check this, simply type ```docker run hello-world``` in the Terminal or and press enter. If Docker is installed it will give some usage information back. For more information on how to install docker please visit [this website](https://docs.docker.com/get-docker/).
 3. Run following command in the terminal to run the container:\\
     **Linux/Windows:**
     ```
