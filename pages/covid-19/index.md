@@ -22,7 +22,5 @@ All these resources are available for use and re-use, for detailed information p
 
 We provide support for Belgian researchers to submit data as a service, through the brokering mechanism of ENA. For more information contact *datasub at elixir-belgium.org*.
 
-To provide additional support ELIXIR Belgium is developing *usegalaxy.be/covid-19*, a custom tailored public Galaxy instance for Belgian researchers dedicated to submitting SARS-Cov-2 genetic sequences to public repositories. This is based on the developed tools, submission to ENA will be supported at this moment. 
-We expect to make this available by the end of November. 
-
-You can express interest and apply for credentials for usegalaxy.be/covid-19 by contacting our [Galaxy admin](mailto:galaxy@elixir-belgium.org). 
+<!---To provide additional support ELIXIR Belgium is developing *usegalaxy.be/covid-19*, a custom tailored public Galaxy instance for Belgian researchers dedicated to submitting SARS-Cov-2 genetic sequences to public repositories.
+You can express interest and apply for credentials for usegalaxy.be/covid-19 by contacting our [Galaxy admin](mailto:galaxy@elixir-belgium.org).  --->
