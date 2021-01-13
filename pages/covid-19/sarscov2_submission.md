@@ -111,6 +111,8 @@ Select the filtering tool from the **Tools** panel on the left.
 
 The tool will now process the raw reads to remove reads that map to the human genome. This can take a while. The resulting filtered data files are found on the right panel.
 
+{% include warning.html="Machines with 8GB or less of memory might not complete this step. A workaround this issue is to increase the size of the swap file or swap partition. See FAQ below." %}
+
 {% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
 
