@@ -69,14 +69,14 @@ defaults:
       comments: false
       search: true
       permalink: /:basename:output_ext
-      sidebar: mydoc_sidebar
+      sidebar: sidebar
       topnav: topnav
 
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- mydoc_sidebar
+- sidebar
 
 description: "ELIXIR  Belgium Data Management hub"
 # the description is used in the feed.xml file

@@ -1,0 +1,58 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+title: Data management hub
+subitems:
+  - title: Data Management in Simple Steps
+    output: web
+    url: /data_management_steps.html
+  - title: Data Management Plan
+    output: web
+    url: /about_DMP.html
+    subitems:
+      - title: Online tools for DMP
+        url: /online_tools_for_dmp.html
+      - title: Data in DMP
+        url: /data_in_dmp.html
+      - title: Existing data
+        url: /existing_data.html
+      - title: File formats
+        url: /file_formats.html
+      - title: Data volume
+        url: /data_volume.html
+      - title: Datasets sharing
+        url: /datasets_sharing.html
+      - title: Data licences
+        url: /data_licences.html
+      - title: Metadata
+        url: /metadata.html
+      - title: Identifiers
+        url: /identifiers.html
+    # - title: Ontology
+    #   url: /ontology.html
+      - title: Data documentation
+        url: /data_documentation.html
+      - title: Data organization
+        url: /data_organization.html
+    # - title: Costs for sharing and storing data
+    #   url: /costs_for_sharing_and_storing_data.html
+    # - title: Data quality
+    #   url: /data_quality.html
+    # - title: Personal data
+    #   url: /personal_data.html
+  - title: Data Management for Omics Data
+    output: web
+    subitems:
+      - title: Genomics
+        url: /genomics.html
+      - title: Metabolomics
+        url: /metabolomics.html
+      - title: Proteomics
+        url: /proteomics.html
+      - title: Transcriptomics
+        url: /transcriptomics.html
+  - title: Covid-19
+    url: /covid-19/index.html
+    subitems:
+      - title: SARS-Cov-2 submission
+        url: /covid-19/sarscov2_submission.html
+
