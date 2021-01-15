@@ -74,7 +74,8 @@ You can load your ENA credentials in Galaxy:
 
 ### 3. Upload data to Galaxy
 This tool is used to submit raw reads to the ENA. Genome or transcriptome assemblies can be submitted to ENA using their website.
-The submission tool currently accepts *fastq.gz* (SE and PE) file format. The human reads cleaning tool accepts uncompressed *fastq* files and will output in compressed format.
+The submission tool currently accepts *fastq.gz* (SE and PE) file format. 
+
 
 Raw data can be uploaded using Galaxy's <i class="fa fa-upload"></i> upload tool found at the top right of the **Tools** panel (Fig. 1a) or at **Upload File from your computer** under **Upload Data** tool group (Fig. 1b).
 
