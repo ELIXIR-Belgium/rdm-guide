@@ -523,14 +523,24 @@ a.navbar-brand:hover {
     border-color: transparent;
 }
 
-.project-title {
-    margin-top: 8px;
+.brand-image {
     height: 37px;
+    margin-top: -5px;
+}
+
+.project-title {
+    color:var(--primary-theme-color);
+    font-size: 2em;
+    
+}
+
+.project-title:hover {
+    text-decoration: none;
+    color: var(--secondary-theme-color);
 }
 
 @media (max-width: 767px) {
-    .project-title {
-        margin-top: 12px;
+    .brand-image {
         height: 30px;
         margin-left: 15px;
     }

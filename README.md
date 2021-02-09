@@ -1,6 +1,6 @@
-# Data Management Hub
+# Research Data Management Guide
 
-DM Hub is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.
+RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.
 
 ## License
 

@@ -1,6 +1,6 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
-title: Data management hub
+title: RDM Guide
 subitems:
   - title: Data Management in Simple Steps
     output: web

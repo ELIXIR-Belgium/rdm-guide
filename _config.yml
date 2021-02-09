@@ -4,10 +4,10 @@ repository: https://github.com/ELIXIR-Belgium/data_management_hub
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Data Management Hub
+topnav_title: RDM Guide
 # this appears on the top navigation bar next to the home button
 
-site_title: Data Management Hub
+site_title: RDM Guide
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Belgium
@@ -78,7 +78,7 @@ defaults:
 sidebars:
 - sidebar
 
-description: "ELIXIR  Belgium Data Management hub"
+description: "ELIXIR  Belgium RDM Guide"
 # the description is used in the feed.xml file
 
 github: [metadata]
