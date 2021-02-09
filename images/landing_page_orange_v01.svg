@@ -10,7 +10,7 @@
 	.st4{fill:none;}
 	.st6{fill:#ffffff;}
 	.st5{fill:#023452;}
-	.st7{font-size:32px;}
+	.st7{font-size:40px;}
 </style>
 <path id="path910-3" stroke="#DE4D00" stroke-width="3" class="st0" d="M120.4,538.1c2.8-3.7,3.2-4,7.2-9.5c12-16,30-40.2,56.7-76.5
 	c26.7-36.3,62.1-84.8,109.2-149.6l0,0c0,0,0,0,0-0.1c-76.2-24.7-133.3-43.5-176.1-57.6c-42.8-14.2-71.3-23.8-90.3-30.3
@@ -43,5 +43,5 @@
 <text transform="matrix(1 0 0 1 119.7363 133.6601)" class="st1 st2 st3">Data sharing</text>
 <text transform="matrix(1 0 0 1 120.354 161.1601)" class="st1 st2 st3">Preservation</text>
 <rect x="207.8" y="252.2" class="st4" width="186" height="145"/>
-<text transform="matrix(1 0 0 1 269.4099 274.94)"><tspan x="0" y="0" class="st5 st2 st7">Data </tspan><tspan x="-58.8" y="38.4" class="st5 st2 st7">management </tspan><tspan x="4.6" y="76.8" class="st5 st2 st7">hub</tspan></text>
+<text transform="matrix(1 0 0 1 269.4099 274.94)"><tspan x="-15" y="10" class="st5 st2 st7">RDM</tspan><tspan x="-23" y="50" class="st5 st2 st7">Guide</tspan></text>
 </svg>
