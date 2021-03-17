@@ -24,7 +24,7 @@ The python package *ena-upload-cli* is published on [pip](https://pypi.org/proje
 
 
 ## The Galaxy container for ENA submissions
-To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://testtoolshed.g2.bx.psu.edu/repository?repository_id=e6d3d594449ee3f8) and put in a [container](https://github.com/ELIXIR-Belgium/ena-upload-container).
+To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8) and put in a [container](https://github.com/ELIXIR-Belgium/ena-upload-container).
 
 The Galaxy container allows the user to :
 - remove human traces from raw reads
