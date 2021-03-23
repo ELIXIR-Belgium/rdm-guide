@@ -1,3 +1,5 @@
+[![Jekyll site CI](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml)
+
 # Research Data Management Guide
 
 RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.
