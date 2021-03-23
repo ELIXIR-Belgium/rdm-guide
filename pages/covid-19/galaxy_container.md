@@ -2,15 +2,33 @@
 permalink: covid-19/galaxy_container.html
 toc: false
 hide_sidebar: true
+search: exclude
 ---
 
-<h1>Hello, your <strong>ENA-upload Galaxy</strong> container is running!</h1><br>
-<p> This container is optimized to clean human reads from raw reads and to upload them to
-    ENA,
-    this in only a few steps. The ENA uploading is based on the tool ena-upload-cli while
-    the
-    reads cleaning tool is based on Metagen-FastQC workflow.
-</p>
+<div class="jumbotron jumbo">
+    <div class="container">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <h1>Hello, your <strong>ENA-upload Galaxy</strong> container is running!</h1><br>
+                        <p> This container is optimized to clean human reads from raw reads and to upload them to
+                            ENA,
+                            this in only a few steps. The ENA uploading is based on the tool ena-upload-cli while
+                            the
+                            reads cleaning tool is based on Metagen-FastQC workflow.
+                        </p>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="./images/welcome_elixir_logo.png" style="margin:10px; height:100px;">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 # ENA submission quick-start
 {% include note.html content="For more detailed information on the container and the ENA submission process read the documentation found on ELIXIR Belgium's [RDM Guide](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)" %}
