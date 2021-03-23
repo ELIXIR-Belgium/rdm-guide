@@ -1,6 +1,6 @@
 ---
 title: Submission of SARS-Cov-2 raw reads to ENA.
-keywords: covid-19, SARS-Cov-2, ENA, data-submission, viral sequences
+keywords: [covid-19, SARS-Cov-2, ENA, data-submission, viral sequences]
 summary: A guide to submit SARS-Cov-2 sequence data to ENA.
 permalink: covid-19/sarscov2_submission.html
 ---

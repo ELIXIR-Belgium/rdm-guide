@@ -1,6 +1,6 @@
 ---
 title: Covid-19 data submission
-keywords: covid-19, ENA, data-submission, viral sequences
+keywords: [covid-19, ENA, data-submission, viral sequences]
 permalink: covid-19/index.html
 ---
 
