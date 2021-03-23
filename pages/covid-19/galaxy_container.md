@@ -2,6 +2,7 @@
 permalink: covid-19/galaxy_container.html
 toc: false
 hide_sidebar: true
+search: exclude
 ---
 
 <div class="jumbotron jumbo">
