@@ -12,6 +12,9 @@ layout: default
         {%- endif %}
         {%- endunless %}
     </h1>
+    {%- if page.subtitle %}
+    <h1 class="subtitle">{{page.subtitle}}</h1>
+    {%- endif %}
 </div>
 {%- endif %}
 <div class="post-content">

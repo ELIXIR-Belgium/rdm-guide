@@ -26,7 +26,7 @@ body {
 
 .post-header h1 {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 3.5em;
+    font-size: 3.1em;
     font-weight: 400;
 }
 
@@ -789,14 +789,8 @@ footer .company-logo {
 
 
 .ratio.main_rdm {
-    padding-bottom: 65%;
+    padding-bottom: 70%;
     margin: 3em 0;
-}
-
-@media only screen and (min-width: 500px) {
-    .ratio.main_rdm {
-        padding-bottom: 60%;
-    }
 }
 
 @media (min-width: 992px) {
@@ -809,4 +803,11 @@ footer .company-logo {
     .ratio.main_rdm {
         padding-bottom: 40%;
     }
+}
+
+/*-----Custom classes-----*/
+
+/* subtitle frontpage */
+.subtitle {
+    color: var(--hover-grey);
 }
