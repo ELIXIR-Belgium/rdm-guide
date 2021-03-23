@@ -1,11 +1,9 @@
 ---
-title: Submission of SARS-Cov-2 DNA sequences to public repositories
+title: Submission of SARS-Cov-2 raw reads to ENA.
 keywords: covid-19, SARS-Cov-2, ENA, data-submission, viral sequences
-summary: A guide to submit SARS-Cov-2 sequence data to different repositories.
+summary: A guide to submit SARS-Cov-2 sequence data to ENA.
 permalink: covid-19/sarscov2_submission.html
 ---
-
-{% include note.html content="The content on this page is not final." %}
 
 ## General
 ELIXIR Belgium has developed a Galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)) and in the future [GISAID](https://www.gisaid.org/). The tool is packaged in a Galaxy container for easy distribution.

@@ -1,5 +1,5 @@
 ---
-permalink: covid-19/galaxy_container.html
+permalink: covid-19/covid-19-upload-container.html
 toc: false
 hide_sidebar: true
 search: exclude
