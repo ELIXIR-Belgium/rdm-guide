@@ -50,6 +50,8 @@ subitems:
   - title: Covid-19
     url: /covid-19/index.html
     subitems:
-      - title: SARS-Cov-2 submission
+      - title: SARS-Cov-2 raw reads submission
         url: /covid-19/sarscov2_submission.html
+      - title: SARS-Cov-2 assembly submission
+        url: /covid-19/sarscov2_assembly_submission.html
 
