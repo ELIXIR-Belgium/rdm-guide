@@ -1,16 +1,25 @@
-{%- assign sidebar = site.data[page.sidebar] %}
-<ul id="mysidebar" class="nav">
-    <li class="sidebarTitle">{{sidebar.product}} {{sidebar.version}}</li>
+{%- assign sidebar = site.data.sidebars[page.sidebar] %}
+{%- capture reusing -%}{%- if page.url == "/reusing.html" -%}st0{%- else -%}st10{%- endif -%}{%- endcapture -%}
+{%- capture preserving -%}{%- if page.url == "/preserving.html" -%}st2{%- else -%}st12{%- endif -%}{%- endcapture -%}
+{%- capture analysing -%}{%- if page.url == "/analysing.html" -%}st3{%- else -%}st13{%- endif -%}{%- endcapture -%}
+{%- capture processing -%}{%- if page.url == "/processing.html" -%}st4{%- else -%}st14{%- endif -%}{%- endcapture -%}
+{%- capture planning -%}{%- if page.url == "/planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
+{%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
+{%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
+<ul id="menu" class="menu">
+    {% if sidebar.title or sidebar.version %}
+    <li class="sidebarTitle">{{sidebar.title}} {{sidebar.version}}</li>
+    {% endif %}
     {%- for folder in sidebar.subitems %}
     {%- if page.url == folder.url %}
-    <li class="active">
+    <li class="active{%- if folder.hr %} hr-margin{% endif %}">
     {%- else %}
-    <li>
+    <li {%- if folder.hr %} class="hr-margin"{% endif %}>
     {%- endif %}
     {%- if folder.external_url %}
         <a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
     {%- else %}    
-        <a title="{{folder.title}}" href="{{folder.url}}">{{ folder.title }}</a>
+        <a title="{{folder.title}}" href="{{folder.url | relative_url }}">{{ folder.title }}</a>
     {%- endif %}
     {%- if folder.subitems %}
         <ul>
@@ -23,7 +32,7 @@
             {%- if subfolder.external_url %}
                 <a title="{{subfolder.title}}" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
             {%- else %}    
-                <a title="{{subfolder.title}}" href="{{subfolder.url}}">{{ subfolder.title }}</a>
+                <a title="{{subfolder.title}}" href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
             {%- endif %}
             {%- if subfolder.subitems %}
                 <ul>
@@ -36,7 +45,7 @@
                     {%- if subsubfolder.external_url %}
                         <a title="{{subsubfolder.title}}" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
                     {%- else %}    
-                        <a title="{{subsubfolder.title}}" href="{{subsubfolder.url}}">{{ subsubfolder.title }}</a>
+                        <a title="{{subsubfolder.title}}" href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
                     {%- endif %}
                     </li>
                     {%- endfor %}
@@ -49,5 +58,4 @@
     </li>
     {%- endfor %}
 </ul>
-<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>

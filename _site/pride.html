@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.">
+    <meta name="keywords" content=" ">
+    <meta property="og:title" content="RDM Guide" />
+    <meta property="og:description" content="RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium." />
+    <meta property="og:image" content="//rdm.elixir-belgium.org/assets/img/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#f5f5f5">
+    <title>PRoteomics IDEntifications (PRIDE) database | RDM Guide</title>
+    <!-- Syntax highlighting  -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!-- Font Awesome 5 Icons -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css">
+    <!-- General styling -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <!-- Custom edits on top of bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Main font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- JavaScript  -->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/jquery.navgoco.js"></script>
+    <script src="/assets/js/jquery.cookie.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#de4d00">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "RDM Guide",
+            "url": "http://localhost:4000",
+            "about": "RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.",
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"><img alt="ELIXIR logo" src="/assets/img/RDM_guide.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i title="navbar-toggler" class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <!-- navigation entries -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/ELIXIR-Belgium/data_management_hub" target="_blank" rel="noopener">GitHub</a>
+                    </li>
+                    
+                    <!--start Feedback button-->
+                    <!--start search-->
+                    <li class="nav-item">
+                        <form autocomplete="off" class="form-inline">
+                            <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
+                            <ul id="results-container"></ul>
+                            <script src="/assets/js/simple-jekyll-search.min.js"></script>
+                            <script type="text/javascript">
+                                var sjs = SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                json: "/search.json",
+                                searchResultTemplate: '<li><a href="{url}" title="PRoteomics IDEntifications (PRIDE) database">{title}</a></li>',
+                                noResultsText: '<li><a href=""">No results found...</a></li>',
+                                limit: 10
+                                })
+                            </script>
+                            
+                        </form>
+                    </li>
+                    <!--end search-->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</header>
+    <!-- Page Content -->
+    <div class="container">
+        <div id="main">
+            <!-- Content Row -->
+            <div class="row">
+                
+                <!-- Sidebar Column -->
+                <div class="col-lg-3 container-menu">
+                    <ul id="menu" class="menu">
+    
+    <li>    
+        <a title="Data Management in Simple Steps" href="/data_management_steps.html">Data Management in Simple Steps</a>
+    </li>
+    <li>    
+        <a title="Data Management Plan" href="/about_DMP.html">Data Management Plan</a>
+        <ul>
+            <li>    
+                <a title="Online tools for DMP" href="/online_tools_for_dmp.html">Online tools for DMP</a>
+            </li>
+            <li>    
+                <a title="Data in DMP" href="/data_in_dmp.html">Data in DMP</a>
+            </li>
+            <li>    
+                <a title="Existing data" href="/existing_data.html">Existing data</a>
+            </li>
+            <li>    
+                <a title="File formats" href="/file_formats.html">File formats</a>
+            </li>
+            <li>    
+                <a title="Data volume" href="/data_volume.html">Data volume</a>
+            </li>
+            <li>    
+                <a title="Datasets sharing" href="/datasets_sharing.html">Datasets sharing</a>
+            </li>
+            <li>    
+                <a title="Data licences" href="/data_licences.html">Data licences</a>
+            </li>
+            <li>    
+                <a title="Metadata" href="/metadata.html">Metadata</a>
+            </li>
+            <li>    
+                <a title="Identifiers" href="/identifiers.html">Identifiers</a>
+            </li>
+            <li>    
+                <a title="Data documentation" href="/data_documentation.html">Data documentation</a>
+            </li>
+            <li>    
+                <a title="Data organization" href="/data_organization.html">Data organization</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Data Management for Omics Data" href="">Data Management for Omics Data</a>
+        <ul>
+            <li>    
+                <a title="Genomics" href="/genomics.html">Genomics</a>
+            </li>
+            <li>    
+                <a title="Metabolomics" href="/metabolomics.html">Metabolomics</a>
+            </li>
+            <li>    
+                <a title="Proteomics" href="/proteomics.html">Proteomics</a>
+            </li>
+            <li>    
+                <a title="Transcriptomics" href="/transcriptomics.html">Transcriptomics</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Covid-19" href="/covid-19/index.html">Covid-19</a>
+        <ul>
+            <li>    
+                <a title="SARS-Cov-2 submission" href="/covid-19/sarscov2_submission.html">SARS-Cov-2 submission</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+                </div>
+                
+                <!-- Content Column -->
+                <div class="col-lg-9">
+                    
+<div class="post-header">
+    <h1>PRoteomics IDEntifications (PRIDE) database
+    </h1>
+</div>
+<div class="post-content"><script>
+  $(document).ready(function () {
+    $('#toc').toc({ minimumHeaders: 2, listType: 'ul', showSpeed: 0, headers: 'h2' , title: '' });
+  });
+</script>
+<div id="toc"></div>
+
+    <h2 id="pride-features">PRIDE features</h2>
+<h3 id="how-to-submit-data">How to submit data</h3>
+<p>PRIDE established and is part of <a href="http://www.proteomexchange.org">ProteomeXchange (PX)</a> consortium of Mass Spectrometry (MS) proteomics resources, with the overall aim of standardizing data submission and dissemination of proteomics data worldwide.</p>
+
+<p>The current way of submitting data to PRIDE is following the PX consortium’s guidelines. The main tool to submit data is the <a href="https://www.ebi.ac.uk/pride/help/archive/submission">PX Submission Tool</a>. Here you can find <a href="https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf">PX/PRIDE submissions guidelines</a> and <a href="https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride">training material</a>.</p>
+
+<p>There are two types of submissions to PRIDE (or to any other ProteomeXchange resource):</p>
+<ul>
+  <li><strong>Complete Submissions.</strong> A complete submission ensures that the processed results (at least the identification data) and the corresponding mass spectra can be parsed, integrated and visualised by PRIDE, connecting the identification data to the corresponding mass spectra. To achieve that, <strong>processed identification results need to be provided in a PSI open standard format (either mzIdentML or mzTab)</strong>.<br />
+Examples include bottom-up <a href="https://www.creative-proteomics.com/blog/index.php/data-dependent-acquisition-and-data-independent-acquisition-mass-spectrometry/">DDA datasets</a> where identification results were generated from any tool that can export the data standard mzIdentML (and the corresponding peak list files, see below).</li>
+  <li><strong>Partial Submissions.</strong> In this case processed identification results are provided in other data formats than the ones indicated above for complete submissions. For PRIDE, it is then not possible to parse, integrate and visualise the identification and/or connect the processed results to the corresponding mass spectra. However, all the submitted files are made available to download. This mechanism allows data generated from any software that cannot export yet to the supported formats, or from less-mature/novel proteomics experimental approaches to be deposited in PRIDE.<br />
+Examples include bottom-up <a href="https://www.creative-proteomics.com/blog/index.php/data-dependent-acquisition-and-data-independent-acquisition-mass-spectrometry/">DDA datasets</a> where identification results were generated from any tool that cannot export the PSI data standards mzIdentML or mzTab, or other datasets coming from approaches where no open standard for the results currently has been implemented (e.g. top-down proteomics).</li>
+</ul>
+
+<h3 id="non-personal-vs-personal-data">Non-Personal vs Personal data</h3>
+<p>Non-personal data (non-identifiable).</p>
+
+<h3 id="access-to-data">Access to data</h3>
+<p>PRIDE follows <a href="https://www.ebi.ac.uk/about/terms-of-use/">EMBL-EBI terms of use</a> for data access. EMBL-EBI itself places no additional restrictions on the use or redistribution of the data available via its online services other than those provided by the original data owners. The original data may be subject to rights claimed by third parties, including but not limited to, patent, copyright, other intellectual property rights, biodiversity-related access and benefit-sharing rights.</p>
+
+<h3 id="embargo">Embargo</h3>
+<p>Possible. By default, your data will be made publicly available after your manuscript has been accepted, or when PRIDE receives your instructions to do so. While PRIDE may also receive acceptance notifications from some journals, all submitters should notify it separately. Submitters can apply for a 6-month extraordinary extension (<a href="https://www.ebi.ac.uk/pride/help/archive/faq#public-release-PX">PRIDE FAQ</a>).</p>
+
+<h3 id="data-licence">Data licence</h3>
+<p>PRIDE has no default license type, it follows <a href="https://www.ebi.ac.uk/about/terms-of-use">EMBL-EBI terms of use</a>.</p>
+
+<h3 id="dataexperiments-types">Data/Experiments types</h3>
+<ul>
+  <li>Top-down proteomics</li>
+  <li>Shotgun proteomics</li>
+  <li>Gel-based proteomics</li>
+  <li>Cross-Linking (CX-MS)</li>
+  <li>Affinity-purification (AP-MS)</li>
+  <li>SRM-MRM</li>
+  <li>SWATH-MS (Data-independent acquisition)</li>
+  <li>PAcIFIC (Data-independent acquisition)</li>
+  <li>All-ion fragmentation (Data-independent acquisition)</li>
+  <li>HDMSE (Data-independent acquisition)</li>
+  <li>MS imaging</li>
+  <li>MSE (Data-independent acquisition)</li>
+  <li>RNA mass-spectrometry</li>
+</ul>
+
+<h3 id="metadata">Metadata</h3>
+<p>The dataset has to be annotated with the following: <em>project title, keywords, project description, sample processing protocol and data processing protocol</em>.<br />
+Additional metadata needs to be provided for each ‘RESULT’ file. The following additional metadata is mandatory for both types of submission:</p>
+<ul>
+  <li><em>Species</em>: the species of the samples used in a given dataset.</li>
+  <li><em>Tissue</em>: tissue (“not applicable” should be used in case other types of experiments are performed).</li>
+  <li><em>Instrument information</em> (mass spectrometer).</li>
+  <li>Incomplete submissions also require a list of <em>post-translational modifications (PTMs)</em> present in the dataset.</li>
+  <li>Optional metadata fields are <em>cell type, disease and quantification method</em>.
+The full description of PX XML XSD (XML Schema Definition) is found <a href="http://proteomecentral.proteomexchange.org/schemas/proteomeXchange-1.4.0.html">here</a>.</li>
+</ul>
+
+<h3 id="ontology">Ontology</h3>
+<p>Controlled vocabulary is provided for each metadata field and a link to the <a href="https://www.ebi.ac.uk/ols/index">Ontology Lookup Service</a> is also available.</p>
+<ul>
+  <li><a href="https://www.ebi.ac.uk/ols/ontologies/ms">PSI Mass Spectrometry Ontology
+ (MS)</a>: structured controlled vocabulary for the annotation of mass spectrometry experiments. Developed by the HUPO Proteomics Standards Initiative.</li>
+  <li><a href="https://www.ebi.ac.uk/ols/ontologies/mod">PSI protein modification ontology
+(PSI-MOD)</a>: protein chemical modifications, classifying protein modifications either by the molecular structure of the modification, or by the amino acid residue that is modified.</li>
+  <li>New Taxonomy Portal (NEWT): organisms are classified in a hierarchical tree structure, to specify the sample species used in the experiments.</li>
+  <li><a href="https://www.ebi.ac.uk/ols/ontologies/bto">BRENDA tissue / enzyme source (BTO)</a>: a structured controlled vocabulary for the source of an enzyme. It comprises terms of tissues, cell lines, cell types and cell cultures from uni- and multicellular organisms.</li>
+  <li><a href="https://www.ebi.ac.uk/ols/ontologies/go">Gene Ontology (GO)</a>: gene product characteristics and gene product annotation data.</li>
+</ul>
+
+<h3 id="data-documentation">Data documentation</h3>
+<p>PRIDE doesn’t allow upload of README file. All relevant information about the data need to be provided in the designated metadata fields.</p>
+
+<h3 id="file-formats">File format(s)</h3>
+<p>PRIDE XML is the internal data format and submission format of PRIDE. You can find the schema documentation <a href="http://ftp.pride.ebi.ac.uk/pride/resources/schema/pride/doc/pride.html">here</a>.</p>
+
+<p>Several files are required for a PRIDE submission:</p>
+<ul>
+  <li>“RAW” (Mandatory): original proprietary files provided by the instruments used in the study (e.g. Thermo RAW).</li>
+  <li>“SEARCH” (Mandatory for Partial Submissions, Optional for Complete Submissions): files from the software analysis tool (e.g. .dat from Mascot).</li>
+  <li>“RESULT” (Mandatory for Complete Submissions): standard file formats from HUPO-PSI to report peptide/protein identification and quantification results: mzIdentML and mzTab.</li>
+  <li>“PEAK” (Mandatory for Complete Submissions, Recommended for Partial Submissions): the peak list files contains the set of MS/MS peaks used for peptide/protein identification (e.g. mgf Mascot generic files).</li>
+  <li>“FASTA” (Optional): the search protein database used to perform the analysis (e.g. Uniprot Reference Proteome FASTA file).</li>
+  <li>“SPECTRUM_LIBRARY” (Optional): spectrum libraries used to perform spectrum search.</li>
+  <li>“GEL” (Optional): image files with the gels of the experiment.</li>
+  <li>“PARAMETERS_FILE” (Optional): the parameters file contains information about the parameters that where used to perform the experiment (e.g. MaxQuant param file).</li>
+  <li>“OTHER” (Optional): additional files that have been used to perform the experiment.</li>
+</ul>
+
+<p>A complete description of file formats can be found <a href="https://www.ebi.ac.uk/pride/markdownpage/pridefileformats">here</a>.</p>
+
+<h3 id="data-volume-and-costs">Data volume and costs</h3>
+<p>No limit for data volume. No costs.</p>
+
+<h3 id="data-quality">Data quality</h3>
+<p><a href="https://www.ebi.ac.uk/pride/help/archive/faq#Quality-Control">PRIDE Quality Control</a>.</p>
+
+<h3 id="identifiers">Identifiers</h3>
+<p>After the submission, you will be issued with not only a ProteomeXchange accession number but also with a permanent <a href="identifiers">DOI (Digital Object Identifier)</a> to uniquely identify your dataset in the future.</p>
+
+<h2 id="guide-and-manual">Guide and manual</h2>
+<p>https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#how_to_submit_data</p>
+
+<p>https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf
+https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool</p>
+
+<p>http://www.proteomexchange.org/docs/guidelines_px.pdf</p>
+
+<h2 id="tips-for-data-submission">Tips for data submission</h2>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container py-1 py-4">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-image" width="120px;" src="/assets/img/company_logo.png" alt="Company logo"/>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Acknowledgements</h6>
+                <p>
+                    <a href="https://elixir-belgium.org/">ELIXIR-Belgium</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Feel free to contact us:</h6>
+                <p>
+                    <a href="mailto:"></a>
+                </p>    
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-logo" src="/assets/img/RDM_guide_condensed.svg" alt="Company logo" width="88px">
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1);"><a class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+        alt="Creative Commons License" style="width: 70px;"
+        src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        <span
+        xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource"
+        property="dct:title" rel="dct:type">RDM Guide</span> by <a class="no_icon"
+        xmlns:cc="http://creativecommons.org/ns#" href="https://elixir-belgium.org/"
+        property="cc:attributionName" rel="cc:attributionURL">ELIXIR Belgium</a> is licensed under a <a
+        class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+        Attribution-ShareAlike 4.0 International License</a>, except where otherwise noted.<br> All material under this licence can be freely used, as long as ELIXIR Belgium <a class="no_icon" rel="license" href="https://rdm.elixir-belgium.org">RDM Guide</a> is credited as the author
+    </div>
+</footer>
+
+    <script>
+        external_new_window();
+    </script>
+</body>
+</html>

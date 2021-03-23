@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A guide to submit SARS-Cov-2 sequence data to different repositories.">
+    <meta name="keywords" content=" covid-19, SARS-Cov-2, ENA, data-submission, viral sequences">
+    <meta property="og:title" content="RDM Guide" />
+    <meta property="og:description" content="RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium." />
+    <meta property="og:image" content="//rdm.elixir-belgium.org/assets/img/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#f5f5f5">
+    <title>Submission of SARS-Cov-2 DNA sequences to public repositories | RDM Guide</title>
+    <!-- Syntax highlighting  -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!-- Font Awesome 5 Icons -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css">
+    <!-- General styling -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <!-- Custom edits on top of bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Main font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- JavaScript  -->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/jquery.navgoco.js"></script>
+    <script src="/assets/js/jquery.cookie.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#de4d00">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "RDM Guide",
+            "url": "http://localhost:4000",
+            "about": "RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.",
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"><img alt="ELIXIR logo" src="/assets/img/RDM_guide.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i title="navbar-toggler" class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <!-- navigation entries -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/ELIXIR-Belgium/data_management_hub" target="_blank" rel="noopener">GitHub</a>
+                    </li>
+                    
+                    <!--start Feedback button-->
+                    <!--start search-->
+                    <li class="nav-item">
+                        <form autocomplete="off" class="form-inline">
+                            <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
+                            <ul id="results-container"></ul>
+                            <script src="/assets/js/simple-jekyll-search.min.js"></script>
+                            <script type="text/javascript">
+                                var sjs = SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                json: "/search.json",
+                                searchResultTemplate: '<li><a href="{url}" title="Submission of SARS-Cov-2 DNA sequences to public repositories">{title}</a></li>',
+                                noResultsText: '<li><a href=""">No results found...</a></li>',
+                                limit: 10
+                                })
+                            </script>
+                            
+                        </form>
+                    </li>
+                    <!--end search-->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</header>
+    <!-- Page Content -->
+    <div class="container">
+        <div id="main">
+            <!-- Content Row -->
+            <div class="row">
+                
+                <!-- Sidebar Column -->
+                <div class="col-lg-3 container-menu">
+                    <ul id="menu" class="menu">
+    
+    <li>    
+        <a title="Data Management in Simple Steps" href="/data_management_steps.html">Data Management in Simple Steps</a>
+    </li>
+    <li>    
+        <a title="Data Management Plan" href="/about_DMP.html">Data Management Plan</a>
+        <ul>
+            <li>    
+                <a title="Online tools for DMP" href="/online_tools_for_dmp.html">Online tools for DMP</a>
+            </li>
+            <li>    
+                <a title="Data in DMP" href="/data_in_dmp.html">Data in DMP</a>
+            </li>
+            <li>    
+                <a title="Existing data" href="/existing_data.html">Existing data</a>
+            </li>
+            <li>    
+                <a title="File formats" href="/file_formats.html">File formats</a>
+            </li>
+            <li>    
+                <a title="Data volume" href="/data_volume.html">Data volume</a>
+            </li>
+            <li>    
+                <a title="Datasets sharing" href="/datasets_sharing.html">Datasets sharing</a>
+            </li>
+            <li>    
+                <a title="Data licences" href="/data_licences.html">Data licences</a>
+            </li>
+            <li>    
+                <a title="Metadata" href="/metadata.html">Metadata</a>
+            </li>
+            <li>    
+                <a title="Identifiers" href="/identifiers.html">Identifiers</a>
+            </li>
+            <li>    
+                <a title="Data documentation" href="/data_documentation.html">Data documentation</a>
+            </li>
+            <li>    
+                <a title="Data organization" href="/data_organization.html">Data organization</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Data Management for Omics Data" href="">Data Management for Omics Data</a>
+        <ul>
+            <li>    
+                <a title="Genomics" href="/genomics.html">Genomics</a>
+            </li>
+            <li>    
+                <a title="Metabolomics" href="/metabolomics.html">Metabolomics</a>
+            </li>
+            <li>    
+                <a title="Proteomics" href="/proteomics.html">Proteomics</a>
+            </li>
+            <li>    
+                <a title="Transcriptomics" href="/transcriptomics.html">Transcriptomics</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Covid-19" href="/covid-19/index.html">Covid-19</a>
+        <ul>
+            <li class="active">    
+                <a title="SARS-Cov-2 submission" href="/covid-19/sarscov2_submission.html">SARS-Cov-2 submission</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+                </div>
+                
+                <!-- Content Column -->
+                <div class="col-lg-9">
+                    
+<div class="post-header">
+    <h1>Submission of SARS-Cov-2 DNA sequences to public repositories
+    </h1>
+</div>
+<div class="post-content">
+    <div class="summary">A guide to submit SARS-Cov-2 sequence data to different repositories.</div><script>
+  $(document).ready(function () {
+    $('#toc').toc({ minimumHeaders: 2, listType: 'ul', showSpeed: 0, headers: 'h2' , title: '' });
+  });
+</script>
+<div id="toc"></div>
+
+    <div class="alert alert-info" role="alert"><i class="fas fa-info-circle"></i> <b>Note:</b> The content on this page is not final.</div>
+
+<h2 id="general">General</h2>
+<p>ELIXIR Belgium has developed a Galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to public repositories, namely the European Nucleotide Archive (<a href="https://www.ebi.ac.uk/ena/browser/home">ENA</a>) and in the future <a href="https://www.gisaid.org/">GISAID</a>. The tool is packaged in a Galaxy container for easy distribution.</p>
+
+<h2 id="the-ena-submission-tool">The ENA submission tool</h2>
+<p>Uploading <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html">raw reads to ENA</a> can be done using the website, webin-CLI or programmatically through curl commands.
+Programmatic submissions are more convenient for bulk uploads, but require bioinformatic skills to generate the XML metadata files and to upload the data through ftp.
+To address this, ELIXIR Belgium together with the lab of Björn Grüning have developed a python command line interface (CLI) that:</p>
+<ul>
+  <li>Makes submission easier for bioinformaticians</li>
+  <li>Generates the required XML files out of easier-to-use tsv files</li>
+  <li>Takes care of the ftp uploading</li>
+  <li>Validates the metadata before submission</li>
+</ul>
+
+<p>The python package <em>ena-upload-cli</em> is published on <a href="https://pypi.org/project/ena-upload-cli/">pip</a> and <a href="https://anaconda.org/bioconda/ena-upload-cli">bioconda</a>. For more information on how to use this tool please visit the github page of <em><a href="https://github.com/usegalaxy-eu/ena-upload-cli">ena-upload-cli</a></em>.</p>
+
+<h2 id="the-galaxy-container-for-ena-submissions">The Galaxy container for ENA submissions</h2>
+<p>To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a <a href="https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8">Galaxy tool</a> and put in a <a href="https://github.com/ELIXIR-Belgium/ena-upload-container">container</a>.</p>
+
+<p>The Galaxy container allows the user to :</p>
+<ul>
+  <li>remove human traces from raw reads</li>
+  <li>input or upload metadata</li>
+  <li>submit reads and metadata to ENA and</li>
+  <li>analyze SARS-Cov-2 sequences</li>
+</ul>
+
+<p>A <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html">short introduction to Galaxy</a> is recommended for users unfamiliar with the platform.</p>
+
+<h2 id="walkthrough-of-ena-submission-using-the-galaxy-container">Walkthrough of ENA submission using the Galaxy container</h2>
+
+<p>A screencast is available on our youtube channel that will guide you through all the steps discussed below:
+<br />
+<br /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="1-setting-up-the-galaxy-container">1. Setting up the Galaxy container</h3>
+
+<ol>
+  <li>Open the terminal</li>
+  <li>Make sure docker is installed and available on your path. To check this, simply type <code class="language-plaintext highlighter-rouge">docker run hello-world</code> in the Terminal or and press enter. If Docker is installed it will give some usage information back. For more information on how to install docker please visit <a href="https://docs.docker.com/get-docker/">this website</a>.</li>
+  <li>Run following command in the terminal to run the container:<br />
+ <strong>Linux/Windows:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker run -p "8080:80" --privileged quay.io/galaxy/ena-upload
+</code></pre></div>    </div>
+    <p><strong>MacOS:</strong></p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker run -p "8080:80" quay.io/galaxy/ena-upload:hg38
+</code></pre></div>    </div>
+  </li>
+  <li>Wait a minute or two until the container is started</li>
+  <li>Visit <a href="http://localhost:8080/">http://localhost:8080/</a> to access your local instance of Galaxy</li>
+</ol>
+
+<p>More information about the container can be found in the <a href="https://github.com/ELIXIR-Belgium/ena-upload-container">github repository</a>.</p>
+
+<h3 id="2-obtain-and-load-ena-webin-submission-credentials">2. Obtain and load ENA Webin submission credentials</h3>
+
+<p>An ENA <a href="https://www.ebi.ac.uk/ena/submit/sra/#registration">Webin account</a> is required to upload data to the ENA. If you plan to offer this tool as a service to multiple users, then a brokering account is more suitable. To change your Webin account into a broker account, please contact ENA.</p>
+
+<p>You can load your ENA credentials in Galaxy:</p>
+<ol>
+  <li>Login as admin using <code class="language-plaintext highlighter-rouge">admin</code> as username and <code class="language-plaintext highlighter-rouge">password</code> as password, this will give you full access to the galaxy instance.</li>
+  <li>Got to <strong>User</strong> &gt; <strong>Preferences</strong> in the top navigation</li>
+  <li>Click on <i class="fa fa-user" aria-hidden="true"></i> <strong>Manage Information</strong></li>
+  <li>Fill in the <code class="language-plaintext highlighter-rouge">Your ENA Webin account details</code></li>
+  <li>Click <strong>Save</strong></li>
+</ol>
+
+<h3 id="3-upload-data-to-galaxy">3. Upload data to Galaxy</h3>
+<p>This tool is used to submit raw reads to the ENA. Genome or transcriptome assemblies can be submitted to ENA using their website.
+The submission tool currently accepts <em>fastq.gz</em> (SE and PE) file format.</p>
+
+<p>Raw data can be uploaded using Galaxy’s <i class="fa fa-upload"></i> upload tool found at the top right of the <strong>Tools</strong> panel (Fig. 1a) or at <strong>Upload File from your computer</strong> under <strong>Upload Data</strong> tool group (Fig. 1b).</p>
+
+<figure class="docimage">
+    <img src="/images/upload_options.png" alt="Uploading files In Galaxy" />
+    <figcaption>
+    Figure 1. Data upload locations in Galaxy 
+    </figcaption>
+</figure>
+
+<p>There are different options for uploading data files:</p>
+<ul>
+  <li>Local files can be uploaded by drag-and-dropping to ‘Drop files here’ (Fig. 2a) area or by selecting  ‘Choose local files’(Fig. 2b) and browsing to the local files</li>
+  <li>‘Paste/Fetch data’ (Fig 2c) allows fetching remote files from the web by entering a URL or pasting the data itself</li>
+</ul>
+
+<figure class="docimage">
+    <img src="/images/upload_interface.png" alt="Upload menu" />
+    <figcaption>
+    Figure 2. Data upload options in Galaxy
+    </figcaption>
+</figure>
+
+<p>When the local files are selected or a URL is given, click “start” to start the uploading to Galaxy.
+More information on data upload to Galaxy can be found in <a href="https://galaxyproject.org/support/loading-data/">Galaxy support</a>.</p>
+
+<p>Your data should appear in green on the right history panel (Fig. 3). You can rename, tag, preview edit or delete data objects from here.</p>
+<figure class="docimage">
+    <img src="/images/history_galaxy.png" alt="history galaxy" />
+    <figcaption>
+    Figure 3. Files that are uploaded will show up in the history panel.
+    </figcaption>
+</figure>
+
+<h3 id="4-filter-human-reads-out-of-the-raw-reads">4. Filter human reads out of the raw reads</h3>
+<p>In order to comply with Europe’s General Data Protection Regulation <a href="https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en">(GDPR)</a>, traces of human genetic information must be removed from the raw data before submitting it to ENA. A tool is included that filters out reads that map to the human genome using <a href="https://github.com/Finn-Lab/Metagen-FastQC">Metagen-FastQC</a>.</p>
+
+<p>Select the filtering tool from the <strong>Tools</strong> panel on the left.</p>
+
+<ul>
+  <li>Select human h38 reference genome (Fig. 4a).</li>
+  <li>Choose single or paired-end (Fig. 4b)</li>
+  <li>Select the files to clean (uploaded on the previous step, Fig. 4c)</li>
+  <li>Click on <em>Execute</em> (Fig. 4d)</li>
+</ul>
+
+<figure class="docimage">
+    <img src="/images/new_read_cleaning_tool.png" alt=" Read cleaning tool" />
+    <figcaption>
+    Figure 4. The interface of the read cleaning tool.
+    </figcaption>
+</figure>
+
+<p>The tool will now process the raw reads to remove reads that map to the human genome. This can take a while. The resulting filtered data files are found on the right panel.</p>
+
+<div class="alert alert-danger" role="alert"><i class="fas fa-exclamation-circle"></i> <b>Warning:</b> Machines with 8GB or less of memory might not complete this step. A workaround this issue is to increase the size of the swap file or swap partition. See FAQ below.</div>
+
+<div class="alert alert-warning" role="alert"><i class="fas fa-exclamation-triangle"></i> <b>Important:</b> The processed sequence file (human  reads removed) will have the same filename as the raw file but a <strong>higher number</strong> assigned by Galaxy.</div>
+
+<h3 id="5-upload-metadata-and-submit-to-ena">5. Upload metadata and submit to ENA</h3>
+<p>The <strong>ENA Upload tool</strong> under <strong>Submission tools</strong> is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting <strong>‘Yes’</strong> on <strong>‘Submit to test ENA server?’‘</strong>.</p>
+
+<p>Submission to ENA requires accompanying metadata that complies with the <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html">ENA metadata model</a>.</p>
+
+<p>The tool offers three ways of entering metadata for submission:</p>
+<ul>
+  <li>Using the <a href="https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing">metadata spreadsheet template</a> (default, Fig. 5a)</li>
+  <li>Interactively generating the metadata structure (Fig. 5b)</li>
+  <li>Using the 4 tsv templates (legacy, Fig. 5c)</li>
+</ul>
+
+<p>All three allow you to make a submission to either the test or production server of ENA. All metadata fields must be completed for the submission to go through. The submission tool will validate the metadata before submission.</p>
+
+<figure class="docimage">
+    <img src="/images/3_ways_metadata.png" alt="2ways of submitting metadata" />
+    <figcaption>
+    Figure 5. Three ways of submitting the metadata through the ENA-upload tool.
+    </figcaption>
+</figure>
+
+<h4 id="upload-with-the-metadata-spreadsheet-template">Upload with the metadata spreadsheet template</h4>
+<p>For submission of a large number of files, we recommend to use the Excel template to upload the metadata. The template for SARS-Cov-2 submissions can be found <a href="https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing">here</a>. The template is organized according to the ENA metadata model and contains one worksheet each for study, sample, experiment and run metadata:</p>
+<ul>
+  <li>A <strong>study (project)</strong> groups together data submitted to the archive and controls its release date. A study accession is typically used when citing data submitted to ENA.</li>
+  <li>A <strong>sample</strong> contains information about the sequenced source material. Samples are associated with checklists, which define the fields used to annotate the samples. Samples are always associated with a taxon.</li>
+  <li>An <strong>experiment</strong> contains information about a sequencing experiment including library and instrument details.</li>
+  <li>A <strong>run</strong> is part of an experiment and refers to data files containing sequence reads.</li>
+</ul>
+
+<p>Use the <em>_alias</em> field on each sheet to interlink the experiments, studies, runs, samples and files with each other. The template can be downloaded, completed and uploaded using the Galaxy upload tool.</p>
+
+<p>Complete the metadata template in your computer. <strong>All fields of the template must be complete</strong>. <a href="https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing">Here</a> you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on <strong>‘File based on templates here:’</strong>.
+Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on ‘Execute’.</p>
+
+<div class="alert alert-warning" role="alert"><i class="fas fa-exclamation-triangle"></i> <b>Important:</b> The processed sequence file (human  reads removed) will have the same filename as the raw file but a <strong>higher number</strong> assigned by Galaxy.</div>
+
+<h4 id="interactive-metadata-upload">Interactive metadata upload</h4>
+<p>For a small number of submissions, metadata is best entered interactively in Galaxy using the submission tool. Metadata fields are nested according to ENA metadata model described above.</p>
+
+<h4 id="tabular-tsv-metadata-tables-legacy">Tabular (tsv) metadata tables (Legacy)</h4>
+<p>Four tsv files can be uploaded, one each for study, sample, experiment and run metadata. Example tsv files can be found <a href="https://github.com/usegalaxy-eu/ena-upload-cli/tree/master/example_tables">here</a>.
+Export the completed tables to tsv files and upload them using Galaxy upload tool.</p>
+
+<p>Next, select the human-filtered data files associated with the metadata and select the correct metadata file for each section. Finally, fill in the Affiliation center and click on ‘Execute’.</p>
+
+<h3 id="6-check-for-a-valid-submission">6. Check for a valid submission</h3>
+
+<p>Visit <a href="https://www.ebi.ac.uk/ena/submit/webin">Webin online</a> to check on your submissions or <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin">dev Webin</a> to check on test submissions. If everything looks fine, publish the data by changing the “Release Date” of the study to a day later than the current day. It can take several days for ENA to index the data and to let it appear in a correct manner. Covid-19 data will also be indexed by the <a href="https://www.covid19dataportal.org/">COVID-19 Data Portal</a></p>
+
+<h3 id="7-stopping-and-deleting-the-container-optional">7. Stopping and deleting the container (optional)</h3>
+
+<p>The container can be stopped by simply closing the terminal. In this case the container will still be there. If your submission was successful and you don’t need the instance anymore, you can delete the container and its corresponding image using following steps:</p>
+
+<ol>
+  <li>Check the name of your container you want to delete
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker container list -a
+</code></pre></div>    </div>
+  </li>
+  <li>Delete the container using its name (seen in the NAMES column)
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker container rm NAME
+</code></pre></div>    </div>
+  </li>
+  <li>Delete the image (when you don’t want to use the galaxy instance in the forseeable future)<br />
+ <strong>Linux/Windows:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker rmi quay.io/galaxy/ena-upload
+</code></pre></div>    </div>
+    <p><strong>MacOS:</strong></p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker rmi quay.io/galaxy/ena-upload:hg38
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="frequently-asked-questions">Frequently asked questions</h2>
+
+<h4 id="why-is-the-reads-cleaning-tool-not-showing-files-for-input">Why is the reads cleaning tool not showing files for input?</h4>
+<p>You have uploaded sequence files, they appear in your history but you do not see them in the human reads cleaning tool. This issue is related to the sequence file format. If you uploaded uncompressed fastq files, you have to define the files as fastqsanger in Galaxy for the tool to accept them. This can be done during upload or by editing the file attributes in the history panel. More information of fastqsanger format can be found <a href="https://galaxyproject.org/support/fastqsanger/">here</a></p>
+
+<h4 id="why-do-my-outputs-from-reads-cleaning-have-no-sequence">Why do my outputs from reads cleaning have no sequence?</h4>
+<p>The output of the read cleaning tool is a small file (40Kb) with no sequences. This issue can be related to memory requirements.
+The human reads cleaning tool uses <a href="http://bio-bwa.sourceforge.net/">BWA Mem</a> for mapping reads to the human genome. This step is memory demanding.
+A modestly specced workstation may become laggy and not finish the mapping step, resulting in no output sequence file. Increasing the swap file or swap partition size can help with this issue.</p>
+
+<h4 id="i-have-page-not-found-when-visiting-httplocalhost8080-what-do-i-do">I Have “page not found” when visiting <a href="http://localhost:8080/">http://localhost:8080/</a>, what do I do?</h4>
+
+<p>Please wait a little longer. If the problem keeps occurring, please press ctrl-c to break the container startup and try again.</p>
+
+<h4 id="why-are-no-reference-genomes-available-in-the-read-cleaning-tool">Why are no reference genomes available in the read cleaning tool?</h4>
+<p>If this problem occurs, pleas try using the docker container that has the human reference genome pre-included by using following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -p "8080:80" quay.io/galaxy/ena-upload:hg38
+</code></pre></div></div>
+
+<h4 id="is-my-session-lost-after-closing-the-terminal">Is my session lost after closing the terminal?</h4>
+<p>If you close the terminal, the container will be stopped, but will not be deleted. If you want to re-use this Galaxy session please run:</p>
+
+<p><strong>Linux/Windows:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker start quay.io/galaxy/ena-upload
+</code></pre></div></div>
+
+<p><strong>MacOS:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker start quay.io/galaxy/ena-upload:hg38
+</code></pre></div></div>
+
+<h4 id="running-the-containers-is-taking-a-lot-of-storage-space-is-this-normal">Running the containers is taking a lot of storage space, is this normal?</h4>
+<p>If you are playing around with containers you might run into the fact that they can take up a lot of storage space. This can be avoided by deleting all your existing containers/images and volumes if you don’t need them anymore. Use following commands to do so:</p>
+
+<ul>
+  <li>Delete all containers /images and networks that are not in use
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker system prune -a 
+</code></pre></div>    </div>
+  </li>
+  <li>Delete volumes
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker volume rm $(docker volume ls -qf dangling=true) 
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<!-- include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) -->
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container py-1 py-4">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-image" width="120px;" src="/assets/img/company_logo.png" alt="Company logo"/>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Acknowledgements</h6>
+                <p>
+                    <a href="https://elixir-belgium.org/">ELIXIR-Belgium</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Feel free to contact us:</h6>
+                <p>
+                    <a href="mailto:"></a>
+                </p>    
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-logo" src="/assets/img/RDM_guide_condensed.svg" alt="Company logo" width="88px">
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1);"><a class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+        alt="Creative Commons License" style="width: 70px;"
+        src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        <span
+        xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource"
+        property="dct:title" rel="dct:type">RDM Guide</span> by <a class="no_icon"
+        xmlns:cc="http://creativecommons.org/ns#" href="https://elixir-belgium.org/"
+        property="cc:attributionName" rel="cc:attributionURL">ELIXIR Belgium</a> is licensed under a <a
+        class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+        Attribution-ShareAlike 4.0 International License</a>, except where otherwise noted.<br> All material under this licence can be freely used, as long as ELIXIR Belgium <a class="no_icon" rel="license" href="https://rdm.elixir-belgium.org">RDM Guide</a> is credited as the author
+    </div>
+</footer>
+
+    <script>
+        external_new_window();
+    </script>
+</body>
+</html>

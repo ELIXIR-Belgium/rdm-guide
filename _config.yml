@@ -1,8 +1,5 @@
 url: rdm.elixir-belgium.org
-repository: https://github.com/ELIXIR-Belgium/data_management_hub
-
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
+repository: ELIXIR-Belgium/rdm-guide
 
 topnav_title: RDM Guide
 # this appears on the top navigation bar next to the home button
@@ -11,16 +8,13 @@ site_title: RDM Guide
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Belgium
-# this appears in the footer
+# this appears in the page_ending
 
-# github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+# github_editme_path: 
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
-# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-# google_analytics: UA-66296557-1
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
+description: "RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium."
+# Metadata description of the website
 
 host: 127.0.0.1
 # the preview server used. Leave as is.
@@ -29,56 +23,39 @@ port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
-  - .idea/
   - .gitignore
-  - vendor
-# these are the files and directories that jekyll will exclude from the build
+  - README.md
 
-#feedback_subject_line: 
+# feedback_subject_line: 
 
-#feedback_email: 
+# contact_email: rdm-editors@elixir-europe.org
 # used as a contact email for the Feedback link in the top navigation bar
 
 feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
-# feedback_text: "Need help?"
+# feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
-
-highlighter: rouge
-# library used for syntax highlighting
-
 markdown: kramdown
+highlighter: rouge
 kramdown:
  input: GFM
  auto_ids: true
  hard_wrap: false
- syntax_highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 defaults:
   -
     scope:
       path: ""
       type: "pages"
     values:
+      permalink: /:basename:output_ext
       layout: "page"
       comments: false
       search: true
-      permalink: /:basename:output_ext
-      sidebar: sidebar
+      sidebar: main
       topnav: topnav
 
-
-# these are defaults used for the frontmatter for these file types
-
-sidebars:
-- sidebar
-
-description: "ELIXIR  Belgium RDM Guide"
-# the description is used in the feed.xml file
-
-github: [metadata]
+plugins:
+  - jemoji

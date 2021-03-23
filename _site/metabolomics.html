@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.">
+    <meta name="keywords" content=" ">
+    <meta property="og:title" content="RDM Guide" />
+    <meta property="og:description" content="RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium." />
+    <meta property="og:image" content="//rdm.elixir-belgium.org/assets/img/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#f5f5f5">
+    <title>Metabolomics | RDM Guide</title>
+    <!-- Syntax highlighting  -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!-- Font Awesome 5 Icons -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css">
+    <!-- General styling -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <!-- Custom edits on top of bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Main font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- JavaScript  -->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/jquery.navgoco.js"></script>
+    <script src="/assets/js/jquery.cookie.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#de4d00">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "RDM Guide",
+            "url": "http://localhost:4000",
+            "about": "RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.",
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"><img alt="ELIXIR logo" src="/assets/img/RDM_guide.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i title="navbar-toggler" class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <!-- navigation entries -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/ELIXIR-Belgium/data_management_hub" target="_blank" rel="noopener">GitHub</a>
+                    </li>
+                    
+                    <!--start Feedback button-->
+                    <!--start search-->
+                    <li class="nav-item">
+                        <form autocomplete="off" class="form-inline">
+                            <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
+                            <ul id="results-container"></ul>
+                            <script src="/assets/js/simple-jekyll-search.min.js"></script>
+                            <script type="text/javascript">
+                                var sjs = SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                json: "/search.json",
+                                searchResultTemplate: '<li><a href="{url}" title="Metabolomics">{title}</a></li>',
+                                noResultsText: '<li><a href=""">No results found...</a></li>',
+                                limit: 10
+                                })
+                            </script>
+                            
+                        </form>
+                    </li>
+                    <!--end search-->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</header>
+    <!-- Page Content -->
+    <div class="container">
+        <div id="main">
+            <!-- Content Row -->
+            <div class="row">
+                
+                <!-- Sidebar Column -->
+                <div class="col-lg-3 container-menu">
+                    <ul id="menu" class="menu">
+    
+    <li>    
+        <a title="Data Management in Simple Steps" href="/data_management_steps.html">Data Management in Simple Steps</a>
+    </li>
+    <li>    
+        <a title="Data Management Plan" href="/about_DMP.html">Data Management Plan</a>
+        <ul>
+            <li>    
+                <a title="Online tools for DMP" href="/online_tools_for_dmp.html">Online tools for DMP</a>
+            </li>
+            <li>    
+                <a title="Data in DMP" href="/data_in_dmp.html">Data in DMP</a>
+            </li>
+            <li>    
+                <a title="Existing data" href="/existing_data.html">Existing data</a>
+            </li>
+            <li>    
+                <a title="File formats" href="/file_formats.html">File formats</a>
+            </li>
+            <li>    
+                <a title="Data volume" href="/data_volume.html">Data volume</a>
+            </li>
+            <li>    
+                <a title="Datasets sharing" href="/datasets_sharing.html">Datasets sharing</a>
+            </li>
+            <li>    
+                <a title="Data licences" href="/data_licences.html">Data licences</a>
+            </li>
+            <li>    
+                <a title="Metadata" href="/metadata.html">Metadata</a>
+            </li>
+            <li>    
+                <a title="Identifiers" href="/identifiers.html">Identifiers</a>
+            </li>
+            <li>    
+                <a title="Data documentation" href="/data_documentation.html">Data documentation</a>
+            </li>
+            <li>    
+                <a title="Data organization" href="/data_organization.html">Data organization</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Data Management for Omics Data" href="">Data Management for Omics Data</a>
+        <ul>
+            <li>    
+                <a title="Genomics" href="/genomics.html">Genomics</a>
+            </li>
+            <li class="active">    
+                <a title="Metabolomics" href="/metabolomics.html">Metabolomics</a>
+            </li>
+            <li>    
+                <a title="Proteomics" href="/proteomics.html">Proteomics</a>
+            </li>
+            <li>    
+                <a title="Transcriptomics" href="/transcriptomics.html">Transcriptomics</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Covid-19" href="/covid-19/index.html">Covid-19</a>
+        <ul>
+            <li>    
+                <a title="SARS-Cov-2 submission" href="/covid-19/sarscov2_submission.html">SARS-Cov-2 submission</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+                </div>
+                
+                <!-- Content Column -->
+                <div class="col-lg-9">
+                    
+<div class="post-header">
+    <h1>Metabolomics
+    </h1>
+</div>
+<div class="post-content"><script>
+  $(document).ready(function () {
+    $('#toc').toc({ minimumHeaders: 2, listType: 'ul', showSpeed: 0, headers: 'h2' , title: '' });
+  });
+</script>
+<div id="toc"></div>
+
+    <h2 id="metabolome">Metabolome</h2>
+<p>The metabolome is the global collection of all low molecular weight metabolites that are produced by cells during metabolism, and provides a direct functional readout of cellular activity and physiological status (from <em>Advances in Genetics, 2016</em>, <a href="https://www.sciencedirect.com/topics/neuroscience/metabolome">ScienceDirect</a>).</p>
+
+<p>Metabolomics is the large-scale study of small molecules, commonly known as metabolites, within cells, biofluids, tissues or organisms (<a href="[https://www.ebi.ac.uk/training-beta/online/courses/metabolomics-introduction/what-is/]">EMBL-EBI training</a>).</p>
+
+<h2 id="recommended-repositories">Recommended repositories</h2>
+<ul>
+  <li><a href="metabolights">MetaboLights</a>.
+MetaboLights is the first general purpose, open access repository for metabolomics studies, their raw experimental data and associated metadata (<a href="https://www.ebi.ac.uk/training/online/course/metabolights-quick-tour/what-metabolights">EMBL-EBI train online</a>).</li>
+</ul>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container py-1 py-4">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-image" width="120px;" src="/assets/img/company_logo.png" alt="Company logo"/>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Acknowledgements</h6>
+                <p>
+                    <a href="https://elixir-belgium.org/">ELIXIR-Belgium</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Feel free to contact us:</h6>
+                <p>
+                    <a href="mailto:"></a>
+                </p>    
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-logo" src="/assets/img/RDM_guide_condensed.svg" alt="Company logo" width="88px">
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1);"><a class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+        alt="Creative Commons License" style="width: 70px;"
+        src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        <span
+        xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource"
+        property="dct:title" rel="dct:type">RDM Guide</span> by <a class="no_icon"
+        xmlns:cc="http://creativecommons.org/ns#" href="https://elixir-belgium.org/"
+        property="cc:attributionName" rel="cc:attributionURL">ELIXIR Belgium</a> is licensed under a <a
+        class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+        Attribution-ShareAlike 4.0 International License</a>, except where otherwise noted.<br> All material under this licence can be freely used, as long as ELIXIR Belgium <a class="no_icon" rel="license" href="https://rdm.elixir-belgium.org">RDM Guide</a> is credited as the author
+    </div>
+</footer>
+
+    <script>
+        external_new_window();
+    </script>
+</body>
+</html>

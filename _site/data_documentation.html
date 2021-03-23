@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="“Documentation is a love letter that you write to your future self.” Damian Conway (2005). ">
+    <meta name="keywords" content=" ">
+    <meta property="og:title" content="RDM Guide" />
+    <meta property="og:description" content="RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium." />
+    <meta property="og:image" content="//rdm.elixir-belgium.org/assets/img/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#f5f5f5">
+    <title>Data documentation | RDM Guide</title>
+    <!-- Syntax highlighting  -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!-- Font Awesome 5 Icons -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css">
+    <!-- General styling -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <!-- Custom edits on top of bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Main font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- JavaScript  -->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/jquery.navgoco.js"></script>
+    <script src="/assets/js/jquery.cookie.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#de4d00">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "RDM Guide",
+            "url": "http://localhost:4000",
+            "about": "RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium.",
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"><img alt="ELIXIR logo" src="/assets/img/RDM_guide.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i title="navbar-toggler" class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <!-- navigation entries -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/ELIXIR-Belgium/data_management_hub" target="_blank" rel="noopener">GitHub</a>
+                    </li>
+                    
+                    <!--start Feedback button-->
+                    <!--start search-->
+                    <li class="nav-item">
+                        <form autocomplete="off" class="form-inline">
+                            <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
+                            <ul id="results-container"></ul>
+                            <script src="/assets/js/simple-jekyll-search.min.js"></script>
+                            <script type="text/javascript">
+                                var sjs = SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                json: "/search.json",
+                                searchResultTemplate: '<li><a href="{url}" title="Data documentation">{title}</a></li>',
+                                noResultsText: '<li><a href=""">No results found...</a></li>',
+                                limit: 10
+                                })
+                            </script>
+                            
+                        </form>
+                    </li>
+                    <!--end search-->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</header>
+    <!-- Page Content -->
+    <div class="container">
+        <div id="main">
+            <!-- Content Row -->
+            <div class="row">
+                
+                <!-- Sidebar Column -->
+                <div class="col-lg-3 container-menu">
+                    <ul id="menu" class="menu">
+    
+    <li>    
+        <a title="Data Management in Simple Steps" href="/data_management_steps.html">Data Management in Simple Steps</a>
+    </li>
+    <li>    
+        <a title="Data Management Plan" href="/about_DMP.html">Data Management Plan</a>
+        <ul>
+            <li>    
+                <a title="Online tools for DMP" href="/online_tools_for_dmp.html">Online tools for DMP</a>
+            </li>
+            <li>    
+                <a title="Data in DMP" href="/data_in_dmp.html">Data in DMP</a>
+            </li>
+            <li>    
+                <a title="Existing data" href="/existing_data.html">Existing data</a>
+            </li>
+            <li>    
+                <a title="File formats" href="/file_formats.html">File formats</a>
+            </li>
+            <li>    
+                <a title="Data volume" href="/data_volume.html">Data volume</a>
+            </li>
+            <li>    
+                <a title="Datasets sharing" href="/datasets_sharing.html">Datasets sharing</a>
+            </li>
+            <li>    
+                <a title="Data licences" href="/data_licences.html">Data licences</a>
+            </li>
+            <li>    
+                <a title="Metadata" href="/metadata.html">Metadata</a>
+            </li>
+            <li>    
+                <a title="Identifiers" href="/identifiers.html">Identifiers</a>
+            </li>
+            <li class="active">    
+                <a title="Data documentation" href="/data_documentation.html">Data documentation</a>
+            </li>
+            <li>    
+                <a title="Data organization" href="/data_organization.html">Data organization</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Data Management for Omics Data" href="">Data Management for Omics Data</a>
+        <ul>
+            <li>    
+                <a title="Genomics" href="/genomics.html">Genomics</a>
+            </li>
+            <li>    
+                <a title="Metabolomics" href="/metabolomics.html">Metabolomics</a>
+            </li>
+            <li>    
+                <a title="Proteomics" href="/proteomics.html">Proteomics</a>
+            </li>
+            <li>    
+                <a title="Transcriptomics" href="/transcriptomics.html">Transcriptomics</a>
+            </li>
+        </ul>
+    </li>
+    <li>    
+        <a title="Covid-19" href="/covid-19/index.html">Covid-19</a>
+        <ul>
+            <li>    
+                <a title="SARS-Cov-2 submission" href="/covid-19/sarscov2_submission.html">SARS-Cov-2 submission</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+                </div>
+                
+                <!-- Content Column -->
+                <div class="col-lg-9">
+                    
+<div class="post-header">
+    <h1>Data documentation
+    </h1>
+</div>
+<div class="post-content">
+    <div class="summary">“Documentation is a love letter that you write to your future self.” Damian Conway (2005). </div><script>
+  $(document).ready(function () {
+    $('#toc').toc({ minimumHeaders: 2, listType: 'ul', showSpeed: 0, headers: 'h2' , title: '' });
+  });
+</script>
+<div id="toc"></div>
+
+    <h2 id="what-is-data-documentation">What is data documentation</h2>
+<p>It is good practice to write metadata and instructions about how to understand, interpret and reuse the data in a documentation, which will be provided with or linked to the data. Good documentation helps yourself and others in the future to understand how you collected and organised the data.</p>
+
+<h2 id="documentation-methods">Documentation methods</h2>
+<p>There are different ways of providing your data documentation, depending on the context in which your data and documentation are shared and/or stored.</p>
+<ul>
+  <li><strong>Documentation in a published journal article or online platform.</strong><br />
+If the information needed to understand data is in a journal article or in an online platform, it is possible to refer to it from the data sharing system, but before doing so you should be sure that (a) it provides sufficient detail and (b) that it will be available as open access.<br />
+Note that usually ELNs and lab books are not open access, so they could be not suitable as data documentation.</li>
+  <li><strong>Documentation in a web submission form of the deposition database or repository.</strong><br />
+In some cases, repositories and archives have specific <a href="metadata">metadata fields</a> in their web submission form, which could require a specific <a href="ontology">ontology</a> or controlled vocabulary. Find out the fields of the submission form of the repository to which you are planning to submit your data, copy these fields into your data documentation and fill these in as you go through your project.</li>
+  <li><strong>Documentation in a separate structured metadata file.</strong><br />
+Some disciplines have developed structured <a href="metadata">metadata schemas</a> for recording supporting information. Find out the fields of the metadata schema, download or copy these fields into your data documentation and fill these in as you go through your project. A structured metadata file can accompany files/data being deposited in a repository.</li>
+  <li><strong>Documentation in a ‘README’ file.</strong><br />
+Any information that cannot be recorded in a structured way (i.e. as the values of fields in a data or metadata file) can be recorded as free text within a README file. A README file can accompany files/data being deposited in a repository.</li>
+</ul>
+
+<h2 id="readme-file">README file</h2>
+<h3 id="what-is-a-readme-file">What is a README file</h3>
+<p>A readme file is usually a text file titled README.txt, in .txt open format. Its title indicates that any potential user of your data should consult it before checking your data.</p>
+
+<p>There are many types of README files, such as  README file to help you remember <strong>how you organized your folders and files</strong> on your computer or intranet, and  README file <strong>describing the files</strong> within each folder on your computer/intranet. Depending on how many files you have and for how many years you are going to maintain these files, you can create a README file for your directory or for each folder and subfolder created within your directory to document specific parts of your data.</p>
+
+<h3 id="when-to-make-a-readme-file">When to make a README file</h3>
+<p>It is generally better to start writing up that information into a central document as soon as you start collecting your data, or even during the planning phase. Definitely before you show a project to other people or make it public. You might want to get into the habit of making it the first file you create in a new project.</p>
+
+<p>The repository could also ask for a README file. That README file will include a listing of all the files to be submitted to the repository along with pertinent information. Creating a README file at the beginning of each project will save you time later.</p>
+
+<h3 id="what-to-write-in-a-readme-file">What to write in a README file</h3>
+<p>You should only include elements that are useful and/or necessary to correctly interpret, evaluate and reuse your dataset, without the need to contact you directly about the dataset. The goal is not to make your readme file too lengthy.</p>
+
+<p><a href="https://libguides.graduateinstitute.ch/rdm/readme">The Graduate Institute Geneva</a> compiled the following list of elements you could include in a README file located at the root of your dataset. You may of course place some of them in secondary documentation or in separate files, or even embed them in your data.</p>
+
+<ul>
+  <li>General information
+    <ul>
+      <li>Dataset title</li>
+      <li>Investigators names, roles and contact info (include OrcID if available)</li>
+      <li>Grant information</li>
+      <li>DOI for the reference version of the dataset</li>
+    </ul>
+  </li>
+  <li>Your data and the world
+    <ul>
+      <li>Licences and restrictions placed on (parts of) the dataset</li>
+      <li>Links to publications based on the dataset</li>
+      <li>Relationship with other datasets</li>
+      <li>Other resources used as source for data collection (books, articles, etc.)</li>
+    </ul>
+  </li>
+  <li>Organisation
+    <ul>
+      <li>File naming system (with examples)</li>
+      <li>Folder structure</li>
+      <li>Relationships and dependencies between files</li>
+      <li>Other documentation files of interest within dataset (notes, companion files)</li>
+      <li>For each major file, short description of contents</li>
+      <li>Date of creation of each major file</li>
+    </ul>
+  </li>
+  <li>Data collection
+    <ul>
+      <li>Methods used for data collection (including references, documentation, links)</li>
+      <li>Collection date (or range)</li>
+      <li>Geographic location of collection (if appropriate)</li>
+      <li>Experimental &amp; environmental conditions of collection (if appropriate)</li>
+      <li>Standards and calibration for data collection (if applicable)</li>
+      <li>Uncertainty, precision and accuracy of measurements (if appropriate)</li>
+      <li>Known problems &amp; caveats (sampling, blanks, etc.)</li>
+    </ul>
+  </li>
+  <li>Codebook
+    <ul>
+      <li>Definition of codes, symbols and abbreviations used in files</li>
+      <li>List of variables with full name and definition</li>
+      <li>Definition of column headings and row labels for tabular data</li>
+      <li>Measurement units and data formats (e.g. YYYYYMMDD)</li>
+      <li>Treatment of missing data (code, etc.)</li>
+      <li>Example of records for each file type</li>
+    </ul>
+  </li>
+  <li>Processing, versioning &amp; QA
+    <ul>
+      <li>Methods used for data processing</li>
+      <li>Software used in data collection and processing, including version numbers</li>
+      <li>File formats used in the dataset &amp; recommended software</li>
+      <li>Quality control procedure applied</li>
+      <li>Description of file versioning system if appropriate</li>
+      <li>Dataset changelog</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Excellent <strong>readme file guides and templates</strong> can be found here:</p>
+<ul>
+  <li><a href="https://data.research.cornell.edu/content/readme">Guide to writing “readme” style metadata</a>, Cornell University.</li>
+  <li><a href="https://datamanagement.hms.harvard.edu/readme-files">Best Practices</a>, Harvard Biomedical Data Management.</li>
+  <li><a href="https://researchdata.4tu.nl/fileadmin/user_upload/Documenten/Guidelines_for_creating_a_README_file.pdf">Guidelines for creating a README file</a>, 4TU.</li>
+</ul>
+
+<h2 id="references">References</h2>
+<ul>
+  <li><a href="https://library.bath.ac.uk/research-data/working-with-data/data-documentation-metadata#s-lg-box-wrapper-17445057">Data Documentation and Metadata,</a>, University of Bath.</li>
+  <li><a href="https://libguides.graduateinstitute.ch/rdm/readme">Research Data Management</a>, The Graduate Institute Geneva.</li>
+  <li><a href="https://campusguides.lib.utah.edu/c.php?g=997634&amp;p=7221520">ULibraries Research Guides</a>, University of Utah.</li>
+  <li><a href="https://datamanagement.hms.harvard.edu/readme-files">Best Practices</a>, Harvard Biomedical Data Management.</li>
+</ul>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container py-1 py-4">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-image" width="120px;" src="/assets/img/company_logo.png" alt="Company logo"/>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Acknowledgements</h6>
+                <p>
+                    <a href="https://elixir-belgium.org/">ELIXIR-Belgium</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <h6>Feel free to contact us:</h6>
+                <p>
+                    <a href="mailto:"></a>
+                </p>    
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 mb-sm-4">
+                <img class="company-logo" src="/assets/img/RDM_guide_condensed.svg" alt="Company logo" width="88px">
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1);"><a class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+        alt="Creative Commons License" style="width: 70px;"
+        src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        <span
+        xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource"
+        property="dct:title" rel="dct:type">RDM Guide</span> by <a class="no_icon"
+        xmlns:cc="http://creativecommons.org/ns#" href="https://elixir-belgium.org/"
+        property="cc:attributionName" rel="cc:attributionURL">ELIXIR Belgium</a> is licensed under a <a
+        class="no_icon" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+        Attribution-ShareAlike 4.0 International License</a>, except where otherwise noted.<br> All material under this licence can be freely used, as long as ELIXIR Belgium <a class="no_icon" rel="license" href="https://rdm.elixir-belgium.org">RDM Guide</a> is credited as the author
+    </div>
+</footer>
+
+    <script>
+        external_new_window();
+    </script>
+</body>
+</html>
