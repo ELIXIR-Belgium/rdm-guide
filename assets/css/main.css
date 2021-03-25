@@ -293,7 +293,7 @@ figcaption {
     padding-left: 60px;
 }
 
-.menu ul li.active a {
+.menu li.active:not(.parent)>a {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
