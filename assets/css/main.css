@@ -155,14 +155,6 @@ pre code {
     background-color: var(--nav-bg);
 }
 
-.navbar-brand {
-    color: var(--primary-theme-color);
-}
-
-.navbar-brand:hover {
-    color: var(--nav-color);
-}
-
 .navbar-brand img {
     height: 40px;
 }
@@ -689,7 +681,8 @@ h2.card-title {
     color: var(--primary-theme-color);
 }
 
-/*-----Custom classes-----*/
+/*--------------Custom classes--------------*/
+/* ---------------------------------------- */
 
 /* subtitle frontpage */
 .subtitle {
