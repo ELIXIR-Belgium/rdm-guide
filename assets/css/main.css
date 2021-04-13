@@ -155,6 +155,18 @@ pre code {
     background-color: var(--nav-bg);
 }
 
+.navbar-brand {
+    color: var(--primary-theme-color);
+}
+
+.navbar-brand:hover {
+    color: var(--nav-color);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
 .navbar-nav .nav-item a {
     color: var(--nav-color);
 }
@@ -168,10 +180,6 @@ pre code {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
     border-radius: 4px;
-}
-
-.navbar-brand img {
-    height: 40px;
 }
 
 .navbar-toggler {
@@ -275,7 +283,7 @@ figcaption {
     background-color: var(--nav-bg);
 }
 
-.sidebarTitle {
+.sidebar-title {
     margin: 11px 0px;
     font-weight: 800;
     font-size: 1.3em;
@@ -520,15 +528,6 @@ footer .company-logo {
     margin-top: 70px;
 }
 
-/* -----Homepage----- */
-
-.blurb-title {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 18px;
-    font-weight: 600;
-}
-
 /* ----- Home dropdown boxes ------ */
 
 .home-cards .card {
@@ -537,24 +536,6 @@ footer .company-logo {
 
 h2.card-title {
     margin: 0 0 0.5rem 0;
-}
-
-/*-----RDM wheel frontpage-----*/
-
-.ratio.main_rdm {
-    padding-bottom: 100%;
-}
-
-@media (min-width: 576px) {
-    .ratio.main_rdm {
-        padding-bottom: 70%;
-    }
-}
-
-@media (min-width: 768px) {
-    .ratio.main_rdm {
-        padding-bottom: 35%;
-    }
 }
 
 /* Custom buttons */
@@ -644,44 +625,16 @@ h2.card-title {
 
 /*-----Edit me button-----*/
 
-.githubEditButton {
+.github-edit-btn {
     color: var(--primary-theme-color);
     margin-left: 12px;
     font-size: small;
 }
 
-.githubEditButton:hover {
+.github-edit-btn:hover {
     color: var(--primary-theme-color);
     background-color: var(--light-grey);
     text-decoration: none;
-}
-
-/*-----TeSS button-----*/
-
-.TeSS-button {
-    margin: 30px 0px;
-}
-
-.TeSS-button .tess_logo {
-    max-height: 45px;
-    max-width: 45px;
-    margin-left: 17px;
-    margin-bottom: 5px;
-}
-
-.TeSS-button a {
-    padding: 16px;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    border-radius: 4px;
-    background-color: var(--hover-grey);
-    text-decoration: none;
-    color: var(--white-text);
-}
-
-.TeSS-button a:hover {
-    background-color: #f47d20;
-    text-decoration: none;
-    color: var(--white-text);
 }
 
 /* ----- Cookie consent ----- */
@@ -741,4 +694,59 @@ h2.card-title {
 /* subtitle frontpage */
 .subtitle {
     color: var(--hover-grey);
+}
+
+/*-----TeSS button-----*/
+
+.TeSS-button {
+    margin: 30px 0px;
+}
+
+.TeSS-button .tess_logo {
+    max-height: 45px;
+    max-width: 45px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
+
+.TeSS-button a {
+    padding: 16px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    border-radius: 4px;
+    background-color: var(--hover-grey);
+    text-decoration: none;
+    color: var(--white-text);
+}
+
+.TeSS-button a:hover {
+    background-color: #f47d20;
+    text-decoration: none;
+    color: var(--white-text);
+}
+
+/*-----RDM wheel frontpage-----*/
+
+.ratio.main_rdm {
+    padding-bottom: 100%;
+}
+
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 35%;
+    }
+}
+
+/* -----Homepage----- */
+
+.blurb-title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 18px;
+    font-weight: 600;
 }

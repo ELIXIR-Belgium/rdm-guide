@@ -1,7 +1,7 @@
 url: rdm.elixir-belgium.org
 repository: ELIXIR-Belgium/rdm-guide
 
-topnav_title: RDM Guide
+# topnav_title:
 # this appears on the top navigation bar next to the home button
 
 site_title: RDM Guide
