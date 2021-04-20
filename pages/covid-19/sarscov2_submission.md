@@ -20,9 +20,14 @@ To address this, ELIXIR Belgium together with the lab of Björn Grüning have de
 The python package *ena-upload-cli* is published on [pip](https://pypi.org/project/ena-upload-cli/) and [bioconda](https://anaconda.org/bioconda/ena-upload-cli). For more information on how to use this tool please visit the github page of *[ena-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli)*.
 
 
+## The Galaxy ENA upload tool
+
+To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://toolshed.g2.bx.psu.edu/view/iuc/ena_upload/382518f24d6d). The ENA upload tool is part of the Intergalactic Utilities Commission (IUC), a curated collection of Galaxy tools. In [this repository](https://github.com/galaxyproject/tools-iuc/tree/master/tools/ena_upload) you can find all the information on how to install the tool yourself if you are administrator of a Galaxy instance .
+
 
 ## The Galaxy container for ENA submissions
-To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8) and put in a [container](https://github.com/ELIXIR-Belgium/ena-upload-container).
+
+The ENA upload tool was put in a [container](https://github.com/ELIXIR-Belgium/ena-upload-container) together with a tool and workflow for human reads cleaning.
 
 The Galaxy container allows the user to :
 - remove human traces from raw reads
