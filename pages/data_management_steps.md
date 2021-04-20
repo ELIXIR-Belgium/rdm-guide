@@ -5,11 +5,11 @@ keywords:
 ---
 
 ## Start with the end in mind
-It is good practice to share research data at the end of a project, especially if used for a publication.
+It is good practice to publish research data at the end of a project, especially if used for a publication of an article.
 
-A recommended way to share data is by deposition into an online repository, that will store your data and make it accessible to others. Repositories can be general or discipline specific; we suggest using disciplinary repositories to increase the impact of your data among your peers.
+A recommended way to publish data is by deposition into an online repository, that will store your data and make it accessible to others. Repositories can be general or discipline specific; we suggest using disciplinary repositories to increase the impact of your data among your peers.
 
-Before generating data, consider in what repository you want to share it at the end of the project. This gives you the advantage of structuring the dataset and the [metadata](metadata) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.
+Before generating data, consider in what repository you want to publish it at the end of the project. This gives you the advantage of structuring the dataset and the [metadata](metadata) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.
 
 By starting with the end in mind, you will avoid spending time restructuring the dataset and rewriting metadata at the end of the project, when collecting the necessary information can be difficult.
 
@@ -18,7 +18,7 @@ You can find the right repository for your dataset by following the steps descri
 
 1.  Consider possible ethical and legal implications of your dataset (contact the ethical committee and the legal team in your institution, if necessary).
 
-    * Funders’ requirements: check what are the requirements of your research funder about the results of the research and the underlying data.
+    * Data availability requirements : check what are the requirements of your research funder, your institution or scientific journal about the availability of research data.
     * [Data access restrictions](datasets_sharing): check if there are legal or ethical reasons to restrict access to your data.
     * [Data reusability](data_licences): check if there is any reason to limit reusability of your data by others or if you need to put a specific licence on the data.
 

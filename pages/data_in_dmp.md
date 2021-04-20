@@ -7,10 +7,9 @@ summary: "“You can have data without information, but you cannot have informat
 ## What is data in DMP
 DMP is about data, but what does data mean in research data management (RDM)?
 
-Giving a definition of research data is extremely difficult because it is strictly discipline- and context-dependent. However, multiple definitions of research data have been formulated. The UK Concordat on Open Research Data (2016) defines research data as\\
-"*the evidence that underpins the answer to the research question, and can be used to validate findings regardless of its form (e.g. print, digital, or physical)*".\\
-A similar definition, adopted by UGent, defines research data as\\
-"*information collected to be examined and considered as a basis for reasoning, discussion, or calculation*".
+Giving a definition of research data is extremely difficult because it is strictly discipline- and context-dependent. However, multiple definitions of research data have been formulated. The UK Concordat on Open Research Data (2016) defines research data as "*the evidence that underpins the answer to the research question, and can be used to validate findings regardless of its form (e.g. print, digital, or physical)*".
+
+A similar definition, adopted by UGent, defines research data as "*information collected to be examined and considered as a basis for reasoning, discussion, or calculation*".
 
 It's clear that in RDM definition of data is more related to the role of the data in the research project, rather than to the nature of the data itself. The focus of RDM is more on data collected and used as foundations of your scientific claims, and not on tools or resources used just as "means to an end".
 
