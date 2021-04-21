@@ -42,7 +42,7 @@ Submit:
 * Sample: see what’s the best [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) to describe your samples. You can also [download the sample metadata schema as a spreadsheet](https://www.ebi.ac.uk/ena/submit/webin/sample-checklist).
 * Raw reads: see metadata fields for [interactive](https://ena-docs.readthedocs.io/en/latest/submit/reads/interactive.html) and [Webin-CLI](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html) submission of raw reads.
 * Assemblies: see [here](https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#submission-options) the metadata required for each type of assembly.
-* Targeted sequences: many types of sequence can be submitted using a checklist. Checklist submission allows you to avoid having to create the flatfile record manually. Therefore, please check the list of available [sequence checklists](https://ena-docs.readthedocs.io/en/latest/submit/sequence/annotation-checklists.html) to determine whether one of them meets the needs of your submission. You can also [download the sequence metadata schema as a spreadsheet](https://www.ebi.ac.uk/ena/submit/webin/sequence-checklist).
+* Targeted sequences: many types of sequence can be submitted using a checklist. Checklist submission allows you to avoid having to create the flatfile record manually. Therefore, please check the list of available [sequence checklists](https://ena-docs.readthedocs.io/en/latest/submit/sequence/annotation-checklists.html) to determine whether one of them meets the needs of your submission. After log in, you can also [download the sequence metadata schema as a spreadsheet](https://www.ebi.ac.uk/ena/submit/webin/app-checklist/sequence/true).
 * Other analysis: see [here](https://ena-docs.readthedocs.io/en/latest/submit/analyses.html) the metadata required for each type of analysis.
 
 ### Ontology
@@ -50,7 +50,7 @@ Repository-developed ontology or controlled vocabulary.
 * Samples: use the [sample checklist portal](https://www.ebi.ac.uk/ena/submit/webin/sample-checklist) or see [here](https://www.ebi.ac.uk/ena/browser/checklists) to find the permitted terms in each metadata field of a sample checklist.
 * Raw reads: see here the [permitted values](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html) in each metadata field required for describing raw reads.
 * Assemblies: see [here](https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#submission-options) the permitted terms for each type of assembly.
-* Targeted sequences: use the [sequence checklist portal](https://www.ebi.ac.uk/ena/submit/webin/sequence-checklist) to find the permitted terms in each metadata field of a sequence checklist.
+* Targeted sequences: after log in, use the [sequence checklist portal](https://www.ebi.ac.uk/ena/submit/webin/app-checklist/sequence/true) to find the permitted terms in each metadata field of a sequence checklist.
 * Other analysis: see [here](https://ena-docs.readthedocs.io/en/latest/submit/analyses.html#submission-options) the permitted terms for each type of analysis.
 
 ### Data documentation

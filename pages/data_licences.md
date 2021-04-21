@@ -1,7 +1,7 @@
 ---
 title: Data licences
 keywords:
-summary: Licensing is a way to stipulate when and how protected rights  in research data (such as copyright) can be used by others.
+summary: Licensing is a way to stipulate when and how protected rights in research data (such as copyright) can be used by others.
 ---
 
 ## Protection of research data
@@ -42,7 +42,7 @@ Repositories can be selected based on data licence and sharing policy by using [
 
 ## How to select and apply a licence
 ### Tools
-* [License Selector](https://ufal.github.io/public-license-selector/).
+* [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/).
 * [License Chooser](https://creativecommons.org/choose/).
 * [Choose an open source license](https://choosealicense.com).
 

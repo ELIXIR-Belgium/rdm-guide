@@ -1,14 +1,14 @@
 ---
-title: Datasets sharing
+title: Datasets publication
 keywords:
 summary: Here, sharing datasets means making datasets known and available to the entire world and society.
 ---
 
-## Meaning of sharing datasets
-Here, sharing datasets means making datasets known and available to the whole world and society. However, it is important to highlight that sharing datasets
-* Does **not** necessarily mean Open Access nor Public. Datasets can be shared with Closed or Restricted Access.
-* Does **not** have to happen immediately, while you are still working on the project. Data can be shared after your scientific paper is published.
-* Is **different** from sharing your “result paper”. Datasets are the collection of values used in your manuscript to generate the results.
+## Meaning of publishing datasets
+Here, publishing datasets means making datasets known and available to the whole world and society. However, it is important to highlight that publishing datasets
+* Does **not** necessarily mean Open Access nor Public. Datasets can be published with Closed or Restricted Access.
+* Does **not** have to happen immediately, while you are still working on the project. Data can be made available after your scientific paper is published.
+* Is **different** from publishing your paper or article. Datasets are the collection of values used in your manuscript to generate the results.
 
 
 ## Good reasons to make your datasets open access
@@ -19,14 +19,13 @@ Here, sharing datasets means making datasets known and available to the whole wo
   * [Ask not what you can do for open data; ask what open data can do for you](http://blogs.nature.com/naturejobs/2017/06/19/ask-not-what-you-can-do-for-open-data-ask-what-open-data-can-do-for-you/)
 
 ## Good reasons to close or restrict access to your datasets
-* Ethical issues:
-  * [Personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en).
-  * Sensitive data that could potentially cause harm (e.g. to endangered species, vulnerable sites or groups, public health, national security...) if made public. Some personal data are considered [sensitive personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
-* Legal or contractual issues:
-  * Confidential data (you have a duty or agreed to keep the data confidential).
-  * Third-party data (data are not generated in the course of your own research project, but are supplied to you by another party).
-  * Copyright and/or database right data.
-  * Data with potential economic/commercial value.
+Ethical, legal and contractual issues:
+* [Personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en).
+* Sensitive data that could potentially cause harm (e.g. to endangered species, vulnerable sites or groups, public health, national security...) if made public. Some personal data are considered [sensitive personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
+* Confidential data (you have a duty or agreed to keep the data confidential.
+* Third-party data (data are not generated in the course of your own research project, but are supplied to you by another party).
+* Copyright and/or database right data.
+* Data with potential economic/commercial value.
 
 If you want to close or restrict access to your datasets, you must explain your ethical and/or legal issues in the Data Management Plan. You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
 
@@ -38,10 +37,10 @@ If you want to close or restrict access to your datasets, you must explain your 
  A Data Access Committee (DAC) is an organization of one or more named individuals who are responsible for data release to external requestors based on specific criteria. A DAC can be part of the data repository or university/hospital. DAC can assist data submission to repositories and assess data access requests. Criteria established by DAC for data access are usually described on the website of the organization.
 
 ### Non-disclosure agreements
- Non-disclosure agreements can be used to share confidential or sensitive data with specific individuals for specific purposes and under specific terms. Contact the Legal Team of your institute if you require a non-disclosure agreement for your data. The terms of the agreement must be described in the documentation associated with the datasets (metadata).
+ Non-disclosure agreements can be used to share confidential or sensitive data with specific individuals for specific purposes and under specific terms. Contact the Legal Team of your institute if you require a non-disclosure agreement for your data. The terms of the agreement must be described in the documentation associated with the datasets.
 
 ### Access upon request (not recommended)
- In order to manage this type of access a named contact is required for the dataset who would be responsible for making decisions about whether access is granted. The owner of the data must provide his/her contact in the documentation associated with the datasets (metadata).
+ In order to manage this type of access a named contact is required for the dataset who would be responsible for making decisions about whether access is granted. The owner of the data must provide his/her contact in the documentation associated with the datasets.
 
 ### Embargo
  It is a defined period of time, imposed by the author, which prohibits access to data. After the embargo period, data becomes Open, Closed or with Restricted access. Reasons for embargo could be: i) need to secure Intellectual Property (IP); ii) need to publish the results of the research (manuscript) in a journal.
