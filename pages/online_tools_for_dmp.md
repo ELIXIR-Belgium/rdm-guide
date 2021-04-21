@@ -28,7 +28,7 @@ DMPbelgium Consortium was founded by several universities in Belgium to develop 
   <div class="ratio ratio-16x9">
     <iframe title="DMP converter" src="https://dmpconverter.elixir-belgium.org/" frameborder="0" >
     </iframe>
-</div>
+  </div>
 
 * [DMPonline.kuleuven.be](https://dmponline.kuleuven.be).
 This instance of DMPonline is provided by KU Leuven to help you write data management plans.
