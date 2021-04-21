@@ -24,11 +24,11 @@ You can find the right repository for your data by following the steps described
 
 
 2.  When these aspects of your data are clear to you, you can start narrowing down possible choices by using some of the following tools:
-
+    * For **biomolecular data in Life Sciences**, we recommend using repositories listed in [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). Moreover, [EMBL-EBI data submission wizard](https://www.ebi.ac.uk/submission/) will help you to find the right repository depending on your data type, in a few simple steps.
+    * The Nature journal, [Scientific Data](https://www.nature.com/sdata/policies/repositories) compiled a list of recommended repositories grouped by discipline.
     * [re3data.org](https://www.re3data.org/search?query=) gathers information about existing repositories and allows you to filter them based on **access and licence types**. Specifically, you can select repositories by access type to the repository itself, defining whether/how users can access the database in general (database access), and access type to each dataset stored in the repository (data access). Filtering by database and data licence is also possible.
     * [re3data.org](https://www.re3data.org/search?query=) and [FAIRsharing](https://fairsharing.org/databases/) websites gather details for repositories, which you can filter by discipline, data type, taxonomy and many other features.
-    * The Nature journal, [Scientific Data](https://www.nature.com/sdata/policies/repositories) compiled a list of recommended repositories grouped by discipline.
-    * For **biomolecular data in Life Sciences**, we recommend using repositories listed in [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). Moreover, [EMBL-EBI data submission wizard](https://www.ebi.ac.uk/submission/) will help you to find the right repository depending on your data type, in a few simple steps.
+
 
 3. At this stage you should have a more clear idea about the appropriate repository for your data. So, you can visit the websites of the repositories that you selected and read more in detail about their access policy, licence and submission procedure.
 
