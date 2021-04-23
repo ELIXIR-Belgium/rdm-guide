@@ -16,8 +16,8 @@ subitems:
         url: /file_formats.html
       - title: Data volume
         url: /data_volume.html
-      - title: Datasets sharing
-        url: /datasets_sharing.html
+      - title: Data publication
+        url: /data_publication.html
       - title: Data licences
         url: /data_licences.html
       - title: Metadata
