@@ -1,6 +1,5 @@
 ---
 title: Transcriptomics
-keywords:
 ---
 
 ## Transcriptome

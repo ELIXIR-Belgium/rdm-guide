@@ -1,6 +1,5 @@
 ---
 title: Data quality
-keywords:
 ---
 
 ## Subtitle 1

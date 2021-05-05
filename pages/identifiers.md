@@ -1,6 +1,5 @@
 ---
 title: Identifiers
-keywords:
 ---
 
 ## Persistent Identifiers

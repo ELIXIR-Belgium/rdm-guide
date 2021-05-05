@@ -1,6 +1,5 @@
 ---
 title: MetaboLights
-keywords:
 ---
 ## MetaboLights features
 ### How to submit data

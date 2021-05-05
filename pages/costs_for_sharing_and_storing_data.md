@@ -1,6 +1,5 @@
 ---
 title: Costs for sharing and storing data
-keywords:
 ---
 
 ## Subtitle 1

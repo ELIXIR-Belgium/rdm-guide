@@ -2,7 +2,7 @@
 permalink: covid-19/covid-19-galaxy-upload.html
 toc: false
 hide_sidebar: true
-search: exclude
+search_exclude: true
 ---
 
 <div class="jumbotron jumbo">

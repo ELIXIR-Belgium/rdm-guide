@@ -2,7 +2,7 @@
 permalink: covid-19/ena-upload-container.html
 toc: false
 hide_sidebar: true
-search: exclude
+search_exclude: true
 ---
 
 <div class="jumbotron jumbo">

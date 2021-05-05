@@ -1,6 +1,5 @@
 ---
 title: Personal data
-keywords:
 ---
 
 ## Subtitle 1

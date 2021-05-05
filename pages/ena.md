@@ -1,6 +1,5 @@
 ---
 title: European Nucleotide Archive (ENA)
-keywords:
 ---
 ## ENA features
 ### How to submit data

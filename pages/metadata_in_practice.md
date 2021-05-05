@@ -1,6 +1,5 @@
 ---
 title: Metadata schema in practice
-keywords:
 ---
 
 ## Choose metadata schema(s) for your dataset

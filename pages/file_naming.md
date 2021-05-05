@@ -1,6 +1,5 @@
 ---
 title: File naming
-keywords:
 ---
 ## File naming
 A file naming convention should be agreed to and adopted by the entire group at the beginning of the project. Decide what elements are relevant and what are not when you start creating your file naming convention, then [document](data_documentation) it so other users of your data (collaborators, coworkers etc) can understand it quickly.

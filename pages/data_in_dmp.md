@@ -1,6 +1,5 @@
 ---
 title: Data in DMP
-keywords:
 summary: "“You can have data without information, but you cannot have information without data.” Daniel Keys Moran.
 "
 ---

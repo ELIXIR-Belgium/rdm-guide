@@ -1,6 +1,5 @@
 ---
 title: Genomics
-keywords:
 ---
 
 ## Genome

@@ -1,6 +1,5 @@
 ---
 title: Ontology
-keywords:
 ---
 
 ## Subtitle 1

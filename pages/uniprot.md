@@ -1,6 +1,5 @@
 ---
 title: UniProt
-keywords:
 ---
 ## UniProt features
 ### How to submit data

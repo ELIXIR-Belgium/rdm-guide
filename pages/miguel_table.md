@@ -1,6 +1,5 @@
 ---
 title: Miguel table
-keywords:
 summary: table test
 datatable: true
 ---

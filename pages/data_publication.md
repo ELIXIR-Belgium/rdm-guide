@@ -1,6 +1,5 @@
 ---
 title: Data publication
-keywords:
 summary: Here, publishing data means making your data known and available to the entire world and society.
 ---
 

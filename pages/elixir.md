@@ -1,6 +1,5 @@
 ---
 title: Elixir
-keywords:
 ---
 
 ## ELIXIR

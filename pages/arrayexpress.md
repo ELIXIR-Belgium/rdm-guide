@@ -1,6 +1,5 @@
 ---
 title: ArrayExpress
-keywords:
 ---
 ## ArrayExpress features
 ### How to submit data

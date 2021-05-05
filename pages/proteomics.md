@@ -1,6 +1,5 @@
 ---
 title: Proteomics
-keywords:
 ---
 
 ## Proteome

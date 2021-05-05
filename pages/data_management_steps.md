@@ -1,7 +1,6 @@
 ---
 title: Data Management in Simple Steps
 tags:
-keywords:
 ---
 
 ## Start with the end in mind

@@ -1,6 +1,5 @@
 ---
 title: Online tools for DMP
-keywords:
 ---
 
 ## Ways to write a DMP
