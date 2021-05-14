@@ -15,7 +15,7 @@ layout: default
 <h1 class="subtitle">{{page.subtitle}}</h1>
 {%- endif %}
 {%- endif %}
-<div class="post-content">
+<main class="post-content">
     {%- if page.summary %}
     <div class="summary">{{page.summary}}</div>
     {%- endif %}
@@ -23,7 +23,7 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
-</div>
+</main>
 {%- if page.tags != null or page.contributors != null %}
 <div class="page-metadata">
 {%- endif %}
