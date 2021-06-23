@@ -1,14 +1,15 @@
 :root {
     
-    --primary-theme-color: #de4d00;
+    --primary-theme-color: #f28565;
+    --second-theme-color: #40545a;
     --link-color: #337ab7;
-    --light-grey: whitesmoke;
+    --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #74767f;
     --nav-bg: var(--light-grey);
     --nav-color: #333;
     --main-text-color: #333;
-    --main-bg-color: var(--white);
+    --main-bg-color: var(--second-theme-color);
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
@@ -25,8 +26,8 @@ body {
 }
 
 h1 {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 3.5em;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4.5em;
     font-weight: 400;
     margin-bottom: 0.5em;
 }
@@ -38,9 +39,8 @@ h1 {
 }
 
 main h2 {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 1.6em;
-    font-weight: 700;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.6em;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
 }
@@ -153,14 +153,17 @@ pre code {
 
 .navbar {
     background-color: var(--nav-bg);
+    border-bottom: 5px solid #cfcfcf;
+    text-shadow: 0px -2px white;
 }
 
 .navbar-brand img {
     height: 40px;
 }
 
-.navbar-nav .nav-item a {
+.navbar-nav .nav-item a, .navbar-nav .nav-item .form-control {
     color: var(--nav-color);
+    font-size: 1.5em;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -172,6 +175,7 @@ pre code {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
     border-radius: 4px;
+    text-shadow: 0px -2px #d27357;
 }
 
 .navbar-toggler {
@@ -399,9 +403,11 @@ pre code {
 
 #toc {
     padding: 15px;
-    background-color: var(--light-grey);
+    background-color: #d6d9da;
     margin: 1.75em 0 2em;
-    border-radius: 4px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-bottom: 5px solid #bbbebf;
     max-width: 400px;
     line-height: 1.4;
 }
@@ -794,8 +800,26 @@ h2.card-title {
 /* -----Homepage----- */
 
 .blurb-title {
-    font-family: 'Exo 2', sans-serif;
     font-size: 1.3em;
     margin-bottom: 18px;
     font-weight: 600;
+}
+
+#main {
+    background-color: #f1f1f1;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border-bottom: 5px solid #cfcfcf;
+}
+
+.navbar-brand {
+    font-size: 3em;
+    color: var(--primary-theme-color)
+}
+.navbar-brand:hover {
+    color: #d27357;
+}
+
+.navbar {
+    font-family: 'Patrick Hand', cursive;
 }
