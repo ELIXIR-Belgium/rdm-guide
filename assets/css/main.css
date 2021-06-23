@@ -328,7 +328,7 @@ pre code {
 }
 
 .menu li a {
-    margin-top: 4px;
+    margin-bottom: 4px;
     display: block;
     position: relative;
     padding: 10px 25px;
