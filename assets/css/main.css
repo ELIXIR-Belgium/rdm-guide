@@ -20,14 +20,14 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-variant-ligatures: none;
     font-size: 1em;
 }
 
 h1 {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 4.5em;
+    font-family: 'Capriola', sans-serif;
+    font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 0.5em;
 }
@@ -39,8 +39,8 @@ h1 {
 }
 
 main h2 {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2.6em;
+    font-family: 'Capriola', sans-serif;
+    font-size: 1.6em;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
 }
@@ -163,7 +163,7 @@ pre code {
 
 .navbar-nav .nav-item a, .navbar-nav .nav-item .form-control {
     color: var(--nav-color);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -807,13 +807,13 @@ h2.card-title {
 
 #main {
     background-color: #f1f1f1;
-    padding: 20px 50px;
+    padding: 43px 50px;
     border-radius: 10px;
     border-bottom: 5px solid #cfcfcf;
 }
 
 .navbar-brand {
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--primary-theme-color)
 }
 .navbar-brand:hover {
@@ -821,5 +821,5 @@ h2.card-title {
 }
 
 .navbar {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Capriola', sans-serif;
 }
