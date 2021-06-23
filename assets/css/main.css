@@ -612,9 +612,10 @@ h2.card-title {
 /*-----Contributors cards-----*/
 
 .contributor-cards .card {
-    background-color: var(--light-grey);
-    border: 0;
-    border-radius: 4px;
+    background-color: #d6d9da;
+    border-radius: 10px;
+    border: 0px;
+    border-bottom: 5px solid #bbbebf;
 }
 
 .contributor-cards .badge {
