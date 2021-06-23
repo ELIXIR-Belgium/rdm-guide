@@ -824,3 +824,7 @@ h2.card-title {
 .navbar {
     font-family: 'Capriola', sans-serif;
 }
+
+.form-control {
+    border-radius: 10px;
+}
