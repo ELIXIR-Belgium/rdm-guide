@@ -325,31 +325,41 @@ pre code {
 
 .menu li a {
     margin-top: 4px;
-    color: var(--main-text-color);
-    background-color: var(--light-grey);
     display: block;
-    padding: 7px 11px;
+    position: relative;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #333;
     text-decoration: none;
-    border-radius: 4px;
+    background-color: #f1f1f1;
+    border-bottom: 5px solid #cfcfcf;
+    text-shadow: 0px -2px white;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
 }
 
-.menu li a:hover {
-    background-color: var(--primary-theme-color);
-    color: var(--white-text);
+.menu li a:active
+{
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
 }
+
 
 .menu ul li a {
-    padding-left: 30px;
-    background-color: transparent;
+    margin-left: 30px;
 }
 
 .menu ul li ul li a {
-    padding-left: 60px;
+    margin-left: 60px;
 }
 
 .menu li.active:not(.parent)>a {
-    background-color: var(--primary-theme-color);
-    color: var(--white-text);
+    background-color: #f28565;
+    border-bottom: 5px solid #d27357;
+    text-shadow: 0px -2px #d27357;
+    color: white;
 }
 
 .menu li>a>span {
