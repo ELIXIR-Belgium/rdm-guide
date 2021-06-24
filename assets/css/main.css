@@ -333,7 +333,7 @@ pre code {
     position: relative;
     padding: 7px 20px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 17px;
     color: #333;
     text-decoration: none;
     background-color: #f1f1f1;
@@ -341,6 +341,7 @@ pre code {
     text-shadow: 0px -2px white;
     transition: all 0.1s;
     -webkit-transition: all 0.1s;
+    font-family: 'Capriola', sans-serif;
 }
 
 .menu li a:active
