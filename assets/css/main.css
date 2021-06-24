@@ -32,9 +32,10 @@ h1 {
     margin-bottom: 0.5em;
 }
 
-@media (max-width:992px) {
+
+@media (max-width: 576px) {
     h1 {
-        font-size: 3em;
+        font-size: 1.6em;
     }
 }
 
@@ -43,6 +44,15 @@ main h2 {
     font-size: 1.6em;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
+}
+
+
+@media (max-width: 576px) {
+    main h2 {
+        font-size: 1.3em;
+        color: var(--primary-theme-color);
+        margin: 40px 0 10px;
+    }
 }
 
 main h3 {
@@ -296,12 +306,6 @@ pre code {
 @media (min-width: 992px) {
     #side-nav {
         display: block !important;
-    }
-}
-
-@media (max-width: 992px) {
-    button[aria-expanded="true"]+#side-nav {
-        margin-top: -1.5em;
     }
 }
 
@@ -584,16 +588,20 @@ h2.card-title {
 
 .btn-custom {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-family: 'Capriola', sans-serif;
     background-color: var(--light-grey);
     padding: 7px 11px;
-    border-radius: 4px;
+    border-radius: 10px;
     text-align: left;
     border: 0;
+    border-bottom: 5px solid #cfcfcf;
 }
 
 .btn-custom:hover {
     background-color: var(--primary-theme-color);
-    color: var(--white-text);
+    border-bottom: 5px solid #d27357;
+    text-shadow: 0px -2px #d27357;
+    color: white;
 }
 
 .btn-custom.plus::after {
