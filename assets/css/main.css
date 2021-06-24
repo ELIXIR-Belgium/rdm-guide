@@ -2,7 +2,8 @@
     
     --primary-theme-color: #f28565;
     --second-theme-color: #40545a;
-    --link-color: #2486da;
+    --tertiary-theme-color: #e2e4e4;
+    --link-color: #2CA2C6;
     --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #74767f;
@@ -13,6 +14,8 @@
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Capriola', sans-serif;
 }
 
 /*-----General styling-----*/
@@ -20,13 +23,13 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-variant-ligatures: none;
     font-size: 1em;
 }
 
 h1 {
-    font-family: 'Capriola', sans-serif;
+    font-family: var(--title-font);
     font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 0.5em;
@@ -40,7 +43,7 @@ h1 {
 }
 
 main h2 {
-    font-family: 'Capriola', sans-serif;
+    font-family: var(--title-font);
     font-size: 1.6em;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
@@ -163,7 +166,7 @@ pre code {
 
 .navbar {
     background-color: var(--nav-bg);
-    border-bottom: 5px solid #cfcfcf;
+    border-bottom: 5px solid #00000024;
     text-shadow: 0px -2px white;
 }
 
@@ -215,7 +218,7 @@ pre code {
     background-color: var(--white);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 20%), 0 3px 10px rgba(0, 0, 0, 15%);
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
 }
 
 @media (max-width: 992px) {
@@ -342,18 +345,18 @@ pre code {
     color: #333;
     text-decoration: none;
     background-color: #f1f1f1;
-    border-bottom: 5px solid #cfcfcf;
+    border-bottom: 5px solid #00000024;
     text-shadow: 0px -2px white;
     transition: all 0.1s;
     -webkit-transition: all 0.1s;
-    font-family: 'Capriola', sans-serif;
+    font-family: var(--title-font);
 }
 
 .menu li a:active
 {
   transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #00000024;
 }
 
 
@@ -367,7 +370,7 @@ pre code {
 
 .menu li.active:not(.parent)>a {
     background-color: #f28565;
-    border-bottom: 5px solid #d27357;
+    border-bottom: 5px solid #00000024;
     text-shadow: 0px -2px #d27357;
     color: white;
 }
@@ -409,11 +412,11 @@ pre code {
 
 #toc {
     padding: 15px;
-    background-color: #d6d9da;
+    background-color: var(--tertiary-theme-color);
     margin: 1.75em 0 2em;
     padding: 10px 25px;
     border-radius: 10px;
-    border-bottom: 5px solid #bbbebf;
+    border-bottom: 5px solid #00000024;
     max-width: 400px;
     line-height: 1.4;
 }
@@ -589,18 +592,18 @@ h2.card-title {
 
 .btn-custom {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    font-family: 'Capriola', sans-serif;
+    font-family: var(--title-font);
     background-color: var(--light-grey);
     padding: 7px 11px;
     border-radius: 10px;
     text-align: left;
     border: 0;
-    border-bottom: 5px solid #cfcfcf;
+    border-bottom: 5px solid #00000024;
 }
 
 .btn-custom:hover {
     background-color: var(--primary-theme-color);
-    border-bottom: 5px solid #d27357;
+    border-bottom: 5px solid #00000024;
     text-shadow: 0px -2px #d27357;
     color: white;
 }
@@ -625,7 +628,7 @@ h2.card-title {
     background-color: #d6d9da;
     border-radius: 10px;
     border: 0px;
-    border-bottom: 5px solid #bbbebf;
+    border-bottom: 5px solid #00000024;
 }
 
 .contributor-cards .badge {
@@ -820,7 +823,7 @@ h2.card-title {
     background-color: #f1f1f1;
     padding: 43px 50px;
     border-radius: 10px;
-    border-bottom: 5px solid #cfcfcf;
+    border-bottom: 5px solid #00000024;
 }
 
 .navbar-brand {
@@ -832,7 +835,7 @@ h2.card-title {
 }
 
 .navbar {
-    font-family: 'Capriola', sans-serif;
+    font-family: var(--title-font);
 }
 
 .form-control {
