@@ -11,8 +11,8 @@
     --nav-color: #333;
     --main-text-color: #333;
     --main-bg-color: var(--second-theme-color);
-    --footer-bg: #444444;
-    --footer-color: var(--light-grey);
+    --footer-bg: var(--light-grey);
+    --footer-color: var(--main-text-color);
     --white-text: var(--white);
     --main-font: 'Roboto', sans-serif;
     --title-font:'Delius', cursive;
