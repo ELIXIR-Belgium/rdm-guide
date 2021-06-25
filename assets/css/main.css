@@ -15,7 +15,7 @@
     --footer-color: #333;
     --white-text: var(--white);
     --main-font: 'Roboto', sans-serif;
-    --title-font:'Itim', cursive;
+    --title-font:'Delius', cursive;
 }
 
 /*-----General styling-----*/
@@ -843,4 +843,8 @@ h2.card-title {
     border-radius: 10px;
     border: 0px;
     border-bottom: 5px solid #00000024;
+}
+
+.search i {
+    text-shadow: 0px -2px white;
 }
