@@ -851,5 +851,5 @@ h2.card-title {
 }
 
 .search i {
-    text-shadow: 0px -2px white;
+    color: var(--primary-theme-color);
 }
