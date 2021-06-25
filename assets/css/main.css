@@ -188,8 +188,9 @@ pre code {
 .navbar-nav .nav-item a.active {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
-    border-radius: 4px;
+    border-radius: 10px;
     text-shadow: 0px -2px #d27357;
+    border-bottom: 5px solid #00000024;
 }
 
 .navbar-toggler {
@@ -677,6 +678,7 @@ h2.card-title {
     height: 4ex;
     text-align: center;
     border-radius: 100%;
+    border-bottom: 5px solid #00000024;
 }
 
 .social-icons a:hover {
