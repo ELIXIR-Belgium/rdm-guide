@@ -832,6 +832,7 @@ h2.card-title {
     color: var(--primary-theme-color);
     font-family: var(--title-font);
     text-shadow: 0px -2px #d07258;
+    margin-top: 3px;
 }
 .navbar-brand:hover {
     color: #d27357;
