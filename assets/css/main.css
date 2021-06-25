@@ -671,7 +671,7 @@ h2.card-title {
 .social-icons a {
     background-color: var(--main-bg-color);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    color: var(--primary-theme-color);
+    color: var(--white-text);
     display: inline-block;
     line-height: 4ex;
     width: 4ex;
