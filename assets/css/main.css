@@ -12,7 +12,7 @@
     --main-text-color: #333;
     --main-bg-color: var(--second-theme-color);
     --footer-bg: var(--light-grey);
-    --footer-color: var(--main-text-color);
+    --footer-color: #333;
     --white-text: var(--white);
     --main-font: 'Roboto', sans-serif;
     --title-font:'Delius', cursive;
@@ -79,12 +79,12 @@ main h3+h4 {
     margin-top: 15px;
 }
 
-main a, footer a {
+main a {
     text-decoration: none;
     color: var(--link-color);
 }
 
-main a:hover, footer a:hover {
+main a:hover {
     color: var(--link-color);
     text-decoration: underline;
 }
@@ -493,22 +493,28 @@ main img.registry_logo {
 /*-----Footer-----*/
 
 footer {
+    background-color: var(--footer-bg);
     color: var(--footer-color);
     font-size: 0.9em;
     line-height: 24px;
-}
-
-footer .footer-panel {
-    background-color: var(--footer-bg);
-    border-radius: 10px;
-    border-bottom: 5px solid #00000024;
-    
+    margin-top: 80px;
 }
 
 footer h2 {
     font-size: 1em;
 }
 
+footer a {
+    color: var(--footer-color);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--primary-theme-color);
+    text-decoration: none;
+}
 
 footer .europe-flag {
     width: 80px;
