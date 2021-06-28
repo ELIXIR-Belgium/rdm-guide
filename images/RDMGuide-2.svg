@@ -38,11 +38,11 @@
       }
 
       .i {
-        fill: #fee785;
+        fill: #f2d365;
       }
 
       .j {
-        fill: #f4bc33;
+        fill: #a28d42;
         opacity: 0.4;
       }
     </style>
