@@ -1,5 +1,6 @@
 ---
 title: Personal data
+search_exclude: true
 ---
 
 ## Subtitle 1
