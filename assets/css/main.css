@@ -13,7 +13,7 @@
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
-    --title-font: 'Delius', cursive;
+    --title-font: var(--bs-font-sans-serif)
 }
 
 /*-----General styling-----*/
@@ -862,4 +862,13 @@ iframe {
 
 .alert-info {
     background-color: #2ca2c659;
+}
+
+.navbar-brand {
+    color: var(--primary-theme-color);
+    font-size: 3em;
+}
+
+.navbar-brand:hover {
+    color:#a05e4a;
 }
