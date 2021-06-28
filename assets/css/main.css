@@ -1,5 +1,4 @@
 :root {
-    
     --primary-theme-color: #f28565;
     --second-theme-color: #40545a;
     --tertiary-theme-color: #e2e4e4;
@@ -14,8 +13,7 @@
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
-    --main-font: 'Roboto', sans-serif;
-    --title-font:'Delius', cursive;
+    --title-font: 'Delius', cursive;
 }
 
 /*-----General styling-----*/
@@ -23,32 +21,29 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: var(--main-font);
     font-variant-ligatures: none;
     font-size: 1em;
 }
 
 h1 {
     font-family: var(--title-font);
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 400;
     margin-bottom: 0.5em;
 }
 
-
 @media (max-width: 576px) {
     h1 {
-        font-size: 1.6em;
+        font-size: 2em;
     }
 }
 
 main h2 {
     font-family: var(--title-font);
-    font-size: 1.6em;
+    font-size: 2em;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
 }
-
 
 @media (max-width: 576px) {
     main h2 {
@@ -180,16 +175,11 @@ pre code {
     text-shadow: 0px -2px white;
 }
 
-.navbar-nav .nav-item a:hover {
-    color: var(--primary-theme-color);
-    text-decoration: none;
-}
-
 .navbar-nav .nav-item a.active {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
     border-radius: 10px;
-    text-shadow: 0px -2px #00000024;
+    text-shadow: 0px -1px #00000024;
     border-bottom: 5px solid #00000024;
 }
 
@@ -224,7 +214,7 @@ pre code {
 }
 
 @media (max-width: 992px) {
-    .search-results{
+    .search-results {
         width: 100%;
     }
 }
@@ -349,18 +339,18 @@ pre code {
     background-color: var(--light-grey);
     border-bottom: 5px solid #00000024;
     text-shadow: 0px -2px white;
-    transition: all 0.1s;
-    -webkit-transition: all 0.1s;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
     font-family: var(--title-font);
 }
 
-.menu li a:active
-{
-  transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-  border-bottom: 1px solid #00000024;
+.menu li a:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid #00000024;
 }
-
 
 .menu ul li a {
     margin-left: 30px;
@@ -373,7 +363,7 @@ pre code {
 .menu li.active:not(.parent)>a {
     background-color: var(--primary-theme-color);
     border-bottom: 5px solid #00000024;
-    text-shadow: 0px -2px #00000024;
+    text-shadow: 0px -1px #00000024;
     color: white;
 }
 
@@ -392,7 +382,6 @@ pre code {
 .menu li>a>span:after {
     content: '+';
 }
-
 
 /*-----Summary under page title-----*/
 
@@ -597,17 +586,23 @@ h2.card-title {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     font-family: var(--title-font);
     background-color: var(--light-grey);
+    text-shadow: 0px -1px var(--white-text);
     padding: 7px 11px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
     border-radius: 10px;
     text-align: left;
     border: 0;
     border-bottom: 5px solid #00000024;
 }
 
-.btn-custom:hover {
+.btn-custom:active {
     background-color: var(--primary-theme-color);
-    border-bottom: 5px solid #00000024;
-    text-shadow: 0px -2px #00000024;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    text-shadow: 0px -1px #00000024;
     color: white;
 }
 
@@ -739,7 +734,7 @@ h2.card-title {
     vertical-align: baseline;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--hover-grey);
-    color:var(--white-text);
+    color: var(--white-text);
     padding: 7px 11px;
     border: 0px;
     border-bottom: 5px solid #00000024;
@@ -763,9 +758,11 @@ h2.card-title {
 }
 
 /*--------------Custom classes--------------*/
+
 /* ---------------------------------------- */
 
 /* subtitle frontpage */
+
 .subtitle {
     color: var(--hover-grey);
 }
@@ -825,6 +822,7 @@ h2.card-title {
 }
 
 /* -----Extra theming----- */
+
 #main {
     background-color: var(--light-grey);
     padding: 43px 50px;
