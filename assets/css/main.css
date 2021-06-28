@@ -1,15 +1,15 @@
 :root {
     --primary-theme-color: #f28565;
     --second-theme-color: #40545a;
-    --tertiary-theme-color: #e2e4e4;
+    --tertiary-theme-color: #f1f1f1;
     --link-color: #2CA2C6;
-    --light-grey: #f1f1f1;
+    --light-grey: #fff;
     --white: #ffffff;
     --hover-grey: #74767f;
     --nav-bg: var(--light-grey);
     --nav-color: #333;
     --main-text-color: #333;
-    --main-bg-color: var(--second-theme-color);
+    --main-bg-color: #f1f1f1;
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
@@ -834,6 +834,7 @@ h2.card-title {
     border-radius: 10px;
     border: 0px;
     border-bottom: 5px solid #00000024;
+    background-color: var(--main-bg-color);
 }
 
 .search i {
