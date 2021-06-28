@@ -41,8 +41,7 @@ A [short introduction to Galaxy](https://training.galaxyproject.org/training-mat
 ## Walkthrough of ENA submission using the Galaxy container
 
 A screencast is available on our youtube channel that will guide you through all the steps discussed below:
-<br>
-<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
