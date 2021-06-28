@@ -13,7 +13,7 @@
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
-    --title-font: var(--bs-font-sans-serif)
+    --title-font: 'Ubuntu', sans-serif;
 }
 
 /*-----General styling-----*/
