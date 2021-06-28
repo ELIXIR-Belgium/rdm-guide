@@ -1,15 +1,15 @@
 :root {
     --primary-theme-color: #f28565;
     --second-theme-color: #40545a;
-    --tertiary-theme-color: #f1f1f1;
+    --tertiary-theme-color: #e2e4e4;
     --link-color: #2CA2C6;
-    --light-grey: #fff;
+    --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #74767f;
     --nav-bg: var(--light-grey);
     --nav-color: #333;
     --main-text-color: #333;
-    --main-bg-color: #f1f1f1;
+    --main-bg-color: var(--second-theme-color);
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
@@ -369,18 +369,30 @@ pre code {
 
 .menu li>a>span {
     float: right;
-    font-size: 1.5em;
-    line-height: 1;
     width: 15px;
     text-align: center;
 }
 
 .menu li.active>a>span:after {
-    content: '-';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f077";
 }
 
 .menu li>a>span:after {
-    content: '+';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
 }
 
 /*-----Summary under page title-----*/
@@ -834,7 +846,6 @@ h2.card-title {
     border-radius: 10px;
     border: 0px;
     border-bottom: 5px solid #00000024;
-    background-color: var(--main-bg-color);
 }
 
 .search i {
