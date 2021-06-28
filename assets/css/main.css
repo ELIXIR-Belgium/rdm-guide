@@ -824,25 +824,13 @@ h2.card-title {
     font-weight: 600;
 }
 
+/* -----Extra theming----- */
 #main {
     background-color: var(--light-grey);
     padding: 43px 50px;
     border-radius: 10px;
     border-bottom: 5px solid #00000024;
 }
-
-.navbar-brand {
-    font-size: 2.5em;
-    color: var(--primary-theme-color);
-    font-family: var(--title-font);
-    text-shadow: 0px -2px #d07258;
-    margin-top: 3px;
-}
-.navbar-brand:hover {
-    color: #d27357;
-    text-shadow: 0px -2px #a75b43;
-}
-
 
 #search-input {
     border-radius: 10px;
