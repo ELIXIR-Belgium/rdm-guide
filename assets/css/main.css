@@ -845,3 +845,21 @@ iframe {
     width: 100%;
     margin: 40px 0;
 }
+
+.alert {
+    border: 0;
+    border-bottom: 5px solid #00000024;
+    border-radius: 10px;
+}
+
+.alert-warning {
+    background-color: #f2d3659e;
+}
+
+.alert-danger {
+    background-color: #f285659e;
+}
+
+.alert-info {
+    background-color: #2ca2c659;
+}
