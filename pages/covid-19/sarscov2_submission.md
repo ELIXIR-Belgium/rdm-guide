@@ -69,6 +69,10 @@ More information on data upload to Galaxy can be found in [Galaxy support](https
 Your data should appear in green on the right history panel (Fig. 3). You can rename, tag, preview edit or delete data objects from here.
 {% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 3. Files that are uploaded will show up in the history panel."%}
 
+The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fa fa-pencil"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*.
+
+
+
 
 ## 4. Filter human reads out of the raw reads
 In order to comply with Europe’s General Data Protection Regulation [(GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en), traces of human genetic information must be removed from the raw data before submitting it to ENA. A tool is included that filters out reads that map to the human genome using [Metagen-FastQC](https://github.com/Finn-Lab/Metagen-FastQC).
@@ -86,9 +90,27 @@ Select the filtering tool from the **Tools** panel on the left.
 
 The tool will now process the raw reads to remove reads that map to the human genome. This can take a while. The resulting filtered data files are found on the right panel.
 
-{% include warning.html content="Machines with 8GB or less of memory might not complete this step. A workaround this issue is to increase the size of the swap file or swap partition. See FAQ below." %}
+{% include warning.html content="Machines with 8GB or less of memory might not complete this step. A workaround this issue is to increase the size of the swap file or swap partition. See FAQ section." %}
 
 {% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
+
+## Optional: create a collection
+Galaxy collections help you organize your data and minimize your history clutter. If you plan to use the [Galaxy COVID-19 genome analysis workflows]((https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7-run-the-variation-analysis-workflow)) you must organize your reads data into collections.
+You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
+
+To make a collection of paired-end datasets, first select all PE datasets and select *Build List of Dataset Pairs* for all selected (Fig. 5).
+**The names of the PE read files should be in the format 'pair_name' + '_1.fastq.gz' for the forward reads and 'pair_name' + '_2.fastq.gz' for the reverse reads.**
+Galaxy will recognize the *_1/_2* suffix for PE reads (Fig. 6a). This is also the standard for PE file naming in ENA. If a different schema was used, it is best to change the filenames to the *_1.fastq.gz/_2.fastq.gz* naming schema. Make sure the names in the metadata are identical (see below) to the filenames.
+The datasets are paired by name (Fig. 6b), and you can name the collection (Fig. 6c). Finally, click on *Create List* (Fig. 6d).
+
+{% include image.html file="make_PE_collection.png" alt="make_PE_collection_menu" caption="Figure 5 Select datasets for paired-end collection (list of dataset pairs) ."%}
+
+{% include image.html file="make_PE_collection_menu.png" alt="make_PE_collection_menu" caption="Figure 6 Create a collection of paired datasets ."%}
+
+
+
+
+
 
 
 ## 5. Upload metadata and submit to ENA
@@ -126,21 +148,22 @@ Finally, select the human-filtered data files associated with the metadata, fill
 #### Interactive metadata upload
 For a small number of submissions, metadata is best entered interactively in Galaxy using the submission tool. Metadata fields are nested according to ENA metadata model described above.
 
-
 #### Tabular (tsv) metadata tables (Legacy)
 Four tsv files can be uploaded, one each for study, sample, experiment and run metadata. Example tsv files can be found [here](https://github.com/usegalaxy-eu/ena-upload-cli/tree/master/example_tables).
 Export the completed tables to tsv files and upload them using Galaxy upload tool.
 
+#### Select data and submit
 Next, select the human-filtered data files associated with the metadata and select the correct metadata file for each section.
-This tool accepts individual datasets, dataset collections or a paired collection - see [how to make a collection in Galaxy](https://galaxyproject.org/tutorials/collections/)
-Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig 6a) and a metadata 'ticket' (Fig 6b).
-
-{% include important.html content="As well as submitting the data to ENA, this tool will generate a metadata 'ticket', which contains mnost of the metadata needed for consensus sequence submission explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9.-Submit-consensus-sequence-to-ENA)" %}
+This tool accepts individual datasets, mixed collections or paired-end collections.You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
 
 
-{% include image.html file="succesful_reads_submission.png" alt="successful reads submission" caption="Figure 6. Output of the reads submission tool."%}
+Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig 6a) and a submission 'receipt' (Fig 6b).
 
-succesful_reads_submission.png
+{% include important.html content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
+
+
+{% include image.html file="successful_reads_submission.png" alt="successful reads submission" caption="Figure 6. Output of the reads submission tool."%}
+
 
 <!--As well as submitting the data to ENA, this tool will generate a metadata 'ticket', which contains the metadata needed for consensus sequence submission explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9.-Submit-consensus-sequence-to-ENA)-->
 

@@ -27,7 +27,7 @@ Go to the workflow section and select the variation analysis workflow suited for
 This brings up the workflow menu.
 The ARCTIC variation analysis workflow requires:
 
-* Your data as a collection of the forward and reverse reads in fastq format of all samples to be analyzed (Fig. 7a) - [how to make a collection in Galaxy](https://galaxyproject.org/tutorials/collections/)
+* Your data as a collection in fastq   format of all samples to be analyzed (Fig. 7a). You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
 * The SARS-CoV-2 reference FASTA sequence, included in the container (MN908947.3.fasta - (Fig. 7b))
 * A BED file describing the binding sites of all primers used to generate the tiled amplicons (Fig. 7c). We include in the container the v3 primer scheme BED file (other versions can be obtained from the [ARTIC project repo](https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019))
 * An amplicon info file. This tabular file should consist of one line per amplicon, which should list all primers involved in the generation of this amplicon (Fig. 7d). We include in the container the amplicon info for the v3 primer scheme (other versions can be obtained from the [ARTIC project repo](https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019)).
@@ -37,7 +37,7 @@ These necesary files are also found in [useGalaxy.eu](https://usegalaxy.eu/u/wol
 {% include image.html file="variation_workflow.png" alt="variation_workflow" caption="Figure 7. The variation analysis workflow (ARCTIC Illumina PE)."%}
 
 ## 8. Run the consensus construction workflow
-Go to the workflow section and select the Consensus Construction workflow. This workflow takes as input a Variant Call File (vcf) collection (Fig. 8a), an alignment file (bam) collection (Fig. 8b) and SARS-CoV-2 reference genome (Fig. 8c). The first two are produced by any of the variation analysis workflows described above in [section 7](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7.-Run-the-variation-analysis-workflow) and are found in your history. The SARS-CoV-2 reference genome is included with the container and will also be found in your history.
+Go to the workflow section and select the Consensus Construction workflow. This workflow takes as input a Variant Call File (vcf) collection (Fig. 8a), an alignment file (bam) collection (Fig. 8b) and SARS-CoV-2 reference genome (Fig. 8c). The first two are produced by any of the variation analysis workflows described above in [section 7](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7-run-the-variation-analysis-workflow) and are found in your history. The SARS-CoV-2 reference genome is included with the container and will also be found in your history.
 Select the appropriate collections and files and **Run Workflow**.
 This workflow outputs a consensus sequence collection as well as one multisample fasta with all the consensus sequences.
 
@@ -54,15 +54,15 @@ This tool requires a fasta file (single submission) or a multi-fasta file (multi
 In most cases, the **Assembly type** will be *Isolate* and **Molecule type** will be either *genomic RNA* or viral *cRNA*, depending on your library preparation strategy.
 
 
-If the consensus was generated using the Galaxy workflows described in [section 7](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7.-Run-the-variation-analysis-workflow) and [8](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#8.-Run-the-consensus-construction-workflow), then the **Assembly program** and **Coverage** metadata can be found in the alignment report (html) file Fig. 8d.
+If the consensus was generated using the Galaxy workflows described in [section 7](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7-run-the-variation-analysis-workflow) and [8](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#8-run-the-consensus-construction-workflow), then the **Assembly program** and **Coverage** metadata can be found in the alignment report (html) file Fig. 8d.
 
 {% include important.html content="**Study** and **Sample** accession numbers are needed to submit consensus sequences to ENA" %}
 
-You can choose to input the rest of the metadata interactively or if the reads were submitted using the [Galaxy reads submission tool](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#5.-Upload-metadata-and-submit-to-ENA), a metadata ticket was produced that contains most of the metadata needed to submit consensus sequences to ENA, including **Study** and **Sample** accession numbers. This metadata is linked to the consensus sequences by the original reads filename and can be parsed to extract the metadata associated with the reads/consensus.
+You can choose to input the rest of the metadata interactively or if the reads were submitted using the [Galaxy reads submission tool](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#5-upload-metadata-and-submit-to-ENA), a metadata ticket was produced that contains most of the metadata needed to submit consensus sequences to ENA, including **Study** and **Sample** accession numbers. This metadata is linked to the consensus sequences by the original reads filename and can be parsed to extract the metadata associated with the reads/consensus.
 
 <!---Figure 8 here with submission tool options  --->
 
-Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your submissions or [dev Webin](https://wwwdev.ebi.ac.uk/ena/submit/webin) to check on test submissions as explained in [section 6](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#6.-Check-for-a-valid-submission)
+Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your submissions or [dev Webin](https://wwwdev.ebi.ac.uk/ena/submit/webin) to check on test submissions as explained in [section 6](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#6-check-for-a-valid-submission)
 
 
 ## 10. Stopping and deleting the container (optional)
@@ -91,7 +91,9 @@ The container can be stopped by simply closing the terminal. In this case the co
 ## Frequently asked questions
 
 #### Why is the reads cleaning tool not showing files for input?
-You have uploaded sequence files, they appear in your history but you do not see them in the human reads cleaning tool. This issue is related to the sequence file format. If you uploaded uncompressed fastq files, you have to define the files as fastqsanger in Galaxy for the tool to accept them. This can be done during upload or by editing the file attributes in the history panel. More information of fastqsanger format can be found [here](https://galaxyproject.org/support/fastqsanger/)
+You have uploaded sequence files, they appear in your history but you do not see them in the human reads cleaning tool. This issue is related to the sequence file format. The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fa fa-pencil"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> Datatype to *fastq.gz*.
+
+
 
 #### Why do my outputs from reads cleaning have no sequence?
 The output of the read cleaning tool is a small file (40Kb) with no sequences. This issue can be related to memory requirements.
