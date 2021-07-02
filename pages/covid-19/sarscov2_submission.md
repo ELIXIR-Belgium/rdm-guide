@@ -161,7 +161,7 @@ Finally, fill in the Affiliation center and click on 'Execute'. The output of a 
 {% include important.html content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
 
 
-{% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
+{% include image.html file="succesful_reads_submission.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
 
 <!--As well as submitting the data to ENA, this tool will generate a metadata 'ticket', which contains the metadata needed for consensus sequence submission explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9.-Submit-consensus-sequence-to-ENA)-->
 
