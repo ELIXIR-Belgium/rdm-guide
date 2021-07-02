@@ -143,7 +143,6 @@ Use the *_alias* field on each sheet to interlink the experiments, studies, runs
 Complete the metadata template in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
 Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on 'Execute'.
 
-{% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
 #### Interactive metadata upload
 For a small number of submissions, metadata is best entered interactively in Galaxy using the submission tool. Metadata fields are nested according to ENA metadata model described above.
@@ -157,13 +156,12 @@ Next, select the human-filtered data files associated with the metadata and sele
 This tool accepts individual datasets, mixed collections or paired-end collections.You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
 
 
-Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig 6a) and a submission 'receipt' (Fig 6b).
+Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig. 6a) and a submission 'receipt' (Fig. 6b).
 
 {% include important.html content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
 
 
-{% include image.html file="successful_reads_submission.png" alt="successful reads submission" caption="Figure 6. Output of the reads submission tool."%}
-
+{% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
 
 <!--As well as submitting the data to ENA, this tool will generate a metadata 'ticket', which contains the metadata needed for consensus sequence submission explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9.-Submit-consensus-sequence-to-ENA)-->
 

@@ -42,7 +42,7 @@ Select the appropriate collections and files and **Run Workflow**.
 This workflow outputs a consensus sequence collection as well as one multisample fasta with all the consensus sequences.
 
 
-% include image.html file="consensus_builder.png" alt="consensus_workflow" caption="Figure 8. The consensus construction workflow."%}
+{% include image.html file="consensus_builder.png" alt="consensus_workflow" caption="Figure 8. The consensus construction workflow."%}
 
 ## 9. Submit consensus sequence to ENA
 Open the consensus sequence submission tool
@@ -58,7 +58,7 @@ If the consensus was generated using the Galaxy workflows described in [section 
 
 {% include important.html content="**Study** and **Sample** accession numbers are needed to submit consensus sequences to ENA" %}
 
-You can choose to input the rest of the metadata interactively or if the reads were submitted using the [Galaxy reads submission tool](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#5-upload-metadata-and-submit-to-ENA), a metadata ticket was produced that contains most of the metadata needed to submit consensus sequences to ENA, including **Study** and **Sample** accession numbers. This metadata is linked to the consensus sequences by the original reads filename and can be parsed to extract the metadata associated with the reads/consensus.
+You can choose to input the rest of the metadata interactively or if the reads were submitted using the [Galaxy reads submission tool](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#5-upload-metadata-and-submit-to-ENA), a metadata receipt was produced that contains most of the metadata needed to submit consensus sequences to ENA, including **Study** and **Sample** accession numbers. This metadata is linked to the consensus sequences by the original reads filename and can be parsed to extract the metadata associated with the reads/consensus.
 
 <!---Figure 8 here with submission tool options  --->
 
