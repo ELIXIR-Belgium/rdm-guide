@@ -5,6 +5,35 @@ summary: A guide to submit SARS-Cov-2 read data to ENA.
 permalink: covid-19/sarscov2_submission.html
 ---
 
+## Test FA icons
+
+User <i class="fa fa-user"></i>
+
+User <i class="fa fa-user" aria-hidden="true"></i>
+
+upload <i class="fa fa-upload"></i>
+
+upload <i class="fa fa-upload" aria-hidden="true"></i>
+
+edit/pencil <i class="fa fa-pencil"></i>
+
+edit/pencil <i class="fa fa-pencil" aria-hidden="true"></i>
+
+file <i class="fa fa-file-o"></i>
+
+file <i class="fa fa-file-o" aria-hidden="true"></i>
+
+files <i class="fa fa-files-o" ></i>
+
+files <i class="fa fa-files-o" aria-hidden="true"></i>
+
+folders <i class="fa fa-folder-o" aria-hidden="true"></i>
+
+
+camera <i class="fas fa-camera-retro"></i> normal size (1x)
+
+camera <i class="fas fa-camera-retro fa-lg"></i> fa-lg
+
 ## General
 This section explains how to set up the Galaxy Docker container and use it to remove human traces from raw data and to submit reads to ENA.
 
@@ -82,9 +111,15 @@ Select the filtering tool from the **Tools** panel on the left.
 
 * Select human h38 reference genome (Fig. 4a).
 * Choose single or paired-end (Fig. 4b)
-* Select the files to clean (uploaded on the previous step, Fig. 4c). These can be <i class="fa fa-file-o" aria-hidden="true"></i>
+* Select the files to clean (uploaded on the previous step, Fig. 4c). These can be <i class="fa fa-file-o"></i>
  single or <i class="fa fa-files-o" aria-hidden="true"></i> multiple files or a <i class="fa fa-folder-o" aria-hidden="true"></i> collection of files.
 * Click on *Execute* (Fig. 4d)
+
+
+<!-- include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) -->
+
+
+
 
 {% include image.html file="new_read_cleaning_tool.png" alt=" Read cleaning tool" caption="Figure 4. The interface of the read cleaning tool."%}
 
