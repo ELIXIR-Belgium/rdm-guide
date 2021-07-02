@@ -120,14 +120,14 @@ The **ENA Upload tool** under **Submission tools** is used to generate the metad
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
 
 The tool offers three ways of entering metadata for submission:
-* Using the [metadata spreadsheet template](https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing) (default, Fig. 5a)
-* Interactively generating the metadata structure (Fig. 5b)
-* Using the 4 tsv templates (legacy, Fig. 5c)
+* Using the [metadata spreadsheet template](https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing) (default, Fig. 7a)
+* Interactively generating the metadata structure (Fig. 7b)
+* Using the 4 tsv templates (legacy, Fig. 7c)
 
 All three allow you to make a submission to either the test or production server of ENA. All metadata fields must be completed for the submission to go through. The submission tool will validate the metadata before submission.
 
 
-{% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
+{% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 7. Three ways of submitting the metadata through the ENA-upload tool."%}
 
 
 #### Upload with the metadata spreadsheet template
@@ -156,14 +156,13 @@ Next, select the human-filtered data files associated with the metadata and sele
 This tool accepts individual datasets, mixed collections or paired-end collections.You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
 
 
-Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig. 6a) and a submission 'receipt' (Fig. 6b).
+Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig. 8a) and a submission 'receipt' (Fig. 8b).
 
 {% include important.html content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
 
 
-{% include image.html file="succesful_reads_submission.png" alt="2ways of submitting metadata" caption="Figure 5. Three ways of submitting the metadata through the ENA-upload tool."%}
+{% include image.html file="succesful_reads_submission.png" alt="successful reads submission" caption="Figure 8. Output of a successful reads submission to ENA. The submission receipt contains metadata used for consensus sequence submission."%}
 
-<!--As well as submitting the data to ENA, this tool will generate a metadata 'ticket', which contains the metadata needed for consensus sequence submission explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9.-Submit-consensus-sequence-to-ENA)-->
 
 
 ## 6. Check for a valid submission
