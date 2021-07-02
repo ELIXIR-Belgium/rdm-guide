@@ -9,25 +9,25 @@ permalink: covid-19/sarscov2_submission.html
 
 User <i class="fa fa-user"></i>
 
-User <i class="fa fa-user" aria-hidden="true"></i>
+User <i class="fa fa-user"></i>
 
 upload <i class="fa fa-upload"></i>
 
-upload <i class="fa fa-upload" aria-hidden="true"></i>
+upload <i class="fa fa-upload"></i>
+
+edit/pencil <i class="fas fa-pencil"></i>
 
 edit/pencil <i class="fa fa-pencil"></i>
 
-edit/pencil <i class="fa fa-pencil" aria-hidden="true"></i>
+file <i class="fas fa-file-o"></i>
 
 file <i class="fa fa-file-o"></i>
 
-file <i class="fa fa-file-o" aria-hidden="true"></i>
+files <i class="fas fa-files-o" ></i>
 
 files <i class="fa fa-files-o" ></i>
 
-files <i class="fa fa-files-o" aria-hidden="true"></i>
-
-folders <i class="fa fa-folder-o" aria-hidden="true"></i>
+folders <i class="fas fa-folder-o" aria-hidden="true"></i>
 
 
 camera <i class="fas fa-camera-retro"></i> normal size (1x)
