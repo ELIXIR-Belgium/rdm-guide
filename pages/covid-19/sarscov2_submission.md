@@ -69,7 +69,7 @@ More information on data upload to Galaxy can be found in [Galaxy support](https
 Your data should appear in green on the right history panel (Fig. 3). You can rename, tag, preview edit or delete data objects from here.
 {% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 3. Files that are uploaded will show up in the history panel."%}
 
-The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fa fa-pencil"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*.
+The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fa fa-database"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*.
 
 
 
@@ -82,7 +82,8 @@ Select the filtering tool from the **Tools** panel on the left.
 
 * Select human h38 reference genome (Fig. 4a).
 * Choose single or paired-end (Fig. 4b)
-* Select the files to clean (uploaded on the previous step, Fig. 4c). These can be <i class="fa fa-file-o no-padding"></i> single or <i class="fa fa-files-o no-padding"></i> multiple files or a <i class="fa fa-folder-o no-padding"></i> collection of files.
+* Select the files to clean (uploaded on the previous step, Fig. 4c). These can be <i class="fa fa-file-o" aria-hidden="true"></i>
+ single or <i class="fa fa-files-o" aria-hidden="true"></i> multiple files or a <i class="fa fa-folder-o" aria-hidden="true"></i> collection of files.
 * Click on *Execute* (Fig. 4d)
 
 {% include image.html file="new_read_cleaning_tool.png" alt=" Read cleaning tool" caption="Figure 4. The interface of the read cleaning tool."%}

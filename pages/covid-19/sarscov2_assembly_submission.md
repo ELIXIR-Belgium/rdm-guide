@@ -27,12 +27,12 @@ Go to the workflow section and select the variation analysis workflow suited for
 This brings up the workflow menu.
 The ARCTIC variation analysis workflow requires:
 
-* Your data as a collection in fastq   format of all samples to be analyzed (Fig. 9a). You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
+* Your data as a [collection](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#Optional:-create-a-collection) in fastq.gz format of all samples to be analyzed (Fig. 9a).
 * The SARS-CoV-2 reference FASTA sequence, included in the container (MN908947.3.fasta - (Fig. 9b))
 * A BED file describing the binding sites of all primers used to generate the tiled amplicons (Fig. 9c). We include in the container the v3 primer scheme BED file (other versions can be obtained from the [ARTIC project repo](https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019))
 * An amplicon info file. This tabular file should consist of one line per amplicon, which should list all primers involved in the generation of this amplicon (Fig. 9d). We include in the container the amplicon info for the v3 primer scheme (other versions can be obtained from the [ARTIC project repo](https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019)).
 
-These necesary files are also found in [useGalaxy.eu](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-resources). The workflows to analyze whole genome sequencing (RNA-Seq) library-derived sequences do not require the last two files. The outputs of the variation analysis workflow are a alignment file (bam) collection (Fig. 10b), a report on the alignments (html - Fig. 8d) and a Variant Call File (vcf) collection (Fig. 10a). Both are needed to construct the consensus sequence.
+These necesary files are also found in [useGalaxy.eu](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-resources). The workflows to analyze whole genome sequencing (RNA-Seq) library-derived sequences do not require the last two files. The outputs of the variation analysis workflow are a alignment file (bam) collection (Fig. 10b), a report on the alignments (html - Fig. 10d) and a Variant Call File (vcf) collection (Fig. 10a). Both are needed to construct the consensus sequence.
 
 {% include image.html file="variation_workflow.png" alt="variation_workflow" caption="Figure 9. The variation analysis workflow (ARCTIC Illumina PE)."%}
 
