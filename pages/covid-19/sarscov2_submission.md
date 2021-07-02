@@ -34,6 +34,10 @@ camera <i class="fas fa-camera-retro"></i> normal size (1x)
 
 camera <i class="fas fa-camera-retro fa-lg"></i> fa-lg
 
+
+camera <i class="fas fa-files-o"></i> normal size (1x)
+
+camera <i class="fas fa-files-o fa-lg"></i> fa-lg
 ## General
 This section explains how to set up the Galaxy Docker container and use it to remove human traces from raw data and to submit reads to ENA.
 
