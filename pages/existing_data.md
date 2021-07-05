@@ -6,11 +6,10 @@ summary: Before investing time, effort and resources into generating new data, l
 ## Sources of existing data
 
 ### Bibliographic research
-Start with a bibliographic research. If you find an interesting publication without any available data, you can contact the authors and request access to their data. If their data are not available or you didn’t find any interesting publication, you can look for existing data in many repositories.
+Start with a bibliographic research. If you find an interesting publication without any available data, you can contact the authors and request access to their data. If their data are not available or you didn’t find any interesting publication, you can look for existing data in many repositories. Existing data can be described in Data papers. Data papers provide peer-reviewed descriptions of publicly available datasets or databases and link to the data source in repositories. Data papers can be published in dedicated journals, such as [Scientific Data](https://www.nature.com/sdata/), or be a specific article type in conventional journals.
 
 ### Data repositories
-Repositories or databases can also contain data that are not linked to any manuscript or “results paper”.
-Repositories can be general, data type specific or discipline specific.
+Repositories or databases can also contain data that are not linked to any manuscript, article or paper. Repositories can be general, data type specific or discipline specific.
 
 ## ELIXIR Deposition Databases for Biomolecular Data
 ELIXIR recommends the following [databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases) for specific data type
@@ -28,13 +27,25 @@ ELIXIR recommends the following [databases](https://elixir-europe.org/platforms/
  * Proteomics experiments and derived information: [PRIDE](https://www.ebi.ac.uk/pride/archive)
 
 ## Other lists of recommended repositories
-Scientific journals and communities have compiled a number of lists of recommended repositories, searchable by discipline and other characteristics
+Scientific journals and communities have compiled a number of lists and registries of recommended repositories, searchable by discipline and other characteristics.
 
 * Nature - Scientific Data: [Recommended Data Repositories](https://www.nature.com/sdata/policies/repositories#general)
 * Repositories used by Flemish research infrastructures: [https://mronocoroni.shinyapps.io/20200325/](https://mronocoroni.shinyapps.io/20200325/)
 * FAIRsharing: [Catalogue of databases](https://fairsharing.org/databases/)
 * OpenAIRE: [International search engines for academic and scientific research](https://explore.openaire.eu)
 * DataCite: [Registry of Research Data Repositories]( https://www.re3data.org)
+* [Google Dataset search](https://datasetsearch.research.google.com) or [Datacite](https://search.datacite.org) for localization of datasets.
+* The [Omics Discovery Index (OmicsDI)](https://www.omicsdi.org): knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).
+
+
+## Before reusing existing data
+* Check if a licence is attached and if it allows you to reuse the data for your intended purpose.
+* Make sure that the dataset is well described with high quality metadata and documentation.
+* Verify the quality of the data. Look for a data quality proof or run a quality test before using the data.
+* Decide which version (if present) of the data you will use.
+    * You can decide to always use the version that is available at the start of the project. In this case, you need to make sure that you and others, who want to reproduce your results, can access that specific version at a later stage too.
+    * You can update to the latest versions if new ones come out during your project. In this case, consider that you may need to re-do all your calculations based on a new version of the dataset and make sure that everything stays consistent.
+
 
 ## How to cite an existing dataset
 ### Complete citation

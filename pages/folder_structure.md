@@ -17,7 +17,7 @@ A folder structure convention should be agreed to and adopted by the entire grou
 * Make it intuitive, clear and understandable for everyone.
 * Apply [file naming](file_naming) guidelines for naming folders.
 * Use shortcuts of one file in different folder and keep a single reference file.
-* Include [documentation](data_documentation) to explain a complex folder structure (such as a README.txt) at the root of your folders.
+* Include documentation to explain a complex folder structure (such as a README.txt) at the root of your folders.
 * Keep a "raw data" folder for each data type or experiment.
 
 ### Dont’s
@@ -27,6 +27,6 @@ A folder structure convention should be agreed to and adopted by the entire grou
 * Create similar folders in different places (overlapping categories or folder redundancy).
 * Create copies of files in different folders.
 
-## References
-* [Folder Structure](https://libguides.graduateinstitute.ch/rdm/folders), The Graduate Institute Geneva.
-* [Collecting and organizing data](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Folder/dataorganization), UGent.
+## Further reading
+* Folder Structure. *The Graduate Institute Geneva* https://libguides.graduateinstitute.ch/rdm/folders.
+* Folder/data organisation. *Ghent University* https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Folder/dataorganization.
