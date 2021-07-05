@@ -5,42 +5,6 @@ summary: A guide to submit SARS-Cov-2 read data to ENA.
 permalink: covid-19/sarscov2_submission.html
 ---
 
-## Test FA icons
-
-User <i class="fa fa-user"></i>
-
-User <i class="fa fa-user"></i>
-
-upload <i class="fa fa-upload"></i>
-
-upload <i class="fa fa-upload"></i>
-
-edit/pencil <i class="fas fa-pencil"></i>
-
-edit/pencil <i class="fa fa-pencil"></i>
-
-file <i class="fas fa-file"></i>
-
-file <i class="fa fa-file"></i>
-
-
-
-
-files <i class="fas fa-files-o" ></i>
-
-files <i class="fa fa-files-o" ></i>
-
-folders <i class="fas fa-folder-o" aria-hidden="true"></i>
-
-
-camera <i class="fas fa-camera-retro"></i> normal size (1x)
-
-camera <i class="fas fa-camera-retro fa-lg"></i> fa-lg
-
-
-camera <i class="fas fa-files-o"></i> normal size (1x)
-
-camera <i class="fas fa-files-o fa-lg"></i> fa-lg
 ## General
 This section explains how to set up the Galaxy Docker container and use it to remove human traces from raw data and to submit reads to ENA.
 
@@ -93,8 +57,8 @@ Raw data can be uploaded using Galaxy's <i class="fa fa-upload"></i> upload tool
 
 
 There are different options for uploading data files:
-- Local files can be uploaded by drag-and-dropping to 'Drop files here' (Fig. 2a) area or by selecting  'Choose local files'(Fig. 2b) and browsing to the local files
-- 'Paste/Fetch data' (Fig 2c) allows fetching remote files from the web by entering a URL or pasting the data itself
+- Local files can be uploaded by drag-and-dropping to <i class="far fa-copy"></i> 'Drop files here' (Fig. 2a) area or by selecting <i class="fas fa-laptop"></i> 'Choose local files'(Fig. 2b) and browsing to the local files
+- <i class="fas fa-edit"></i> 'Paste/Fetch data' (Fig 2c) allows fetching remote files from the web by entering a URL or pasting the data itself
 
 {% include image.html file="upload_interface.png" alt="Upload menu" caption="Figure 2. Data upload options in Galaxy"%}
 
@@ -105,7 +69,7 @@ More information on data upload to Galaxy can be found in [Galaxy support](https
 Your data should appear in green on the right history panel (Fig. 3). You can rename, tag, preview edit or delete data objects from here.
 {% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 3. Files that are uploaded will show up in the history panel."%}
 
-The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fa fa-database"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*.
+The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fas fa-pencil-alt"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*.
 
 
 
@@ -116,10 +80,11 @@ In order to comply with Europe’s General Data Protection Regulation [(GDPR)](h
 Select the filtering tool from the **Tools** panel on the left.
 
 
+
 * Select human h38 reference genome (Fig. 4a).
 * Choose single or paired-end (Fig. 4b)
-* Select the files to clean (uploaded on the previous step, Fig. 4c). These can be <i class="fa fa-file-o"></i>
- single or <i class="fa fa-files-o" aria-hidden="true"></i> multiple files or a <i class="fa fa-folder-o" aria-hidden="true"></i> collection of files.
+* Select the files to clean (uploaded on the previous step, Fig. 4c). These can be <i class="far fa-file"></i>
+ single or <i class="far fa-copy"></i> multiple files or a <i class="far fa-folder"></i> collection of files.
 * Click on *Execute* (Fig. 4d)
 
 
