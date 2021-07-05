@@ -34,5 +34,5 @@ summary: Data is only as good as the format it is saved in. The format of a file
 | Genomics | Sequencing | fastq | yes |
 | Proteomics | Mass spectroscopy | mzXML or mzML | yes |
 
-## References
-* [UGent guidelines on file formats](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Fileformats).
+## Further reading
+* File formats. *Ghent University* https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Fileformats.
