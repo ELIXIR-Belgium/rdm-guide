@@ -19,9 +19,12 @@ edit/pencil <i class="fas fa-pencil"></i>
 
 edit/pencil <i class="fa fa-pencil"></i>
 
-file <i class="fas fa-file-o"></i>
+file <i class="fas fa-file"></i>
 
-file <i class="fa fa-file-o"></i>
+file <i class="fa fa-file"></i>
+
+
+
 
 files <i class="fas fa-files-o" ></i>
 
