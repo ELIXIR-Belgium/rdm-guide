@@ -5,7 +5,7 @@
     --link-color: #3076D2;
     --light-grey: #f1f1f1;
     --white: #ffffff;
-    --hover-grey: #74767f;
+    --hover-grey: #848484;
     --nav-bg: var(--light-grey);
     --nav-color: #333;
     --main-text-color: #333;
@@ -677,7 +677,7 @@ h2.card-title {
 /*-----Social icons-----*/
 
 .social-icons a {
-    background-color: var(--main-bg-color);
+    background-color: var(--hover-grey);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     color: var(--white-text);
     display: inline-block;
