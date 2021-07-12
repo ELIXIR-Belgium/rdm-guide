@@ -1,8 +1,8 @@
 :root {
-    --primary-theme-color: #f28565;
-    --second-theme-color: #40545a;
-    --tertiary-theme-color: #e2e4e4;
-    --link-color: #2CA2C6;
+    --primary-theme-color: #3076D2;
+    --second-theme-color: #a9a9a9;
+    --tertiary-theme-color: #ffffff;
+    --link-color: #3076D2;
     --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #74767f;
@@ -74,7 +74,7 @@ main h3+h4 {
     margin-top: 15px;
 }
 
-main a {
+main a, .navbar-brand {
     text-decoration: none;
     color: var(--link-color);
 }
@@ -635,7 +635,7 @@ h2.card-title {
 /*-----Contributors cards-----*/
 
 .contributor-cards .card {
-    background-color: #d6d9da;
+    background-color: var(--tertiary-theme-color);
     border-radius: 10px;
     border: 0px;
     border-bottom: 5px solid #00000024;
@@ -821,7 +821,7 @@ h2.card-title {
 
 @media (min-width: 768px) {
     .ratio.main_rdm {
-        padding-bottom: 35%;
+        padding-bottom: 50%;
     }
 }
 
