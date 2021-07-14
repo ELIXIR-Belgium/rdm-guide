@@ -853,12 +853,6 @@ h2.card-title {
     color: var(--primary-theme-color);
 }
 
-iframe {
-    height: 400px;
-    width: 100%;
-    margin: 40px 0;
-}
-
 .alert {
     border: 0;
     border-bottom: 3px solid #00000025;
