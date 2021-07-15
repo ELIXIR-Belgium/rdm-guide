@@ -2,7 +2,7 @@
     --primary-theme-color: #3076D2;
     --second-theme-color: #dfdfdf;
     --tertiary-theme-color: #f1f1f1;
-    --link-color: #3076D2;
+    --link-color: var(--primary-theme-color);
     --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #848484;
