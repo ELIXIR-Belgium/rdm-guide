@@ -25,7 +25,7 @@ You can find the right repository for your data by following the steps described
 2.  When these aspects of your data are clear to you, you can start narrowing down possible choices by using some of the following tools:
     * For **biomolecular data in Life Sciences**, we recommend using repositories listed in [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). Moreover, [EMBL-EBI data submission wizard](https://www.ebi.ac.uk/submission/) will help you to find the right repository depending on your data type, in a few simple steps.
     * The Nature journal, [Scientific Data](https://www.nature.com/sdata/policies/repositories) compiled a list of recommended repositories grouped by discipline.
-    * [re3data.org](https://www.re3data.org/search?query=) gathers information about existing repositories and allows you to filter them based on **access and licence types**. Specifically, you can select repositories by access type to the repository itself, defining whether/how users can access the database in general (database access), and access type to each dataset stored in the repository (data access). Filtering by database and data licence is also possible.
+    * [re3data.org](https://www.re3data.org/search?query=) gathers information about existing repositories and allows you to filter them based on **access and licence types**. Specifically, you can select repositories by access type to the repository itself, by defining whether/how users can access the database in general (database access), and by access type to each dataset stored in the repository (data access). Filtering by database and data licence is also possible.
     * [re3data.org](https://www.re3data.org/search?query=) and [FAIRsharing](https://fairsharing.org/databases/) websites gather details for repositories, which you can filter by discipline, data type, taxonomy and many other features.
 
 
@@ -34,19 +34,19 @@ You can find the right repository for your data by following the steps described
 ## What you need to know about your favourite repositories
 Before start generating or collecting data, there are three things that you need to learn about the selected repositories:
 
-1.  **Metadata schema and ontology**\\
-    Information about a specific metadata schema and ontology required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your data when you start generating or collecting data. Read more about [metadata schema in practice](metadata_in_practice) and [ontology](ontology).
+1.  **Metadata schemes and ontologies**\\
+    Information about a specific metadata schemes and ontologies required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your data when you start generating or collecting data. Read more about [metadata scheme in practice](metadata_in_practice) and [ontologies](ontology).
 
 2.  **File formats**\\
     Information about file format(s) accepted by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Knowing what file formats are accepted by the repository of your choice, at the beginning of the project, allows you to immediately use the appropriate format for your datafiles. Read more about recommended [file formats](file_formats).
 
 3.  **Costs**\\
-    Costs for data sharing and storage could be significant, so it is wise to take these costs into account when asking for research fundings and in your [data management plan (DMP)](about_DMP). Usually, these costs depend on the [volume](data_volume) of the data and the required duration of the service. [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) and other online repositories offer sharing and storage service free of charge; however, some repositories can have a different fee policy. Therefore, it can be useful to read "Terms and Conditions" of the repository of your choice, before generating data.
+    Costs for data sharing and storage could be significant, so it is wise to take these costs into account when asking for research fundings and in your [data management plan (DMP)](about_DMP). Usually, these costs depend on the [volume](data_volume) of the data and the required duration of the service. [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) and other online repositories offer publication, storage and preservation services free of charge; however, some repositories can have a different fee policy. Therefore, it can be useful to read "Terms and Conditions" of the repository of your choice, before generating data.
 
 ## Write your DMP and start your research
 Hopefully, these steps help you start writing you [DMP](about_DMP) and describing your data according to standards used by online repositories, so that the data submission process will be smooth.
 
-General information about [metadata](metadata), [ontology](ontology), [file formats](file_formats) and [costs](costs_for_sharing_and_storing_data) can be found in the section [Make your DMP](about_DMP) of this DM Hub. Specific information about repositories listed in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) can be found in the “Data Management for Omics Data” section.
+General information about [metadata](metadata), [ontologies](ontology), [file formats](file_formats) and [costs](costs_for_sharing_and_storing_data) can be found in the section [Make your DMP](about_DMP) of this RDM Guide. Specific information about repositories listed in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) can be found in the “Data Management for Omics Data” section.
 
-## References
-* [Jisc RDM Toolkit](https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/)
+## Further reading
+* Where should I deposit my data? *Jisc RDM Toolkit* https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/

@@ -4,7 +4,7 @@ title: Version control
 ## Version control
 Version control is a method to keep track of the changes made in a document over time, and to quickly find the latest version of a document or trace which version was “in force” at any one time. It also allows the deletion of drafts or redundant versions with confidence, reducing duplication and misunderstanding. Keeping different versions of a document decreases the risk of corruption, errors and data loss.
 
-A version control system should be agreed to and adopted by the entire group at the beginning of the project. Decide what is the best version control system for your project, then [document](data_documentation) it so other users of your data (collaborators, coworkers etc) can understand it quickly.
+A version control system should be agreed to and adopted by the entire group at the beginning of the project. Decide what is the best version control system for your project, then document it so other users of your data (collaborators, coworkers etc) can understand it quickly.
 
 ## Version control methods
 There are several ways in which version control can be applied to your documents and the choice depends on the importance of the document, the number of collaborators, number of editing iterations and need of a formal record.
@@ -28,5 +28,5 @@ Version control can be embedded within the software you are using. Word, for exa
 ## Tools
 * [Git](https://git-scm.com) and [GitHub](https://github.com).
 
-## References
-* [Version Management](https://libguides.graduateinstitute.ch/rdm/versioning), The Graduate Institute Geneva.
+## Further reading
+* Version Management. *The Graduate Institute Geneva* https://libguides.graduateinstitute.ch/rdm/versioning.

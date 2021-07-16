@@ -20,13 +20,13 @@ Here, publishing data means making your data known and available to the whole wo
 ## Good reasons to close or restrict access to your data
 Ethical, legal and contractual issues:
 * [Personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en).
-* Sensitive data that could potentially cause harm (e.g. to endangered species, vulnerable sites or groups, public health, national security...) if made public. Some personal data are considered [sensitive personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
-* Confidential data (you have a duty or agreed to keep the data confidential.
-* Third-party data (data are not generated in the course of your own research project, but are supplied to you by another party).
+* Sensitive data that could potentially cause harm (e.g. to endangered species, vulnerable sites or groups, public health, national security, etc) if made public. Some personal data are considered [sensitive personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
+* Confidential data: you have a duty or agreed to keep the data confidential.
+* Third-party data: data are not generated in the course of your own research project, but are supplied to you by another party.
 * Copyright and/or database right data.
 * Data with potential economic/commercial value.
 
-If you want to close or restrict access to your data, you must explain your ethical and/or legal issues in the Data Management Plan. You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
+If you want to close or restrict access to your data, you must explain your ethical and/or legal issues in the Data Management Plan (DMP). You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
 
 ## Types of restricted access to data
 ### Registered access or authentication procedure
@@ -47,6 +47,6 @@ If you want to close or restrict access to your data, you must explain your ethi
 ## Select repositories based on data access type
 [Registry of Research data Repositories](https://www.re3data.org/search?query=) (or re3data.org) allows you to filter the list of repositories based on data access type.
 
-## References
-* [Restricting access to data](https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data), University of Westminster.
-* [Data Publication: Controlling access to published data](https://libguides.library.usyd.edu.au/datapublication/access), The University of Sydney.
+## Further reading
+* Restricting access to data. *Researcher Support University of Westminster* https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data.
+* Data Publication: Controlling access to published data. *The University of Sydney* https://libguides.library.usyd.edu.au/datapublication/access.

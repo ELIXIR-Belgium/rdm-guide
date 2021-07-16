@@ -35,7 +35,7 @@ Licences commonly used for **software** can be found [here](https://choosealicen
 When sharing your dataset in a repository, a licence can be applied in several ways:
 * A repository can apply its default licence or sharing policy to all deposited datasets. In this case, restrictions on the use of data obtained through the repository can be found on the repository’s webpage, usually under “Help”, “FAQ” or “About us”.
 * Some repositories require that the datasets owner selects a licence from a list of options, when depositing the datasets.
-* Other repositories let the owner specify the licence in the [data documentation](data_documentation), such as a README file, attached to the data.
+* Other repositories let the owner specify the licence in the data documentation, such as a README file, attached to the data.
 
 Repositories can be selected based on data licence and sharing policy by using [re3data.org](https://www.re3data.org/search?query=).
 
@@ -51,12 +51,11 @@ Repositories can be selected based on data licence and sharing policy by using [
 * [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning.
 
 
-## References
-* [European Union advice on copyright](https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1).
-* [European Union IP helpdesk](https://www.iprhelpdesk.eu/node/2014) note on databases.
-* [UGent guidelines for data sharing](https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm).
-* [OpenAire](https://www.openaire.eu/faqs#article-id-1100): 
-    * [Protection of Research Data](https://www.openaire.eu/protection-of-research-data)
-    * [Research data how to license](https://www.openaire.eu/research-data-how-to-license/)
-    * [How do I know if my research data is protected?](https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected)
-* [How do I license my research data?](https://www.openaire.eu/how-do-i-license-my-research-data).
+## Further reading
+* Copyright. *Your Europe* https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1.
+* European IP Helpdesk. *European Commission* https://intellectual-property-helpdesk.ec.europa.eu/regional-helpdesks/european-ip-helpdesk_en
+* Sharing data. *Ghent University* https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm. 
+* When is research data protected? *OpenAIRE* https://www.openaire.eu/protection-of-research-data.
+* Research data how to license. *OpenAIRE* https://www.openaire.eu/research-data-how-to-license/.
+* How do I know if my research data is protected? *OpenAIRE* https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected.
+* How do I license my research data? *OpenAIRE* https://www.openaire.eu/how-do-i-license-my-research-data.
