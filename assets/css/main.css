@@ -1,8 +1,8 @@
 :root {
-    --primary-theme-color: #3076D2;
+    --primary-theme-color: #de4d00;
     --second-theme-color: #dfdfdf;
     --tertiary-theme-color: #f1f1f1;
-    --link-color: var(--primary-theme-color);
+    --link-color: #337ab7;
     --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #848484;
@@ -74,7 +74,7 @@ main h3+h4 {
     margin-top: 15px;
 }
 
-main a, .navbar-brand {
+main a {
     text-decoration: none;
     color: var(--link-color);
 }
