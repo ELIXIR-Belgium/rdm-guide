@@ -36,7 +36,7 @@ There are different ways of providing data documentation when publishing data, d
 
 ### Documentation in a published journal article or online platform
 
-If the information needed to understand the data is in a journal article or in an online platform, it is possible to refer to it from the data sharing/publishing system, but before doing so you should be sure that (a) it provides sufficient detail and (b) that it will be available as open access.\\
+If the information needed to understand the data is in a journal article or in an online platform, it is possible to refer to it from the data sharing/publishing system, but before doing so you should be sure that (a) it provides sufficient detail and (b) that it will be available as open access.
 
 ### Documentation in a web submission form of the deposition database or repository
 

@@ -14,11 +14,6 @@ We recommend using dedicated tools because they usually contain several DMP temp
 2. Check what your funder suggests.
 3. Choose one of the tools suggested below.
 
-## Tools for writing a DMP
-* [DMPonline](https://dmponline.dcc.ac.uk).
-* [DMPTool](https://dmptool.org).
-* [Data Stewardship Wizard (DSW)](https://ds-wizard.org/about.html).
-
 ## Tools for DMP in Belgium
 * [DMPonline.be](https://dmponline.be).
 DMPbelgium Consortium was founded by several universities in Belgium to develop DMPonline.be into a shared data management planning tool for users from participating institutions.
@@ -30,3 +25,6 @@ DMPbelgium Consortium was founded by several universities in Belgium to develop 
 
 * [DMPonline.kuleuven.be](https://dmponline.kuleuven.be).
 This instance of DMPonline is provided by KU Leuven to help you write data management plans.
+
+## Additional tools for writing a DMP
+Additional tools commonly used for making a DMP can be found in the [Data Management Plan page of RDMkit](https://rdmkit.elixir-europe.org/data_management_plan.html).
