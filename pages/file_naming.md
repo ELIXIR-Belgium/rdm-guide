@@ -38,7 +38,7 @@ File name elements can be any information that is relevant to your project. Here
 Polymer3 measured on GC-MS machine 1 on the September 1 2018", [Ghent University](https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Filenaming).
 
 "19630318_letter-LBJ-JFK_p01.jpg\\
-This is most likely a picture or digitisation of the first page of a letter dated 18 March 1963 from Lyndon B. Johnson to John F. Kennedy. The date is placed first and the page number is placed last so that the researcher can sort documents alphabetically to put them in order", .
+This is most likely a picture or digitisation of the first page of a letter dated 18 March 1963 from Lyndon B. Johnson to John F. Kennedy. The date is placed first and the page number is placed last so that the researcher can sort documents alphabetically to put them in order", [The Graduate Institute Geneva](https://libguides.graduateinstitute.ch/rdm/filenames).
 
 "FR3S_140623_129C_2653_W.JPG\\
 This illegible file name can only make sense if it is accompanied with a codebook. This documentation will let you understand the detailed information displayed within the file name. In specific cases – such as massive generic file collections –, this approach can make a lot of sense, as long as the naming convention is well-documented", [The Graduate Institute Geneva](https://libguides.graduateinstitute.ch/rdm/filenames).
