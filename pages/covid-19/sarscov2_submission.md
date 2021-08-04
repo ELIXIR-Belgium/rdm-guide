@@ -128,7 +128,7 @@ The **ENA Upload tool** under **Submission tools** is used to generate the metad
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
 
 The tool offers three ways of entering metadata for submission:
-* Using the [metadata spreadsheet template](https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing) (default, Fig. 7a)
+* Using the [metadata spreadsheet template](https://drive.google.com/file/d/1Gx78GKh58PmRjdmJ05DBbpObAL-3oUFX/view?usp=sharing) (default, Fig. 7a)
 * Interactively generating the metadata structure (Fig. 7b)
 * Using the 4 tsv templates (legacy, Fig. 7c)
 
