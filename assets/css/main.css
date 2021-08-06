@@ -841,6 +841,7 @@ h2.card-title {
     border-radius: 10px;
     border: 0px;
     padding: .5rem 1rem;
+    background-color: var(--light-grey);
 }
 
 .alert {
