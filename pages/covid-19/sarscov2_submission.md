@@ -12,8 +12,7 @@ This section explains how to set up the Galaxy Docker container and use it to re
 ## Walkthrough of reads submission to ENA using the Galaxy container
 
 A screencast is available on our youtube channel that will guide you through all the steps discussed below:
-<br>
-<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

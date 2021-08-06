@@ -1,17 +1,19 @@
 :root {
-    
     --primary-theme-color: #de4d00;
+    --second-theme-color: #dfdfdf;
+    --tertiary-theme-color: #f1f1f1;
     --link-color: #337ab7;
-    --light-grey: whitesmoke;
+    --light-grey: #f1f1f1;
     --white: #ffffff;
-    --hover-grey: #74767f;
+    --hover-grey: #848484;
     --nav-bg: var(--light-grey);
     --nav-color: #333;
     --main-text-color: #333;
-    --main-bg-color: var(--white);
+    --main-bg-color: var(--second-theme-color);
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
+    --title-font: 'Titillium Web', sans-serif;
 }
 
 /*-----General styling-----*/
@@ -19,30 +21,38 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: 'Open Sans', sans-serif;
     font-variant-ligatures: none;
     font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--title-font);
     font-size: 3.5em;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 0.5em;
 }
 
-@media (max-width:992px) {
+@media (max-width: 576px) {
     h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
 
 main h2 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--title-font);
     font-size: 1.6em;
-    font-weight: 700;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    main h2 {
+        font-size: 1.3em;
+        color: var(--primary-theme-color);
+        margin: 40px 0 10px;
+    }
 }
 
 main h3 {
@@ -78,7 +88,7 @@ main a:hover {
 
 blockquote {
     margin-left: 20px;
-    border-left: 5px solid var(--hover-grey);
+    border-left: 3px solid var(--hover-grey);
     padding-left: 10px;
     color: var(--hover-grey);
     border-radius: 4px;
@@ -156,22 +166,19 @@ pre code {
 }
 
 .navbar-brand img {
-    height: 40px;
+    height: 45px;
 }
 
-.navbar-nav .nav-item a {
+.navbar-nav .nav-item>a, .navbar-nav .nav-item .form-control::placeholder {
     color: var(--nav-color);
-}
-
-.navbar-nav .nav-item a:hover {
-    color: var(--primary-theme-color);
-    text-decoration: none;
+    font-size: 1em;
+    font-family: var(--title-font);
 }
 
 .navbar-nav .nav-item a.active {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .navbar-toggler {
@@ -181,13 +188,20 @@ pre code {
 /*-----Search box top navigation-----*/
 
 #search-input:focus {
-    box-shadow: 0 0 0 0.25rem #de4d0047;
+    box-shadow: 0 0 0 0.25rem #ffffff00;
     border-color: var(--primary-theme-color);
 }
 
 .search {
     position: relative;
     z-index: 2;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color:var(--primary-theme-color)
 }
 
 .search-results {
@@ -197,14 +211,15 @@ pre code {
     display: none;
     width: 36em;
     max-height: calc(90vh - 200%) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 20%), 0 3px 10px rgba(0, 0, 0, 15%);
     overflow-y: auto;
     background-color: var(--white);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 20%), 0 3px 10px rgba(0, 0, 0, 15%);
-    border-radius: 4px;
+    border-radius: 10px;
+    font-family: var(--main-font);
 }
 
 @media (max-width: 992px) {
-    .search-results{
+    .search-results {
         width: 100%;
     }
 }
@@ -295,12 +310,6 @@ pre code {
     }
 }
 
-@media (max-width: 992px) {
-    button[aria-expanded="true"]+#side-nav {
-        margin-top: -1.5em;
-    }
-}
-
 .sidebar-collapse i {
     font-size: 1.25rem;
     float: right;
@@ -324,50 +333,72 @@ pre code {
 }
 
 .menu li a {
-    margin-top: 4px;
-    color: var(--main-text-color);
-    background-color: var(--light-grey);
+    margin-bottom: 4px;
     display: block;
-    padding: 7px 11px;
+    position: relative;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #333;
     text-decoration: none;
-    border-radius: 4px;
+    background-color: var(--light-grey);
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    font-family: var(--title-font);
+}
+
+.menu li a:active {
+    transform: translate(0px, 3px);
+    -webkit-transform: translate(0px, 3px);
 }
 
 .menu li a:hover {
     background-color: var(--primary-theme-color);
-    color: var(--white-text);
+    color: white;
 }
 
 .menu ul li a {
-    padding-left: 30px;
-    background-color: transparent;
+    margin-left: 30px;
 }
 
 .menu ul li ul li a {
-    padding-left: 60px;
+    margin-left: 60px;
 }
 
 .menu li.active:not(.parent)>a {
     background-color: var(--primary-theme-color);
-    color: var(--white-text);
+    color: white;
 }
 
 .menu li>a>span {
     float: right;
-    font-size: 1.5em;
-    line-height: 1;
     width: 15px;
     text-align: center;
 }
 
 .menu li.active>a>span:after {
-    content: '-';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f077";
 }
 
 .menu li>a>span:after {
-    content: '+';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
 }
-
 
 /*-----Summary under page title-----*/
 
@@ -375,7 +406,7 @@ pre code {
     font-size: 16px;
     color: var(--hover-grey);
     margin: 20px 0px 20px 0px;
-    border-left: 5px solid var(--primary-theme-color);
+    border-left: 3px solid var(--primary-theme-color);
     padding-left: 10px;
 }
 
@@ -391,7 +422,8 @@ pre code {
     padding: 15px;
     background-color: var(--light-grey);
     margin: 1.75em 0 2em;
-    border-radius: 4px;
+    padding: 10px 25px;
+    border-radius: 10px;
     max-width: 400px;
     line-height: 1.4;
 }
@@ -567,16 +599,23 @@ h2.card-title {
 
 .btn-custom {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-family: var(--title-font);
     background-color: var(--light-grey);
     padding: 7px 11px;
-    border-radius: 4px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    border-radius: 10px;
     text-align: left;
     border: 0;
 }
 
-.btn-custom:hover {
+.btn-custom:active {
     background-color: var(--primary-theme-color);
-    color: var(--white-text);
+    transform: translate(0px, 3px);
+    -webkit-transform: translate(0px, 3px);
+    color: white;
 }
 
 .btn-custom.plus::after {
@@ -597,8 +636,8 @@ h2.card-title {
 
 .contributor-cards .card {
     background-color: var(--light-grey);
-    border: 0;
-    border-radius: 4px;
+    border-radius: 10px;
+    border: 0px;
 }
 
 .contributor-cards .badge {
@@ -637,9 +676,9 @@ h2.card-title {
 /*-----Social icons-----*/
 
 .social-icons a {
-    background-color: var(--main-bg-color);
+    background-color: var(--hover-grey);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    color: var(--primary-theme-color);
+    color: var(--white-text);
     display: inline-block;
     line-height: 4ex;
     width: 4ex;
@@ -705,10 +744,10 @@ h2.card-title {
     vertical-align: baseline;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--hover-grey);
-    color:var(--white-text);
+    color: var(--white-text);
     padding: 7px 11px;
-    border-radius: 4px;
     border: 0px;
+    border-radius: 10px;
 }
 
 .cookiealert .acceptcookies:hover {
@@ -728,9 +767,11 @@ h2.card-title {
 }
 
 /*--------------Custom classes--------------*/
+
 /* ---------------------------------------- */
 
 /* subtitle frontpage */
+
 .subtitle {
     color: var(--hover-grey);
 }
@@ -777,15 +818,45 @@ h2.card-title {
 
 @media (min-width: 768px) {
     .ratio.main_rdm {
-        padding-bottom: 35%;
+        padding-bottom: 50%;
     }
 }
 
 /* -----Homepage----- */
 
 .blurb-title {
-    font-family: 'Exo 2', sans-serif;
     font-size: 1.3em;
     margin-bottom: 18px;
     font-weight: 600;
+}
+
+/* -----Extra theming----- */
+
+#main {
+    background-color: var(--white);
+    padding: 43px 50px;
+    border-radius: 10px;
+}
+
+#search-input {
+    border-radius: 10px;
+    border: 0px;
+    padding: .5rem 1rem;
+}
+
+.alert {
+    border: 0;
+    border-radius: 10px;
+}
+
+.alert-warning {
+    background-color: #f2d3659e;
+}
+
+.alert-danger {
+    background-color: #f285659e;
+}
+
+.alert-info {
+    background-color: #2ca2c659;
 }

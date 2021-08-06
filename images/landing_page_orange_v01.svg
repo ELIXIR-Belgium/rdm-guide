@@ -1,47 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
 	 id="svg8" sodipodi:docname="Landing_page_orange_v01.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 605 605"
-	 style="enable-background:new 0 0 602.3 603.8;" xml:space="preserve">
+	 style="enable-background:new 0 0 605 605;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#f5f5f5;}
-	.st1{fill:#023452;}
-	.st2{font-family: 'Titillium Web', sans-serif;}
-	.st3{font-size:22px;}
-	.st4{fill:none;}
-	.st6{fill:#ffffff;}
-	.st5{fill:#023452;}
-	.st7{font-size:40px;}
+	.st0{fill:#848484;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Titillium Web', sans-serif;}
+	.st3{font-size:24px;}
+	.st4{fill:#de4d00;}
+	.st5{font-size:40px;}
 </style>
-<path id="path910-3" stroke="#DE4D00" stroke-width="3" class="st0" d="M120.4,538.1c2.8-3.7,3.2-4,7.2-9.5c12-16,30-40.2,56.7-76.5
-	c26.7-36.3,62.1-84.8,109.2-149.6l0,0c0,0,0,0,0-0.1c-76.2-24.7-133.3-43.5-176.1-57.6c-42.8-14.2-71.3-23.8-90.3-30.3
-	c-6.3-2.2-6.7-2.4-11.1-3.9c-9.8,29.7-14.9,60.7-14.9,92C1.3,395.6,45.5,483,120.4,538.1L120.4,538.1z"/>
-<path id="path1282-5" stroke="#DE4D00" stroke-width="3" class="st0" d="M471.7,547.6c-2.7-3.9-2.9-4.3-6.8-9.8
-	c-11.5-16.4-28.9-40.9-55.2-77.5c-26.3-36.6-61.5-85.3-108.6-150.1l0,0c0,0,0,0,0-0.1c-47.1,64.8-82.5,113.3-109.2,149.6
-	c-26.7,36.3-44.6,60.5-56.7,76.5c-4.1,5.4-4.4,5.7-7.2,9.5c50.2,36.9,110.9,56.9,173.2,56.9C362.3,602.5,422,583.3,471.7,547.6
-	L471.7,547.6z"/>
-<path id="path1280-9" stroke="#DE4D00" stroke-width="3" class="st0" d="M308.6,302.6C308.6,302.6,308.6,302.6,308.6,302.6
-	c47,64.8,82.2,113.5,108.5,150.1c26.3,36.6,43.7,61.1,55.2,77.5c3.9,5.6,4.1,6,6.8,9.8C555.6,485.2,601,396.8,601,302.6
-	c0-30.2-4.7-60.2-13.8-88.9c-4.5,1.3-4.9,1.4-11.3,3.4c-19.2,5.9-47.9,14.9-90.8,28.6C442,259.4,384.8,277.8,308.6,302.6
-	L308.6,302.6z"/>
-<path id="path1276-4" stroke="#DE4D00" stroke-width="3" class="st0" d="M298.2,1.3c-0.5,0-1.1,0-1.6,0
-	c-126,0-237.8,80.7-277.5,200.3c4.4,1.5,4.7,1.7,11.1,3.9c19,6.5,47.5,16.1,90.3,30.3c42.8,14.2,99.9,32.9,176.1,57.6l0,0
-	c0,0,0,0,0.1,0c0-80.1,0.2-140.2,0.4-185.2c0.2-45.1,0.6-75.2,0.9-95.2C298,6.4,298.1,6,298.2,1.3L298.2,1.3z"/>
-<path id="path1274-5" stroke="#DE4D00" stroke-width="3" class="st0" d="M307.2,1.3c-0.1,4.6-0.2,5-0.3,11.7
-	c-0.3,20-0.6,50.1-0.9,95.2c-0.2,45.1-0.4,105.2-0.4,185.2l0,0c0,0,0,0,0,0.1c76.2-24.7,133.4-43.2,176.3-56.9
-	c43-13.7,71.7-22.7,90.8-28.6c6.5-2,6.9-2,11.3-3.4C545.6,84.1,433.8,2,307.2,1.3z"/>
-<circle id="circle" stroke="#DE4D00" stroke-width="3" class="st6" cx="301.1" cy="301.9" r="108.8"/>
-<text transform="matrix(1 0 0 1 367.0479 133.66)" class="st1 st2 st3">Existing data</text>
-<text transform="matrix(1 0 0 1 383.5586 161.16)" class="st1 st2 st3">New data</text>
-<text transform="matrix(1 0 0 1 444.6602 337.5997)" class="st1 st2 st3">Organisation</text>
-<text transform="matrix(1 0 0 1 433.043 365.0997)" class="st1 st2 st3">Documentation</text>
-<text transform="matrix(1 0 0 1 456.8848 392.5997)" class="st1 st2 st3">Standards</text>
+<g>
+	<path class="st0" d="M192.3,301.9c0-8.8,1-17.3,3-25.4c0.8-3.2-1.1-6.4-4.2-7.4c-61.6-20.1-113.6-37.3-169.1-56.4
+		c-3.3-1.2-7,0.7-8.1,4C-22.2,331.1,19.8,462,115.3,534.3c2.8,2.1,6.8,1.5,8.8-1.3c35-46.6,67.1-90.3,104.9-142.1
+		c1.9-2.6,1.6-6.2-0.8-8.4C206.2,362.8,192.3,333.9,192.3,301.9z"/>
+	<path class="st0" d="M237.5,397.4c-38.1,52.2-70.4,96.3-105.7,143.2c-2.1,2.8-1.5,6.9,1.3,8.9c97.1,69.7,235.5,70.4,333.4,1.8
+		c2.8-2,3.5-5.9,1.5-8.8c-33.7-48.2-65.7-92.6-103.7-145c-1.9-2.6-5.5-3.4-8.3-1.8c-16.2,9.5-35,14.9-55.1,14.9
+		c-20.2,0-39-5.5-55.2-15C243.1,394,239.4,394.8,237.5,397.4z"/>
+	<path class="st0" d="M581.2,215.5c-56.2,17.3-108.4,33.9-170,53.8c-3.1,1-5,4.2-4.2,7.4c1.9,8.1,2.9,16.5,2.9,25.1
+		c0,32.2-14,61.1-36.2,81c-2.4,2.1-2.7,5.8-0.9,8.4c37.5,51.8,69.2,95.9,102.6,143.5c2,2.9,6.1,3.6,8.9,1.5
+		c96.5-71.2,139.6-201.7,104.8-316.5C588.1,216.4,584.5,214.5,581.2,215.5z"/>
+	<path class="st0" d="M296.8,187.3c0.1-65.4,0.4-120.5,1.3-179.5c0.1-3.6-2.9-6.5-6.4-6.4C169.9,3.4,62,80.8,21.2,195.6
+		c-1.2,3.3,0.6,7,3.9,8.1c55.7,19.1,107.7,36.3,169.3,56.5c3,1,6.3-0.4,7.7-3.3c15.8-34.7,49.4-59.6,89.1-63.2
+		C294.4,193.3,296.8,190.5,296.8,187.3z"/>
+	<path class="st0" d="M407.9,260.4c61.7-19.9,113.9-36.7,169.9-53.9c3.4-1,5.3-4.7,4.1-8.1C542.4,83.3,435.4,4.7,313.6,1.4
+		c-3.5-0.1-6.4,2.7-6.5,6.2c-1,59.1-1.3,114.3-1.4,179.7c0,3.2,2.4,6,5.7,6.3c39.7,3.7,73.1,28.7,88.9,63.5
+		C401.6,259.9,404.9,261.4,407.9,260.4z"/>
+</g>
+<text transform="matrix(1 0 0 1 364.0479 133.66)" class="st1 st2 st3">Existing data</text>
+<text transform="matrix(1 0 0 1 380.5586 161.16)" class="st1 st2 st3">New data</text>
+<text transform="matrix(1 0 0 1 428.6602 337.5997)" class="st1 st2 st3">Organisation</text>
+<text transform="matrix(1 0 0 1 417.043 365.0997)" class="st1 st2 st3">Documentation</text>
+<text transform="matrix(1 0 0 1 440.8848 392.5997)" class="st1 st2 st3">Standards</text>
 <text transform="matrix(1 0 0 1 238.1615 500.6105)" class="st1 st2 st3">Data storage</text>
 <text transform="matrix(1 0 0 1 261.4076 528.1105)" class="st1 st2 st3">Security</text>
 <text transform="matrix(1 0 0 1 265.0815 555.6105)" class="st1 st2 st3">Privacy</text>
-<text transform="matrix(1 0 0 1 27.5132 351.3497)" class="st1 st2 st3">Data processing</text>
-<text transform="matrix(1 0 0 1 66.04 378.8497)" class="st1 st2 st3">Analysis</text>
+<text transform="matrix(1 0 0 1 17.5132 351.3497)" class="st1 st2 st3">Data processing</text>
+<text transform="matrix(1 0 0 1 56.04 378.8497)" class="st1 st2 st3">Analysis</text>
 <text transform="matrix(1 0 0 1 119.7363 133.6601)" class="st1 st2 st3">Data sharing</text>
 <text transform="matrix(1 0 0 1 120.354 161.1601)" class="st1 st2 st3">Preservation</text>
-<rect x="207.8" y="252.2" class="st4" width="186" height="145"/>
-<text transform="matrix(1 0 0 1 269.4099 274.94)"><tspan x="-15" y="10" class="st5 st2 st7">RDM</tspan><tspan x="-23" y="50" class="st5 st2 st7">Guide</tspan></text>
+<text transform="matrix(1 0 0 1 255.4097 291.6001)" class="st4 st2 st5">RDM</text>
+<text transform="matrix(1 0 0 1 247.4097 331.6001)" class="st4 st2 st5">Guide</text>
 </svg>

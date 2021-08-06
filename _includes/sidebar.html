@@ -1,9 +1,9 @@
 {%- assign sidebar = site.data.sidebars[page.sidebar] %}
-<button class="d-lg-none collapsed sidebar-collapse btn-custom w-100 mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
+<button class="d-lg-none collapsed sidebar-collapse btn-custom w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
     {{ page.sidebar | capitalize }} menu <i title="navbar-toggler" class="fa fa-bars ms-2"></i>
 </button>
 <nav class="collapse" id="side-nav" aria-label="Side navigation">
-    <ul id="menu" class="menu list-unstyled mb-4 mb-lg-0">
+    <ul id="menu" class="menu list-unstyled">
         {% if sidebar.title or sidebar.version %}
         <li class="sidebar-title">{{sidebar.title}} {{sidebar.version}}</li>
         {% endif %}

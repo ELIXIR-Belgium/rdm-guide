@@ -1,5 +1,6 @@
 ---
 title: Ontology
+search_exclude: true
 ---
 
 ## Subtitle 1

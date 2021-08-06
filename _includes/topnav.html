@@ -2,9 +2,9 @@
 <header>
     <a class="visually-hidden-focusable" href='#main'>Skip to content</a>
     <a class="visually-hidden-focusable" href='#footer'>Skip to footer</a>
-    <nav class="navbar navbar-expand-lg mb-2 mb-lg-5">
+    <nav class="navbar navbar-expand-lg mb-3 mb-lg-5">
         <div class="container">
-            <a class="navbar-brand" href="{{ 'index.html' | relative_url }}"><img alt="ELIXIR logo" src="{{ 'assets/img/RDM_guide.svg' | relative_url }}">{% if site.topnav_title %}{{site.topnav_title}}{% endif %}</a>
+            <a class="navbar-brand py-1" href="{{ 'index.html' | relative_url }}"><img alt="ELIXIR logo" src="{{ 'assets/img/RDM_guide.svg' | relative_url }}"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i title="navbar-toggler" class="fa fa-bars"></i>
             </button>
@@ -16,15 +16,15 @@
                     {%- for entry in topnav.topnav -%}
                     {%- for item in entry.items -%}
                     {%- if item.external_url -%}
-                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-3 mt-lg-0">
                         <a class="nav-link ps-2" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
                     </li>
                     {% elsif page.url contains item.url %}
-                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-3 mt-lg-0">
                         <a class="nav-link ps-2 active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% else %}
-                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-3 mt-lg-0">
                         <a class="nav-link ps-2" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% endif %}
@@ -32,7 +32,7 @@
                     {%- endfor %}
                     <!--start Feedback button-->
                     {%- unless site.feedback_disable %}
-                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-3 mt-lg-0">
                         {%- if site.feedback_text -%}
                         {%- assign feedback_text = site.feedback_text -%}
                         {%- else -%}
@@ -46,10 +46,10 @@
                     </li>
                     {% endunless %}
                     <!--start search-->
-                    <li class="nav-item ms-0 ms-lg-3">
+                    <li class="nav-item ms-0 ms-lg-3 my-3 my-lg-0">
                         <div class="search">
                             <form role="search" class="d-flex">
-                                <input type="search" id="search-input" class="search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
+                                <i class="fa fa-search fa-lg"></i><input type="search" id="search-input" class="ps-5 search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
                             <div id="search-results" class="search-results"></div>
                         </div>
                     </li>

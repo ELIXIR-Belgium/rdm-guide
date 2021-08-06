@@ -1,5 +1,6 @@
 ---
 title: Data quality
+search_exclude: true
 ---
 
 ## Subtitle 1

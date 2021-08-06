@@ -9,7 +9,3 @@ Research Data Management Guide (RDM Guide) is an information resource about rese
 <div class="ratio main_rdm">
     <object class="rdm_cycle" type="image/svg+xml" data="images/landing_page_orange_v01.svg"></object>
 </div>
-
-<h4 style="text-align: center;">
-    Topics of a research data management plan.
-</h4>

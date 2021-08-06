@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: Home
+      url: /index.html
     - title: About Us
       url: /about_us.html
     - title: GitHub

@@ -1,5 +1,6 @@
 ---
 title: Costs for sharing and storing data
+search_exclude: true
 ---
 
 ## Subtitle 1
