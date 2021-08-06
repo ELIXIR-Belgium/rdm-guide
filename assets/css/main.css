@@ -1,12 +1,11 @@
 :root {
     --primary-theme-color: #de4d00;
     --second-theme-color: #dfdfdf;
-    --tertiary-theme-color: #f1f1f1;
     --link-color: #337ab7;
     --light-grey: #f1f1f1;
     --white: #ffffff;
     --hover-grey: #848484;
-    --nav-bg: var(--light-grey);
+    --nav-bg: var(--white);
     --nav-color: #333;
     --main-text-color: #333;
     --main-bg-color: var(--second-theme-color);
@@ -341,7 +340,7 @@ pre code {
     font-size: 17px;
     color: #333;
     text-decoration: none;
-    background-color: var(--light-grey);
+    background-color: var(--white);
     transition: .2s;
     -webkit-transition: .2s;
     -moz-transition: .2s;
