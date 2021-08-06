@@ -173,14 +173,12 @@ pre code {
     color: var(--nav-color);
     font-size: 1em;
     font-family: var(--title-font);
-    text-shadow: 0px -1px white;
 }
 
 .navbar-nav .nav-item a.active {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
     border-radius: 10px;
-    text-shadow: 0px -1px #00000024;
 }
 
 .navbar-toggler {
@@ -344,7 +342,6 @@ pre code {
     color: #333;
     text-decoration: none;
     background-color: var(--light-grey);
-    text-shadow: 0px -1px white;
     transition: .2s;
     -webkit-transition: .2s;
     -moz-transition: .2s;
@@ -359,7 +356,6 @@ pre code {
 
 .menu li a:hover {
     background-color: var(--primary-theme-color);
-    text-shadow: 0px -1px #00000024;
     color: white;
 }
 
@@ -373,7 +369,6 @@ pre code {
 
 .menu li.active:not(.parent)>a {
     background-color: var(--primary-theme-color);
-    text-shadow: 0px -1px #00000024;
     color: white;
 }
 
@@ -606,7 +601,6 @@ h2.card-title {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     font-family: var(--title-font);
     background-color: var(--light-grey);
-    text-shadow: 0px -1px var(--white-text);
     padding: 7px 11px;
     transition: .2s;
     -webkit-transition: .2s;
@@ -621,7 +615,6 @@ h2.card-title {
     background-color: var(--primary-theme-color);
     transform: translate(0px, 3px);
     -webkit-transform: translate(0px, 3px);
-    text-shadow: 0px -1px #00000024;
     color: white;
 }
 
