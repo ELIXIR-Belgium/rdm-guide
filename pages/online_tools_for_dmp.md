@@ -19,7 +19,7 @@ We recommend using dedicated tools because they usually contain several DMP temp
 DMPbelgium Consortium was founded by several universities in Belgium to develop DMPonline.be into a shared data management planning tool for users from participating institutions.
   * In DMPonline.be, ELIXIR Belgium provides a DMP template coupled with a [DMP Converter tool](https://dmpconverter.elixir-belgium.org) that allows you to format your DMP according to the structure required by different funders, in few clicks. You can find the ELIXIR Belgium template under the " --Select your funder --" section in DMPonline.be. See the DMP Converter tool below.
 
-<div class="ratio ratio-16x9">
+<div class="ratio ratio-4x3">
     <iframe title="DMP converter" src="https://dmpconverter.elixir-belgium.org/" frameborder="0" >
     </iframe>
 </div>
