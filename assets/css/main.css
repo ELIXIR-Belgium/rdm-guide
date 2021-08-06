@@ -161,7 +161,6 @@ pre code {
 
 .navbar {
     background-color: var(--nav-bg);
-    border-bottom: 3px solid #00000025;
 }
 
 .navbar-brand img {
@@ -180,7 +179,6 @@ pre code {
     background-color: var(--primary-theme-color);
     border-radius: 10px;
     text-shadow: 0px -1px #00000024;
-    border-bottom: 3px solid #00000025;
 }
 
 .navbar-toggler {
@@ -208,7 +206,6 @@ pre code {
     max-height: calc(90vh - 200%) !important;
     overflow-y: auto;
     background-color: var(--white);
-    border-bottom: 3px solid #00000025;
     border-radius: 10px;
     font-family: var(--main-font);
 }
@@ -337,7 +334,6 @@ pre code {
     color: #333;
     text-decoration: none;
     background-color: var(--light-grey);
-    border-bottom: 3px solid #00000025;
     text-shadow: 0px -1px white;
     transition: .2s;
     -webkit-transition: .2s;
@@ -362,7 +358,6 @@ pre code {
 
 .menu li.active:not(.parent)>a {
     background-color: var(--primary-theme-color);
-    border-bottom: 3px solid #00000025;
     text-shadow: 0px -1px #00000024;
     color: white;
 }
@@ -419,7 +414,6 @@ pre code {
     margin: 1.75em 0 2em;
     padding: 10px 25px;
     border-radius: 10px;
-    border-bottom: 3px solid #00000025;
     max-width: 400px;
     line-height: 1.4;
 }
@@ -496,7 +490,6 @@ main img.registry_logo {
 footer {
     background-color: var(--footer-bg);
     color: var(--footer-color);
-    border-bottom: 3px solid #00000025;
     font-size: 0.9em;
     line-height: 24px;
     margin-top: 80px;
@@ -607,7 +600,6 @@ h2.card-title {
     border-radius: 10px;
     text-align: left;
     border: 0;
-    border-bottom: 3px solid #00000025;
 }
 
 .btn-custom:active {
@@ -638,7 +630,6 @@ h2.card-title {
     background-color: var(--light-grey);
     border-radius: 10px;
     border: 0px;
-    border-bottom: 3px solid #00000025;
 }
 
 .contributor-cards .badge {
@@ -686,7 +677,6 @@ h2.card-title {
     height: 4ex;
     text-align: center;
     border-radius: 100%;
-    border-bottom: 3px solid #00000025;
 }
 
 .social-icons a:hover {
@@ -749,7 +739,6 @@ h2.card-title {
     color: var(--white-text);
     padding: 7px 11px;
     border: 0px;
-    border-bottom: 3px solid #00000025;
     border-radius: 10px;
 }
 
@@ -839,13 +828,11 @@ h2.card-title {
     background-color: var(--white);
     padding: 43px 50px;
     border-radius: 10px;
-    border-bottom: 3px solid #00000025;
 }
 
 #search-input {
     border-radius: 10px;
     border: 0px;
-    border-bottom: 3px solid #00000025;
     padding: .5rem 1rem;
 }
 
@@ -855,7 +842,6 @@ h2.card-title {
 
 .alert {
     border: 0;
-    border-bottom: 3px solid #00000025;
     border-radius: 10px;
 }
 
