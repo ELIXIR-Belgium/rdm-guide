@@ -13,7 +13,7 @@
     --footer-bg: var(--light-grey);
     --footer-color: #333;
     --white-text: var(--white);
-    --title-font: 'Ubuntu', sans-serif;
+    --title-font: 'Titillium Web', sans-serif;
 }
 
 /*-----General styling-----*/
@@ -23,6 +23,7 @@ body {
     background-color: var(--main-bg-color);
     font-variant-ligatures: none;
     font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -40,9 +41,10 @@ h1 {
 
 main h2 {
     font-family: var(--title-font);
-    font-size: 2em;
+    font-size: 1.6em;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
+    font-weight: 700;
 }
 
 @media (max-width: 576px) {
@@ -197,6 +199,13 @@ pre code {
     z-index: 2;
 }
 
+.search .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color:var(--primary-theme-color)
+}
+
 .search-results {
     position: absolute;
     right: 0;
@@ -204,6 +213,7 @@ pre code {
     display: none;
     width: 36em;
     max-height: calc(90vh - 200%) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 20%), 0 3px 10px rgba(0, 0, 0, 15%);
     overflow-y: auto;
     background-color: var(--white);
     border-radius: 10px;
@@ -345,7 +355,12 @@ pre code {
 .menu li a:active {
     transform: translate(0px, 3px);
     -webkit-transform: translate(0px, 3px);
-    border-bottom: 1px solid #00000024;
+}
+
+.menu li a:hover {
+    background-color: var(--primary-theme-color);
+    text-shadow: 0px -1px #00000024;
+    color: white;
 }
 
 .menu ul li a {
@@ -834,10 +849,6 @@ h2.card-title {
     border-radius: 10px;
     border: 0px;
     padding: .5rem 1rem;
-}
-
-.search i {
-    color: var(--primary-theme-color);
 }
 
 .alert {
