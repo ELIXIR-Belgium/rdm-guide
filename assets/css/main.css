@@ -837,15 +837,6 @@ h2.card-title {
     border-radius: 10px;
 }
 
-.navbar-brand {
-    font-size: 2.5em;
-    color: var(--primary-theme-color);
-}
-
-.navbar-brand:hover {
-    color: var(--main-text-color);
-}
-
 #search-input {
     border-radius: 10px;
     border: 0px;
