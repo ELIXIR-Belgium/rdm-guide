@@ -204,7 +204,7 @@ pre code {
 
 .search .fa-search {
     position: absolute;
-    top: 12px;
+    top: 14px;
     left: 15px;
     color:var(--primary-theme-color)
 }
