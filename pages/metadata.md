@@ -46,7 +46,8 @@ Since data repositories can require that submitted datasets must be described ac
 [Metadata schemes in practice](metadata_in_practice)
 
 
-## Further reading
-* Data description in practice. *Utrecht University* https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice.
-* Metadata. *Ghent University* https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata.
-* Metadata for Data Management: A Tutorial. *UNC University Libraries* https://guides.lib.unc.edu/metadata.
+## Sources and further reading
+### Sources
+* Data description in practice. *Utrecht University* <https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice>.
+* Metadata. *Ghent University* <https://www.ugent.be/en/research/datamanagement/during-research/documentation.htm#Metadata>.
+* Metadata for Data Management: A Tutorial. *UNC University Libraries* <https://guides.lib.unc.edu/metadata>.

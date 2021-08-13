@@ -47,6 +47,7 @@ If you want to close or restrict access to your data, you must explain your ethi
 ## Select repositories based on data access type
 [Registry of Research data Repositories](https://www.re3data.org/search?query=) (or re3data.org) allows you to filter the list of repositories based on data access type.
 
-## Further reading
-* Restricting access to data. *Researcher Support University of Westminster* https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data.
-* Data Publication: Controlling access to published data. *The University of Sydney* https://libguides.library.usyd.edu.au/datapublication/access.
+## Sources and further reading
+### Sources
+* Restricting access to data. *Researcher Support University of Westminster* <https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data>.
+* Data Publication: Controlling access to published data. *The University of Sydney* <https://libguides.library.usyd.edu.au/datapublication/access>.
