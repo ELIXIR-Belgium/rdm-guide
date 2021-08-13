@@ -1,5 +1,5 @@
 ---
-title: PRoteomics IDEntifications (PRIDE) database
+title: PRoteomics IDEntifications (PRIDE)
 ---
 ## PRIDE features
 ### How to submit data

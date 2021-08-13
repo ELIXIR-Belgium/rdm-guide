@@ -119,6 +119,7 @@ Excellent readme file guides and templates can be found here:
 * [README Files](https://datamanagement.hms.harvard.edu/readme-files). *Harvard University*.
 * [Guidelines for creating a README file](https://researchdata.4tu.nl/fileadmin/user_upload/Documenten/Guidelines_for_creating_a_README_file.pdf). *4TU*.
 
-## Further reading
-* Data Documentation and Metadata. *University of Bath* https://library.bath.ac.uk/research-data/working-with-data/data-documentation-metadata#s-lg-box-wrapper-17445057.
-* Files and Folders: README files. *Libraries Research Guides University of Utah* https://campusguides.lib.utah.edu/c.php?g=997634&p=7221520.
+## Sources and further reading
+### Sources
+* Data Documentation and Metadata. *University of Bath* <https://library.bath.ac.uk/research-data/working-with-data/data-documentation-metadata#s-lg-box-wrapper-17445057>.
+* Files and Folders: README files. *Libraries Research Guides University of Utah* <https://campusguides.lib.utah.edu/c.php?g=997634&p=7221520>.
