@@ -12,7 +12,7 @@ The full complement of genetic material in an organism is called its genome. The
 The European Nucleotide Archive (ENA) provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.
 
 * European Genome-phenome Archive (EGA).
-  The EGA provides a service for the permanent archiving and distribution of personally identifiable genetic and phenotypic data resulting from biomedical research projects. Data at EGA was collected from individuals whose consent agreements authorise data release only for specific research use to bona fide researchers. Strict protocols govern how information is managed, stored and distributed by the EGA project. Nature Genetics 47, 692–695, (2015)| <doi:10.1038/ng.3312>.
+  The EGA provides a service for the permanent archiving and distribution of personally identifiable genetic and phenotypic data resulting from biomedical research projects. Data at EGA was collected from individuals whose consent agreements authorise data release only for specific research use to bona fide researchers. Strict protocols govern how information is managed, stored and distributed by the EGA project. Nature Genetics 47, 692–695, (2015)| <https://doi.org/10.1038/ng.3312>.
 
 
 ## Metabolomics
@@ -39,7 +39,7 @@ PRIDE is a repository for mass spectra data. PRIDE database was set up to enable
 UniProt is a curated and annotated protein sequence knowledge base. The mission of UniProt is to provide the scientific community with a comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
 
 
-### Transcriptomics
+## Transcriptomics
 
 ### Transcriptome
 A transcriptome is the full range of messenger RNA, or mRNA, molecules expressed by an organism. In contrast with the genome, which is characterized by its stability, the transcriptome actively changes. In fact, an organism's transcriptome varies depending on many factors, including stage of development and environmental conditions ([Scitable by Nature Education](https://www.nature.com/scitable/definition/transcriptome-296/)).

@@ -44,7 +44,7 @@ subitems:
         url: /ena.html
       - title: MetaboLights
         url: /metabolights.html
-      - title: PRoteomics IDEntifications (PRIDE) database
+      - title: PRoteomics IDEntifications (PRIDE)
         url: /pride.html
       - title: UniProt
         url: /uniprot.html
