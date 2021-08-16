@@ -180,10 +180,13 @@ pre code {
     font-family: var(--title-font);
 }
 
-.navbar-nav .nav-item a.active {
+.navbar-nav .nav-item a {
+    border-radius: 10px;
+}
+
+.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
-    border-radius: 10px;
 }
 
 .navbar-toggler {
