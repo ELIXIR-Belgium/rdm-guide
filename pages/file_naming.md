@@ -47,7 +47,8 @@ This illegible file name can only make sense if it is accompanied with a codeboo
 Some useful tools for file naming can be found [here](https://libguides.graduateinstitute.ch/rdm/filenames).
 Bulk renaming of files can be done with the Bulk Rename Utility in Windows, or with software such as Ant Renamer, RenameIT or Rename4Mac.
 
-## Further reading
-* File Naming. *The Graduate Institute Geneva* https://libguides.graduateinstitute.ch/rdm/filenames.
-* File naming. *Ghent University* https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Filenaming.
-* Organizing data. *UK Data Service* https://www.ukdataservice.ac.uk/manage-data/format/organising.
+## Sources and further reading
+### Sources
+* File Naming. *The Graduate Institute Geneva* <https://libguides.graduateinstitute.ch/rdm/filenames>.
+* File naming. *Ghent University* <https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Filenaming>.
+* Organizing data. *UK Data Service* <https://www.ukdataservice.ac.uk/manage-data/format/organising>.

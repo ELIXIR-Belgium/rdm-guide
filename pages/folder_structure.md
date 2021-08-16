@@ -27,6 +27,7 @@ A folder structure convention should be agreed to and adopted by the entire grou
 * Create similar folders in different places (overlapping categories or folder redundancy).
 * Create copies of files in different folders.
 
-## Further reading
-* Folder Structure. *The Graduate Institute Geneva* https://libguides.graduateinstitute.ch/rdm/folders.
-* Folder/data organisation. *Ghent University* https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Folder/dataorganization.
+## Sources and further reading
+### Sources
+* Folder Structure. *The Graduate Institute Geneva* <https://libguides.graduateinstitute.ch/rdm/folders>.
+* Folder/data organisation. *Ghent University* <https://www.ugent.be/en/research/datamanagement/during-research/collection.htm#Folder/dataorganization>.

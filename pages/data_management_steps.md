@@ -50,5 +50,6 @@ Tools and guidelines available in Belgium for DMP can be found in RDM Guide unde
 
 Common data management best practices, guidelines, tools and resources provided by the ELIXIR community can be found in the [RDMkit](https://rdmkit.elixir-europe.org/index.html).
 
-## Further reading
-* Where should I deposit my data? *Jisc RDM Toolkit* https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/
+## Sources and further reading
+### Sources
+* Where should I deposit my data? *Jisc RDM Toolkit* <https://rdmtoolkit.jisc.ac.uk/share-and-publish/where-should-i-deposit-my-data/>.

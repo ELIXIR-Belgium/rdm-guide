@@ -73,3 +73,6 @@ All database records submitted to the ENA will remain permanently accessible as 
 The top-level Project accession should be [cited](existing_data) as well as a link to where the data can be found in the browser, as shown in the example [here](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html?highlight=accession#how-to-cite-your-ena-study).
 
 ## Tips for data submission
+
+### SARS-CoV-2 data
+ELIXIR Belgium developed and compiled Galaxy tools and workflows necessary to clean, assemble and submit SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). Read more in the [Covid-19 section](covid-19/index.md).
