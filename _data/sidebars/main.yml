@@ -38,15 +38,18 @@ subitems:
     #   url: /personal_data.html
   - title: Data Management for Omics Data
     output: web
+    url: /omics_data.html
     subitems:
-      - title: Genomics
-        url: /genomics.html
-      - title: Metabolomics
-        url: /metabolomics.html
-      - title: Proteomics
-        url: /proteomics.html
-      - title: Transcriptomics
-        url: /transcriptomics.html
+      - title: European Nucleotide Archive (ENA)
+        url: /ena.html
+      - title: MetaboLights
+        url: /metabolights.html
+      - title: PRoteomics IDEntifications (PRIDE)
+        url: /pride.html
+      - title: UniProt
+        url: /uniprot.html
+      - title: ArrayExpress
+        url: /arrayexpress.html
   - title: Covid-19
     url: /covid-19/index.html
     subitems:

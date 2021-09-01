@@ -345,7 +345,7 @@ pre code {
     margin-bottom: 4px;
     display: block;
     position: relative;
-    padding: 7px 20px;
+    padding: 7px 19px;
     border-radius: 10px;
     border: 1px solid #c9cdd0;
     font-size: 17px;
@@ -854,4 +854,21 @@ h2.card-title {
     background-color: var(--light-grey);
     border-radius: 10px;
     padding: .5rem 1rem;
+}
+
+.alert {
+    border: 0;
+    border-radius: 10px;
+}
+
+.alert-warning {
+    background-color: #f2d3659e;
+}
+
+.alert-danger {
+    background-color: #f285659e;
+}
+
+.alert-info {
+    background-color: #2ca2c659;
 }

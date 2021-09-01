@@ -51,11 +51,12 @@ Repositories can be selected based on data licence and sharing policy by using [
 * [How to add a Creative Commons license to your work](https://www.youtube.com/watch?v=5QxkuuiZwRU), Kingsborough Community College E-Learning.
 
 
-## Further reading
-* Copyright. *Your Europe* https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1.
-* European IP Helpdesk. *European Commission* https://intellectual-property-helpdesk.ec.europa.eu/regional-helpdesks/european-ip-helpdesk_en
-* Sharing data. *Ghent University* https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm. 
-* When is research data protected? *OpenAIRE* https://www.openaire.eu/protection-of-research-data.
-* Research data how to license. *OpenAIRE* https://www.openaire.eu/research-data-how-to-license/.
-* How do I know if my research data is protected? *OpenAIRE* https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected.
-* How do I license my research data? *OpenAIRE* https://www.openaire.eu/how-do-i-license-my-research-data.
+## Sources and further reading
+### Sources
+* Copyright. *Your Europe* <https://europa.eu/youreurope/business/running-business/intellectual-property/copyright/index_en.htm#shortcut-1>.
+* European IP Helpdesk. *European Commission* <https://intellectual-property-helpdesk.ec.europa.eu/regional-helpdesks/european-ip-helpdesk_en>.
+* Sharing data. *Ghent University* <https://www.ugent.be/en/research/datamanagement/after-research/sharing.htm>. 
+* When is research data protected? *OpenAIRE* <https://www.openaire.eu/protection-of-research-data>.
+* Research data how to license. *OpenAIRE* <https://www.openaire.eu/research-data-how-to-license/>.
+* How do I know if my research data is protected? *OpenAIRE* <https://www.openaire.eu/how-do-i-know-if-my-research-data-is-protected>.
+* How do I license my research data? *OpenAIRE* <https://www.openaire.eu/how-do-i-license-my-research-data>.
