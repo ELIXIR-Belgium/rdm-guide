@@ -162,10 +162,17 @@ pre code {
 
 .navbar {
     background-color: var(--nav-bg);
+    border-bottom: 1px solid #c9cdd0;
 }
 
 .navbar-brand img {
-    height: 45px;
+    height: 55px;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 50px;
+    }
 }
 
 .navbar-nav .nav-item>a, .navbar-nav .nav-item .form-control::placeholder {
@@ -174,10 +181,13 @@ pre code {
     font-family: var(--title-font);
 }
 
-.navbar-nav .nav-item a.active {
+.navbar-nav .nav-item a {
+    border-radius: 10px;
+}
+
+.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
-    border-radius: 10px;
 }
 
 .navbar-toggler {
@@ -198,9 +208,9 @@ pre code {
 
 .search .fa-search {
     position: absolute;
-    top: 12px;
+    top: 14px;
     left: 15px;
-    color:var(--primary-theme-color)
+    color: var(--primary-theme-color)
 }
 
 .search-results {
@@ -337,6 +347,7 @@ pre code {
     position: relative;
     padding: 7px 19px;
     border-radius: 10px;
+    border: 1px solid #c9cdd0;
     font-size: 17px;
     color: #333;
     text-decoration: none;
@@ -419,6 +430,7 @@ pre code {
 
 #toc {
     padding: 15px;
+    border: 1px solid #dde1e4;
     background-color: var(--light-grey);
     margin: 1.75em 0 2em;
     padding: 10px 25px;
@@ -498,6 +510,7 @@ main img.registry_logo {
 
 footer {
     background-color: var(--footer-bg);
+    border-top: 1px solid #c9cdd0;
     color: var(--footer-color);
     font-size: 0.9em;
     line-height: 24px;
@@ -599,7 +612,7 @@ h2.card-title {
 .btn-custom {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     font-family: var(--title-font);
-    background-color: var(--light-grey);
+    background-color: var(--white);
     padding: 7px 11px;
     transition: .2s;
     -webkit-transition: .2s;
@@ -607,7 +620,7 @@ h2.card-title {
     -o-transition: .2s;
     border-radius: 10px;
     text-align: left;
-    border: 0;
+    border: 1px solid #c9cdd0;
 }
 
 .btn-custom:active {
@@ -636,7 +649,6 @@ h2.card-title {
 .contributor-cards .card {
     background-color: var(--light-grey);
     border-radius: 10px;
-    border: 0px;
 }
 
 .contributor-cards .badge {
@@ -833,15 +845,15 @@ h2.card-title {
 
 #main {
     background-color: var(--white);
+    border: 1px solid #c9cdd0;
     padding: 43px 50px;
     border-radius: 10px;
 }
 
 #search-input {
-    border-radius: 10px;
-    border: 0px;
-    padding: .5rem 1rem;
     background-color: var(--light-grey);
+    border-radius: 10px;
+    padding: .5rem 1rem;
 }
 
 .alert {
