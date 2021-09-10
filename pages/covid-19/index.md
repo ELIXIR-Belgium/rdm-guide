@@ -58,7 +58,7 @@ We have divided the guide into two sections:
 
 ### Support for Belgian researchers
 
-We provide support for Belgian researchers to submit data as a service, through the brokering mechanism of ENA. To this end, we host the dedicated Galaxy instance [covid19.useGalaxy.be](covid19.useGalaxy.be), which contains all the tools and workflows discussed here. For more information or to request access credentials contact *datasub at elixir-belgium.org*.
+We provide support for Belgian researchers to submit data as a service, through the brokering mechanism of ENA. To this end, we host the dedicated Galaxy instance [covid19.useGalaxy.be](https://covid19.useGalaxy.be), which contains all the tools and workflows discussed here. For more information or to request access credentials contact *datasub at elixir-belgium.org*.
 
 
 

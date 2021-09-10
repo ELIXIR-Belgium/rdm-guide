@@ -187,7 +187,7 @@ pre code {
 
 .navbar-nav>.nav-item>a.active, .navbar-nav>.nav-item>a:hover {
     color: var(--white-text);
-    background-color: var(--light-grey);
+    background-color: var(--primary-theme-color);
 }
 
 .navbar-toggler {
