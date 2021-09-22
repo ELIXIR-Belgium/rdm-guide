@@ -8,4 +8,6 @@ RDM Guide is an information resource about research data management for biologis
 
 ## License
 
-Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License; all the material under this licence can be freely used, as long as ELIXIR Belgium RDM Guide is credited as the author.
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>, except where otherwise noted; all the material under this licence can be freely used, as long as ELIXIR Belgium RDM Guide is credited as the author.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
