@@ -40,7 +40,7 @@ Metadata fields could be dose, time, date, frequency, measurement unit, geograph
 Use controlled vocabulary and data validation as much as you can to avoid mistakes, such as typos, misspelling, synonymous etc.
 
 4. **Use standard metadata schema and ontology.**\\
-Use standard metadata schema and [ontology](ontology) as much as possible, so that your data can be reused and different experiments can be easily compared.
+Use standard metadata schema and ontology as much as possible, so that your data can be reused and different experiments can be easily compared.
 
 5. **Do not include calculation nor graphs in the metadata sheet.**\\
 Metadata sheet should only contain metadata and/or raw data. For calculation and graphs, make a copy of the spreadsheet.
