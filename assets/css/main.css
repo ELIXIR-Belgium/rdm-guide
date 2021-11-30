@@ -158,6 +158,13 @@ pre code {
     border-radius: 0;
 }
 
+/* make sure urls don't break trough the body of the website */
+main a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
 /*-----Top navigation-----*/
 
 .navbar {
