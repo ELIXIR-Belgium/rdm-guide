@@ -18,6 +18,9 @@ Study-level documentation describes the project title and summary, study aims, a
 
 Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID or type (numeric, string, regular expression, date, etc), units (i.e., cm, kg…), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing values code and so on. Data-level documentation should be impossible to misinterpret or misunderstand by other researchers and by your future-self.
 
+## What is metadata?
+Metadata is highly structured documentation. Machine-readable or -actionable metadata make your (meta)data more findable, accessible, interoperable and reusable. For more information about metadata and machine-actionable (meta)data see [RDMkit](https://rdmkit.elixir-europe.org/index.html) pages [Documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management.html) and [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability.html).
+
 
 ## Documentation during the project
 
@@ -40,11 +43,11 @@ If the information needed to understand the data is in a journal article or in a
 
 ### Documentation in a web submission form of the deposition database or repository
 
-In some cases, repositories and archives have specific [metadata fields](metadata) in their web submission form, which could require a specific [ontology](ontology) or controlled vocabulary. Find out the fields of the submission form of the repository to which you are planning to submit your data, copy these fields into your data documentation and fill these in as you go through your project. You can copy the collected information into the online form when publishing your data.
+In some cases, repositories and archives have specific metadata fields in their web submission form, which could require a specific ontology or controlled vocabulary. Find out the fields of the submission form of the repository to which you are planning to submit your data, copy these fields into your data documentation and fill these in as you go through your project. You can copy the collected information into the online form when publishing your data.
 
 ### Documentation in a separate structured metadata file
 
-Some disciplines have developed structured [metadata schemes](metadata) for recording supporting information. Find out the fields of the metadata scheme, download or copy these fields into your data documentation and fill these in as you go through your project. Some repositories could allow a structured metadata file to accompany files/data being deposited in the repository.
+Some disciplines have developed structured metadata schemes for recording supporting information. Find out the fields of the metadata scheme, download or copy these fields into your data documentation and fill these in as you go through your project. Some repositories could allow a structured metadata file to accompany files/data being deposited in the repository.
 
 ### Documentation in a 'README' file
 
