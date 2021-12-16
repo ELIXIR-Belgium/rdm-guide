@@ -66,7 +66,7 @@ Before collecting or generating data, login into Annotare and create one “expe
   * Click on **“Save as Spreadsheets”**. Two spreadsheets will be downloaded, *idf* and *sdfr* files, that can be opened as Excel files. You can rename and save them on the cloud storage service recommended by your institution.
 
 2.  **Use idf and sdrf as template for your study.**\\
-You can use the *idf* file as a generic [metadata](metadata) sheet to describe “Investigation Title”, “Experimental Factor”, “Protocols” etc, according to EFO ontology, and the *sdrf* file to describe individual observations/samples and measurements during the project.
+You can use the *idf* file as a generic metadata sheet to describe “Investigation Title”, “Experimental Factor”, “Protocols” etc, according to EFO ontology, and the *sdrf* file to describe individual observations/samples and measurements during the project.
 
 3.  **Add ontology and/or control vocabulary in the template.**\\
 You can use [RightField](https://rightfield.org.uk) to embed any [ontology](ontology) into the metadata fields of the template (*idf* and/or *sdrf* files) and then save it as a simple Excel file. You can also create a [controlled vocabulary dropdown lists using Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us).

@@ -8,7 +8,7 @@ It is good practice to publish research data at the end of a project, especially
 
 A recommended way to publish data is by deposition into an online repository, that will store your data and make it accessible to others. Repositories can be general or discipline specific; we suggest using disciplinary repositories to increase the impact of your data among your peers.
 
-Before generating data, consider in what repository you want to publish it at the end of the project. This gives you the advantage of structuring the data and the [metadata](metadata) according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.
+Before generating data, consider in what repository you want to publish it at the end of the project. This gives you the advantage of structuring the data and the metadata according to the repository’s guidelines since the beginning, enabling an easy data submission at the end.
 
 By starting with the end in mind, you will avoid spending time restructuring the data and rewriting metadata at the end of the project, when collecting the necessary information can be difficult.
 
