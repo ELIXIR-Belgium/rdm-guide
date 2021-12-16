@@ -56,8 +56,8 @@ Unique accession numbers are minted for every study submitted.
 
 
 ## Guide and manual
-https://www.ebi.ac.uk/metabolights/guides/study/overview
+Quick Start Overview. *MetaboLights* <https://www.ebi.ac.uk/metabolights/guides/study/overview>.
 
-https://www.ebi.ac.uk/metabolights/help
+Online Study Submission. *MetaboLights* <https://www.ebi.ac.uk/metabolights/help>.
 
-## Tips for data submission
+<!-- ## Tips for data submission -->

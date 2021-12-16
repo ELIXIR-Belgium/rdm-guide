@@ -5,7 +5,7 @@ title: PRoteomics IDEntifications (PRIDE)
 ### How to submit data
 PRIDE established and is part of [ProteomeXchange (PX)](http://www.proteomexchange.org) consortium of Mass Spectrometry (MS) proteomics resources, with the overall aim of standardizing data submission and dissemination of proteomics data worldwide.
 
-The current way of submitting data to PRIDE is following the PX consortium’s guidelines. The main tool to submit data is the [PX Submission Tool](https://www.ebi.ac.uk/pride/help/archive/submission). Here you can find [PX/PRIDE submissions guidelines](https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf) and [training material](https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride).
+The current way of submitting data to PRIDE is following the PX consortium’s guidelines. The main tool to submit data is the [PX Submission Tool](https://www.ebi.ac.uk/pride/help/archive/submission). Here you can find [PRIDE Resources Documentation](https://www.ebi.ac.uk/pride/markdownpage/documentationpage) and [training material](https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride).
 
 There are two types of submissions to PRIDE (or to any other ProteomeXchange resource):
 * **Complete Submissions.** A complete submission ensures that the processed results (at least the identification data) and the corresponding mass spectra can be parsed, integrated and visualised by PRIDE, connecting the identification data to the corresponding mass spectra. To achieve that, **processed identification results need to be provided in a PSI open standard format (either mzIdentML or mzTab)**.\\
@@ -21,7 +21,7 @@ Non-personal data (non-identifiable).
 PRIDE follows [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use/) for data access. EMBL-EBI itself places no additional restrictions on the use or redistribution of the data available via its online services other than those provided by the original data owners. The original data may be subject to rights claimed by third parties, including but not limited to, patent, copyright, other intellectual property rights, biodiversity-related access and benefit-sharing rights.
 
 ### Embargo
-Possible. By default, your data will be made publicly available after your manuscript has been accepted, or when PRIDE receives your instructions to do so. While PRIDE may also receive acceptance notifications from some journals, all submitters should notify it separately. Submitters can apply for a 6-month extraordinary extension ([PRIDE FAQ](https://www.ebi.ac.uk/pride/help/archive/faq#public-release-PX)).
+Possible. By default, your data will be made publicly available after your manuscript has been accepted, or when PRIDE receives your instructions to do so. While PRIDE may also receive acceptance notifications from some journals, all submitters should notify it separately. Submitters can apply for a 6-month extraordinary extension ([PRIDE Post-submission steps](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#post-submission_steps)).
 
 ### Data licence
 PRIDE has no default license type, it follows [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use).
@@ -86,18 +86,17 @@ A complete description of file formats can be found [here](https://www.ebi.ac.uk
 No limit for data volume. No costs.
 
 ### Data quality
-[PRIDE Quality Control](https://www.ebi.ac.uk/pride/help/archive/faq#Quality-Control).
+[PRIDE Archive Identification Results](https://www.ebi.ac.uk/pride/markdownpage/resultpage#).
 
 ### Identifiers
 After the submission, you will be issued with not only a ProteomeXchange accession number but also with a permanent [DOI (Digital Object Identifier)](identifiers) to uniquely identify your dataset in the future.
 
 ## Guide and manual
-https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#how_to_submit_data
+How to submit data to PRIDE. *PRIDE Resources Documentation* <https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#how_to_submit_data>.
 
-https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf
-https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool
+PRIDE Submission Tool. *PRIDE Resources Documentation* <https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool>.
 
-http://www.proteomexchange.org/docs/guidelines_px.pdf
+<!-- http://www.proteomexchange.org/docs/guidelines_px.pdf -->
 
 
-## Tips for data submission
+<!-- ## Tips for data submission -->

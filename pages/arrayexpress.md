@@ -69,7 +69,7 @@ Before collecting or generating data, login into Annotare and create one “expe
 You can use the *idf* file as a generic metadata sheet to describe “Investigation Title”, “Experimental Factor”, “Protocols” etc, according to EFO ontology, and the *sdrf* file to describe individual observations/samples and measurements during the project.
 
 3.  **Add ontology and/or control vocabulary in the template.**\\
-You can use [RightField](https://rightfield.org.uk) to embed any [ontology](ontology) into the metadata fields of the template (*idf* and/or *sdrf* files) and then save it as a simple Excel file. You can also create a [controlled vocabulary dropdown lists using Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us).
+You can use [RightField](https://rightfield.org.uk) to embed any ontology into the metadata fields of the template (*idf* and/or *sdrf* files) and then save it as a simple Excel file. You can also create a [controlled vocabulary dropdown lists using Excel](https://support.microsoft.com/en-us/office/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b?ui=en-us&rs=en-us&ad=us).
 
 4.  **Copy the template into Annotare at the end of the study.**\\
 Using such a template to record (meta)data and measurements about your observations/samples during the study, allows you to easily submit data into Annotare at the end of the study, just by copying all the needed information into the submission tool. Moreover, the template could be reused and/or adapted for other studies in your project.
