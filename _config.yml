@@ -1,51 +1,19 @@
-url: rdm.elixir-belgium.org
-repository: ELIXIR-Belgium/rdm-guide
-
-# topnav_title:
-# this appears on the top navigation bar next to the home button
-
-site_title: RDM Guide
+title: RDM Guide
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-
-company_name: ELIXIR Belgium
-# this appears in the page_ending
-
-# github_editme_path: 
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 description: "RDM Guide is an information resource about research data management for biologists and scientists in Life Sciences, curated by ELIXIR Belgium."
 # Metadata description of the website
 
-host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
 gtag: G-6S2ZD2MBXX
 # Google analytics tag
 
-exclude:
-  - .gitignore
-  - README.md
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.0.0
 
-# feedback_subject_line: 
-
-# contact_email: rdm-editors@elixir-europe.org
-# used as a contact email for the Feedback link in the top navigation bar
-
-feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-
-# feedback_text: "Give feedback"
-# if you uncomment the previous line, it changes the Feedback text
-
-markdown: kramdown
-highlighter: rouge
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
+theme_variables:
+  theme_color: de4d00
+  fonts:
+    - https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap
+    - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
 
 defaults:
   -

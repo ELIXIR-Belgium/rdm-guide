@@ -1,0 +1,22 @@
+#main {
+    background-color: $white;
+    border-radius: $border-radius;
+    padding: $spacer * 3;
+    border: 1px solid $border-dark;
+}
+
+header nav {
+    border-bottom: 1px solid $border-dark;
+}
+
+footer {
+    border-top: 1px solid $border-dark;
+}
+
+.btn-group .btn, #toc {
+    border: 1px solid $border-light;
+}
+
+.menu li a, .contributor-cards .btn {
+    border: 1px solid $border-dark;
+}

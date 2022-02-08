@@ -31,7 +31,7 @@ search_exclude: true
 </div>
 
 # ENA submission quick-start
-{% include note.html content="For more detailed information on the container and the ENA submission process read the documentation found on ELIXIR Belgium's [RDM Guide](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)" %}
+{% include callout.html type="note" content="For more detailed information on the container and the ENA submission process read the documentation found on ELIXIR Belgium's [RDM Guide](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)" %}
 
 
 ## 1. Log in to Galaxy and load your ENA credentials:

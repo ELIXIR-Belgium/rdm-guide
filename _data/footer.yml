@@ -1,0 +1,28 @@
+copyright: "[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) RDM Guide by [ELIXIR Belgium](https://elixir-belgium.org/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), except where otherwise noted.<br> All material under this licence can be freely used, as long as ELIXIR Belgium [RDM Guide](https://rdm.elixir-belgium.org) is credited as the author"
+extra_line: 
+columns:
+  - type: image
+    image_width: 120px
+    width: 3
+    src: 'assets/img/ELIXIR_BELGIUM_white_background.svg'
+    alt: ELXIIR Belgium logo
+  - type: image
+    image_width: 120px
+    width: 3
+    src: 'images/FWO-logo.svg'
+    alt: FWO logo
+  - type: links
+    width: 3
+    children: 
+      - url_text: ELIXIR-Belgium
+        external_url: https://elixir-belgium.org/
+      - url_text: About us
+        url: /about_us.html
+      - url_text: Privacy
+        url: /privacy.html
+  - type: image
+    image_width: 88px
+    width: 3
+    src: 'assets/img/rdmguide_logo_condesed_4.svg'
+    alt: RDM Guide logo condensed
+

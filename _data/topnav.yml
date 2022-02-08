@@ -1,11 +1,7 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
-topnav:
-- title: Topnav
-  items:
-    - title: Home
-      url: /index.html
-    - title: About Us
-      url: /about_us.html
-    - title: GitHub
-      external_url: https://github.com/ELIXIR-Belgium/data_management_hub
+subitems:
+  - title: Home
+    url: /index.html
+  - title: About Us
+    url: /about_us.html
