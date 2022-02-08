@@ -21,3 +21,9 @@ main {
 .menu li a, .contributor-cards .btn, .sidebar-collapse {
     border: 1px solid $border-dark;
 }
+
+/*-----Top navigation-----*/
+
+.navbar-nav .nav-item > a.active {
+    color: $primary;
+}
