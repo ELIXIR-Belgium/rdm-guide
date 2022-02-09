@@ -34,3 +34,15 @@ main {
 .navbar-nav .nav-item > a.active {
     color: $primary;
 }
+
+/*-----Size components-----*/
+
+.mw-600 {
+    max-width: 600px;
+}
+
+/*-----Custom primary button-----*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+    color: $white;
+}
