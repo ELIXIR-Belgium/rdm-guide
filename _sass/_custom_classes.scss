@@ -1,0 +1,48 @@
+/*-----General styling-----*/
+main {
+    background-color: $white;
+    border-radius: $border-radius;
+    padding: $spacer * 3;
+    border: 1px solid $border-dark;
+
+    a {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        -ms-word-break: break-all;
+        word-break: break-word;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #main {
+        padding: $spacer * .5;
+    }
+}
+
+/*-----Extra borders-----*/
+
+.btn-group .btn {
+    border: 1px solid $border-light;
+}
+
+.menu li a, .contributor-cards .btn, .sidebar-collapse {
+    border: 1px solid $border-dark;
+}
+
+/*-----Top navigation-----*/
+
+.navbar-nav .nav-item > a.active {
+    color: $primary;
+}
+
+/*-----Size components-----*/
+
+.mw-600 {
+    max-width: 600px;
+}
+
+/*-----Custom primary button-----*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+    color: $white;
+}

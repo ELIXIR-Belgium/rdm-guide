@@ -1,11 +1,10 @@
 ---
 title: Submission of SARS-Cov-2 assemblies to ENA
-keywords: [covid-19, SARS-Cov-2, ENA, data-submission, viral genomesm, assemblies]
 summary: A guide to submit SARS-Cov-2 assemblies to ENA.
 permalink: covid-19/sarscov2_assembly_submission.html
 ---
 
-{% include note.html content="The content is still under construction." %}
+{% include callout.html type="note" content="The content is still under construction." %}
 
 ## General
 This second part of the documentation explains how to run the COVID-19 analysis workflows to generate a consensus sequence and how to submit it to ENA.
@@ -56,7 +55,7 @@ In most cases, the **Assembly type** will be *Isolate* and **Molecule type** wil
 
 If the consensus was generated using the Galaxy workflows described in [section 7](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7-run-the-variation-analysis-workflow) and [8](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#8-run-the-consensus-construction-workflow), then the **Assembly program** and **Coverage** metadata can be found in the alignment report (html) file Fig. 8d.
 
-{% include important.html content="**Study** and **Sample** accession numbers are needed to submit consensus sequences to ENA" %}
+{% include callout.html type="note" content="**Study** and **Sample** accession numbers are needed to submit consensus sequences to ENA" %}
 
 You can choose to input the rest of the metadata interactively or if the reads were submitted using the [Galaxy reads submission tool](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#5-upload-metadata-and-submit-to-ENA), a metadata receipt was produced that contains most of the metadata needed to submit consensus sequences to ENA, including **Study** and **Sample** accession numbers. This metadata is linked to the consensus sequences by the original reads filename and can be parsed to extract the metadata associated with the reads/consensus.
 

@@ -1,6 +1,5 @@
 ---
 title: Submission of SARS-Cov-2 raw reads to ENA.
-keywords: [covid-19, SARS-Cov-2, ENA, data-submission, viral sequences]
 summary: A guide to submit SARS-Cov-2 read data to ENA.
 permalink: covid-19/sarscov2_submission.html
 ---
@@ -12,9 +11,9 @@ This section explains how to set up the Galaxy Docker container and use it to re
 ## Walkthrough of reads submission to ENA using the Galaxy container
 
 A screencast is available on our youtube channel that will guide you through all the steps discussed below:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="ratio ratio-16x9 mw-600">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## 1. Setting up the Galaxy container
 
@@ -97,9 +96,9 @@ Select the filtering tool from the **Tools** panel on the left.
 
 The tool will now process the raw reads to remove reads that map to the human genome. This can take a while. The resulting filtered data files are found on the right panel.
 
-{% include warning.html content="Machines with 8GB or less of memory might not complete this step. A workaround this issue is to increase the size of the swap file or swap partition. See FAQ section." %}
+{% include callout.html type="note" content="Machines with 8GB or less of memory might not complete this step. A workaround this issue is to increase the size of the swap file or swap partition. See FAQ section." %}
 
-{% include important.html content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
+{% include callout.html type="note" content="The processed sequence file (human  reads removed) will have the same filename as the raw file but a **higher number** assigned by Galaxy." %}
 
 ## Optional: create a collection
 Galaxy collections help you organize your data and minimize your history clutter. If you plan to use the [Galaxy COVID-19 genome analysis workflows]((https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#7-run-the-variation-analysis-workflow)) you must organize your reads data into collections.
@@ -165,7 +164,7 @@ This tool accepts individual datasets, mixed collections or paired-end collectio
 
 Finally, fill in the Affiliation center and click on 'Execute'. The output of a successful submission in Galaxy are four metadata tables (Fig. 8a) and a submission 'receipt' (Fig. 8b).
 
-{% include important.html content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
+{% include callout.html type="note" content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
 
 
 {% include image.html file="succesful_reads_submission.png" alt="successful reads submission" caption="Figure 8. Output of a successful reads submission to ENA. The submission receipt contains metadata used for consensus sequence submission."%}
