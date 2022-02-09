@@ -1,6 +1,5 @@
 ---
 title: Submission of SARS-Cov-2 raw reads to ENA.
-keywords: [covid-19, SARS-Cov-2, ENA, data-submission, viral sequences]
 summary: A guide to submit SARS-Cov-2 read data to ENA.
 permalink: covid-19/sarscov2_submission.html
 ---
@@ -12,9 +11,9 @@ This section explains how to set up the Galaxy Docker container and use it to re
 ## Walkthrough of reads submission to ENA using the Galaxy container
 
 A screencast is available on our youtube channel that will guide you through all the steps discussed below:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="ratio ratio-16x9 mw-600">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/POiQG-7O7rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## 1. Setting up the Galaxy container
 
