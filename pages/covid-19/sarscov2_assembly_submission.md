@@ -1,5 +1,5 @@
 ---
-title: Submission of SARS-Cov-2 assemblies to ENA
+title: Submission of SARS-Cov-2 assemblies to ENA in Galaxy
 summary: A guide to submit SARS-Cov-2 assemblies to ENA.
 permalink: covid-19/sarscov2_assembly_submission.html
 ---
