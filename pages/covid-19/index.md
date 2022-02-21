@@ -12,29 +12,31 @@ To achieve this, we have collaboratively developed and compiled Galaxy tools and
 
 ## The tools
 ### Human reads cleaning tool
-In order to comply with Europe’s General Data Protection Regulation [(GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en), traces of human genetic information must be removed from the raw data before submitting it to ENA. We have wrapped [Metagen-FastQC](https://github.com/Finn-Lab/Metagen-FastQC) as a Galaxy tool for this purpose.
+In order to comply with Europe’s General Data Protection Regulation [(GDPR)](https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en), traces of human genetic information must be removed from the raw data before submitting it to ENA. We have wrapped [Metagen-FastQC](https://github.com/Finn-Lab/Metagen-FastQC) as a Galaxy tool for this purpose. More information on how to use this tool can be found on our [Submission of SARS-Cov-2 raw reads](/covid-19/sarscov2_submission.html#4-filter-human-reads-out-of-the-raw-reads) page.
 
-### The ENA reads submission tool
+### The ENA reads submission tool (command line)
 
 Uploading [raw reads to ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) can be done using the website, webin-CLI or programmatically through curl commands.
 Programmatic submissions are more convenient for bulk uploads, but require bioinformatic skills to generate the XML metadata files and to upload the data through ftp.
 To address this, ELIXIR Belgium together with the lab of Björn Grüning have developed a python command line interface (CLI) that:
 - Makes submission easier for bioinformaticians
-- Generates the required XML files out of easier-to-use tsv files
-- Takes care of the ftp uploading
+- Generates the required XML files out of easier-to-use tsv files or excel templates
+- Takes care of the ftps uploading
 - Validates the metadata before submission
+- Can add, modify, cancel and release study, sample, experiment and run objects
 
-The python package *ena-upload-cli* is published on [pip](https://pypi.org/project/ena-upload-cli/) and [bioconda](https://anaconda.org/bioconda/ena-upload-cli). For more information on how to use this tool please visit the github page of *[ena-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli)*.
+The python package *ena-upload-cli* is published on [pip](https://pypi.org/project/ena-upload-cli/) and [bioconda](https://anaconda.org/bioconda/ena-upload-cli). For more information on how to use this tool please visit the github page of **[ena-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli)**.
 
 ### The Galaxy ENA reads submission tool
-To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://toolshed.g2.bx.psu.edu/view/iuc/ena_upload/382518f24d6d). The ENA upload tool is part of the Intergalactic Utilities Commission (IUC), a curated collection of Galaxy tools. In [this repository](https://github.com/galaxyproject/tools-iuc/tree/master/tools/ena_upload) you can find all the information on how to install the tool yourself if you are administrator of a Galaxy instance .
+To make the process more user-friendly and allow most researchers without informatics experience to submit sequences to ENA without using command line, the tool was wrapped as a [Galaxy tool](https://toolshed.g2.bx.psu.edu/view/iuc/ena_upload). The ENA upload tool is part of the Intergalactic Utilities Commission (IUC), a curated collection of Galaxy tools. In [this repository](https://github.com/galaxyproject/tools-iuc/tree/master/tools/ena_upload) you can find all the information on how to install the tool yourself if you are administrator of a Galaxy instance.
+More information on how to use the tool itself can be found on our [Submission of SARS-Cov-2 raw reads](/covid-19/sarscov2_submission.html#5-upload-metadata-and-submit-to-ena) page.
 
 ### COVID-19 genome analysis workflows
-We have included the COVID-19 variant discovery and consensus building Galaxy workflows by [Maier et al. (2001)](https://doi.org/10.1101/2021.03.25.437046). They allow the analysis of Illumina WGS and amplicon as well as ONT amplicon data.
+We have included the COVID-19 variant discovery and consensus building Galaxy workflows by [Maier et al. (2001)](https://doi.org/10.1101/2021.03.25.437046). They allow the analysis of Illumina WGS and amplicon as well as ONT amplicon data. 
 
 ### The Galaxy ENA consensus submission tool
 A Galaxy wrapper of [ENA Webin-CLI](https://github.com/enasequence/webin-cli) submission tool was made to submit SARS-CoV-2 consensus data to ENA.
-
+More information on how to use the tool itself can be found on our [Submission of SARS-Cov-2 assemblies](/covid-19/sarscov2_assembly_submission.html) page.
 
 All these tools and workflows are included in a custom Galaxy Docker container for ease of deployment. This guide describes processing and submission of SARS-CoV-2 sequence data using the tools and workflows in this container. A [short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) is recommended for users unfamiliar with the platform.
 
