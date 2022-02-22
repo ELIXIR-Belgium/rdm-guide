@@ -21,10 +21,13 @@ A screencast is available on our youtube channel that will guide you through all
 2. Make sure docker is installed and available on your path. To check this, simply type ```docker run hello-world``` in the Terminal or and press enter. If Docker is installed it will give some usage information back. For more information on how to install docker please visit [this website](https://docs.docker.com/get-docker/).
 3. Run following command in the terminal to run the container:\\
     **Linux/Windows:**
+
     ```
     docker run -p "8080:80" --privileged quay.io/galaxy/ena-upload
     ```
+
     **MacOS:**
+    
     ```
     docker run -p "8080:80" quay.io/galaxy/ena-upload:hg38
     ```
