@@ -159,7 +159,7 @@ Four tsv files can be uploaded, one each for study, sample, experiment and run m
 Export the completed tables to tsv files and upload them using Galaxy upload tool.
 
 
-Complete the metadata template (spreadsheet and tsv tables) in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
+Complete the metadata template (spreadsheet and tsv tables) in your computer. **All fields of the template must be complete**. [Here](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
 Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on 'Execute'.
 
 ### Select the correct checklist
