@@ -5,7 +5,7 @@ permalink: covid-19/sarscov2_submission.html
 ---
 
 ## General
-This section explains how to set up the Galaxy Docker container and use it to remove human traces from raw data and to submit reads to ENA.
+This section explains how to set up the Galaxy Docker container and use it to remove human traces from raw data and to submit reads to ENA. If you want to make use of an existing Galaxy instance that contains our tool, you can skip the first step. You can also find the content of this page on the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html).
 
 
 ## Walkthrough of reads submission to ENA using the Galaxy container
@@ -67,9 +67,7 @@ More information on data upload to Galaxy can be found in [Galaxy support](https
 Your data should appear in green on the right history panel (Fig. 3). You can rename, tag, preview edit or delete data objects from here.
 {% include image.html file="history_galaxy.png" alt="history galaxy" caption="Figure 3. Files that are uploaded will show up in the history panel."%}
 
-The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fas fa-pencil-alt"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*.
-
-
+The files need to be in *fastq.gz* or *fastq.bz2* compressed format. Galaxy will try to guess the datatype during upload. If it fails to do so correctly, you can <i class="fas fa-pencil-alt"></i> Edit the dataset's attibutes and manually change the <i class="fa fa-database"></i> datatype to *fastq.gz*
 
 
 ## 4. Filter human reads out of the raw reads
@@ -87,9 +85,6 @@ Select the filtering tool from the **Tools** panel on the left.
 
 
 <!-- include table or link to table explaining all metadata fields. Use the same in Galaxy (include table at bottom) -->
-
-
-
 
 {% include image.html file="new_read_cleaning_tool.png" alt=" Read cleaning tool" caption="Figure 4. The interface of the read cleaning tool."%}
 
@@ -114,30 +109,34 @@ The datasets are paired by name (Fig. 6b), and you can name the collection (Fig.
 {% include image.html file="make_PE_collection_menu.png" alt="make_PE_collection_menu" caption="Figure 6 Create a collection of paired datasets ."%}
 
 
-
-
-
-
-
 ## 5. Upload metadata and submit to ENA
-The **ENA Upload tool** under **Submission tools** is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting **'Yes'** on **'Submit to test ENA server?''**.
 
+The **ENA Upload tool** under **Submission tools** is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. 
+
+### Execution mode
+
+By default the tool is set to `add new data`, which will add new metadata objects and data to ENA. By changing the *Action to execute* dropbox to modify, one can also modify his existing entries on ENA. 
+
+
+### Testing options
+
+It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours. Do this by selecting **'Yes'** on **'Submit to test ENA server?'**. There is also the possibility to run the client side metadata validation without submitting to the ENA servers by selecting **'Yes'** on **'Print the tables but do not submit the datasets'**.
+
+### Metadata upload
 
 Submission to ENA requires accompanying metadata that complies with the [ENA metadata model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
 
 The tool offers three ways of entering metadata for submission:
 * Using the [metadata spreadsheet template](https://drive.google.com/file/d/1Gx78GKh58PmRjdmJ05DBbpObAL-3oUFX/view?usp=sharing) (default, Fig. 7a)
 * Interactively generating the metadata structure (Fig. 7b)
-* Using the 4 tsv templates (legacy, Fig. 7c)
+* Using 4 tsv tables (legacy, Fig. 7c)
 
 All three allow you to make a submission to either the test or production server of ENA. All metadata fields must be completed for the submission to go through. The submission tool will validate the metadata before submission.
 
-
 {% include image.html file="3_ways_metadata.png" alt="2ways of submitting metadata" caption="Figure 7. Three ways of submitting the metadata through the ENA-upload tool."%}
 
+The spreadsheet, interface and tsv tables are organized following the ENA model:
 
-#### Upload with the metadata spreadsheet template
-For submission of a large number of files, we recommend to use the Excel template to upload the metadata. The template for SARS-Cov-2 submissions can be found [here](https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing). The template is organized according to the ENA metadata model and contains one worksheet each for study, sample, experiment and run metadata:
 - A **study (project)** groups together data submitted to the archive and controls its release date. A study accession is typically used when citing data submitted to ENA.
 - A **sample** contains information about the sequenced source material. Samples are associated with checklists, which define the fields used to annotate the samples. Samples are always associated with a taxon.
 - An **experiment** contains information about a sequencing experiment including library and instrument details.
@@ -146,18 +145,30 @@ For submission of a large number of files, we recommend to use the Excel templat
 
 Use the *_alias* field on each sheet to interlink the experiments, studies, runs, samples and files with each other. The template can be downloaded, completed and uploaded using the Galaxy upload tool.
 
-Complete the metadata template in your computer. **All fields of the template must be complete**. [Here](https://drive.google.com/file/d/1Z3LszV6IkgmcESsz2K7Mdv8pcnolUHT5/view?usp=sharing) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
-Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on 'Execute'.
+
+#### Spreadsheet template upload
+
+ For submission of a large number of files, we recommend to use the Excel template to upload the metadata. The spreadsheet contains one worksheet each for study, sample, experiment and run metadata. A [template repository](https://github.com/ELIXIR-Belgium/ENA-metadata-templates) is in place that supports a spreadsheet with controlled vocabulary build in for every checklist on ENA. 
 
 
 #### Interactive metadata upload
 For a small number of submissions, metadata is best entered interactively in Galaxy using the submission tool. Metadata fields are nested according to ENA metadata model described above.
 
 #### Tabular (tsv) metadata tables (Legacy)
-Four tsv files can be uploaded, one each for study, sample, experiment and run metadata. Example tsv files can be found [here](https://github.com/usegalaxy-eu/ena-upload-cli/tree/master/example_tables).
+Four tsv files can be uploaded, one each for study, sample, experiment and run metadata. Example tsv files can be found 
 Export the completed tables to tsv files and upload them using Galaxy upload tool.
 
-#### Select data and submit
+
+Complete the metadata template (spreadsheet and tsv tables) in your computer. **All fields of the template must be complete**. [Here](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx) you can find an example of part of the metadata associated with an actual submission to ENA (accession number PRJEB40711). Upload the metadata file to Galaxy, and select it on **'File based on templates here:'**.
+Finally, select the human-filtered data files associated with the metadata, fill in the Affiliation center and click on 'Execute'.
+
+### Select the correct checklist
+
+You can specify the ENA sample checklist using the dropdown. The supported checklists are described on the [ENA website](https://www.ebi.ac.uk/ena/browser/checklists). If you want to submit SARS-Cov-2 raw reads, you you have to use the `ENA virus pathogen reporting standard checklist` checklist by adding ERC000033 to the checklist parameter. 
+
+{% include image.html file="checklist_selection.png" alt="Selection of the correct checklist" caption="Figure 8. Select the correct ENA metadata checklist"%}
+
+### Select data and submit
 Next, select the human-filtered data files associated with the metadata and select the correct metadata file for each section.
 This tool accepts individual datasets, mixed collections or paired-end collections.You can make collections for [single end](https://galaxyproject.org/tutorials/collections/#a-simple-collection-example) or [paired end datasets](https://galaxyproject.org/tutorials/collections/#a-paired-collection-example).
 
@@ -167,7 +178,7 @@ Finally, fill in the Affiliation center and click on 'Execute'. The output of a 
 {% include callout.html type="note" content="As well as submitting the data to ENA, this tool will generate a submission 'receipt', which contains most of the metadata needed for submitting consensus sequence to ENA, explained in [section 9](https://rdm.elixir-belgium.org/covid-19/sarscov2_assembly_submission.html#9-submit-consensus-sequence-to-ENA)" %}
 
 
-{% include image.html file="succesful_reads_submission.png" alt="successful reads submission" caption="Figure 8. Output of a successful reads submission to ENA. The submission receipt contains metadata used for consensus sequence submission."%}
+{% include image.html file="successful_reads_submission.png" alt="successful reads submission" caption="Figure 9. Output of a successful reads submission to ENA. The submission receipt contains metadata used for consensus sequence submission."%}
 
 
 
