@@ -11,18 +11,19 @@ search_exclude: true
             <tbody>
                 <tr>
                     <td>
-                        <h1>Hello, your <strong>ENA-upload Galaxy</strong> container is running!</h1><br>
-                        <p> This container is optimized to clean human reads from raw reads and to upload them to
+                        <h1>Hello, your <strong>Galaxy SARS2CoV-2 Sequence</strong> container is running!</h1><br>
+                        <p> This container is optimized to clean human reads from raw reads, make assemblies and to upload both the assembly and raw reads to
                             ENA,
                             this in only a few steps. The ENA uploading is based on the tool ena-upload-cli while
                             the
-                            reads cleaning tool is based on Metagen-FastQC workflow.
+                            reads cleaning tool is based on Metagen-FastQC workflow. 
                         </p>
                     </td>
                     <td>
                         <div>
                             <img src="./images/welcome_elixir_logo.png" style="margin:10px; height:100px;">
                         </div>
+
                     </td>
                 </tr>
             </tbody>
