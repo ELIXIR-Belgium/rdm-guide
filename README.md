@@ -1,6 +1,6 @@
 [![Jekyll site CI](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml)
 
-<img src="https://raw.githubusercontent.com/ELIXIR-Belgium/rdm-guide/master/assets/img/rdmguide_logo_4.svg" alt="RDM Guide logo" width="450"/>
+<img src="https://raw.githubusercontent.com/ELIXIR-Belgium/rdm-guide/master/assets/img/main_logo.svg" alt="RDM Guide logo" width="450"/>
 
 # Research Data Management Guide
 
