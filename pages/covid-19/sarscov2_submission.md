@@ -167,7 +167,7 @@ Finally, select the human-filtered data files associated with the metadata, fill
 
 ### Select the correct checklist
 
-You can specify the ENA sample checklist using the dropdown. The supported checklists are described on the [ENA website](https://www.ebi.ac.uk/ena/browser/checklists). If you want to submit SARS-Cov-2 raw reads, you you have to use the `ENA virus pathogen reporting standard checklist` checklist by adding ERC000033 to the checklist parameter. 
+You can specify the ENA sample checklist using the dropdown. The supported checklists are described on the [ENA website](https://www.ebi.ac.uk/ena/browser/checklists). If you want to submit SARS-Cov-2 raw reads, you have to select the `ENA virus pathogen reporting standard checklist (ERC000033)` checklist in the dropdown menu as seen in Figure 8. 
 
 {% include image.html file="checklist_selection.png" alt="Selection of the correct checklist" caption="Figure 8. Select the correct ENA metadata checklist"%}
 
