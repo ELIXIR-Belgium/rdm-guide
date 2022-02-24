@@ -23,7 +23,6 @@ search_exclude: true
                         <div>
                             <img src="./images/welcome_elixir_logo.png" style="margin:10px; height:100px;">
                         </div>
-
                     </td>
                 </tr>
             </tbody>

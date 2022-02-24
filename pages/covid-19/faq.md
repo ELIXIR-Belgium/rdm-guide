@@ -27,15 +27,25 @@ docker run -p "8080:80" quay.io/galaxy/ena-upload:hg38
 ### Is my session lost after closing the terminal?
 If you close the terminal, the container will be stopped, but will not be deleted. If you want to re-use this Galaxy session please run:
 
-**Linux/Windows:**
-```
-docker start quay.io/galaxy/ena-upload
-```
+- **Linux/Windows:**
+    
+    *Raw read submission + assembly workflows:*
 
-**MacOS:**
-```
-docker start quay.io/galaxy/ena-upload:hg38
-```
+    ```
+    docker start quay.io/galaxy/covid-19-upload
+    ```
+    *Raw read submission only:*
+    ```
+    docker start quay.io/galaxy/ena-upload
+    ```
+
+- **MacOS:**
+    
+    *Raw read submission only:*
+
+    ```
+    docker start quay.io/galaxy/ena-upload:hg38
+    ```
 
 ### Running the containers is taking a lot of storage space, is this normal?
 If you are playing around with containers you might run into the fact that they can take up a lot of storage space. This can be avoided by deleting all your existing containers/images and volumes if you don't need them anymore. Use following commands to do so:

@@ -60,7 +60,7 @@ You can choose to input the rest of the metadata interactively or if the reads w
 
 <!---Figure 11 here with submission tool options  --->
 
-Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your submissions or [dev Webin](https://wwwdev.ebi.ac.uk/ena/submit/webin) to check on test submissions as explained in [section 6](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#6-check-for-a-valid-submission)
+Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your submissions or [dev Webin](https://wwwdev.ebi.ac.uk/ena/submit/webin) to check on test submissions as explained in [section 6](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html#6-check-for-a-valid-submission). 
 
 
 ## 10. Stopping and deleting the container (optional)
@@ -68,20 +68,33 @@ Visit [Webin online](https://www.ebi.ac.uk/ena/submit/webin) to check on your su
 The container can be stopped by simply closing the terminal. In this case the container will still be there. If your submission was successful and you don't need the instance anymore, you can delete the container and its corresponding image using following steps:
 
 1. Check the name of your container you want to delete
+
     ```
     docker container list -a
     ```
 2. Delete the container using its name (seen in the NAMES column)
+
     ```
     docker container rm NAME
     ```
 3. Delete the image (when you don't want to use the galaxy instance in the foreseeable future)\\
-    **Linux/Windows:**
-    ```
-    docker rmi quay.io/galaxy/ena-upload
-    ```If the reads were submitted using the Galaxy reads submission tool, a metadata ticket was produced that contains most of the metadata needed to submit consensus sequences to ENA.
 
-    **MacOS:**
-    ```
-    docker rmi quay.io/galaxy/ena-upload:hg38
-    ```
+    - **Linux/Windows:**
+        
+        *Raw read submission + assembly workflows:*
+
+        ```
+        docker rmi quay.io/galaxy/covid-19-upload
+        ```
+        *Raw read submission only:*
+        ```
+        docker rmi quay.io/galaxy/ena-upload
+        ```
+
+    - **MacOS:**
+        
+        *Raw read submission only:*
+    
+        ```
+        docker rmi quay.io/galaxy/ena-upload:hg38
+        ```
