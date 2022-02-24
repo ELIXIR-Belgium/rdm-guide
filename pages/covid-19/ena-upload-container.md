@@ -58,9 +58,9 @@ Filter human traces from your raw data using **Clean human reads from raw data**
 The **ENA Upload tool** under **Submission tools** is used to generate the metadata in the right format, associate it with the sequence data files and submit everything to ENA. It is advisable to first test your submissions using the Webin test service where changes are not permanent and are erased every 24 hours.
 
 The tool offers three ways of entering metadata for submission:
-* Complete the [metadata spreadsheet template](https://drive.google.com/file/d/1dulhBEfRO56ldCnuaIhjjtNbJDxQ5K1v/view?usp=sharing) and upload it as in step 2 or;
+* Complete the [metadata spreadsheet template](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx) and upload it as in step 2 or;
 * Interactively generate the metadata structure or;
-* Complete the 4 [tsv templates](https://github.com/usegalaxy-eu/ena-upload-cli/tree/master/example_tables) and upload as in step 2.
+* Complete the 4 [tsv templates](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/) and upload as in step 2.
 
 After uploading or completing the metadata, select the corresponding (human traces removed) data files, fill in your affiliation and click on 'Execute'.
 
