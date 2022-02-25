@@ -7,7 +7,7 @@ description: "RDM Guide is an information resource about research data managemen
 gtag: G-6S2ZD2MBXX
 # Google analytics tag
 
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@cookie-banner-border
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.4.3
 
 theme_variables:
   theme_color: de4d00
