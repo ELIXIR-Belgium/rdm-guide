@@ -9,6 +9,8 @@ gtag: G-6S2ZD2MBXX
 
 plausible: rdm.elixir-belgium.org
 # Plausible tag
+plausible_src:  https://plausible.psb.ugent.be/js/plausible.js
+# default: 'https://plausible.io/js/plausible.js
 
 remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.5.0
 
