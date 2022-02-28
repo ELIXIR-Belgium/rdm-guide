@@ -7,7 +7,10 @@ description: "RDM Guide is an information resource about research data managemen
 gtag: G-6S2ZD2MBXX
 # Google analytics tag
 
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.4.3
+plausible: rdm.elixir-belgium.org
+# Plausible tag
+
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.5.0
 
 theme_variables:
   theme_color: de4d00
@@ -16,8 +19,7 @@ theme_variables:
     - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:

@@ -15,7 +15,7 @@ main {
 
 @media only screen and (max-width: 576px) {
     #main {
-        padding: $spacer * .5;
+        padding: $spacer * 0.5;
     }
 }
 
@@ -25,7 +25,9 @@ main {
     border: 1px solid $border-light;
 }
 
-#menu li a, .contributor-cards .btn, .sidebar-collapse {
+#menu li a,
+.contributor-cards .btn,
+.sidebar-collapse {
     border: 1px solid $border-dark;
 }
 
@@ -43,6 +45,8 @@ main {
 
 /*-----Custom primary button-----*/
 
-.btn-primary, .btn-primary:hover, .btn-primary:active {
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
     color: $white;
 }
