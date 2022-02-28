@@ -14,6 +14,8 @@ $link-decoration: none;
 $font-family-sans-serif: "Open Sans", sans-serif;
 $navbar-dark-toggler-border-color: transparent;
 $btn-padding-x: 1rem;
+$border-radius: 10px;
+$btn-border-radius-sm: $border-radius;
 $input-group-addon-bg: $light;
 $card-cap-bg: $light;
 $card-border-color:  $border-light;
@@ -28,4 +30,4 @@ $h3-font-size: 1rem * 1.5 !default;
 $h4-font-size: 1rem * 1.1 !default;
 $h5-font-size: 1rem !default;
 $h6-font-size: 1rem !default;
-$border-radius: 10px;
+
