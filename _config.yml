@@ -10,7 +10,7 @@ gtag: G-6S2ZD2MBXX
 plausible: rdm.elixir-belgium.org
 # Plausible tag
 
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@plausible
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.5.0
 
 theme_variables:
   theme_color: de4d00
