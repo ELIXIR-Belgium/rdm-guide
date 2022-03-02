@@ -20,8 +20,8 @@ subitems:
         url: /data_publication.html
       - title: Data licences
         url: /data_licences.html
-    #  - title: Metadata
-    #    url: /metadata.html
+      - title: Metadata
+        url: /metadata.html
       - title: Identifiers
         url: /identifiers.html
     # - title: Ontology

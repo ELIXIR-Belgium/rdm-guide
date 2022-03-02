@@ -19,14 +19,16 @@ Study-level documentation describes the project title and summary, study aims, a
 Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID or type (numeric, string, regular expression, date, etc), units (i.e., cm, kg…), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing values code and so on. Data-level documentation should be impossible to misinterpret or misunderstand by other researchers and by your future-self.
 
 ## What is metadata?
-Metadata is highly structured documentation. Machine-readable or -actionable metadata make your (meta)data more findable, accessible, interoperable and reusable. For more information about metadata and machine-actionable (meta)data see [RDMkit](https://rdmkit.elixir-europe.org/index.html) pages [Documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management.html) and [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability.html).
+
+Metadata is highly structured documentation (see [Metadata](metadata) page). Machine-readable or -actionable metadata make your (meta)data more findable, accessible, interoperable and reusable. For more information about metadata and machine-actionable (meta)data see [RDMkit](https://rdmkit.elixir-europe.org/index.html) pages [Documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management.html) and [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability.html).
 
 
 ## Documentation during the project
 
-It is recommended to establish a shared data organisation system for files (or tables in a database) and documents in your team. The established data organization system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, TSV, RDF, HTML). The description of the data organization system has to be placed in the folder at the highest level (e.g. “Project” folder).
+It is recommended to establish a shared data organisation system for files (or tables in a database) and documents in your team. The established data organization system has to be described in detail in the documentation, preferably in open (i.e. .TXT) and machine-readable formats (i.e., XML, JSON, CSV, TSV, RDF, HTML). The description of the data organization system has to be placed in the folder at the highest level (e.g. “Project” folder).
 
 Both study- and data-level documentation must be generated as early as possible in the research process and also maintained, in order to be accurate and complete. Study-level and data-level documentation can be provided as
+* Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS) or similar software.
 * README file.
 * [Codebook](https://ddialliance.org/training/getting-started-new-content/create-a-codebook).
 
@@ -47,7 +49,7 @@ In some cases, repositories and archives have specific metadata fields in their 
 
 ### Documentation in a separate structured metadata file
 
-Some disciplines have developed structured metadata schemes for recording supporting information. Find out the fields of the metadata scheme, download or copy these fields into your data documentation and fill these in as you go through your project. Some repositories could allow a structured metadata file to accompany files/data being deposited in the repository.
+Some disciplines have developed structured metadata schemas (e.g. ISA model and MAGE-Tab) and checklists (e.g. ENA samples checklists) for recording supporting information. Find out the fields of the metadata schema and checklist, download or copy these fields into your data documentation and fill these in as you go through your project. Some repositories could allow a structured metadata file to accompany files/data being deposited in the repository.
 
 ### Documentation in a 'README' file
 
