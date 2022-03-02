@@ -34,8 +34,8 @@ You can find the right repository for your data by following the steps described
 ## What you need to know about your favourite repositories
 Before start generating or collecting data, there are three things that you need to learn about the selected repositories:
 
-### 1. Metadata schemes and ontologies
-Information about a specific metadata schemes and ontologies required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your data when you start generating or collecting data. Read more about [metadata scheme in practice](metadata_in_practice).
+### 1. Metadata schemas and ontologies
+Information about a specific metadata schemas and ontologies required by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Take this information and use it to describe your data when you start generating or collecting data. Read more about [Standard metadata in practice](metadata_in_practice).
 
 ### 2. File formats
 Information about file format(s) accepted by a data repository should be found on the repository’s website, usually under the “Help” or “Submit” section. Knowing what file formats are accepted by the repository of your choice, at the beginning of the project, allows you to immediately use the appropriate format for your datafiles. Read more about recommended [file formats](file_formats).
