@@ -7,3 +7,4 @@ _pdf
 vendor/
 .bundle/
 _site
+Gemfile.lock
