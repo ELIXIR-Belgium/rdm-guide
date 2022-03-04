@@ -35,5 +35,5 @@ defaults:
       topnav: topnav
 
 plugins:
-  - jekyll-remote-theme
+  - jemoji
 
