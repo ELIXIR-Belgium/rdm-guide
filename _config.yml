@@ -12,7 +12,11 @@ plausible: rdm.elixir-belgium.org
 plausible_src:  https://plausible.psb.ugent.be/js/plausible.js
 # default: 'https://plausible.io/js/plausible.js
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.5.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@no-gemlock
+
+sass:
+  style: compressed
+  sourcemap: never
 
 theme_variables:
   theme_color: de4d00
@@ -33,4 +37,5 @@ defaults:
       topnav: topnav
 
 plugins:
-  - jemoji
+  - jekyll-remote-theme
+
