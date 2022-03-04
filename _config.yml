@@ -31,8 +31,6 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      comments: false
-      search: true
       sidebar: main
       topnav: topnav
 
