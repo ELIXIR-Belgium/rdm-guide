@@ -7,7 +7,7 @@ ELIXIR supports the [European Corona action plan](https://ec.europa.eu/info/site
 
 ELIXIR Belgium promotes and encourages the publication of all scientific data related to the Covid  pandemic and provides the tools, know-how and brokering services for researchers to do so. Our first action is to support the submission of SARS-Cov-2 nucleotide sequences to public repositories.
 
-To achieve this, we have collaboratively developed and compiled Galaxy tools and workflows necessary to clean, assemble and submit SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). There are many advantages of using Galaxy including a graphical user interface, access to tools and workflows for pre-processing, downstream analysis and visualization of sequences (including SARS-CoV-2-specific ones, Maier et al., 2021). Galaxy also provides a platform for sharing of data and metadata, facilitating international collaboration, integration with other public resources and enabling publishing FAIR data and analysis workflows.
+To achieve this, we have collaboratively developed and compiled Galaxy tools and workflows necessary to clean, assemble and submit SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). There are many advantages of using Galaxy including a graphical user interface, access to tools and workflows for pre-processing, downstream analysis and visualization of sequences (including SARS-CoV-2-specific ones, [Maier et al., 2021](https://doi.org/10.1101/2021.03.25.437046)). Galaxy also provides a platform for sharing of data and metadata, facilitating international collaboration, integration with other public resources and enabling publishing FAIR data and analysis workflows.
 
 
 ## The tools
@@ -32,7 +32,7 @@ To make the process more user-friendly and allow most researchers without inform
 More information on how to use the tool itself can be found on our [Submission of SARS-Cov-2 raw reads](/covid-19/sarscov2_submission.html#5-upload-metadata-and-submit-to-ena) page.
 
 ### COVID-19 genome analysis workflows
-We have included the COVID-19 variant discovery and consensus building Galaxy workflows by [Maier et al. (2001)](https://doi.org/10.1101/2021.03.25.437046). They allow the analysis of Illumina WGS and amplicon as well as ONT amplicon data. 
+We have included the COVID-19 variant discovery and consensus building Galaxy workflows by [Maier et al. (2021)](https://doi.org/10.1101/2021.03.25.437046). They allow the analysis of Illumina WGS and amplicon as well as ONT amplicon data. 
 
 ### The Galaxy ENA consensus submission tool
 A Galaxy wrapper of [ENA Webin-CLI](https://github.com/enasequence/webin-cli) submission tool was made to submit SARS-CoV-2 consensus data to ENA.
