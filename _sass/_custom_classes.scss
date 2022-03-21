@@ -14,7 +14,7 @@ main {
 
 /*-----Extra borders-----*/
 
-.btn-group .btn {
+.btn-group .btn, #toc {
     border: 1px solid $border-light;
 }
 
@@ -22,6 +22,14 @@ main {
 .contributor-cards .btn,
 .sidebar-collapse {
     border: 1px solid $border-dark;
+}
+
+footer, .cookiealert {
+    border-top: 1px solid $border-dark;
+}
+
+nav.navbar {
+    border-bottom: 1px solid $border-dark;
 }
 
 /*-----Top navigation-----*/
