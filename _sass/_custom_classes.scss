@@ -38,6 +38,12 @@ nav.navbar {
     color: $primary;
 }
 
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 47px !important;
+    }
+}
+
 /*-----Size components-----*/
 
 .mw-600 {
