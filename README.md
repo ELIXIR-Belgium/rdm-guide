@@ -1,4 +1,4 @@
-[![Jekyll site CI](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml)
+[![Jekyll site CI](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ELIXIR-Belgium/rdm-guide/actions/workflows/jekyll.yml) [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
 <img src="https://raw.githubusercontent.com/ELIXIR-Belgium/rdm-guide/master/assets/img/main_logo.svg" alt="RDM Guide logo" width="450"/>
 
