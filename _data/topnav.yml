@@ -2,6 +2,6 @@
 ## if you want to list an external url, use external_url instead of url. The theme will apply a different link base.
 subitems:
   - title: Home
-    url: /index.html
+    url: /index
   - title: About Us
-    url: /about_us.html
+    url: /about_us

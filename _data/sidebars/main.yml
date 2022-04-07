@@ -1,62 +1,62 @@
 subitems:
   - title: Data Management in Simple Steps
     output: web
-    url: /data_management_steps.html
+    url: /data_management_steps
   - title: Data Management Plan
     output: web
-    url: /about_DMP.html
+    url: /about_DMP
     subitems:
       - title: Online tools for DMP
-        url: /online_tools_for_dmp.html
+        url: /online_tools_for_dmp
       - title: Data in DMP
-        url: /data_in_dmp.html
+        url: /data_in_dmp
       - title: Existing data
-        url: /existing_data.html
+        url: /existing_data
       - title: File formats
-        url: /file_formats.html
+        url: /file_formats
       - title: Data volume
-        url: /data_volume.html
+        url: /data_volume
       - title: Data publication
-        url: /data_publication.html
+        url: /data_publication
       - title: Data licences
-        url: /data_licences.html
+        url: /data_licences
       - title: Metadata
-        url: /metadata.html
+        url: /metadata
       - title: Identifiers
-        url: /identifiers.html
+        url: /identifiers
     # - title: Ontology
-    #   url: /ontology.html
+    #   url: /ontology
       - title: Data documentation
-        url: /data_documentation.html
+        url: /data_documentation
       - title: Data organization
-        url: /data_organization.html
+        url: /data_organization
     # - title: Costs for sharing and storing data
-    #   url: /costs_for_sharing_and_storing_data.html
+    #   url: /costs_for_sharing_and_storing_data
     # - title: Data quality
-    #   url: /data_quality.html
+    #   url: /data_quality
     # - title: Personal data
-    #   url: /personal_data.html
+    #   url: /personal_data
   - title: Data Management for Omics Data
     output: web
-    url: /omics_data.html
+    url: /omics_data
     subitems:
       - title: European Nucleotide Archive (ENA)
-        url: /ena.html
+        url: /ena
       - title: MetaboLights
-        url: /metabolights.html
+        url: /metabolights
       - title: PRoteomics IDEntifications (PRIDE)
-        url: /pride.html
+        url: /pride
       - title: UniProt
-        url: /uniprot.html
+        url: /uniprot
       - title: ArrayExpress
-        url: /arrayexpress.html
+        url: /arrayexpress
   - title: Covid-19 data submission
-    url: /covid-19/index.html
+    url: /covid-19/index
     subitems:
       - title: SARS-CoV-2 raw reads submission in Galaxy
-        url: /covid-19/sarscov2_submission.html
+        url: /covid-19/sarscov2_submission
       - title: SARS-CoV-2 assembly submission in Galaxy
-        url: /covid-19/sarscov2_assembly_submission.html
+        url: /covid-19/sarscov2_assembly_submission
       - title: Frequently asked questions
-        url: /covid-19/faq.html
+        url: /covid-19/faq
 
