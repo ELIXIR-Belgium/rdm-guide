@@ -18,6 +18,9 @@ sass:
   style: compressed
   sourcemap: never
 
+exclude:
+  - README.md
+
 theme_variables:
   theme_color: de4d00
   fonts:
