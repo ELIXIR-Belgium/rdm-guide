@@ -27,3 +27,6 @@ Common data management best practices, guidelines, tools and resources provided 
 ### Sources
 * Schiermeier Q. Data management made simple. *Nature* **555**, <https://doi.org/10.1038/d41586-018-03071-1> (2018).
 * Data management plans. *Stanford libraries*, <https://library.stanford.edu/research/data-management-services/data-management-plans>.
+
+### Further reading
+* Everyone needs a data-management plan. *Nature* **555**, 286; <https://doi.org/10.1038/d41586-018-03065-z> (2018).
