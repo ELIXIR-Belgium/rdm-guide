@@ -51,3 +51,6 @@ If you want to close or restrict access to your data, you must explain your ethi
 ### Sources
 * Restricting access to data. *Researcher Support University of Westminster* <https://www.westminster.ac.uk/research/researcher-support/research-data/archiving-data/restricting-access-to-data>.
 * Data Publication: Controlling access to published data. *The University of Sydney* <https://libguides.library.usyd.edu.au/datapublication/access>.
+
+### Further reading
+* Wilson, S.L. *et al.* Sharing biological data: why, when, and how. *FEBS Letter*. **595**, 847-863; <https://doi.org/10.1002/1873-3468.14067> (2021).
