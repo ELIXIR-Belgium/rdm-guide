@@ -1,5 +1,5 @@
 ---
-permalink: covid-19/faq.html
+permalink: covid-19/faq
 title: Frequently asked questions
 ---
 
