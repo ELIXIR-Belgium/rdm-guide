@@ -1,7 +1,7 @@
 ---
 title: Submission of SARS-Cov-2 raw reads to ENA in Galaxy
 summary: A guide to submit SARS-Cov-2 read data to ENA.
-permalink: covid-19/sarscov2_submission.html
+permalink: covid-19/sarscov2_submission
 ---
 
 ## General

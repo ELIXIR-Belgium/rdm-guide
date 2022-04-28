@@ -1,5 +1,5 @@
 ---
-permalink: covid-19/ena-upload-container.html
+permalink: covid-19/ena-upload-container
 toc: false
 hide_sidebar: true
 search_exclude: true

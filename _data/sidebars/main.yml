@@ -51,7 +51,7 @@ subitems:
       - title: ArrayExpress
         url: /arrayexpress
   - title: Covid-19 data submission
-    url: /covid-19/index
+    url: /covid-19/
     subitems:
       - title: SARS-CoV-2 raw reads submission in Galaxy
         url: /covid-19/sarscov2_submission

@@ -1,6 +1,6 @@
 ---
 title: Covid-19 data submission
-permalink: covid-19/index.html
+permalink: covid-19/
 ---
 
 ELIXIR supports the [European Corona action plan](https://ec.europa.eu/info/sites/info/files/covid-firsteravscorona_actions.pdf) and plays an important role in the development of the [COVID-19 Data Portal](https://www.covid19dataportal.org). As the life-science data Research Infrastructure in Europe, ELIXIR is in a unique position to help increase the amount of publicly available Covid-related data and facilitate its processing, publication and reuse.
