@@ -3,10 +3,14 @@ title: Other
 toc: true
 ---
 
-## 1. [H2020, HorizonEurope] Indicate whether other national/funder/sectorial/departmental procedures for data management are used.
+## 1. Indicate whether other national/funder/sectorial/departmental procedures for data management are used.
+### Asked by
+[H2020, HorizonEurope]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section  | DMP question                                                                                                                                                              |
 |---------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FWO           | na           | na                                                                                                                                                                        |
@@ -16,10 +20,14 @@ toc: true
 | HorizonEurope | Other issues | Do you, or will you, make use of other national/funder/sectorial/departmental procedures for data management? If yes, which ones (please list and briefly describe them)? |
 | ScienceEurope | na           | na                                                                                                                                                                        |
 
-## 2. [HorizonEurope] If some of the questions in this DMP can be applied to other research outputs, such as physical materials, step-by-step protocols and software, specify here how these other outputs will be managed, shared and made available for reuse during and after the project.
+## 2. If some of the questions in this DMP can be applied to other research outputs, such as physical materials, step-by-step protocols and software, specify here how these other outputs will be managed, shared and made available for reuse during and after the project.
+### Asked by
+[HorizonEurope]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section           | DMP question                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FWO           | na                    | na                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |

@@ -3,11 +3,15 @@ title: DMP versioning information
 toc: true
 ---
 
-## 1. [H2020, HorizonEurope] Version number.
+## 1. Version number.
+### Asked by
+[H2020, HorizonEurope]
 <!--### Meaning-->
-### Example answers:
+### Example answers
 v1.1
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                | DMP question                                                                                      |
 |---------------|----------------------------|---------------------------------------------------------------------------------------------------|
 | FWO           | na                         | na                                                                                                |
@@ -17,11 +21,15 @@ v1.1
 | HorizonEurope | na                         | DMP version                                                                                       |
 | ScienceEurope | Administrative information | Provide information such as name of applicant, project number, funding programme, version of DMP. |
 
-## 2. [H2020] Changes in this version.
-### Meaning:
+## 2. Changes in this version.
+### Asked by
+[H2020]
+### Meaning
 Describe the changes made in this DMP version compared to the previous one.
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                | DMP question                                                                                      |
 |---------------|----------------------------|---------------------------------------------------------------------------------------------------|
 | FWO           | na                         | na                                                                                                |
@@ -31,11 +39,15 @@ Describe the changes made in this DMP version compared to the previous one.
 | HorizonEurope |                         |    |
 | ScienceEurope | na                         | na    |
 
-## 3. [H2020] Completion date of first version.
-### Meaning:
+## 3. Completion date of first version.
+### Asked by
+[H2020]
+### Meaning
 When was the first version of the DMP completed?
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section            | DMP question        |
 |---------------|------------------------|---------------------|
 | FWO           | na                     | na                  |
@@ -45,10 +57,14 @@ When was the first version of the DMP completed?
 | HorizonEurope |                        |                     |
 | ScienceEurope | na                     | na                  |
 
-## 4. [H2020, HorizonEurope] Date of the last update.
+## 4. Date of the last update.
+### Asked by
+[H2020, HorizonEurope]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section            | DMP question        |
 |---------------|------------------------|---------------------|
 | FWO           | na                     | na                  |

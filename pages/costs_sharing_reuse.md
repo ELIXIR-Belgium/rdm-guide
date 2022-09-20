@@ -4,7 +4,9 @@ summary: Estimate the costs for sharing your data.
 toc: true
 ---
 
-## 1. [H2020, HorizonEurope] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?
+## 1. What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?
+### Asked by
+[H2020, HorizonEurope]
 ### Meaning
 Possible costs of making data more FAIR could be due to payment for tools or experts in order to:
 
@@ -26,6 +28,8 @@ Possible costs of making data more FAIR could be due to payment for tools or exp
 * Making data more FAIR will not have any cost, because we will use recommended open source software and resources for data management. A common system for organisation of folders/files and curation of documentation has been implemented by the lab manager.
 * Costs of data compliance consultancy will be approximately X€.
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                                                                                                                                                                    | DMP question                                                                                                                                                                                                                                                                                                                              |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FWO           | na                                                                                                                                                                             | na                                                                                                                                                                                                                                                                                                                                        |
@@ -35,13 +39,17 @@ Possible costs of making data more FAIR could be due to payment for tools or exp
 | HorizonEurope | Allocation of resources                                                                                                                                                        | What will the costs be for making data or other research outputs FAIR in your project (e.g. direct and indirect costs related to storage, archiving, re-use, security, etc.)?                                                                                                                                                             |
 | ScienceEurope | 6b. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)? | Explain how the **necessary resources (for example time) to prepare the data for sharing/preservation (data curation) have been costed in**. Carefully consider and justify any resources needed to deliver the data. These may include storage costs, hardware, staff time, costs of preparing data for deposit, and repository charges. |
 
-## 2. [H2020, HorizonEurope] How will these costs (for making data FAIR) be covered?
+## 2. How will these costs (for making data FAIR) be covered?
+### Asked by
+[H2020, HorizonEurope] 
 ### Meaning
 Check what costs are eligible as part of the grant.
 ### Example answers
 * No costs expected.
 * These costs will be covered by [X] funding.
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                                                                                                                                                                    | DMP question                                                                                                                                                                                                                                                                                                                              |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FWO           | na                                                                                                                                                                             | na                                                                                                                                                                                                                                                                                                                                        |
@@ -51,7 +59,9 @@ Check what costs are eligible as part of the grant.
 | HorizonEurope | Allocation of resources                                                                                                                                                        | What will the costs be for making data or other research outputs FAIR in your project (e.g. direct and indirect costs related to storage, archiving, re-use, security, etc.)?                                                                                                                                                             |
 | ScienceEurope | 6b. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)? | Explain how the **necessary resources (for example time) to prepare the data for sharing/preservation (data curation) have been costed in**. Carefully consider and justify any resources needed to deliver the data. These may include storage costs, hardware, staff time, costs of preparing data for deposit, and repository charges. |
 
-## 3. [FWO, ERC, H2020, BELSPO, HorizonEurope] What are the expected costs for data sharing and reuse?
+## 3. What are the expected costs for data sharing and reuse?
+### Asked by
+[FWO, ERC, H2020, BELSPO, HorizonEurope]
 ### Meaning
 Possible costs for data sharing and reuse:
 
@@ -60,6 +70,8 @@ Possible costs for data sharing and reuse:
 * paying an expert for support about licensing
 <!---### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                                                                                                                                                                    | DMP question                                                                                                                                                                                               |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FWO           | Data sharing and reuse                                                                                                                                                         | What are the expected costs for data sharing? How will these costs be covered?                                                                                                                             |
@@ -69,13 +81,17 @@ Possible costs for data sharing and reuse:
 | HorizonEurope | Allocation of resources                                                                                                                                                        | What will the costs be for making data or other research outputs FAIR in your project (e.g. **direct** and indirect costs related to storage, archiving, re-use, security, etc.)?                          |
 | ScienceEurope | 6b. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)? | Indicate whether additional **resources will be needed to prepare data for deposit or to meet any charges from data repositories**. If yes, explain how much is needed and how such costs will be covered. |
 
-## 4. [FWO, ERC, H2020, BELSPO, HorizonEurope] How will these costs (for data sharing and reuse) be covered?
+## 4. How will these costs (for data sharing and reuse) be covered?
+### Asked by
+[FWO, ERC, H2020, BELSPO, HorizonEurope]
 ### Meaning
 Check what costs are eligible as part of the grant.
 ### Example answers
 * No costs expected.
 * These costs will be covered by [X] funding.
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                                                                                                                                                                    | DMP question                                                                                                                                                                                               |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FWO           | Data sharing and reuse                                                                                                                                                         | What are the expected costs for data sharing? How will these costs be covered?                                                                                                                             |

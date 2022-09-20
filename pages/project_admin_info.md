@@ -3,10 +3,14 @@ title: Project administrative information
 toc: true
 ---
 
-## 1. [FWO, BELSPO] Name applicant.
+## 1. Name applicant.
+### Asked by
+[FWO, BELSPO]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                | DMP question                                  |
 |---------------|----------------------------|-----------------------------------------------|
 | FWO           | Project information        | Name applicant                                |
@@ -16,11 +20,15 @@ toc: true
 | HorizonEurope | na                         | na                                            |
 | ScienceEurope | Administrative information | Provide information such as name of applicant, project number, funding programme, version of DMP. |
 
-## 2. [FWO, ERC, H2020, BELSPO, HorizonEurope] Project number.
+## 2. Project number.
+### Asked by
+[FWO, ERC, H2020, BELSPO, HorizonEurope]
 ### Meaning
 Number given to the project application by the funder.
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section                | DMP question                                                                                      |
 |---------------|----------------------------|---------------------------------------------------------------------------------------------------|
 | FWO           | Project information        | FWO Project Number & Title                                                                        |
@@ -30,10 +38,14 @@ Number given to the project application by the funder.
 | HorizonEurope | na                         | Action Number                                                                                     |
 | ScienceEurope | Administrative information | Provide information such as name of applicant, project number, funding programme, version of DMP. |
 
-## 3. [FWO, H2020, BELSPO, HorizonEurope] Project title.
+## 3. Project title.
+### Asked by
+[FWO, H2020, BELSPO, HorizonEurope]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section         | DMP question                           |
 |---------------|---------------------|----------------------------------------|
 | FWO           | Project information | FWO Project Number & Title             |
@@ -43,10 +55,14 @@ Number given to the project application by the funder.
 | HorizonEurope | na                  | Action title                           |
 | ScienceEurope | na                  | na                                     |
 
-## 4. [ERC, H2020, BELSPO, HorizonEurope] Project acronym.
+## 4. Project acronym.
+### Asked by
+[ERC, H2020, BELSPO, HorizonEurope]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section         | DMP question                           |
 |---------------|---------------------|----------------------------------------|
 | FWO           | na                  | na                                     |
@@ -56,10 +72,14 @@ Number given to the project application by the funder.
 | HorizonEurope | na                  | Action Acronym                         |
 | ScienceEurope | na                  | na                                     |
 
-## 5. [FWO, BELSPO] Affiliation.
+## 5. Affiliation.
+### Asked by
+[FWO, BELSPO]
 <!--### Meaning-->
 <!--### Example answers-->
 ### Mapping among funders' DMP templates
+
+
 | Funder        | DMP section         | DMP question |
 |---------------|---------------------|--------------|
 | FWO           | Project information | Affiliation  |
@@ -68,59 +88,3 @@ Number given to the project application by the funder.
 | H2020         | na                  | na           |
 | ScienceEurope | na                  | na           |
 | ScienceEurope | na                  | na           |
-
-
-
-Title: DMP versioning information
-Summary: 
-## 1. [H2020, HorizonEurope] Version number.
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
-| Funder        | DMP section                | DMP question                                                                                      |
-|---------------|----------------------------|---------------------------------------------------------------------------------------------------|
-| FWO           | na                         | na                                                                                                |
-| BELSPO        | na                         | na                                                                                                |
-| ERC           | na                         | na                                                                                                |
-| H2020         | Versioning information     | Version number                                                                                    |
-| HorizonEurope | na                         | DMP version                                                                                       |
-| ScienceEurope | Administrative information | Provide information such as name of applicant, project number, funding programme, version of DMP. |
-
-## 2. [H2020] Changes in this version.
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
-| Funder        | DMP section                | DMP question                                                                                      |
-|---------------|----------------------------|---------------------------------------------------------------------------------------------------|
-| FWO           | na                         | na                                                                                                |
-| BELSPO        | na                         | na                                                                                                |
-| ERC           | na                         | na                                                                                                |
-| H2020         | Versioning information     | Description                                                                                       |
-| HorizonEurope |                         |    |
-| ScienceEurope | na                         | na    |
-
-## 3. [H2020] Completion date of first version.
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
-| Funder        | DMP section            | DMP question        |
-|---------------|------------------------|---------------------|
-| FWO           | na                     | na                  |
-| BELSPO        | na                     | na                  |
-| ERC           | na                     | na                  |
-| H2020         | Versioning information | Date of the version |
-| HorizonEurope |                        |                     |
-| ScienceEurope | na                     | na                  |
-
-## 4. [H2020, HorizonEurope] Date of the last update.
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
-| Funder        | DMP section            | DMP question        |
-|---------------|------------------------|---------------------|
-| FWO           | na                     | na                  |
-| BELSPO        | na                     | na                  |
-| ERC           | na                     | na                  |
-| H2020         | Versioning information | Date of last update |
-| HorizonEurope | na                     | Date                |
-| ScienceEurope | na                     | na                  |

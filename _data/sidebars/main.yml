@@ -58,10 +58,10 @@ subitems:
        url: /ethical_legal_issues
      - title: Other
        url: /other          
-  - title: Project administrative information
-    url: /project_admin_info
-  - title: DMP versioning information
-    url: /dmp_version_info       
+     - title: Project administrative information
+       url: /project_admin_info
+     - title: DMP versioning information
+       url: /dmp_version_info       
   - title: Data Management for Omics Data
     output: web
     url: /omics_data
