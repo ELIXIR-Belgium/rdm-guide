@@ -36,6 +36,32 @@ subitems:
     #   url: /data_quality
     # - title: Personal data
     #   url: /personal_data
+title: DMP questions explained
+    output: web
+    url: /dmp_q_explained
+    subitems:
+      - title: Datasets information
+        url: /datasets_info
+       - title: Datasets sharing and reuse
+        url: /sharing_reuse
+       - title: Documentation and metadata
+        url: /doc_metadata
+       - title: Costs for datasets sharing and reuse
+        url: /costs_sharing_reuse
+       - title: (Meta)Data storage during the project
+        url: /storage_during
+       - title: (Meta)Data long term preservation or archiving
+        url: /long_term
+       - title: Responsibilities
+        url: /responsibilities
+       - title: Ethical and legal issues
+        url: /ethical_legal_issues
+       - title: Other
+        url: /other          
+      - title: Project administrative information
+        url: /project_admin_info
+      - title: DMP versioning information
+        url: /dmp_version_info       
   - title: Data Management for Omics Data
     output: web
     url: /omics_data
