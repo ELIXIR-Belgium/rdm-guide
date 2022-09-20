@@ -4,12 +4,15 @@ toc: true
 ---
 
 ## 1. Indicate whether other national/funder/sectorial/departmental procedures for data management are used.
+
 ### Asked by
 [H2020, HorizonEurope]
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Meaning-->
+
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section  | DMP question                                                                                                                                                              |
 |---------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,12 +24,15 @@ toc: true
 | ScienceEurope | na           | na                                                                                                                                                                        |
 
 ## 2. If some of the questions in this DMP can be applied to other research outputs, such as physical materials, step-by-step protocols and software, specify here how these other outputs will be managed, shared and made available for reuse during and after the project.
+
 ### Asked by
 [HorizonEurope]
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Meaning-->
+
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section           | DMP question                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

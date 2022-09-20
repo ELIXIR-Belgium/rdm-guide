@@ -4,12 +4,15 @@ toc: true
 ---
 
 ## 1. Name applicant.
+
 ### Asked by
 [FWO, BELSPO]
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Meaning-->
+
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                | DMP question                                  |
 |---------------|----------------------------|-----------------------------------------------|
@@ -21,13 +24,16 @@ toc: true
 | ScienceEurope | Administrative information | Provide information such as name of applicant, project number, funding programme, version of DMP. |
 
 ## 2. Project number.
+
 ### Asked by
 [FWO, ERC, H2020, BELSPO, HorizonEurope]
+
 ### Meaning
 Number given to the project application by the funder.
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                | DMP question                                                                                      |
 |---------------|----------------------------|---------------------------------------------------------------------------------------------------|
@@ -39,12 +45,15 @@ Number given to the project application by the funder.
 | ScienceEurope | Administrative information | Provide information such as name of applicant, project number, funding programme, version of DMP. |
 
 ## 3. Project title.
+
 ### Asked by
 [FWO, H2020, BELSPO, HorizonEurope]
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Meaning-->
+
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section         | DMP question                           |
 |---------------|---------------------|----------------------------------------|
@@ -56,12 +65,15 @@ Number given to the project application by the funder.
 | ScienceEurope | na                  | na                                     |
 
 ## 4. Project acronym.
+
 ### Asked by
 [ERC, H2020, BELSPO, HorizonEurope]
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Meaning-->
+
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section         | DMP question                           |
 |---------------|---------------------|----------------------------------------|
@@ -73,12 +85,15 @@ Number given to the project application by the funder.
 | ScienceEurope | na                  | na                                     |
 
 ## 5. Affiliation.
+
 ### Asked by
 [FWO, BELSPO]
-<!--### Meaning-->
-<!--### Example answers-->
-### Mapping among funders' DMP templates
 
+<!--### Meaning-->
+
+<!--### Example answers-->
+
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section         | DMP question |
 |---------------|---------------------|--------------|

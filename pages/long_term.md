@@ -5,16 +5,19 @@ toc: true
 ---
 
 ## 1. List which datasets will be preserved or not for some years after the end of the project and explain why (legal, contractual restrictions etc..).
+
 ### Asked by
 [FWO, ERC, H2020, BELSPO, HorizonEurope]
+
 ### Meaning
 Every funder or institution might requires to preserve the data, after the end of the project, for different number of years. Check requirements of your funder or institute about data preservation after the project.
+
 ### Example answers
 * All the generated datasets will be stored for long term.
 * All relevant data for reuse and experiment replicability will be preserved for 10 years after the end of the project.
 * Dataset [Name] will be deleted after [X] years because of the following [contractual, legal, ethical...] reasons: [explain].
-### Mapping among funders' DMP templates
 
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                                                                                                                            | DMP question                                                                                                                                                                                                                                                               |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -26,15 +29,18 @@ Every funder or institution might requires to preserve the data, after the end o
 | ScienceEurope | 5b. How will data for preservation be selected, and where data will be preserved long-term (for example a data repository or archive)? | • Indicate what data must be retained or destroyed for contractual, legal, or regulatory purposes. • Indicate how it will be decided what data to keep. Describe the data to be preserved long-term. • Explain the foreseeable research uses (and/ or users) for the data. |
 
 ## 2. Where will datasets be stored for long term (archived) after the end of the project?
+
 ### Asked by
 [FWO, ERC, H2020, BELSPO, HorizonEurope] 
+
 ### Meaning
 Check the website or ask the IT Team in your department or Institute for information about long term storage and data archive.
+
 ### Example answers
 * All datasets will also be stored for long term and archived in the [X center] of [University Name].
 * Datasets to which data sharing restrictions apply will be stored in-house according to the following secure measures: [specify].
-### Mapping among funders' DMP templates
 
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                                                                                                                            | DMP question                                                                                                                                                                                                                                                                                                                                    |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,17 +53,20 @@ Check the website or ask the IT Team in your department or Institute for informa
 
 
 ## 3. Estimate the costs for long term preservation (or archiving).
+
 ### Asked by
 [FWO, ERC, H2020, BELSPO, HorizonEurope]
+
 ### Meaning
 Specify the costs charged to your research team.
 
 Multiply the cost in €/TB/Year, by the number of years and the volume of data which you are going to generate (as specified in the section about data volume).
+
 ### Example answers
 * Long term preservation of [X]TB for 10 years at [University Name] will cost about 2000€.
 * The chosen data repositories preserve the data for free.
-### Mapping among funders' DMP templates
 
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                                                                                                                                                                    | DMP question                                                                                                                                                                                           |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -69,14 +78,17 @@ Multiply the cost in €/TB/Year, by the number of years and the volume of data 
 | ScienceEurope | 6b. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)? | Indicate whether additional resources will be needed to prepare data for deposit or to meet any charges from data repositories. If yes, explain how much is needed and how such costs will be covered. |
 
 ## 4. How will these costs (for long term preservation) be covered?
+
 ### Asked by
 [FWO, ERC, H2020, BELSPO, HorizonEurope] 
+
 ### Meaning
 Check possible funding for covering costs of data storage.
+
 ### Example answers
 * These costs will be covered by [Name] funding.
-### Mapping among funders' DMP templates
 
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                                                                                                                                                                    | DMP question                                                                                                                                                                                           |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -88,13 +100,16 @@ Check possible funding for covering costs of data storage.
 | ScienceEurope | 6b. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)? | Indicate whether additional resources will be needed to prepare data for deposit or to meet any charges from data repositories. If yes, explain how much is needed and how such costs will be covered. |
 
 ## 5. Data security: are the datasets safely stored in repositories for long term preservation and curation?
+
 ### Asked by
 [ERC, H2020, HorizonEurope] 
+
 <!---### Meaning--->
+
 ### Example answers
 * The archiving system of [University Name] will guarantee data security.
-### Mapping among funders' DMP templates
 
+### Mapping among funders' DMP templates
 
 | Funder        | DMP section                               | DMP question                                                                                                                                            |
 |---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
