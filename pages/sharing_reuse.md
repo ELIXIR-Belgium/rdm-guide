@@ -149,6 +149,7 @@ Check if:
 * Your funder requires application of specific licence on research data.
 * The repository applies one default licence to all datasets.
 * You can attach your own licence to your datasets in the repository or not.
+
 ### Example answers
 * All datasets: CC-BY-4.0. No time limit for reusability.
 * Software [Name]: AGPLv3.
