@@ -11,14 +11,76 @@ However, the questions of DMP templates from different funders can seem unclear,
 In this section, DMP questions for several Belgian and European funders are broke down to one list of ordered and more specific questions (ELIXIR Belgium generic DMP questions). The questions are mapped to Belgian and European funders' DMP templates. Example answers and guidelines with a focus on Life Sciences are also provided.
 
 ## ELIXIR Belgium generic DMP questions
+
 ### [Datasets information](datasets_info.md)
+* New/Existing Data
+* Datasets List
+* Datasets Purpose
+* Datasets Origin
+* Datasets Type Format
+* Format Software
+* Datasets Volume
 ### [Datasets sharing and reuse](sharing_reuse)
+* Datasets Sharing
+* Sharing Rational
+* Sharing Repositories
+* Access Procedure
+* Datasets Embargo
+* Datasets License
+* Resolved Identifier
+* Metadata Licence
+* Metadata Sharing
+### [Documentation and metadata](doc_metadata)
+* Datasets Metadata
+* machine actionable Datasets Metadata
+* Provenance
+* Qualified Reference
+* Datasets Identifier
+* Datasets Ontology
+* Machine actionable Datasets Ontology
+* Datasets Documentation
 ### [Costs for datasets sharing and reuse](costs_sharing_reuse)
+* Costs for FAIR
+* Costs for FAIR Coverage
+* Cost for Sharing
+* Cost for Sharing Coverage
 ### [(Meta)Data storage during the project](storage_during)
+* Where
+* Backup strategy
+* Availability
+* Costs
+* Costs Coverage
+* Security
 ### [(Meta)Data long term preservation or archiving](long_term)
+* Datasets List for Archiving
+* Where
+* Costs for Archiving
+* Costs Coverage
+* Security
 ### [Responsibilities](responsibilities)
+* for Data Quality
+* for Data Documentation
+* for Data Storage
+* for Data Archiving
+* for DMP
 ### [Ethical and legal issues](ethical_legal_issues)
+* Personal Data
+* Consent
+* Ethical Issues
+* Intellectual Property
+* Legal Issues
 ### [Other](other)
+* Other
+* Other Outputs
 ### [Project administrative information](project_admin_info)
+* Name Applicant
+* Project Number
+* Project Title
+* Project Acronym
+* Affiliation
 ### [DMP versioning information](dmp_version_info)
+* Version Number
+* Version Changes
+* Date First Version
+* Last Update
 
