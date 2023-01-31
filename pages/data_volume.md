@@ -22,5 +22,5 @@ summary: The amount of data generated will affect the choice and cost of storage
 * Number of reads needed (Million) = (Coverage x Genome length (bp) / read length) /1000000
 
 If you want to know more about the number of reads needed per experiment, coverage and reads length, see
-* [Considerations for RNA-Seq read length and coverage](https://emea.support.illumina.com/bulletins/2017/04/considerations-for-rna-seq-read-length-and-coverage-)
+* [Considerations for RNA-Seq read length and coverage](https://emea.support.illumina.com/bulletins/2017/04/considerations-for-rna-seq-read-length-and-coverage-.html)
 * [Recommended Coverage and Read Depth for NGS Applications](https://genohub.com/recommended-sequencing-coverage-by-application/)
