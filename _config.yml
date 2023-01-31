@@ -12,7 +12,7 @@ plausible: rdm.elixir-belgium.org
 plausible_src:  https://plausible.psb.ugent.be/js/plausible.js
 # default: 'https://plausible.io/js/plausible.js
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.15.2
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.23.0
 
 sass:
   style: compressed
