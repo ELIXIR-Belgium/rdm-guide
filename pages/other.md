@@ -1,6 +1,5 @@
 ---
 title: Other
-toc: true
 ---
 
 ## 1. Indicate whether other national/funder/sectorial/departmental procedures for data management are used.

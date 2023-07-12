@@ -1,6 +1,5 @@
 ---
 permalink: covid-19/covid-19-galaxy-upload
-toc: false
 hide_sidebar: true
 search_exclude: true
 ---

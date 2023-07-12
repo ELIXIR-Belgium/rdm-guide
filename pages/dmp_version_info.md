@@ -1,6 +1,5 @@
 ---
 title: DMP versioning information
-toc: true
 ---
 
 ## 1. Version number.

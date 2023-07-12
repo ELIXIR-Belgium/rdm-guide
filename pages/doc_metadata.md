@@ -1,6 +1,5 @@
 ---
 title: Documentation and metadata
-toc: true
 ---
 
 Documentation and metadata: information about the data that is needed to enable finding, understanding and reuse of datasets by anyone.

@@ -1,6 +1,5 @@
 ---
 title: Project administrative information
-toc: true
 ---
 
 ## 1. Name applicant.
