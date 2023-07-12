@@ -20,6 +20,11 @@ sass:
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 theme_variables:
   theme_color: de4d00
