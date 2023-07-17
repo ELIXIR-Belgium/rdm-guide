@@ -1,7 +1,6 @@
 ---
 title: Costs for datasets sharing and reuse
 summary: Estimate the costs for sharing your data.
-toc: true
 ---
 
 ## 1. What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?

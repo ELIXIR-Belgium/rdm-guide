@@ -12,9 +12,20 @@ main {
     }
 }
 
+
+/*-----Spacing layout-----*/
+
+#content {
+    margin-bottom: 0!important;
+}
+
+#main {
+    margin-bottom: $spacer * 3;
+}
+
 /*-----Extra borders-----*/
 
-.btn-group .btn, #toc {
+.btn-group .btn, .contributor-cards .card {
     border: 1px solid $border-light;
 }
 
@@ -36,12 +47,6 @@ nav.navbar {
 
 .navbar-nav .nav-item > a.active {
     color: $primary;
-}
-
-@media (max-width: 576px) {
-    .navbar-brand img {
-        height: 47px !important;
-    }
 }
 
 /*-----Size components-----*/

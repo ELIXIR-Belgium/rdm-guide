@@ -1,7 +1,6 @@
 ---
 title: (Meta)Data long term preservation or archiving
 summary: Here, the terms "long term storage", "archiving" and "preservation" are used as synonyms.
-toc: true
 ---
 
 ## 1. List which datasets will be preserved or not for some years after the end of the project and explain why (legal, contractual restrictions etc..).

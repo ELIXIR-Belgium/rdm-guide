@@ -1,6 +1,5 @@
 ---
 title: (Meta)Data storage during the project
-toc: true
 ---
 
 ## 1. Where will the data be stored during the project?

@@ -1,7 +1,6 @@
 ---
 title: Ethical and legal issues
 summary: Consult the Legal Team of the TechTransfer Office and the Data Protection Officer in your Institute or department to answer the following questions.
-toc: true
 ---
 
 ## 1. Will you use personal/sensitive data? If so, shortly describe the kind of personal data you will use AND add the reference to your file in your host institution's privacy register.

@@ -1,6 +1,5 @@
 ---
 title: Datasets information
-toc: true
 ---
 
 Give information about sets of numbers, words, images, video/audio, scripts, algorithms and software used or generated in the project to describe or analyse research subjects and materials (sample, specimen, biomolecules and other materials).

@@ -1,6 +1,5 @@
 ---
 title: Datasets sharing and reuse
-toc: true
 ---
 
 Datasets sharing

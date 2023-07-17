@@ -1,6 +1,5 @@
 ---
 title: Responsibilities
-toc: true
 ---
 
 ## 1. Describe data quality assurance processes and who will be responsible for it.

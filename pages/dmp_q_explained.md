@@ -1,6 +1,5 @@
 ---
 title: DMP questions explained
-toc: true
 ---
 
 ## Introduction
