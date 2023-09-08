@@ -3,9 +3,8 @@ title: MetaboLights
 ---
 ## MetaboLights features
 ### How to submit data
-There are two possible ways to [submit data into MetaboLights](https://www.ebi.ac.uk/metabolights/help):
-* Online Study Submission. This is the recommended submission method. Data submission is done online through a web-interface. A good starting point is the [video for step by step guide to create a MetaboLights study online](https://www.ebi.ac.uk/metabolights/help).
-* ISAcreator tool. Step by step guide for this submission method can be found in the Quick tour section of [EMBL-EBI train online](https://www.ebi.ac.uk/training/online/course/metabolights-quick-tour/submitting-data-metabolights). This method requires the download and installation of the ISAcreator tool.
+Way to [submit data into MetaboLights](https://www.ebi.ac.uk/metabolights/help):
+The online study submission is the recommended submission method. Data submission is done online through a web-interface. A good starting point is the [video for step by step guide to create a MetaboLights study online](https://www.ebi.ac.uk/metabolights/help).
 
 ### Non-Personal vs Personal data
 Non-personal data (non-identifiable).
