@@ -12,7 +12,7 @@ plausible: rdm.elixir-belgium.org
 plausible_src:  https://plausible.psb.ugent.be/js/plausible.js
 # default: 'https://plausible.io/js/plausible.js
 
-matomo: "//matomo.vib.be/"
+matomo: "https://matomo.vib.be/"
 # Matomo tag
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@new-matomo
