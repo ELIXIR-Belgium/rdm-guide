@@ -14,6 +14,8 @@ plausible_src:  https://plausible.psb.ugent.be/js/plausible.js
 
 matomo: "https://matomo.vib.be/"
 # Matomo tag
+matomo_id: 6
+# Matomo tag
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@new-matomo
 
