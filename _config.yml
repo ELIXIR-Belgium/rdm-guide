@@ -7,11 +7,6 @@ description: "RDM Guide is an information resource about research data managemen
 gtag: G-6S2ZD2MBXX
 # Google analytics tag
 
-plausible: rdm.elixir-belgium.org
-# Plausible tag
-plausible_src:  https://plausible.psb.ugent.be/js/plausible.js
-# default: 'https://plausible.io/js/plausible.js
-
 matomo: "https://matomo.vib.be/"
 # Matomo tag
 matomo_id: 6
