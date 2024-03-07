@@ -76,6 +76,8 @@ subitems:
         url: /uniprot
       - title: ArrayExpress
         url: /arrayexpress
+  - title: ENA data submission toolbox
+    url: /ena-submission
   - title: Covid-19 data submission
     url: /covid-19/
     subitems:
