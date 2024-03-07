@@ -13,7 +13,8 @@ training:
 ## Introduction 
 
 The (ENA) data submission toolbox simplifies the submission of sequence data, including raw reads and assembled sequences, for researchers. European Nucleotide Archive (ENA) is a fully open repository dedicated to storing raw sequencing data, assemblies, and annotation data.
-Whether you're an experienced bioinformatician or a researcher with limited informatics background, our tools and workflows should help you in the submission process of both metadata and data to ENA.
+The toolbox offers a single-step submission process, a graphical user interface, tabular-formatted metadata and client-side validation, for every sample checklist supported at ENA.
+
 
 ## Its components
 
