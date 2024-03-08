@@ -117,7 +117,7 @@ Key features:
 - Research metadata management platform based on SEEK
 - Leveraging the DataHub metadata templates
 - Enforcing and promoting the ENA standards and checklists
-- Existing ISA-JSON export function
+- Uses the existing ISA-JSON export function
 - ISA-JSON as machine actionable metadata carrier
 
 [<i class="fa-solid fa-play me-2"></i>Try out on DataHub](https://datahub-test.elixir-belgium.org/){: class="btn btn-light border rounded-pill"}
