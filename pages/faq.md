@@ -1,6 +1,5 @@
 ---
-permalink: covid-19/faq
-title: Frequently asked questions
+title: FAQ for Docker deployment
 ---
 
 ### Why is the reads cleaning tool not showing files for input?

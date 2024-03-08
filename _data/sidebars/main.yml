@@ -78,13 +78,13 @@ subitems:
         url: /arrayexpress
   - title: ENA data submission toolbox
     url: /ena-submission
-  - title: Covid-19 data submission
-    url: /covid-19/
     subitems:
-      - title: SARS-CoV-2 raw reads submission in Galaxy
-        url: /covid-19/sarscov2_submission
-      - title: SARS-CoV-2 assembly submission in Galaxy
-        url: /covid-19/sarscov2_assembly_submission
-      - title: Frequently asked questions
-        url: /covid-19/faq
-
+    - title: SARS-CoV-2 usecase
+      url: /covid-19/
+      subitems:
+        - title: SARS-CoV-2 raw reads submission in Galaxy
+          url: /covid-19/sarscov2_submission
+        - title: SARS-CoV-2 assembly submission in Galaxy
+          url: /covid-19/sarscov2_assembly_submission
+    - title: FAQ for Docker deployment
+      url: /faq
