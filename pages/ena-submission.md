@@ -6,14 +6,12 @@ training:
   - name: Screencast of the Galaxy ENA upload tool
     registry: YouTube
     url:
-# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
 
 ## Introduction 
 
-The (ENA) data submission toolbox simplifies the submission of sequence data, including raw reads and assembled sequences, for researchers. European Nucleotide Archive (ENA) is a fully open repository dedicated to storing raw sequencing data, assemblies, and annotation data.
-The toolbox offers a single-step submission process, a graphical user interface, tabular-formatted metadata and client-side validation, for every sample checklist supported at ENA.
+European Nucleotide Archive (ENA) is a fully open repository dedicated to storing raw sequencing data, assemblies, and annotation data. The ENA data submission toolbox simplifies the submission of sequence data, including raw reads and assembled sequences by offering a single-step submission process, a graphical user interface, tabular-formatted metadata and client-side validation, for every sample checklist supported at ENA.
 
 
 ## Its components
@@ -89,5 +87,5 @@ When you can not use the Galaxy instances @ useGalaxy.eu, .be and .au, possibly 
 - ISA-JSON as machine actionable metadata carrier
 
 
-{% include image.html file="datahub-to-ena.svg" caption="<b>Figure 2.</b>Submission flow of metadata from DataHub to ENA" %}
+{% include image.html file="datahub-to-ena.svg" caption="<b>Figure 2.</b> Submission flow of metadata from DataHub to ENA" %}
 
