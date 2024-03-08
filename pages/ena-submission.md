@@ -24,7 +24,7 @@ training:
 
 ### ENA upload CLI
 
-Command line tool allowing submission of raw reads data and respective metadata to ENA using tabular files or an excel sheet. Programmatically submit study, sample, run and experiment objects without the need of logging in to the ENA Webin interface. 
+Command line tool allowing submission of raw reads data and respective metadata to ENA using tabular files or an excel sheet. Programmatically submit study, sample, run and experiment objects without the need of logging in to the [ENA Webin interface](https://www.ebi.ac.uk/ena/submit/webin/login). 
 
 Key features:
 - Submit raw sequencing data and metadata
@@ -34,7 +34,7 @@ Key features:
 - Add, modify, cancel and release study, experiment, run and sample objects taking away the need
 - Safe credential management using a credentials file
 - Client side validation using ENA checklists (samples) and official ENA XSD files (run, experiment and study)
-- Compatible with the provided tsv/xlsx templates to fill in the metadata (see below)
+- Compatible with the provided tsv/xlsx templates to fill in the metadata ([see below](#metadata-templates))
 
 [<i class="fa-brands fa-github me-2"></i>Documentation + source](https://github.com/usegalaxy-eu/ena-upload-cli){: class="btn btn-light border rounded-pill"}
 [<i class="fa-solid fa-download me-2"></i>Install using pip](https://pypi.org/project/ena-upload-cli/){: class="btn btn-light border rounded-pill"}
