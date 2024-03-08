@@ -101,7 +101,6 @@ Key features:
     - ENA-upload tool
     - ENA Assembly submission tool
     - Tool to easily clean raw reads from human reads
-    - Workflows to perform SARS-CoV-2 analysis
 
 [<i class="fa-brands fa-github me-2"></i>Documentation + source](https://github.com/ELIXIR-Belgium/ena-upload-container){: class="btn btn-light border rounded-pill"}
 [<i class="fa-solid fa-download me-2"></i>Download image from Quay.io](https://quay.io/repository/galaxy/ena-upload){: class="btn btn-light border rounded-pill"}
