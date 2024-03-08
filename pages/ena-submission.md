@@ -111,7 +111,7 @@ Key features:
 
 {% include image.html file="datahub-to-ena.svg" caption="<b>Figure 2.</b> Submission flow of metadata from DataHub to ENA" %}
 
-DataHub is a free and open platform for easier Research metaData Management in Life Science. Based on SEEK, it has an improved way of handling samples and the possibility to load sample templates for the creation of the metadata structure. This functionality is ideal for the creation of ENA specific metadata templates which guarantee the compatibility with the repository when a researcher is using the platform.
+[DataHub](https://datahub-test.elixir-belgium.org/) is a free and open platform for easier Research metaData Management in Life Science. Based on [FAIRDOM SEEK](https://seek4science.org/), it has an improved way of handling samples and the possibility to load sample templates for the creation of the metadata structure. This functionality is ideal for the creation of ENA specific metadata templates which guarantee the compatibility with the repository when a researcher is using the platform.
 
 Key features:
 - Research metadata management platform based on SEEK
