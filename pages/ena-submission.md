@@ -110,14 +110,16 @@ Key features:
 
 {% include image.html file="datahub-to-ena.svg" caption="<b>Figure 2.</b> Submission flow of metadata from DataHub to ENA" %}
 
-[DataHub](https://datahub-test.elixir-belgium.org/) is a free and open platform for easier Research metaData Management in Life Sciences. Based on [FAIRDOM SEEK](https://seek4science.org/), it has an improved way of handling samples and the possibility to load sample templates for the creation of the metadata structure. This functionality is ideal for the creation of ENA specific metadata templates which guarantee the compatibility with the repository when using the platform.
+[DataHub](https://datahub-test.elixir-belgium.org/) is a free and open platform for easier Research metaData Management in Life Sciences. Based on [FAIRDOM-SEEK](https://seek4science.org/), DataHub offers users the ability to effortlessly create sample metadata templates derived from ENA-specific templates for seamless compatibility with the ENA repository.
 
 Key features:
-- Research metadata management platform based on SEEK
-- Leveraging the DataHub metadata templates
-- Enforcing and promoting the ENA standards and checklists
-- Uses the existing ISA-JSON export function
-- ISA-JSON as machine actionable metadata carrier
+- Powered by FAIRDOM-SEEK open-source software, DataHub facilitates effective research metadata management
+- Easily craft metadata templates tailored to various repositories
+- Promoting and supporting ENA standards and checklists ensures data consistency and compliance
+- Streamline data exchange with structured metadata export adhering to the ISA-JSON standard
+- Promote ISA-JSON as a machine-actionable metadata carrier, enhancing interoperability
+
+{% include callout.html type="note" content="Please note that specific documentation on creating ISA-JSON for ENA in DataHub is a work in progress and will be available soon." %}
 
 [<i class="fa-solid fa-play me-2"></i>Try out on DataHub](https://datahub-test.elixir-belgium.org/){: class="btn btn-light border rounded-pill"}
 
