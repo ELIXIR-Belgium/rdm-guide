@@ -79,7 +79,7 @@ subitems:
   - title: ENA data submission toolbox
     url: /ena-submission
     subitems:
-    - title: SARS-CoV-2 usecase
+    - title: SARS-CoV-2 use case
       url: /covid-19/
       subitems:
         - title: SARS-CoV-2 raw reads submission in Galaxy
