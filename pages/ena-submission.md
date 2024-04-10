@@ -19,7 +19,7 @@ The [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/) is a
 
 ## Its components
 
-{% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA submission toolbox components." %}
+{% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA Data Submission Toolbox components." %}
 
 
 ### ENA upload CLI
