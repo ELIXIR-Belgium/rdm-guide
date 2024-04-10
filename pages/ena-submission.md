@@ -1,5 +1,5 @@
 ---
-title: ENA data submission toolbox
+title: ENA Data Submission Toolbox
 contributors: [Bert Droesbeke, Flora D'Anna] 
 description: High scale publishing of data to ENA using easy to use metadata templates. 
 training:
@@ -14,7 +14,7 @@ training:
 
 ## Introduction 
 
-The [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/) is a fully open repository dedicated to storing raw sequencing data, assemblies, and annotation data. The ENA data submission toolbox simplifies the submission of sequence data, including raw reads and assembled sequences by offering a single-step submission process, a graphical user interface, tabular-formatted metadata and client-side validation, for every sample checklist supported at ENA.
+The [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/) is a fully open repository dedicated to storing raw sequencing data, assemblies, and annotation data. The ENA Data Submission Toolbox simplifies the submission of sequence data, including raw reads and assembled sequences by offering a single-step submission process, a graphical user interface, tabular-formatted metadata and client-side validation, for every sample checklist supported at ENA.
 
 
 ## Its components

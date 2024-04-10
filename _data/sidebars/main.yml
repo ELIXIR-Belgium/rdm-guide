@@ -76,7 +76,7 @@ subitems:
         url: /uniprot
       - title: ArrayExpress
         url: /arrayexpress
-  - title: ENA data submission toolbox
+  - title: ENA Data Submission Toolbox
     url: /ena-submission
     subitems:
     - title: SARS-CoV-2 use case
