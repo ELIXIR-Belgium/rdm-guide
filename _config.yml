@@ -12,7 +12,7 @@ matomo: "https://matomo.vib.be/"
 matomo_id: 6
 # Matomo tag
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.2.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.0.0
 sass:
   style: compressed
   sourcemap: never
