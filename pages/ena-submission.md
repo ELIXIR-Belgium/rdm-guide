@@ -19,7 +19,20 @@ The [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/) is a
 
 ## Its components
 
-{% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA Data Submission Toolbox components." %}
+{% include image.html file="ENA-Reads-and-Assembly-Submission-Workflow.svg" caption="<b>Figure 1.</b> Overview of the ENA Data Submission Toolbox components, also called the 'ENA Reads and Assembly Submission Workflow'." %}
+
+### ENA metadata templates
+
+Tabular-format and xlsx spreadsheet metadata templates required to submit data to ENA using the ENA-upload-cli or GALAXY ENA upload tool. A GitHub Action is put in place to automatically keep these templates up to date with the ENA sample checklists.
+
+Key features:
+- GitHub repo hosting tsv and xlsx templates for every checklist
+- GitHub Actions to keep up to date with ENA XSD/checklist files to guarantee compatibility
+- Versions in sync with the ones from ENA-upload-CLI
+- Descriptions for every attribute in the study, experiment, sample and run schemas
+- xlsx templates use drop down menus for controlled vocabulary
+
+[<i class="fa-brands fa-github me-2"></i>Documentation + source](https://github.com/ELIXIR-Belgium/ENA-metadata-templates){: class="btn btn-light border rounded-pill"}
 
 
 ### ENA upload CLI
@@ -63,32 +76,35 @@ Key features:
 [<i class="fa-solid fa-download me-2"></i>Galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8){: class="btn btn-light border rounded-pill"}
 
 
-#### Galaxy assembly submission tool
+#### Galaxy ENA Webin CLI
 
-Galaxy wrapper to submit consensus sequences to ENA in an interactive way. The tool has the [Webin-CLI](https://github.com/enasequence/webin-cli) script of ENA at its core and supports all sample checklists.
+Galaxy wrapper to submit consensus sequences to ENA in an interactive way. The tool has the [Webin-CLI](https://github.com/enasequence/webin-cli) command line tool of ENA at its core and supports all sample checklists.
 
 Key features:
-- Interactive submission of the metadata
+- Seamless integration with the Galaxy ENA upload tool to fetch metadata
+- Interactive submission of the metadata possible
 - Possibility to set a brokering account
 - Easy data upload/management
-- Available at [useGalaxy Belgium](https://usegalaxy.be/) 
+- Available at [useGalaxy Belgium](https://usegalaxy.be/) and [useGalaxy Europe](https://usegalaxy.eu/)
 
-[<i class="fa-solid fa-play me-2"></i>Use at useGalaxy.be](https://usegalaxy.be/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fieguinoa%2Fena_webin_cli%2Fena_consensus_submit){: class="btn btn-light border rounded-pill"}
-[<i class="fa-brands fa-github me-2"></i>Source](https://github.com/usegalaxy-be/galaxytools/tree/main/consensus_sequence_ena_galaxy){: class="btn btn-light border rounded-pill"}
+[<i class="fa-solid fa-play me-2"></i>Use at useGalaxy.be](https://usegalaxy.be/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_webin_cli/ena_webin_cli/){: class="btn btn-light border rounded-pill"}
+[<i class="fa-brands fa-github me-2"></i>Source](https://github.com/galaxyproject/tools-iuc/tree/master/tools/ena_webin_cli){: class="btn btn-light border rounded-pill"}
 [<i class="fa-solid fa-graduation-cap me-2"></i>Tutorial on GTN](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html#submitting-consensus-sequences-to-ena){: class="btn btn-light border rounded-pill"}
-[<i class="fa-solid fa-download me-2"></i>Galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=dfa4f0fc31027b52){: class="btn btn-light border rounded-pill"}
+[<i class="fa-solid fa-download me-2"></i>Galaxy toolshed](https://toolshed.g2.bx.psu.edu/view/iuc/ena_webin_cli/){: class="btn btn-light border rounded-pill"}
 
 
-### Metadata templates
+#### Galaxy ENA Upload Table Builder
 
-Tabular-format and xlsx spreadsheet metadata templates required to submit data to ENA using the ENA-upload-cli or GALAXY ENA upload tool. A GitHub Action is put in place to automatically keep these templates up to date with the ENA sample checklists.
+An interactive, in-Galaxy alternative to ENA’s Excel/TSV templates — no more downloading, filling in, and re-uploading files. This tool lets you prepare, edit, and manage all your ENA metadata directly in Galaxy, making it possible to complete your submission from start to finish without leaving the platform.
 
 Key features:
-- GitHub repo hosting tsv and xlsx templates for every checklist
-- GitHub Actions to keep up to date with ENA XSD/checklist files to guarantee compatibility
-- Versions in sync with the ones from ENA-upload-CLI
+* Always synced with the [ENA metadata templates repository](#ena-metadata-templates).
+* Create and edit Study, Sample, Experiment, and Run  metadata tables
+* Supports both new submissions and editing/updating** of existing ENA submissions
+* After table creation, final submission is seamless within Galaxy using the [ENA Upload tool](#galaxy-ena-upload-tool)
+* Available on [UseGalaxy Australia](https://usegalaxy.org.au/)
 
-[<i class="fa-brands fa-github me-2"></i>Documentation + source](https://github.com/ELIXIR-Belgium/ENA-metadata-templates){: class="btn btn-light border rounded-pill"}
+[<i class="fa-solid fa-play me-2"></i>Use at usegalaxy.org.au](https://usegalaxy.org.au/?tool_id=interactive_tool_ena_upload_table_builder&version=latest){: class="btn btn-light border rounded-pill"}
 
 ### Docker deployment
 
