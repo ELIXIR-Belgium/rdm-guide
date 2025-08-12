@@ -110,7 +110,7 @@ Key features:
 
 Within the EVORA project, a "ENA Reads and Assembly Submission Workflow" was created inside Galaxy. The workflow consists of two steps as displayed in Figure 1, where first the raw reads are submitted using the [Galaxy ENA upload tool](#galaxy-ena-upload-tool) and second, consensus sequences submitted through the [Galaxy Webin CLI](#galaxy-ena-webin-cli) tool.
 
-[<i class="fa-solid fa-play me-2"></i>Run on usegalaxy.be](https://usegalaxy.be/u/bedro/w/ena-reads-and-assembly-submission-workflow){: class="btn btn-light border rounded-pill"}
+[<i class="fa-solid fa-play me-2"></i>Use at usegalaxy.be](https://usegalaxy.be/u/bedro/w/ena-reads-and-assembly-submission-workflow){: class="btn btn-light border rounded-pill"}
 
 ### Docker deployment
 
