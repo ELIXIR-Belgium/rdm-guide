@@ -19,7 +19,7 @@ The [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/) is a
 
 ## Its components
 
-{% include image.html file="ENA-Reads-and-Assembly-Submission-Workflow.svg" caption="<b>Figure 1.</b> Overview of the ENA Data Submission Toolbox components, also called the 'ENA Reads and Assembly Submission Workflow'." %}
+{% include image.html file="ENA-submission-toolbox-diagram.svg" caption="<b>Figure 1.</b> Overview of the ENA Data Submission Toolbox components." %}
 
 ### ENA metadata templates
 
@@ -73,7 +73,7 @@ Key features:
 [<i class="fa-solid fa-play me-2"></i>Use at useGalaxy.be](https://usegalaxy.be/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fena_upload%2Fena_upload){: class="btn btn-light border rounded-pill"}
 [<i class="fa-brands fa-github me-2"></i>Source](https://github.com/galaxyproject/tools-iuc/tree/master/tools/ena_upload){: class="btn btn-light border rounded-pill"}
 [<i class="fa-solid fa-graduation-cap me-2"></i>Tutorial on GTN](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html#submitting-raw-sequence-data-reads-to-the-ena){: class="btn btn-light border rounded-pill"}
-[<i class="fa-solid fa-download me-2"></i>Galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8){: class="btn btn-light border rounded-pill"}
+[<i class="fa-solid fa-download me-2"></i>Galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8){: class="btn btn-light border rounded-pill"} 
 
 
 #### Galaxy ENA Webin CLI
@@ -105,6 +105,15 @@ Key features:
 * Available on [UseGalaxy Australia](https://usegalaxy.org.au/)
 
 [<i class="fa-solid fa-play me-2"></i>Use at usegalaxy.org.au](https://usegalaxy.org.au/?tool_id=interactive_tool_ena_upload_table_builder&version=latest){: class="btn btn-light border rounded-pill"}
+
+#### ENA Reads and Assembly Submission Workflow
+
+{% include image.html file="ENA-Reads-and-Assembly-Submission-Workflow.svg" caption="<b>Figure 2.</b> Overview of the 'ENA Reads and Assembly Submission Workflow' in Galaxy." %}
+
+
+Within the EVORA project, an "ENA Reads and Assembly Submission Workflow" was created inside Galaxy. The workflow consists of two steps as displayed in Figure 2, where first the raw reads are submitted using the [Galaxy ENA upload tool](#galaxy-ena-upload-tool) and second, consensus sequences submitted through the [Galaxy Webin CLI](#galaxy-ena-webin-cli) tool.
+
+[<i class="fa-solid fa-play me-2"></i>Use at usegalaxy.be](https://usegalaxy.be/u/bedro/w/ena-reads-and-assembly-submission-workflow){: class="btn btn-light border rounded-pill"}
 
 ### Docker deployment
 
