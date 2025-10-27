@@ -111,7 +111,7 @@ Key features:
 {% include image.html file="ENA-Reads-and-Assembly-Submission-Workflow.svg" caption="<b>Figure 2.</b> Overview of the 'ENA Reads and Assembly Submission Workflow' in Galaxy." %}
 
 
-Within the EVORA project, an "ENA Reads and Assembly Submission Workflow" was created inside Galaxy. The workflow consists of two steps as displayed in Figure 2, where first the raw reads are submitted using the [Galaxy ENA upload tool](#galaxy-ena-upload-tool) and second, consensus sequences submitted through the [Galaxy Webin CLI](#galaxy-ena-webin-cli) tool. The workflow is publised on WorkflowHub as [10.48546/WORKFLOWHUB.WORKFLOW.2008.1](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.2008.1).
+Within the EVORA project, an "ENA Reads and Assembly Submission Workflow" was created inside Galaxy. The workflow consists of two steps as displayed in Figure 2, where first the raw reads are submitted using the [Galaxy ENA upload tool](#galaxy-ena-upload-tool) and second, consensus sequences submitted through the [Galaxy Webin CLI](#galaxy-ena-webin-cli) tool. The workflow is published on WorkflowHub as [10.48546/WORKFLOWHUB.WORKFLOW.2008.1](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.2008.1).
 
 [<i class="fa-solid fa-play me-2"></i>Use at usegalaxy.be](https://usegalaxy.be/u/bedro/w/ena-reads-and-assembly-submission-workflow-final){: class="btn btn-light border rounded-pill"} [<i class="fa-solid fa-play me-2"></i>Use at usegalaxy.eu](https://usegalaxy.eu/u/bedro/w/ena-reads-and-assembly-submission-workflow-final){: class="btn btn-light border rounded-pill"}
 
